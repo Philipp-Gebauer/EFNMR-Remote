@@ -1,6 +1,43 @@
 % !TEX root = Messprotokoll.tex
 \input{header.tex}
+\usepackage{hyperref}
+\usepackage{ wasysym }
 \begin{document}
 \selectlanguage{english}
-\section{Messplan für den 2 Versuchsteil EFNMR}
+\textbf{Measureplan for the experiment EFNMR 1 Remote}\\
+Experiment planned on July 9th 2020 at 18 o'clock\\
+executor: Marc Neumann and Philipp Gebauer and Simon Keegan
+    
+    \begin{enumerate}
+        \item login \& get used to the program; \\
+        \textbf{making the data file with the names} (until 18:30) $\square$
+        \item everything is connected and aligned in the earth magnetic Field \checked
+        \item EFNMR $\longrightarrow$ \textbf{MonitorNoise} (dependent of the location and the orientation of the probe);\\
+        noise level less than $\SI{10}{\frac{\micro\volt}{\hertz}}$  is okay; less than $\SI{5}{\frac{\micro\volt}{\hertz}}$ is good and fewer than $\SI{3}{\frac{\micro\volt}{\hertz}}$ is great (about $\SI{30}{\min}$) $\square$ 
+        \item  To investigate the $B_1$ transmit/receive coil; 
+        EFNMR $\longrightarrow$ AnalyseCoil $\longrightarrow$ click Analyse (note the values from the CLI);\\
+        \textbf{measure the resonance frequency dependent from the Capacity}; \\
+        In the figure of the script from $\SI{0}{\nano\farad}$ to $\SI{20}{\nano\farad}$ in $\SI{1/2}{\nano\farad}$ steps? (about $\SI{60}{min}$)
+        \item \textbf{detect the hydrogen-signal in the water probe}\\ 
+        EFNMR $\longrightarrow$ PulsAndCollect $\longrightarrow$ measure the spektrum and change the values from $B_1, C$ and the \glqq shimming\grqq{} to get an better Signal; $B_1$ minimum and step size should be the half of the Lamor frequence  ($\SI{60}{min}$) \textbf{every change and step should be noted, so you can reproduce the  simulation every time}
+        \item \textbf{measure the longitudinal spin relaxation in the polarised magnetic field and in the earth magnetic field}\\
+        measure once $\tau_p$ in the polarized field and then $t$ the time between the polarisation and the pulse in the magnetic field\\  (repeat a few times to get a good signal; $\SI{60}{\min}$)$\square$
+        \item \textbf{measure the amplitude and the integral of the spectral peak by different shimming}; measure $T_2,T_2^{\ast}$\\
+        ($\SI{30}{min}$) $\square$
+        \item \textbf{measure the puls from many spin-echos}\\
+        try to change the the time between the pulses($\SI{45}{\min}$) $\square$
+        
+        
+    \end{enumerate}
+    \newpage
+    \selectlanguage{ngerman}
+    \begin{enumerate}
+        \item Einloggen und einrichten des Dateipfades (18:20)
+        \item EFNMR Werte von dem ersten Versuchstag wiederholen oder als gelich angenommen werden(Teil 6.4.1 im Usermanual)(Am ersten Versuchstag ca. 3 Stunden eingeplant)
+        \item $T_1$ und $T_2$ werden jeweils in Abhängigkeit von der Konzentration der Lösung bestimmt(Welche Auswirkung das $CUSO_4$ (paramagnetisches Salz?) auf das $H^1$ Spektrum vom Wasser hat; Proben enthalten  Konzentratrionen zwischen $\SI{250}{\mu \textsc{M}}$ bis $\SI{5000}{\mu \textsc{M}}$ $\Longrightarrow$ Auftragen der Relaxationszeiten über die Konzentration um Relaxitivität $r_1$ bzw. $r_2$ erhalten; (2 Stunden)
+        \item 1-D Bild erstellen mit Gradient echo imaging;(30 min)
+        \item Untersuchung der Kopplungskonstante (J-Kopplung) von 2,2,2 Flurethanol; Signalaufnahme mit veränderten anregungsfrequenzen und veränderter Resonanzbedingung im Schwingkreis (1 Stunde)
+        \item 2-D nD Gradient-Echo; veränderung des Gradientens entlang der x,y-Achse und zusätzlich die Gewichtung der Relaxationszeit, sodass man die Röhren einzelnd sehen kann (30 min)
+        \item PGSE-Experiment; nach dem $90^{\degree}$ und $180^{\degree}$ Puls werden jeweils kurze Gradientenfelder angelegt um auf die Selbstdiffusion im Wasser zu untersuchen (30 min)
+        \end{enumerate}
 \end{document}
