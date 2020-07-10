@@ -16,7 +16,7 @@ dataPTH = "Messwerte/TXT/3B1/B1 Duration 0.27 duration.txt"
 load "jet.pal"
 
 set ylabel "FID amplitude"
-set xlabel "$B_1$ pulse in\\SI{\\mili \sec}$"
+set xlabel "$B_1$ pulse in $\\SI{\\mili \sec}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
