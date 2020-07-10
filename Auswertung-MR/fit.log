@@ -1,0 +1,415 @@
+
+
+*******************************************************************************
+Fri Jul 10 12:14:38 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Jul 10 12:14:46 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/T_1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   S_0          
+   0 8.3456370522e-02   0.00e+00  5.28e-01    1.000000e+00
+   3 5.2075924948e-02  -7.42e-04  5.28e-04    1.111741e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0520759
+rel. change during last iteration : -7.42288e-09
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0806814
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00650949
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+S_0             = 1.11174          +/- 0.05089      (4.578%)
+
+
+*******************************************************************************
+Fri Jul 10 12:15:01 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/T_1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   S_0          
+   0 8.3456370522e-02   0.00e+00  5.28e-01    1.000000e+00
+   3 5.2075924948e-02  -7.42e-04  5.28e-04    1.111741e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0520759
+rel. change during last iteration : -7.42288e-09
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0806814
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00650949
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+S_0             = 1.11174          +/- 0.05089      (4.578%)
+
+
+*******************************************************************************
+Fri Jul 10 12:15:46 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/T_1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   S_0          
+   0 5.2083538871e-02   0.00e+00  5.87e-01    1.110000e+00
+   2 5.2075924948e-02  -1.46e-01  5.87e-03    1.111740e+00
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.0520759
+rel. change during last iteration : -1.46208e-06
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0806814
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00650949
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+S_0             = 1.11174          +/- 0.05089      (4.578%)
+
+
+*******************************************************************************
+Fri Jul 10 12:16:04 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/T_1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   S_0          
+   0 5.2083538871e-02   0.00e+00  5.87e-01    1.110000e+00
+   2 5.2075924948e-02  -1.46e-01  5.87e-03    1.111740e+00
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.0520759
+rel. change during last iteration : -1.46208e-06
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0806814
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00650949
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+S_0             = 1.11174          +/- 0.05089      (4.578%)
+
+
+*******************************************************************************
+Fri Jul 10 12:16:48 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/(T_1))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   S_0          
+   0 5.2083538871e-02   0.00e+00  5.87e-01    1.110000e+00
+   2 5.2075924948e-02  -1.46e-01  5.87e-03    1.111740e+00
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.0520759
+rel. change during last iteration : -1.46208e-06
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0806814
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00650949
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+S_0             = 1.11174          +/- 0.05089      (4.578%)
+
+
+*******************************************************************************
+Fri Jul 10 12:17:01 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/(T_1))
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Jul 10 12:17:45 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/t)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   S_0          
+   0 5.2083538871e-02   0.00e+00  5.87e-01    1.110000e+00
+   2 5.2075924948e-02  -1.46e-01  5.87e-03    1.111740e+00
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.0520759
+rel. change during last iteration : -1.46208e-06
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0806814
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00650949
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+S_0             = 1.11174          +/- 0.05089      (4.578%)
+
+
+*******************************************************************************
+Fri Jul 10 12:17:56 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/t)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   t            
+   0 5.2083538871e-02   0.00e+00  3.30e-01    2.000000e+03
+   4 1.9708467047e-02  -3.79e-03  3.30e-05    2.400906e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0197085
+rel. change during last iteration : -3.78897e-08
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0496342
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00246356
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+t               = 2400.91          +/- 118.3        (4.926%)
+
+
+*******************************************************************************
+Fri Jul 10 12:18:22 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S0 * exp(-x/t)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   t            
+   0 5.2083538871e-02   0.00e+00  3.30e-01    2.000000e+03
+   4 1.9708467047e-02  -3.79e-03  3.30e-05    2.400906e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0197085
+rel. change during last iteration : -3.78897e-08
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0496342
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00246356
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+t               = 2400.91          +/- 118.3        (4.926%)
+
+
+*******************************************************************************
+Fri Jul 10 13:06:29 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/T_1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T_1          
+   0 5.2083538871e-02   0.00e+00  3.30e-01    2.000000e+03
+   4 1.9708467047e-02  -3.79e-03  3.30e-05    2.400906e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0197085
+rel. change during last iteration : -3.78897e-08
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0496342
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00246356
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T_1             = 2400.91          +/- 118.3        (4.926%)
+
+
+*******************************************************************************
+Fri Jul 10 13:07:22 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/T_1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T_1          
+   0 5.2083538871e-02   0.00e+00  3.30e-01    2.000000e+03
+   4 1.9708467047e-02  -3.79e-03  3.30e-05    2.400906e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0197085
+rel. change during last iteration : -3.78897e-08
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0496342
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00246356
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T_1             = 2400.91          +/- 118.3        (4.926%)
+
+
+*******************************************************************************
+Fri Jul 10 13:08:56 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/T_1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T_1           S_0          
+   0 5.2083538871e-02   0.00e+00  4.76e-01    2.000000e+03   1.110000e+00
+   6 6.0778836287e-13  -3.42e-05  4.76e-07    2.753083e+03   1.000000e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.07788e-13
+rel. change during last iteration : -3.41501e-10
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94664e-07
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.68269e-14
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T_1             = 2753.08          +/- 0.001232     (4.474e-05%)
+S_0             = 1                +/- 2.28e-07     (2.28e-05%)
+
+correlation matrix of the fit parameters:
+                T_1    S_0    
+T_1             1.000 
+S_0            -0.686  1.000 
+
+
+*******************************************************************************
+Fri Jul 10 13:16:31 2020
+
+
+FIT:    data read from dataPTH using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 4100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: S(x)
+	S(x) = S_0 * exp(-x/T_1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   T_1           S_0          
+   0 3.7915103414e-02   0.00e+00  5.22e-01    2.750000e+03   1.110000e+00
+   5 6.0778836285e-13  -1.84e-04  5.22e-06    2.753083e+03   1.000000e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 6.07788e-13
+rel. change during last iteration : -1.84424e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94664e-07
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.68269e-14
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+T_1             = 2753.08          +/- 0.001232     (4.474e-05%)
+S_0             = 1                +/- 2.28e-07     (2.28e-05%)
+
+correlation matrix of the fit parameters:
+                T_1    S_0    
+T_1             1.000 
+S_0            -0.686  1.000 
