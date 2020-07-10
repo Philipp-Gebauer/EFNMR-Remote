@@ -11,7 +11,7 @@ x_max = 4100
 
 y_min = 0
 y_max = 1
-dataPTH = "Messwerte/TXT/T1Be.txt"
+dataPTH = "Messwerte/TXT/T1/T1Be.txt"
 
 load "jet.pal"
 
