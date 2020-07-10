@@ -9,19 +9,19 @@ set output "pngplots/MonitorNoise13,8.png"
 # Habs einmal einfach geüplottet aber keinen raff was das hier sein soll
 #
 #
-x_min = -4000
-x_max = 4000
+x_min = 1400
+x_max = 2300
 
 y_min = 0
-y_max = 5
-dataPTH = "Messwerte/TXT/Noise/1MonitorNoise_13.8.txt"
+y_max = 18
+dataPTH = "Messwerte/TXT/1Noise/MonitorNoise_13.8.txt"
 
 load "jet.pal"
 
-set ylabel "Amplitude mykrovolt"
-set xlabel "t in $\\SI{\\mili \\sec}$"
+set ylabel "Amplitude $\\SI{\\mycro \\volt}$"
+set xlabel "frequency in $\\SI{\\hertz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
 
-plot dataPTH using 1:2 lt 5 lc 15 w lines title "noisemeasurement $\\SI{13.8}{\nano\farad}$"
+plot dataPTH using 1:2 lt 5 lc 15 w lines title "noisemagnitude spectrum"
