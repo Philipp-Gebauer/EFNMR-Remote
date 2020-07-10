@@ -5,7 +5,10 @@ set output "pngplots/MonitorNoise13,8.png"
 #epslatex
 #set terminal epslatex
 #set output "plots/MonitorNoise13,8.tex"
-
+#
+# Habs einmal einfach geüplottet aber keinen raff was das hier sein soll
+#
+#
 x_min = -4000
 x_max = 4000
 
@@ -21,4 +24,4 @@ set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
 
-plot dataPTH using 1:2 ls 2 ps 3 lw 3 title "noisemeasurement $\\SI{13.8}{\nano\farad}$"
+plot dataPTH using 1:2 lt 5 lc 15 w lines title "noisemeasurement $\\SI{13.8}{\nano\farad}$"

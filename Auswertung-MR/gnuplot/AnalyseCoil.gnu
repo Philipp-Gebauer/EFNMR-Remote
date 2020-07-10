@@ -6,11 +6,11 @@ set output "pngplots/Coilanalyse.png"
 #set terminal epslatex
 #set output "plots/Coilanalyse.tex"
 
-x_min = 4
-x_max = 17.5
+x_min = 4.4
+x_max = 17.2
 
-y_min = 1650
-y_max = 2700
+y_min = 1680
+y_max = 2650
 dataPTH = "Messwerte/TXT/2AnalyseCoil/Analyse Coil.txt"
 
 load "jet.pal"
