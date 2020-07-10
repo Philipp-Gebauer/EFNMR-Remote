@@ -11,12 +11,12 @@ x_max = 4100
 
 y_min = 0
 y_max = 1
-dataPTH = "Messwerte/TXT/T1/T1Bp.txt"
+dataPTH = "Messwerte/TXT/5T1/T1Bp.txt"
 
 load "jet.pal"
 
-set ylabel "$\\frac{E}{E_0}"
-set xlabel "t in $\\SI{\\mili \\sec$}"
+set ylabel "$\\frac{E}{E_0}$"
+set xlabel "t in $\\SI{\\mili \\sec}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
