@@ -30,6 +30,7 @@ set hidden3d
 set ztics 100
 set ticslevel 0.05
 set cbrange [300:700]
+set datafile separator ","
 unset colorbox
 #set dgrid3d splines
 #set dgrid3d 101,101 qnorm 1

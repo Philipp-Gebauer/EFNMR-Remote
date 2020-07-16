@@ -1,10 +1,10 @@
 #png
-set terminal png size 1024,720
-set output "pngplots/Pulsandcollect142.png"
+# set terminal png size 1024,720
+# set output "pngplots/Pulsandcollect142.png"
 
 #epslatex
-#set terminal epslatex
-#set output "plots/Pulsandcollect142.tex"
+set terminal epslatex
+set output "plots/Pulsandcollect142.tex"
 
 #keine Ahnung warum das zwei Peaks entstehen 
 #wenn man von -5000 bis 5000 misst
@@ -12,17 +12,17 @@ set output "pngplots/Pulsandcollect142.png"
 # hab jetzt nur den Plot von 0 bis 500 mal gemacht
 
 
-x_min = 1625
+x_min = 1650
 x_max = 2050
 
 y_min = 0
-y_max = 100
-dataPTH = "Messwerte/TXT/3PulsandCollect/14.2 puls and collect delay 2ms.txt"
+y_max = 120
+dataPTH = "Messwerte/TXT/3PulsandCollect/142_puls_and_collect_delay_2ms.txt"
 
 load "jet.pal"
 
 set ylabel "Amplitude"
-set xlabel "frequency in $\\SI{\\hertz}$"
+set xlabel "Frequency in $\\si{}{Hz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
