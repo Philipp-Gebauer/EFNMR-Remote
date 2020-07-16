@@ -16,9 +16,9 @@ dataPTH = "Messwerte/TXT/7HahnEcho/SpinEcho_4scans_ideal_Repetitiontime_0_shimmi
 load "jet.pal"
 
 set ylabel "FID amplitude"
-set xlabel "frequency in $\\SI{\\hertz}$"
+set xlabel "Frequency in $\\si{\\hertz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
 
-plot dataPTH using 1:2 lt 5 lc 15 w lines title "Magnitude spectrum"
+plot dataPTH using 1:2 lt 5 lc 15 w lines title "magnitude spectrum"

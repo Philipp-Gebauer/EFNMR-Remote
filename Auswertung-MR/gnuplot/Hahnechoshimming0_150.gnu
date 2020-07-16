@@ -17,9 +17,9 @@ dataPTH1 = "Messwerte/TXT/7HahnEcho/SpinEcho_4scans_ideal_Repetitiontime_495xshi
 load "jet.pal"
 
 set ylabel "FID amplitude"
-set xlabel "Frequency in $\\si{}{Hz}$"
+set xlabel "Frequency in $\\si{\\hertz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
 
-plot dataPTH using 1:2 lt 5 lc 15 w lines title "shimmin value $x = \\si{0}{}", dataPTH1 using 1:2 lt 6 w lines title "shimmin value $x = \\si{4.95}{}"
+plot dataPTH using 1:2 lt 5 lc 15 w lines title "shimmin value \\SI{0}{x}", dataPTH1 using 1:2 lt 6 w lines title "shimmin value \\SI{4.95}{x}"

@@ -16,7 +16,7 @@ dataPTH = "Messwerte/TXT/7HahnEcho/SpinEcho_4scans_ideal_Repetitiontime_495xshim
 load "jet.pal"
 
 set ylabel "FID amplitude"
-set xlabel "Frequency in $\\si{}{Hz}$"
+set xlabel "Frequency in $\\si{\\hertz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 

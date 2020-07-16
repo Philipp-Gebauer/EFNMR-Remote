@@ -1,0 +1,24 @@
+% !TEX root = main.tex
+\section{Hahn echo}
+\label{sec:Hahnecho}
+
+
+
+\begin{figure}[H]
+    \centering
+    \input{plots/Echobeispeilsignal.tex}
+    \caption[]{ask: wie safed no data for differnet $\tau$, is it ok just to explain it that the amplitude will decrease and the maximum will be shifted to a different time?\\
+    
+    this is an example for a hahn echo with shimming value \SI{4.95}{x}.}
+    \label{fig:Echobeispeilsignal}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \input{plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo.tex}
+    \caption[]{ask: why are there different peaks a different shimming values?\newline
+    which formula should we use to fit it?\\
+    
+    for us: wieso signal schwächer-> mehr abweichung beim shimming (ursprünglich 10.11)-> abschwächung. integrale bei unterschiedlichen shimming; echo time 300ms bei beiden. }
+    \label{fig:SpinEcho}
+\end{figure}
+We can measure T$_2$ when we don´t change the shimming values, because T$_2^*$ is dependent on a field inhomogeniousity. -> CPMG, Spin Hahn echo

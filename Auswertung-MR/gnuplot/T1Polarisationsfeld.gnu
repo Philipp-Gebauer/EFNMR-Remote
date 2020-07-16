@@ -15,8 +15,8 @@ dataPTH = "Messwerte/TXT/5T1/T1Bp.txt"
 
 load "jet.pal"
 
-set ylabel "$Attenuation \\frac{E}{E_0}$"
-set xlabel "Time in $\\si{}{ms}$"
+set ylabel "Attenuation $\\frac{\\text{E}}{\\text{E}_0}$"
+set xlabel "Time in $\\si{\\milli \\second}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
@@ -31,4 +31,4 @@ S(x) = S_0 *(1- exp(-x/T_1))
 S_0 = 1.11
 T_1 = 2912
 fit [x_min:x_max] S(x) dataPTH using 1:2 via T_1, S_0
-plot dataPTH using 1:2 ls 2 ps 3 lw 3 title "measured values$ " , S(x) ls 8 lw 3 title "Attenuation-Fit"
+plot dataPTH using 1:2 ls 2 ps 3 lw 3 title "measured values$ " , S(x) ls 8 lw 3 title "attenuation-Fit"

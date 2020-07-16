@@ -14,12 +14,12 @@ x_max = 2300
 
 y_min = 0
 y_max = 18
-dataPTH = "Messwerte/TXT/1Noise/MonitorNoise_14.2.txt"
+dataPTH = "Messwerte/TXT/1Noise/MonitorNoise_142.txt"
 
 load "jet.pal"
 
-set ylabel "Amplitude $\\SI{\\mycro \\volt}$"
-set xlabel "frequency in $\\SI{\\hertz}$"
+set ylabel "Amplitude $\\si{\\mu \\volt}$"
+set xlabel "Frequency in $\\si{\\hertz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 

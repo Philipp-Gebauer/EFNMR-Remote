@@ -1,0 +1,21 @@
+% !TEX root = main.tex
+\section{Transversal relaxation measurements}
+\label{sec:Transversalrelaxationmeasurements}
+
+\begin{figure}[H]
+    \centering
+    \input{plots/T2.tex}
+    \caption[]{ask: why are two peaks visible in the magnitude spectrum?\\
+    normal FID-> T$_2$\newline
+     $M(x)=M_0 \cdot exp(-x/T_2)$ with $T_2=\si{2691.06}{ms}$}
+    \label{fig:T2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{plots/CPMG045shimming.tex}
+    \caption[]{This is an CPMG with changeed values in the shimming; shimming value \SI{0.45}{x} -> T$_2^*$.\newline
+    Good to see that the T$_2^*$ is here shorter than in the previous picture, due to inhomogeniousity of the magnetic field.\\
+    $M(x)=M_0 \cdot exp(-x/T_2)$ with $T_2=\SI{2317.76}{\milli \second}$}
+    \label{fig:CPMG}
+\end{figure}

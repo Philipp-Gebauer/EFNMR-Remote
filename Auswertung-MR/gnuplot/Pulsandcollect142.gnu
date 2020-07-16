@@ -22,7 +22,7 @@ dataPTH = "Messwerte/TXT/3PulsandCollect/142_puls_and_collect_delay_2ms.txt"
 load "jet.pal"
 
 set ylabel "Amplitude"
-set xlabel "Frequency in $\\si{}{Hz}$"
+set xlabel "Frequency in $\\si{\\hertz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 

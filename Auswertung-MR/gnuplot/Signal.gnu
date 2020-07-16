@@ -15,8 +15,8 @@ dataPTH = "Messwerte/TXT/3PulsandCollect/Valesignalvorfourie.txt"
 
 load "jet.pal"
 
-set ylabel "Amplitude in $\\si{}{\\mu V}$"
-set xlabel "Time in $\\si{}{s}$"
+set ylabel "Amplitude in $\\si{\\mu \\volt}$"
+set xlabel "Time in $\\si{\\second}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 

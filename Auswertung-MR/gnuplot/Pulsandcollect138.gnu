@@ -23,10 +23,10 @@ dataPTH1 = "Messwerte/TXT/3PulsandCollect/142_puls_and_collect_delay_2ms.txt"
 load "jet.pal"
 
 set ylabel "Amplitude"
-set xlabel "Frequency in $\\si{}{Hz}$"
+set xlabel "Frequency in $\\si{\\hertz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
 
 #plot dataPTH using 1:2 ls 2 ps 3 lw 3 notitle
-plot dataPTH using 1:2 lt 5 lc 15 w lines title "Capacity $\\si{13.8}{nF}", dataPTH1 using 1:2 lt 6 w lines title "Capacity $\\si{14.2}{nF}"
+plot dataPTH using 1:2 lt 5 lc 15 w lines title "capacity $\\SI{13.8}{\\nano \\farad}", dataPTH1 using 1:2 lt 6 w lines title "capacity $\\SI{14.2}{\\nano \\farad}"

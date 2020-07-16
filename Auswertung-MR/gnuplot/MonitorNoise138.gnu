@@ -18,8 +18,8 @@ dataPTH = "Messwerte/TXT/1Noise/MonitorNoise_138.txt"
 
 load "jet.pal"
 
-set ylabel "Amplitude $\\SI{\\mycro \\volt}$"
-set xlabel "Frequency in $\\SI{\\hertz}$"
+set ylabel "Amplitude $\\si{\\frac{\\mu \\volt}{\\hertz}}$"
+set xlabel "Frequency in $\\si{\\hertz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 

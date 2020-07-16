@@ -23,10 +23,10 @@ dataPTH1 = "Messwerte/TXT/3PulsandCollect/138_puls_and_collect_number_of_delay25
 load "jet.pal"
 
 set ylabel "Amplitude"
-set xlabel "Frequency in $\\si{}{Hz}$"
+set xlabel "Frequency in $\\si{\\hertz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
 
 #plot dataPTH using 1:2 ls 2 ps 3 lw 3 notitle
-plot dataPTH using 1:2 lt 5 lc 15 w lines title "$\\si{0.27}{ms}$ B$_1$ duration", dataPTH1 using 1:2 lt 6 w lines title "$\\si{1.35}{ms}$ B$_1$ duration"
+plot dataPTH using 1:2 lt 5 lc 15 w lines title "$\\SI{0.27}{\\milli \\second}$ B$_1$ duration", dataPTH1 using 1:2 lt 6 w lines title "$\\SI{1.35}{\\milli \\second}$ B$_1$ duration"
