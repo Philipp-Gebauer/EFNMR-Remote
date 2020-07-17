@@ -4,11 +4,11 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {section}{\numberline {2}Aufbau und Durchführung des Versuchs}{1}{section.2}%
 \contentsline {section}{\numberline {3}Noisemeasurement}{2}{section.3}%
-\contentsline {section}{\numberline {4}Coil Analyssis}{4}{section.4}%
+\contentsline {section}{\numberline {4}Coil Analysis}{4}{section.4}%
 \contentsline {section}{\numberline {5}Optimization and Characterisation of FID in water sample}{5}{section.5}%
 \contentsline {section}{\numberline {6}Longitudinal relaxation measurements T1}{10}{section.6}%
 \contentsline {section}{\numberline {7}Hahn echo}{12}{section.7}%
-\contentsline {section}{\numberline {8}Multiple echo sequences}{14}{section.8}%
-\contentsline {section}{\numberline {9}Transversal relaxation measurements}{16}{section.9}%
-\contentsline {section}{\numberline {10}Fehlerdiskussion und Fazit}{18}{section.10}%
-\contentsline {section}{Anhang}{19}{section*.21}%
+\contentsline {section}{\numberline {8}Multiple echo sequences}{13}{section.8}%
+\contentsline {section}{\numberline {9}Transversal relaxation measurements}{15}{section.9}%
+\contentsline {section}{\numberline {10}Fehlerdiskussion und Fazit}{17}{section.10}%
+\contentsline {section}{Anhang}{18}{section*.20}%

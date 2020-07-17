@@ -6,6 +6,7 @@
 set terminal epslatex
 set output "plots/Coilanalyse.tex"
 
+
 x_min = 4.4
 x_max = 17.2
 
