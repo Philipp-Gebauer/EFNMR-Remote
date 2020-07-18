@@ -9,8 +9,8 @@ set output "plots/noise.tex"
 x_min = 0   
 x_max = 1.5
 
-y_min = -80
-y_max = 80
+y_min = -40
+y_max = 40
 dataPTH = "Messwerte/TXT/noise.txt"
 
 load "jet.pal"

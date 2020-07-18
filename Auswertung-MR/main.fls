@@ -142,8 +142,8 @@ INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\tran
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvdefinekeys\kvdefinekeys.sty
@@ -283,6 +283,10 @@ INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grfext\grfext.s
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grfext\grfext.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bookmark.sty
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bookmark.sty
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bkm-pdftex.def
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bkm-pdftex.def
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
@@ -310,12 +314,7 @@ INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\refcount\refcou
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\refcount\refcount.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
-OUTPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
 OUTPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.pdf
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bookmark.sty
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bookmark.sty
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bkm-pdftex.def
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bkm-pdftex.def
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr10.tfm
@@ -404,20 +403,20 @@ INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\aufbau.tex
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx10.tfm
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\Noisemeasurement.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\Noisemeasurement.tex
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.tex
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.tex
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.tex
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.tex
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr5.tfm
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi5.tfm
@@ -428,20 +427,20 @@ INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ts1-lmr5.tfm
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr5.tfm
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.tex
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.tex
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.tex
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.tex
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\CoilAnalyssis.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\CoilAnalyssis.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\PulsandcollectValesignal.tex
@@ -458,6 +457,7 @@ INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\PulsandcollectVale
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\PulsandcollectValesignal-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\PulsandcollectValesignal-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\PulsandcollectValesignal-eps-converted-to.pdf
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri10.tfm
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Coilanalyse.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Coilanalyse.tex
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
@@ -474,21 +474,21 @@ INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Coilanalyse-eps-co
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Coilanalyse-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\OptimizationandCharacterisationofFIDinwatersample.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\OptimizationandCharacterisationofFIDinwatersample.tex
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.tex
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.tex
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr6.tfm
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.tex
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.tex
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer.eps
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\B1dauer-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.tex
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
@@ -532,20 +532,6 @@ INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmcsc10.tfm
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt.tex
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt.tex
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt.eps
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt-eps-converted-to.pdf
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_voigt-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\LongitudinalrelaxationmeasurementsT1.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\LongitudinalrelaxationmeasurementsT1.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\BildT1.png
@@ -664,17 +650,18 @@ INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\tables.tex
 OUTPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.lof
 OUTPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.lot
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.aux
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathsy.enc
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ts1.enc
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi8.pfb
@@ -687,6 +674,8 @@ INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr6.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy10.pfb

@@ -11,7 +11,7 @@ x_min = 4.4
 x_max = 17.2
 
 y_min = 0
-y_max = 2650
+y_max = 12
 dataPTH = "Messwerte/TXT/2AnalyseCoil/Analyse Coil.txt"
 
 load "jet.pal"
@@ -20,6 +20,9 @@ set ylabel "Frequency $\\si{\\hertz}$"
 set xlabel "Capacity in $\\si{\\nano \\farad}$"
 set xrange [x_min:x_max]
 # set yrange [y_min:y_max]
+set label at 13.58, 1841.4 "    lamor frequency" point ls 5 lc 15 ps 3 lw 3
+set arrow from 4.4,1841.4 to 17.15,1841.4 nohead
+set arrow from 13.58,1500 to 13.58,3750 nohead
 
 
  f(x) = 1/(sqrt(L*x*10**(-9))*2*pi)

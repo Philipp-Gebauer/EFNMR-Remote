@@ -1,34 +1,49 @@
 % !TEX root = main.tex
 \section{Optimization and Characterisation of FID in water sample}
-\label{sec:OptimizationandCharacterisationofFIDinwatersample}
+% \label{sec:OptimizationandCharacterisationofFIDinwatersample}
 
 \textcolor{red}{insert previous values}
-
-ask: is it ok to explain what autoshim does and don´t plot any graphs at all? We don´t have data for an example plot -> yes
-
+On of the main goals of this experiment is to measure a good FID of the water sample. In order to do so we first have to optimize our FID signal of the water probe.\newline
+First the inhomogenity of the magnetic field has to be cancelled. The process to make the magnetic field more homogenious is to \textit{autoshimm} the components of the gradient coil. The computer programm does this automatically. So it deshimms the system step by step and checks if the output maximizes or minimizes. By checking many different combinations it finds the best shimming values for the gradient coil. In our case they are:
+\begin{align*}
+    x &= \SI{10.11}{\milli \ampere}\\
+    y &= \SI{20.88}{\milli \ampere}\\
+    z &= \SI{-20.07}{\milli \ampere} \ .
+    \label{eq: shimmingvalues}
+\end{align*}
+That means with those shimming values the magnetic field in the setup is homogenious.
+\\
+The secon optimization step is to change the B$_1$ pulse duration. The longer the pulse duration is, the bigger is the angle of the flipping spins and thus the signal will get stronger (only counts for flipping angles till \SI{90}{\degree}). The best signal is obtained for an flipping angle of \SI{90}{\degree}, because with this angle the spins only have a component in the transversal plane and therefore the signal is maximized. If the pulse duration is too long, than the flipping angle is bigger than \SI{90}{\degree} and the spins get a horizontal component again and the signal will decrease again. When a flipping angle of \SI{180}{\degree} is reached the signal will be at its minimum. Afterwards the signal will raise again, because the horizontal component will increase again. Figure \ref{fig:B1dauer} shows this issue. The maxmimum at a pulse duration of \SI{1.35}{\milli \second} is clearly visible. This means that after apllying a B$_1$ pulse with a duration of \SI{1.35}{\milli \second} the spins are in the transversal plane and therefore the best signal is obtained.
 \begin{figure}[H]
     \centering
     \input{plots/B1dauer.tex}
     \caption[]{ask: periodicity due to duration of B$_1$, \SI{0}{\degree} -> \SI{90}{\degree} -> \SI{180}{\degree} -> \SI{270}{\degree}? -> yes}
     \label{fig:B1dauer}
 \end{figure}
-
+Figure \ref{fig:pulsedurationbeispiel} exemplarily shows the correlation of the B$_1$ pulse duration and the signal which the coil detects. It is clearly visible that the amplitude is better for the pulse duration of \SI{1.35}{\milli \second} than for the pulse duration of \SI{0.27}{\milli \second}. The signal that was taken for the pulse duration of \SI{0.27}{\milli \second} is at the minimum of the figure \ref{fig:B1dauer} and therefore it is correct that the amplitude of the spectrum with the pulse duration of \SI{1.35}{\milli \second} is higher.
 \begin{figure}[H]
     \centering
     \input{plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.tex}
     \caption[]{}
     \label{fig:pulsedurationbeispiel}
 \end{figure}
-
+\\
+Now that the B$_1$ pulse duration is also optimized, we can have a closer look at the capacity of the LCR circuit of the B$_1$ coil again. First it is necessary to know that the B$_1$ pulse is applied by a \textit{rectangular} function and the fourie transformation of a \textit{rectangular} function is a \textit{sinc} function. Therefore the fourie ransformed spectrum of the B$_1$ pulse signal is a \textit{sinc} function. When we measure the signal shortly (acquisition delay: \SI{2}{\milli \second}) after the \SI{90}{\degree} pulse there shoud be a \textit{sinc} function visible and indeed this is what we obtained (figure \ref{fig:Pulsandcollect}). In figure \ref{fig:Pulsandcollect} there is also a really sharp peak visible. This is referd to the hydrogen signal. The hydrogen signal is independed of the applied capacity, but the $B_1$ pulse is, because the capacity changes the properties of the LCR-circuit of the B$_1$ coil. The best capacity is adjusted when the hydrogen signal is in the middle of the \textit{sinc} function, because then the LC- circuit is tuned to the lamor frequency of the hydrogen signal. This is also visible by the amplitude of the spectrum in figure \ref{fig:Pulsandcollect}. The ampitude of the spectrum which was observed for a capacity of \SI{13.8}{\nano \farad} is higher than for the ampitude of the spectrum which was observed for a capacity of \SI{14.2}{\nano \farad}. As already explained before in the chapter \ref{sec:CoilAnalyssis} the capacity of \SI{13.8}{\nano \farad} is indeed the best capacity in order to observe a maximized spectrum.
 \begin{figure}[H]
     \centering
     \input{plots/Pulsandcollect138.tex}
     \caption[]{ask: what is the peak corresponding? hydrogen signal? -> yes}
     \label{fig:Pulsandcollect}
 \end{figure}
-
-
-
+Now that the FID signal is optimized best we can start to characterize it. Therefore we measure a FID with a acquisition delay of \SI{25}{\milli \second}, because after this delay there are no effects from the rectangular applied B$_1$ pulse anymore (no \textit{sinc} function in the spectrum). The figure \ref{fig:Pulsandcollect138_delay_25_gauss} shows the observed spectrum and two different fit possibilities.\newline
+One option to fit a peak in a spectrum is by applying a \textit{voigt}-profile ($V(x;\sigma , \gamma)$). This function is a convolution of the \textit{Cauchy-Lorentz}- and \textit{Gaussian}-distribution and is described by following formula:
+\begin{align}
+    V(x;\sigma , \gamma) &= ( G \star L)(x) = \int G(\tau) L(x-\tau) d\tau \\
+    G(x;\sigma) &= \frac{exp\left(\frac{-x^2}{2\sigma^2}\right)}{\sigma \sqrt{2 \pi}} \\
+    L(x;\gamma) = \frac{\gamma}{\pi \left( x^2+\gamma^2\right)} \ .
+    \label{eq: voigt} 
+\end{align}
+$\sigma$ represents the standard deviation, $\gamma$ is half of the peak width at half height from the \textit{Lorentz}-distribution and $x$ is the shift from the line center. In figure \ref{fig:Pulsandcollect138_delay_25_gauss} the \textit{voigt}-profile (green) is fitted to the measured spectrum (red). The problem about this fit is that is not as sharp as the measured data. This might be, due to the fact that the measured spectrum does not have many data points especially around the maximum. Therefore the peak is really sharp and a correct fit with the \textit{voigt}-profile is rather difficult. Therefore a second fit function has been apllied. This time only the \textit{Gaussian}-distribution. This fit function is better to calculate the width of the peak, due to the fact that it easier to fit to this narrow peak. The disadvantage of the \textit{Gaussian}-fit is that area under the curve does not equal the measured one, especially around \SI{1836}{\hertz} and \SI{1839}{\hertz}. 
 \begin{figure}[H]
     \centering
     \input{plots/Pulsandcollect138_delay_25_gauss.tex}
@@ -40,12 +55,6 @@ ask: is it ok to explain what autoshim does and don´t plot any graphs at all? W
     calculate: amplitude; crossbar for datapoints\\
     sometimes 1/e sometimes 1/2 -> definition}
     \label{fig:Pulsandcollect138_delay_25_gauss}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \input{plots/Pulsandcollect138_delay_25_voigt.tex}
-    \caption[]{ask: gauss or voigt. this is voigt}
-    \label{fig:PulsandcollePulsandcollect138_delay_25_voigtctlangerdelay}
 \end{figure}
 
 \textcolor{red}{real and imaginary signal -> explain it}

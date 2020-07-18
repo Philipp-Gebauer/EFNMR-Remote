@@ -1,25 +1,23 @@
 % !TEX root = main.tex
 \section{Noisemeasurement}
-\label{sec:Noisemeasurement}
-
-
-
-\begin{figure}[H]
-    \centering
-    \input{plots/MonitorNoise138.tex}
-    \caption[]{ask: which range should we plot -> y:12; \newline
-    why is there an maximum at around \SI{1850}{Hz}-> resonance frequency -> 50 Hz is electric noise; why 1550 stronger than 1500 (harmnoic): instrument sensitvity because lamorefrequency is nearby and here its most sensitive\newline
-    sharp peaks come from electric noise. how exactly? Johnson-Noise or shot noise? ->50 Hz is electric noise\newline
-    in comparison to \SI{14.2}{\nano \farad} capacity the magnitude doesn´t change. Is this important? 
-    \newline
-    Noise level of \SI{14.2}{\nano \farad} is \SI{7.6}{\mu \volt} and of \SI{13.8}{\nano \farad} it is \SI{7.5}{\mu \volt}. Is that the reason?\newline
-    What is noise level?}
-    \label{fig:MonitorNoise138}
-\end{figure}
+% \label{sec:Noisemeasurement}
+The first step in the EFNMR Remote experiment is to measure the external noise. The external noise depends on the location where the setup is placed, the orientation of the probe and by surrounding metal objects e.g. a metal desk. To detect this external noise, a measurement without an NMR signal is provided. The time domain noise signal is shwon in figure \ref{fig: noise}. It is clearly visible that the noise is centered around \SI{0}{\mu \volt}. To gain knowledge about the noise level, the computer calculates the root-mean-square (RMS). This means that it calculates the square of each data point, than sum up all squared values up, calculates the average and than applies a square root. With this method the noise level can be calulated. In this case it is \SI{7.5}{\mu \volt}. This is an ecceptable noise value, because any value below \SI{10}{\mu \volt} is good enough to provide good NMR data.
 
 \begin{figure}[H]
     \centering
     \input{plots/noise.tex}
     \caption[]{average cero, root square -> flip it positive}
-    \label{fig:noise}
+    \label{fig: noise}
 \end{figure}
+
+Figure \ref{fig: MonitorNoise138} shows the frequency domain noise. This means that the time domain is fourier transformed into the frequency domain. This method is one of the basic principles we use in this experiment to make research about the properties of the measured signals. The frequency domain noise shows very specific sharp peaks every \SI{50}{\hertz}. To be more specific the peaks in the middle of every hundred \si{\hertz} steps are way higher than those at \SI{1400}{\hertz}, \SI{1500}{\hertz} and so on. This results of the frequency in the power grid which is \SI{50}{\hertz} in Germany.
+\textcolor{red}{wieso sind die geraden kleiner??? Steckdose erklärt eig nur peak bei 50hz und nicht die alle 50 hz}
+Despite all sharp peaks there is also a slight increase of the amplitude around $\SI{1850 \pm 1000}{\frac{\mu \volt}{\hertz}}$ visible. This is explicable by the resonance frequency of instrument and its sensitvity around the lamorfrequency (\SI{1841.4}{\hertz} for water in Germany in July 2020). Nearby the lamorfrequency all our following measurements will be done that is why the instrument sensitvity is sharpend around this value.
+
+\begin{figure}[H]
+    \centering
+    \input{plots/MonitorNoise138.tex}
+    \caption[]{}
+    \label{fig: MonitorNoise138}
+\end{figure}
+

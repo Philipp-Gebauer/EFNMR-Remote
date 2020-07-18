@@ -13,7 +13,7 @@ x_min = 1400
 x_max = 2300
 
 y_min = 0
-y_max = 18
+y_max = 12
 dataPTH = "Messwerte/TXT/1Noise/MonitorNoise_138.txt"
 
 load "jet.pal"
