@@ -1,21 +1,28 @@
 % !TEX root = main.tex
 \section{Transversal relaxation measurements}
-% \label{sec:Transversalrelaxationmeasurements}
+\label{sec:Transversalrelaxationmeasurements}
+The last chapter in the first part of this experiment is the transversal relaxation measurement. In order to do so there are two possible ways again.\newline
+The first one is by one single \textit{Hahn} echo (spin echo). Therefore the ratio between the maximum of the signal after the \SI{90}{\degree} pulse and the maximum after the echo (maximum after $2\tau$) provides the transversal relaxation time T$_2$. Figure \ref{eq: T2} shows measurements for this method by different echo time steps of $2\cdot \SI{400}{\milli \second}$. The exponential decay is clearly visible, due to the already explained loss ofphase coherence between the spins. Therefore the fit of the datapoints the following formula has been used:
+\begin{align}
+    M(x)=M_0 \cdot exp(\frac{-x}{T_{2}}) \ .
+    \label{eq: T2}
+\end{align}
+This formula shows a T$_2$ relaxation time of \SI{2691 \pm 12}{\milli \second}. Remember that the phase coherence loss because of the spin spin relaxation is irreversible and is always obtained when measuring T$_2$.
 
 \begin{figure}[H]
     \centering
     \input{plots/T2.tex}
-    \caption[]{ask: why are two peaks visible in the magnitude spectrum?\\
-    normal FID-> T$_2$\newline
-     $M(x)=M_0 \cdot exp(-x/T_2)$ with $T_2=\si{2691.06}{ms}$}
+    \caption[Attenuation $\frac{\text{E}}{\text{E}_0}$ for different echo times and exponential fit.]{Attenuation $\frac{\text{E}}{\text{E}_0}$ for different echo times and exponential fit. The applied exponential fit results in a value for T$_2$ of \SI{2691 \pm 12}{\milli \second}.}
     \label{fig:T2}
 \end{figure}
+
+One disadvantage of the T$_2$ measurement via one single \textit{Hahn} echo is that the ratio of to back to back maxima is not that exact. Therefore the second option to measure T$_2$ is by using CPMG. Now that more maximums can be observed, the ratio of back to back maxima can be calculated more precisely. Therefore the result of T$_2$ is more exact using this method. Figure \ref{fig:CPMG} shows measured data for 30 different echos. Due to the exponential decay the formula \ref{eq: T2} has been used again to fit the measured data. This results a value for T$_2$ of \SI{2317.76000 \pm 0.00062}{\milli \second}. 
 
 \begin{figure}[H]
     \centering
     \input{plots/CPMG045shimming.tex}
-    \caption[]{This is an CPMG with changeed values in the shimming; shimming value \SI{0.45}{x} -> T$_2^*$.\newline
-    Good to see that the T$_2^*$ is here shorter than in the previous picture, due to inhomogeniousity of the magnetic field.\\
-    $M(x)=M_0 \cdot exp(-x/T_2)$ with $T_2=\SI{2317.76}{\milli \second}$}
+    \caption[Attenuation $\frac{\text{E}}{\text{E}_0}$ for different echo maxima provided by the CPMG method.]{Attenuation $\frac{\text{E}}{\text{E}_0}$ for different echo maxima provided by the CPMG method. The applied exponential fit results in a value for T$_2$ of \SI{2317.76000 \pm 0.00062}{\milli \second}.}
     \label{fig:CPMG}
 \end{figure}
+
+The difference of the two T$_2$ values might occur, due to deshimming the system for the CPMG method and therefore can always be some inaccurate pulse phases. Nevertheless note that the CPMG method is the more exact method to measure T$_2$, due to more back to back maxima. By measuring T$_2$ via the \textit{Hahn} echo the inhomogeneity of the magnetic field is reversed, due to the \SI{180}{\degree} pulses.

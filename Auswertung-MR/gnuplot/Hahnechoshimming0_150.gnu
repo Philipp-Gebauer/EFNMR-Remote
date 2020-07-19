@@ -22,4 +22,4 @@ set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
 
-plot dataPTH using 1:2 lt 5 lc 15 w lines title "shimmin value \\SI{0}{x}", dataPTH1 using 1:2 lt 6 w lines title "shimmin value \\SI{4.95}{x}"
+plot dataPTH using 1:2 lt 5 lc 15 w lines title "shimmin value \\SI{0}{\\milli \\ampere} along x-axis", dataPTH1 using 1:2 lt 6 w lines title "shimmin value \\SI{4.95}{\\milli \\ampere} along x-axis"

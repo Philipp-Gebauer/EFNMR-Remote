@@ -16,7 +16,7 @@ dataPTH = "Messwerte/TXT/5T1/T1Be.txt"
 load "jet.pal"
 
 set ylabel "Attenuation $\\frac{\\text{E}}{\\text{E}_0}$"
-set xlabel "Time in $\\si{\\milli \\second}$"
+set xlabel "Time between pulses $t$ in $\\si{\\milli \\second}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 

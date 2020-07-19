@@ -50,17 +50,17 @@ E4=3.99779
 
 # #hiermüsstest du dein maximum auswählen. Hier ist es hat mit der Standardabweichung s gemacht
 set arrow from d-(s*(2*log(2))**(1.0/2)),f(d-(s*(2*log(2))**(1.0/2))) to d+(s*(2*log(2))**(1.0/2)),f(d+(s*(2*log(2))**(1.0/2))) heads
-set label sprintf("FWHM $= \\SI{%3.2f \\pm %3.2f}{\\degree}$",(2*(2*log(2))**(1.0/2)*s),(2*(2*log(2))**(1.0/2)*s_err)) at 1838.5,35
+set label sprintf("FWHM $= \\SI{%3.2f \\pm %3.2f}{\\hertz}$",(2*(2*log(2))**(1.0/2)*s),(2*(2*log(2))**(1.0/2)*s_err)) at 1838.5,35
 
 
 
 
 
 set arrow from d,f(s+d) to s+d,f(s+d) heads
-set label sprintf("$\\sigma =  \\SI{%4.3f \\pm %4.3f}{\\degree}$",s,s_err) at 1838.5,45
+set label sprintf("$\\sigma =  \\SI{%4.3f \\pm %4.3f}{\\hertz}$",s,s_err) at 1838.5,45
 
 # gauss
-set arrow from d,0 to d,90 nohead
+# set arrow from d,0 to d,90 nohead
 
 # voigt
 set arrow from E2,0 to E2,90 nohead

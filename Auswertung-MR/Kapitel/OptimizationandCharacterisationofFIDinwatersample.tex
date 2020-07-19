@@ -1,8 +1,7 @@
 % !TEX root = main.tex
 \section{Optimization and Characterisation of FID in water sample}
-% \label{sec:OptimizationandCharacterisationofFIDinwatersample}
+\label{sec:OptimizationandCharacterisationofFIDinwatersample}
 
-\textcolor{red}{insert previous values}
 On of the main goals of this experiment is to measure a good FID of the water sample. In order to do so we first have to optimize our FID signal of the water probe.\newline
 First the inhomogenity of the magnetic field has to be cancelled. The process to make the magnetic field more homogenious is to \textit{autoshimm} the components of the gradient coil. The computer programm does this automatically. So it deshimms the system step by step and checks if the output maximizes or minimizes. By checking many different combinations it finds the best shimming values for the gradient coil. In our case they are:
 \begin{align*}
@@ -17,22 +16,21 @@ The secon optimization step is to change the B$_1$ pulse duration. The longer th
 \begin{figure}[H]
     \centering
     \input{plots/B1dauer.tex}
-    \caption[]{ask: periodicity due to duration of B$_1$, \SI{0}{\degree} -> \SI{90}{\degree} -> \SI{180}{\degree} -> \SI{270}{\degree}? -> yes}
+    \caption[This figure shows which impact the B$_1$ pulse duration has to the ampitude of the FID.]{This figure shows which impact the B$_1$ pulse duration has to the ampitude of the FID. It is clearly visible that the duration has a maximum at \SI{1.35}{\milli \second} which is the duration for a \SI{90}{\degree} pulse.}
     \label{fig:B1dauer}
 \end{figure}
 Figure \ref{fig:pulsedurationbeispiel} exemplarily shows the correlation of the B$_1$ pulse duration and the signal which the coil detects. It is clearly visible that the amplitude is better for the pulse duration of \SI{1.35}{\milli \second} than for the pulse duration of \SI{0.27}{\milli \second}. The signal that was taken for the pulse duration of \SI{0.27}{\milli \second} is at the minimum of the figure \ref{fig:B1dauer} and therefore it is correct that the amplitude of the spectrum with the pulse duration of \SI{1.35}{\milli \second} is higher.
 \begin{figure}[H]
     \centering
     \input{plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.tex}
-    \caption[]{}
+    \caption[Example spectrum for two different B$_1$ pulse durations.]{Example spectrum for two different B$_1$ pulse durations. The peak which is higher corresponds to the \SI{1.35}{\milli \second} duration pulse and represents the \SI{90}{\degree} pulse. This peak is high, because at this duration most of the spins are in the transversal plane and therfore the amplitude is maximal.}
     \label{fig:pulsedurationbeispiel}
 \end{figure}
-\\
 Now that the B$_1$ pulse duration is also optimized, we can have a closer look at the capacity of the LCR circuit of the B$_1$ coil again. First it is necessary to know that the B$_1$ pulse is applied by a \textit{rectangular} function and the fourie transformation of a \textit{rectangular} function is a \textit{sinc} function. Therefore the fourie ransformed spectrum of the B$_1$ pulse signal is a \textit{sinc} function. When we measure the signal shortly (acquisition delay: \SI{2}{\milli \second}) after the \SI{90}{\degree} pulse there shoud be a \textit{sinc} function visible and indeed this is what we obtained (figure \ref{fig:Pulsandcollect}). In figure \ref{fig:Pulsandcollect} there is also a really sharp peak visible. This is referd to the hydrogen signal. The hydrogen signal is independed of the applied capacity, but the $B_1$ pulse is, because the capacity changes the properties of the LCR-circuit of the B$_1$ coil. The best capacity is adjusted when the hydrogen signal is in the middle of the \textit{sinc} function, because then the LC- circuit is tuned to the lamor frequency of the hydrogen signal. This is also visible by the amplitude of the spectrum in figure \ref{fig:Pulsandcollect}. The ampitude of the spectrum which was observed for a capacity of \SI{13.8}{\nano \farad} is higher than for the ampitude of the spectrum which was observed for a capacity of \SI{14.2}{\nano \farad}. As already explained before in the chapter \ref{sec:CoilAnalyssis} the capacity of \SI{13.8}{\nano \farad} is indeed the best capacity in order to observe a maximized spectrum.
 \begin{figure}[H]
     \centering
     \input{plots/Pulsandcollect138.tex}
-    \caption[]{ask: what is the peak corresponding? hydrogen signal? -> yes}
+    \caption[This figure shows the impact of the capacity in the LCR circuit of the B$_1$ coil.]{This figure shows the impact of the capacity in the LCR circuit of the B$_1$ coil. The \textit{sinc} function comes from the fourie transformed B$_1$ pulse, which is rectangular. The peak at \SI{1837.27 \pm 0.05}{\hertz} is the peak from the hydrogen signal.}
     \label{fig:Pulsandcollect}
 \end{figure}
 Now that the FID signal is optimized best we can start to characterize it. Therefore we measure a FID with a acquisition delay of \SI{25}{\milli \second}, because after this delay there are no effects from the rectangular applied B$_1$ pulse anymore (no \textit{sinc} function in the spectrum). The figure \ref{fig:Pulsandcollect138_delay_25_gauss} shows the observed spectrum and two different fit possibilities.\newline
@@ -40,21 +38,17 @@ One option to fit a peak in a spectrum is by applying a \textit{voigt}-profile (
 \begin{align}
     V(x;\sigma , \gamma) &= ( G \star L)(x) = \int G(\tau) L(x-\tau) d\tau \\
     G(x;\sigma) &= \frac{exp\left(\frac{-x^2}{2\sigma^2}\right)}{\sigma \sqrt{2 \pi}} \\
-    L(x;\gamma) = \frac{\gamma}{\pi \left( x^2+\gamma^2\right)} \ .
+    L(x;\gamma)  &= \frac{\gamma}{\pi \left( x^2+\gamma^2\right)} \ .
     \label{eq: voigt} 
 \end{align}
-$\sigma$ represents the standard deviation, $\gamma$ is half of the peak width at half height from the \textit{Lorentz}-distribution and $x$ is the shift from the line center. In figure \ref{fig:Pulsandcollect138_delay_25_gauss} the \textit{voigt}-profile (green) is fitted to the measured spectrum (red). The problem about this fit is that is not as sharp as the measured data. This might be, due to the fact that the measured spectrum does not have many data points especially around the maximum. Therefore the peak is really sharp and a correct fit with the \textit{voigt}-profile is rather difficult. Therefore a second fit function has been apllied. This time only the \textit{Gaussian}-distribution. This fit function is better to calculate the width of the peak, due to the fact that it easier to fit to this narrow peak. The disadvantage of the \textit{Gaussian}-fit is that area under the curve does not equal the measured one, especially around \SI{1836}{\hertz} and \SI{1839}{\hertz}. 
+$\sigma$ represents the standard deviation, $\gamma$ is half of the peak width at half height from the \textit{Lorentz}-distribution and $x$ is the shift from the line center. In figure \ref{fig:Pulsandcollect138_delay_25_gauss} the \textit{voigt}-profile (green) is fitted to the measured spectrum (red). The problem about this fit is that is not as sharp as the measured data. This might be, due to the fact that the measured spectrum does not have many data points especially around the maximum. Therefore the peak is really sharp and a correct fit with the \textit{voigt}-profile is rather difficult. Therefore a second fit function has been apllied. This time only the \textit{Gaussian}-distribution. This fit function is better to calculate the width of the peak, due to the fact that it easier to fit to this narrow peak. The full width of the peak at have maximum (FWHM) is calculated by the applied \textit{Gaussian}-fit and is \SI{1.180 \pm 40}{\hertz}. \newline
+The amplitude of the peak is \SI{73.85}{} according to the \textit{Gaussian}-fit and is in comparison to the amplitude of the noise measurement (magnitude \SI{1}{}) in figure \ref{fig: MonitorNoise138} high. That means that the peak must come from the hydrogen signal is barely disturbed by any noise.\newline
+The disadvantage of the \textit{Gaussian}-fit is that area under the curve does not equal the measured one, especially around \SI{1836}{\hertz} and \SI{1839}{\hertz}. Therefore the discussion about the integral under the measured curve will just be qualitative and will be done in the chapter \ref{sec:Hahnecho}.\newline
+\textcolor{red}{real and imaginary signal -> explain it}\newline
+\textcolor{red}{signal to noise ratio: what to do? -> magnitude, which unit is the amplitude, tutor will send us an email, try back fouriertransform (only keep real values)}
 \begin{figure}[H]
     \centering
     \input{plots/Pulsandcollect138_delay_25_gauss.tex}
-    \caption[]{ask: gauss or voigt. this is gauss -> both\newline
-    longer acquisition \SI{25}{\milli \second} -> only hydrogen siganal? is the peak the same than in the previous diagramm?  -> yes\newline
-    integral under curve with our measured fit? -> try to find soemthing, try shorter range and more points\newline
-    signal to noise ratio: what to do? -> magnitude, which unit is the amplitude, tutor will send us an email, try back fouriertransform (only keep real values)
-    \\
-    calculate: amplitude; crossbar for datapoints\\
-    sometimes 1/e sometimes 1/2 -> definition}
+    \caption[This figure shows the measured hydrogen signal after an acquisition delay of \SI{25}{\milli \second} and two possible ways to fit the peak.]{This figure shows the measured hydrogen signal after an acquisition delay of \SI{25}{\milli \second} and two possible ways to fit the peak. Due to a very short frequency range the peak looks very wide. Indeed it is actually very sharp. To fit the peak a \textit{voigt}-profile and \textit{Gaussian}-fit is used.}
     \label{fig:Pulsandcollect138_delay_25_gauss}
 \end{figure}
-
-\textcolor{red}{real and imaginary signal -> explain it}
