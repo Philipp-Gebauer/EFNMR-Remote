@@ -29,4 +29,4 @@ set yrange [y_min:y_max]
 
 
 #plot dataPTH using 1:2 ls 2 ps 3 lw 3 notitle
-plot dataPTH using 1:2 lt 5 lc 15 w lines title "capacity $\\SI{13.8}{\\nano \\farad}", dataPTH1 using 1:2 lt 6 w lines title "capacity $\\SI{14.2}{\\nano \\farad}"
+plot dataPTH using 1:2 lt 5 lc 15 w lines title "capacity $\\SI{13.8}{\\nano \\farad}$", dataPTH1 using 1:2 lt 6 w lines title "capacity $\\SI{14.2}{\\nano \\farad}$"

@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: babalpha.bst
+Database file #1: literatur.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty language in Bild
+You've used 1 entry,
+            3213 wiz_defined-function locations,
+            699 strings with 6563 characters,
+and the built_in function-call counts, 389 in all, are:
+= -- 30
+> -- 8
+< -- 1
++ -- 2
+- -- 2
+* -- 32
+:= -- 61
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 5
+chr.to.int$ -- 1
+cite$ -- 2
+duplicate$ -- 17
+empty$ -- 38
+format.name$ -- 5
+if$ -- 75
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 20
+num.names$ -- 3
+pop$ -- 12
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 13
+stack$ -- 0
+substring$ -- 7
+swap$ -- 4
+text.length$ -- 1
+text.prefix$ -- 1
+top$ -- 0
+type$ -- 8
+warning$ -- 1
+while$ -- 2
+width$ -- 2
+write$ -- 25
+(There was 1 warning)

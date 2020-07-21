@@ -1,0 +1,26 @@
+\begin{thebibliography}{Mor01}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxtitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem [{Mor01}]{Bild}
+\btxnamefont {\btxlastnamefont {Mortazavi}, Saideh\btxfnamespacelong
+  Sadat}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Earth field magnetic
+  resonance imaging and paramagnetic contrast agents}{Earth Field Magnetic
+  Resonance Imaging And Paramagnetic Contrast Agents}}, last update:
+  2009-01-01.
+\newblock {\latintext
+  \btxurlfont{https://scholarworks.utep.edu/cgi/viewcontent.cgi?article=3739&context=open_etd}},
+  looked up: 2020-07-16.
+
+\end{thebibliography}

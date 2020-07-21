@@ -283,10 +283,6 @@ INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grfext\grfext.s
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\grfext\grfext.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bookmark.sty
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bookmark.sty
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bkm-pdftex.def
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bkm-pdftex.def
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
@@ -314,7 +310,18 @@ INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\refcount\refcou
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\refcount\refcount.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
+OUTPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
 OUTPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.pdf
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bookmark.sty
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bookmark.sty
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bkm-pdftex.def
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bookmark\bkm-pdftex.def
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr10.tfm
@@ -394,12 +401,30 @@ INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ts1-l
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmss12.tfm
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmssbx10.tfm
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr8.tfm
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr5.tfm
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi5.tfm
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmsy5.tfm
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmss8.tfm
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmtt8.tfm
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ts1-lmr5.tfm
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr5.tfm
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri10.tfm
 INPUT C:\Users\simon\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.toc
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.toc
 OUTPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.toc
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\einleitung.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\einleitung.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\aufbau.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\aufbau.tex
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Aufbau.png
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Aufbau.png
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Aufbau.png
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Aufbau.png
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Aufbau.png
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx10.tfm
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\Noisemeasurement.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\Noisemeasurement.tex
@@ -417,16 +442,6 @@ INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converte
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\noise-eps-converted-to.pdf
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr8.tfm
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr5.tfm
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi5.tfm
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmsy5.tfm
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmss8.tfm
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmtt8.tfm
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ts1-lmr5.tfm
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr5.tfm
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138.tex
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
@@ -457,7 +472,6 @@ INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\PulsandcollectVale
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\PulsandcollectValesignal-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\PulsandcollectValesignal-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\PulsandcollectValesignal-eps-converted-to.pdf
-INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri10.tfm
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Coilanalyse.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Coilanalyse.tex
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\cp1252.def
@@ -532,8 +546,8 @@ INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots\Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmcsc10.tfm
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\LongitudinalrelaxationmeasurementsT1.tex
-INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\LongitudinalrelaxationmeasurementsT1.tex
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\long.tex
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\long.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\BildT1.png
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\BildT1.png
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\BildT1.png
@@ -647,9 +661,20 @@ INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\fazit.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\fazit.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\tables.tex
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel\tables.tex
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.bbl
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.bbl
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmtt10.tfm
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.lof
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.lof
 OUTPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.lof
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.lot
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.lot
 OUTPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.lot
 INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.aux
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
+INPUT c:\Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.out
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathsy.enc
@@ -682,3 +707,5 @@ INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lms
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy8.pfb
 INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy8.pfb
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmtt10.pfb
