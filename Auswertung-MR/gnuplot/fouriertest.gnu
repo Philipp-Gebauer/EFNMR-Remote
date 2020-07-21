@@ -1,10 +1,10 @@
 #png
-# set terminal png size 1024,720
-# set output "pngplots/Pulsandcollect138_delay_25_gauss.png"
+set terminal png size 1024,720
+set output "pngplots/fourier.png"
 
 #epslatex
-set terminal epslatex
-set output "plots/Pulsandcollect138_delay_25_gauss.tex"
+# set terminal epslatex
+# set output "plots/fourier.tex"
 
 #keine Ahnung warum das zwei Peaks entstehen 
 #wenn man von -5000 bis 5000 misst
@@ -67,6 +67,6 @@ set arrow from E2,0 to E2,90 nohead
 
 #plot dataPTH using 1:2 ls 2 ps 3 lw 3 notitle
 plot dataPTH using 1:2 lt 5 lc 15 w lines title "magnitude spectrum", \
-[1800:1900] E(x) lt 2 title "voigt-profile", \
-[1800:1900] f(x) lt 6 title "\\textsc{Gauss}-Fit", \
-dataPTH using 1:2 ls 5 lc 15 ps 3 lw 3 notitle
+# [1800:1900] E(x) lt 2 title "voigt-profile", \
+# [1800:1900] f(x) lt 6 title "\\textsc{Gauss}-Fit", \
+# dataPTH using 1:2 ls 5 lc 15 ps 3 lw 3 notitle

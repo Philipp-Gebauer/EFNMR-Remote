@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.18)  21 JUL 2020 08:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.18)  21 JUL 2020 14:10
 entering extended mode
 **c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/main.tex
 (c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/main.tex
@@ -1026,7 +1026,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout6 = `main.toc'.
 
  [2] (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel/einleitung.tex) (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel/aufbau.tex
-<Aufbau.png, id=48, 1099.10625pt x 342.5297pt>
+<Aufbau.png, id=46, 1099.10625pt x 342.5297pt>
 File: Aufbau.png Graphic file (type png)
 <use Aufbau.png>
 Package pdftex.def Info: Aufbau.png  used on input line 8.
@@ -1057,7 +1057,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/noise-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/noise-eps-converted-to.pdf, id=63, 361.35pt x 252.945pt>
+<plots/noise-eps-converted-to.pdf, id=61, 361.35pt x 252.945pt>
 File: plots/noise-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/noise-eps-converted-to.pdf>
 Package pdftex.def Info: plots/noise-eps-converted-to.pdf  used on input line 115.
@@ -1066,10 +1066,10 @@ Package pdftex.def Info: plots/noise-eps-converted-to.pdf  used on input line 11
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/MonitorNoise138.eps>
-(epstopdf)                    date: 2020-07-18 11:11:05
+(epstopdf)                    date: 2020-07-21 10:26:26
 (epstopdf)                    size: 32034 bytes
 (epstopdf)             Output file: <plots/MonitorNoise138-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-18 11:11:17
+(epstopdf)                    date: 2020-07-21 10:26:35
 (epstopdf)                    size: 10371 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/MonitorNoise138-eps-converted-to.pdf plots/MonitorNoise138.eps>
 (epstopdf)             \includegraphics on input line 115.
@@ -1077,7 +1077,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/MonitorNoise138-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/MonitorNoise138-eps-converted-to.pdf, id=73, 361.35pt x 252.945pt>
+<plots/MonitorNoise138-eps-converted-to.pdf, id=71, 361.35pt x 252.945pt>
 File: plots/MonitorNoise138-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/MonitorNoise138-eps-converted-to.pdf>
 Package pdftex.def Info: plots/MonitorNoise138-eps-converted-to.pdf  used on input line 115.
@@ -1097,7 +1097,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/PulsandcollectValesignal-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/PulsandcollectValesignal-eps-converted-to.pdf, id=83, 361.35pt x 252.945pt>
+<plots/PulsandcollectValesignal-eps-converted-to.pdf, id=81, 361.35pt x 252.945pt>
 File: plots/PulsandcollectValesignal-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/PulsandcollectValesignal-eps-converted-to.pdf>
 Package pdftex.def Info: plots/PulsandcollectValesignal-eps-converted-to.pdf  used on input line 115.
@@ -1106,10 +1106,10 @@ Package pdftex.def Info: plots/PulsandcollectValesignal-eps-converted-to.pdf  us
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Coilanalyse.eps>
-(epstopdf)                    date: 2020-07-18 11:21:52
+(epstopdf)                    date: 2020-07-21 10:25:01
 (epstopdf)                    size: 21233 bytes
 (epstopdf)             Output file: <plots/Coilanalyse-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-18 11:22:05
+(epstopdf)                    date: 2020-07-21 10:25:11
 (epstopdf)                    size: 4485 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/Coilanalyse-eps-converted-to.pdf plots/Coilanalyse.eps>
 (epstopdf)             \includegraphics on input line 113.
@@ -1117,19 +1117,19 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Coilanalyse-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Coilanalyse-eps-converted-to.pdf, id=96, 361.35pt x 252.945pt>
+<plots/Coilanalyse-eps-converted-to.pdf, id=95, 361.35pt x 252.945pt>
 File: plots/Coilanalyse-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Coilanalyse-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Coilanalyse-eps-converted-to.pdf  used on input line 113.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-)) (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel/OptimizationandCharacterisationofFIDinwatersample.tex [6 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Coilanalyse-eps-converted-to.pdf>] (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots/B1dauer.tex ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\cp1252.def"
+)) (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel/OptimizationandCharacterisationofFIDinwatersample.tex [6] (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots/B1dauer.tex ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/B1dauer.eps>
-(epstopdf)                    date: 2020-07-16 17:57:37
+(epstopdf)                    date: 2020-07-21 11:01:24
 (epstopdf)                    size: 18401 bytes
 (epstopdf)             Output file: <plots/B1dauer-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-16 17:57:51
+(epstopdf)                    date: 2020-07-21 11:01:33
 (epstopdf)                    size: 3192 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/B1dauer-eps-converted-to.pdf plots/B1dauer.eps>
 (epstopdf)             \includegraphics on input line 111.
@@ -1137,19 +1137,19 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/B1dauer-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/B1dauer-eps-converted-to.pdf, id=104, 361.35pt x 252.945pt>
+<plots/B1dauer-eps-converted-to.pdf, id=103, 361.35pt x 252.945pt>
 File: plots/B1dauer-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/B1dauer-eps-converted-to.pdf>
 Package pdftex.def Info: plots/B1dauer-eps-converted-to.pdf  used on input line 111.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [7] (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.tex ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\cp1252.def"
+) [7 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Coilanalyse-eps-converted-to.pdf>] (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.tex ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.eps>
-(epstopdf)                    date: 2020-07-16 18:07:56
+(epstopdf)                    date: 2020-07-21 11:02:49
 (epstopdf)                    size: 20856 bytes
 (epstopdf)             Output file: <plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-16 18:08:07
+(epstopdf)                    date: 2020-07-21 11:03:00
 (epstopdf)                    size: 4169 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.eps>
 (epstopdf)             \includegraphics on input line 116.
@@ -1157,7 +1157,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf, id=113, 361.35pt x 252.945pt>
+<plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf, id=112, 361.35pt x 252.945pt>
 File: plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf>
 Package pdftex.def Info: plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf  used on input line 116.
@@ -1166,10 +1166,10 @@ Package pdftex.def Info: plots/138_puls_and_collect_number_of_delay25ms_Pulsedur
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Pulsandcollect138.eps>
-(epstopdf)                    date: 2020-07-20 12:22:11
+(epstopdf)                    date: 2020-07-21 11:08:05
 (epstopdf)                    size: 27622 bytes
 (epstopdf)             Output file: <plots/Pulsandcollect138-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-20 12:22:29
+(epstopdf)                    date: 2020-07-21 11:08:15
 (epstopdf)                    size: 8152 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/Pulsandcollect138-eps-converted-to.pdf plots/Pulsandcollect138.eps>
 (epstopdf)             \includegraphics on input line 116.
@@ -1177,7 +1177,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Pulsandcollect138-eps-converted-to.pdf, id=125, 361.35pt x 252.945pt>
+<plots/Pulsandcollect138-eps-converted-to.pdf, id=126, 361.35pt x 252.945pt>
 File: plots/Pulsandcollect138-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Pulsandcollect138-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Pulsandcollect138-eps-converted-to.pdf  used on input line 116.
@@ -1186,10 +1186,10 @@ Package pdftex.def Info: plots/Pulsandcollect138-eps-converted-to.pdf  used on i
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Pulsandcollect138_delay_25_gauss.eps>
-(epstopdf)                    date: 2020-07-19 10:46:36
+(epstopdf)                    date: 2020-07-21 11:12:10
 (epstopdf)                    size: 21897 bytes
 (epstopdf)             Output file: <plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-19 10:46:45
+(epstopdf)                    date: 2020-07-21 11:12:20
 (epstopdf)                    size: 4662 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf plots/Pulsandcollect138_delay_25_gauss.eps>
 (epstopdf)             \includegraphics on input line 122.
@@ -1197,13 +1197,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf, id=137, 361.35pt x 252.945pt>
+<plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf, id=141, 361.35pt x 252.945pt>
 File: plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf  used on input line 122.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) [10 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138-eps-converted-to.pdf>]) (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel/long.tex [11]
-<BildT1.png, id=157, 782.17218pt x 495.35063pt>
+<BildT1.png, id=161, 782.17218pt x 495.35063pt>
 File: BildT1.png Graphic file (type png)
 <use BildT1.png>
 Package pdftex.def Info: BildT1.png  used on input line 8.
@@ -1212,10 +1212,10 @@ Package pdftex.def Info: BildT1.png  used on input line 8.
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/T1Polarisationsfeldfeld.eps>
-(epstopdf)                    date: 2020-07-20 12:23:33
+(epstopdf)                    date: 2020-07-21 12:00:51
 (epstopdf)                    size: 19199 bytes
 (epstopdf)             Output file: <plots/T1Polarisationsfeldfeld-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-20 12:24:04
+(epstopdf)                    date: 2020-07-21 12:01:03
 (epstopdf)                    size: 3622 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/T1Polarisationsfeldfeld-eps-converted-to.pdf plots/T1Polarisationsfeldfeld.eps>
 (epstopdf)             \includegraphics on input line 115.
@@ -1223,7 +1223,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/T1Polarisationsfeldfeld-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T1Polarisationsfeldfeld-eps-converted-to.pdf, id=169, 361.35pt x 252.945pt>
+<plots/T1Polarisationsfeldfeld-eps-converted-to.pdf, id=173, 361.35pt x 252.945pt>
 File: plots/T1Polarisationsfeldfeld-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T1Polarisationsfeldfeld-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T1Polarisationsfeldfeld-eps-converted-to.pdf  used on input line 115.
@@ -1243,7 +1243,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/T1Erdmagnetfeld-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T1Erdmagnetfeld-eps-converted-to.pdf, id=179, 361.35pt x 252.945pt>
+<plots/T1Erdmagnetfeld-eps-converted-to.pdf, id=184, 361.35pt x 252.945pt>
 File: plots/T1Erdmagnetfeld-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T1Erdmagnetfeld-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T1Erdmagnetfeld-eps-converted-to.pdf  used on input line 115.
@@ -1263,7 +1263,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Echobeispeilsignal-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Echobeispeilsignal-eps-converted-to.pdf, id=190, 361.35pt x 252.945pt>
+<plots/Echobeispeilsignal-eps-converted-to.pdf, id=195, 361.35pt x 252.945pt>
 File: plots/Echobeispeilsignal-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Echobeispeilsignal-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Echobeispeilsignal-eps-converted-to.pdf  used on input line 113.
@@ -1272,10 +1272,10 @@ Package pdftex.def Info: plots/Echobeispeilsignal-eps-converted-to.pdf  used on 
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo.eps>
-(epstopdf)                    date: 2020-07-19 13:07:34
+(epstopdf)                    date: 2020-07-21 12:37:42
 (epstopdf)                    size: 21327 bytes
 (epstopdf)             Output file: <plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-19 13:07:48
+(epstopdf)                    date: 2020-07-21 12:37:56
 (epstopdf)                    size: 4512 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo.eps>
 (epstopdf)             \includegraphics on input line 117.
@@ -1283,7 +1283,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf, id=202, 361.35pt x 252.945pt>
+<plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf, id=208, 361.35pt x 252.945pt>
 File: plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf>
 Package pdftex.def Info: plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf  used on input line 117.
@@ -1303,7 +1303,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/180pulsephasedegree-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/180pulsephasedegree-eps-converted-to.pdf, id=220, 361.35pt x 252.945pt>
+<plots/180pulsephasedegree-eps-converted-to.pdf, id=226, 361.35pt x 252.945pt>
 File: plots/180pulsephasedegree-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/180pulsephasedegree-eps-converted-to.pdf>
 Package pdftex.def Info: plots/180pulsephasedegree-eps-converted-to.pdf  used on input line 115.
@@ -1323,7 +1323,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/T2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T2-eps-converted-to.pdf, id=227, 361.35pt x 252.945pt>
+<plots/T2-eps-converted-to.pdf, id=233, 361.35pt x 252.945pt>
 File: plots/T2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T2-eps-converted-to.pdf  used on input line 114.
@@ -1343,7 +1343,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/CPMG045shimming-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/CPMG045shimming-eps-converted-to.pdf, id=237, 361.35pt x 252.945pt>
+<plots/CPMG045shimming-eps-converted-to.pdf, id=244, 361.35pt x 252.945pt>
 File: plots/CPMG045shimming-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/CPMG045shimming-eps-converted-to.pdf>
 Package pdftex.def Info: plots/CPMG045shimming-eps-converted-to.pdf  used on input line 112.
@@ -1360,21 +1360,17 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 23.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 21.
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 17--25
+Underfull \hbox (badness 10000) in paragraph at lines 31--39
 \T1/lmtt/m/n/10.95 utep . edu / cgi / viewcontent . cgi ? article = 3739 & context = open _ etd$[]\T1/lmr/m/n/10.95 , loo-ked
  []
 
 ) [23] (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
-
- (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.lot)
-\tf@lot=\write8
-\openout8 = `main.lot'.
 
  [24])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
@@ -1391,17 +1387,17 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 29838 strings out of 480790
- 636279 string characters out of 2895393
- 1014636 words of memory out of 3000000
- 45054 multiletter control sequences out of 15000+200000
+ 29829 strings out of 480790
+ 636074 string characters out of 2895393
+ 1015637 words of memory out of 3000000
+ 45048 multiletter control sequences out of 15000+200000
  630476 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,20n,83p,10168b,1421s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.pdf (26 pages, 2722603 bytes).
+Output written on c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.pdf (26 pages, 2729425 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
+ 407 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 

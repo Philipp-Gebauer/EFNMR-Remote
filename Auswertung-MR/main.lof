@@ -3,9 +3,9 @@
 \babel@toc {english}{}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Setup of the \textit {Terranova-MRI EFNMR}. \cite {Bild}}}{2}{figure.caption.2}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Noise signal taken by the B$_1$ coil.}}{3}{figure.caption.3}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Fourie tranformed noise signal of the previous figure \ref {fig: noise}.}}{4}{figure.caption.4}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Fourier transformed noise signal of the previous figure \ref {fig: noise}.}}{4}{figure.caption.4}%
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Example signal for a pulse and collect signal made by the B$_1$ coil.}}{5}{figure.caption.5}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces This figure shows the measured and calculated resonance frequencies for different capacities.}}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces This figure shows the measured and calculated resonance frequencies for different capacities.}}{7}{figure.caption.6}%
 \contentsline {figure}{\numberline {5.1}{\ignorespaces This figure shows which impact the B$_1$ pulse duration has to the ampitude of the FID.}}{8}{figure.caption.7}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Example spectrum for two different B$_1$ pulse durations.}}{9}{figure.caption.8}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces This figure shows the impact of the capacity in the LCR circuit of the B$_1$ coil.}}{10}{figure.caption.9}%

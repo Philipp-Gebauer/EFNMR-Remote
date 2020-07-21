@@ -7,46 +7,46 @@ The style file: babalpha.bst
 Database file #1: literatur.bib
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Warning--empty language in Bild
-You've used 1 entry,
+Warning--empty language in magnetfeld
+You've used 3 entries,
             3213 wiz_defined-function locations,
-            699 strings with 6563 characters,
-and the built_in function-call counts, 389 in all, are:
-= -- 30
-> -- 8
-< -- 1
-+ -- 2
-- -- 2
-* -- 32
-:= -- 61
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 5
-chr.to.int$ -- 1
-cite$ -- 2
-duplicate$ -- 17
-empty$ -- 38
-format.name$ -- 5
-if$ -- 75
+            709 strings with 6794 characters,
+and the built_in function-call counts, 1045 in all, are:
+= -- 88
+> -- 24
+< -- 3
++ -- 6
+- -- 6
+* -- 86
+:= -- 153
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 15
+chr.to.int$ -- 3
+cite$ -- 4
+duplicate$ -- 51
+empty$ -- 112
+format.name$ -- 15
+if$ -- 219
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 20
-num.names$ -- 3
-pop$ -- 12
+newline$ -- 28
+num.names$ -- 9
+pop$ -- 44
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 18
 quote$ -- 0
-skip$ -- 13
+skip$ -- 33
 stack$ -- 0
-substring$ -- 7
-swap$ -- 4
-text.length$ -- 1
-text.prefix$ -- 1
+substring$ -- 21
+swap$ -- 12
+text.length$ -- 3
+text.prefix$ -- 3
 top$ -- 0
-type$ -- 8
+type$ -- 24
 warning$ -- 1
-while$ -- 2
-width$ -- 2
-write$ -- 25
+while$ -- 6
+width$ -- 4
+write$ -- 43
 (There was 1 warning)

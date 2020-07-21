@@ -13,6 +13,20 @@
   \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
 
 \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem [{Adm}]{magnetfeld}
+\btxnamefont {\btxlastnamefont {Administration}, National}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Magnetic field calculators}{Magnetic Field
+  Calculators}}.
+\newblock {\latintext
+  \btxurlfont{https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml?#igrfgrid}},
+  looked up: 2020-07-21.
+
+\bibitem [{LLC}]{literaturT1}
+\btxnamefont {\btxlastnamefont {LLC}, Elster}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Size of t1 vs t2}{Size of T1 vs T2}}.
+\newblock {\latintext \btxurlfont{http://mri-q.com/why-is-t1--t2.html}}, looked
+  up: 2020-07-21.
+
 \bibitem [{Mor01}]{Bild}
 \btxnamefont {\btxlastnamefont {Mortazavi}, Saideh\btxfnamespacelong
   Sadat}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Earth field magnetic

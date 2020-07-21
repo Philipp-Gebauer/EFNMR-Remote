@@ -16,7 +16,7 @@ dataPTH = "Messwerte/TXT/2AnalyseCoil/Analyse Coil.txt"
 
 load "jet.pal"
 
-set ylabel "Frequency $\\si{\\hertz}$"
+set ylabel "Frequency in $\\si{\\hertz}$"
 set xlabel "Capacity in $\\si{\\nano \\farad}$"
 set xrange [x_min:x_max]
 # set yrange [y_min:y_max]

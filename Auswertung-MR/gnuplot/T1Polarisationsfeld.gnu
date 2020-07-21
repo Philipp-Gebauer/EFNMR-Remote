@@ -16,7 +16,7 @@ dataPTH = "Messwerte/TXT/5T1/T1Bp.txt"
 load "jet.pal"
 
 set ylabel "Attenuation $\\frac{\\text{E}}{\\text{E}_0}$"
-set xlabel "Polarizing pulse duration $\tau_p$ in $\\si{\\milli \\second}$"
+set xlabel "Polarizing pulse duration $\\tau_p$ in $\\si{\\milli \\second}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
