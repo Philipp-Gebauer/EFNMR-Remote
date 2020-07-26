@@ -50,7 +50,7 @@ E4=3.99779
 
 # #hiermüsstest du dein maximum auswählen. Hier ist es hat mit der Standardabweichung s gemacht
 set arrow from d-(s*(2*log(2))**(1.0/2)),f(d-(s*(2*log(2))**(1.0/2))) to d+(s*(2*log(2))**(1.0/2)),f(d+(s*(2*log(2))**(1.0/2))) heads
-set label sprintf("FWHM $= \\SI{%3.2f \\pm %3.2f}{\\hertz}$",(2*(2*log(2))**(1.0/2)*s),(2*(2*log(2))**(1.0/2)*s_err)) at 1838.5,35
+set label sprintf("FWHM $= \\SI{%4.3f \\pm %4.3f}{\\hertz}$",(2*(2*log(2))**(1.0/2)*s),(2*(2*log(2))**(1.0/2)*s_err)) at 1838.5,35
 
 
 
