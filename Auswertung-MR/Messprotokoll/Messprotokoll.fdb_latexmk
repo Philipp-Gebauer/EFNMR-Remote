@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1595862058 "c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex" "c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.pdf" "Messprotokoll" 1595862058
+["pdflatex"] 1595862693 "c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex" "c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.pdf" "Messprotokoll" 1595862693
   "1.png" 1595772051 505474 26b7b9779356cd42d8e782d9934752e4 ""
   "2.png" 1595773172 534172 1fbd4d991205a6ca0e601ba6d4f81a71 ""
   "C:/Users/simon/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1595073795 10022032 dc6153107b089d2006bb86c22f666667 ""
@@ -231,7 +231,7 @@
   "C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
   "Messprotokoll.aux" 0 -1 0 "pdflatex"
   "Messprotokoll.out" 0 -1 0 "pdflatex"
-  "Messprotokoll.tex" 1595862038 21894 6d833a2c9419043e8712e3c19c077226 ""
+  "Messprotokoll.tex" 1595862670 21894 6d833a2c9419043e8712e3c19c077226 ""
   "Screenshot2/12_1.jpg" 1595859903 304463 1fdb1578cb7283204d284f1e1ed2883f ""
   "Screenshot2/12_1rauschen.jpg" 1595859147 316271 e73c4d024185c5e8458ae3c7d2afc95f ""
   "Screenshot2/14_2_1300ms.jpg" 1595852654 332286 d084a66790d70f84a9b1e4fc2101d4e6 ""
@@ -269,13 +269,13 @@
   "Screenshot2/Autoshimwerte.jpg" 1595847844 4963 d2520861e5039aa148b23281b175bdd8 ""
   "Screenshot2/Konzentrationen_der_Messungen.jpg" 1595847316 31544 ea009dccae4dc49858918260c34d9317 ""
   "Screenshot2/Messreihenfolge.jpg" 1595846393 159742 663ec72ca31da8eafcd95dfe8a6e75bf ""
-  "c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.aux" 1595862057 9 a94a2480d3289e625eea47cd1b285758 ""
-  "c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex" 1595862038 21894 6d833a2c9419043e8712e3c19c077226 ""
+  "c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.aux" 1595862692 9 a94a2480d3289e625eea47cd1b285758 ""
+  "c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex" 1595862670 21894 6d833a2c9419043e8712e3c19c077226 ""
   "header.tex" 1594305072 7676 4830cce3a8f300f5eb0dacd0200fd8b7 ""
   (generated)
-  "Messprotokoll.aux"
   "Messprotokoll.out"
   "c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.log"
-  "Messprotokoll.log"
   "c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.pdf"
+  "Messprotokoll.log"
+  "Messprotokoll.aux"
   "Messprotokoll.pdf"
