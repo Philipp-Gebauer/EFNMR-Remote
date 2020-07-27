@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.18)  27 JUL 2020 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.18)  27 JUL 2020 17:00
 entering extended mode
 **c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex
 (c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex
@@ -1017,30 +1017,6 @@ LaTeX Font Info:    Trying to load font information for T1+lmss on input line 34
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex:46: Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46     {\bf
-              Paramters} &            \\
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
 c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex:48: Package inputenc Error: Unicode character − (U+2212)
 (inputenc)                not set up for use with LaTeX.
 
@@ -1058,146 +1034,282 @@ Overfull \hbox (9.54599pt too wide) in paragraph at lines 44--63
 [] 
  []
 
-
-Overfull \hbox (70.10497pt too wide) in paragraph at lines 69--129
-[][] 
- []
-
+<Screenshot2/Konzentrationen_der_Messungen.jpg, id=6, 102.3825pt x 129.48375pt>
+File: Screenshot2/Konzentrationen_der_Messungen.jpg Graphic file (type jpg)
+<use Screenshot2/Konzentrationen_der_Messungen.jpg>
+Package pdftex.def Info: Screenshot2/Konzentrationen_der_Messungen.jpg  used on input line 68.
+(pdftex.def)             Requested size: 298.75269pt x 377.86015pt.
 [1{C:/Users/simon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
+<Screenshot2/Messreihenfolge.jpg, id=19, 761.09344pt x 423.08063pt>
+File: Screenshot2/Messreihenfolge.jpg Graphic file (type jpg)
+<use Screenshot2/Messreihenfolge.jpg>
+Package pdftex.def Info: Screenshot2/Messreihenfolge.jpg  used on input line 73.
+(pdftex.def)             Requested size: 298.75269pt x 166.07242pt.
+ [2 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/Konzentrationen_der_Messungen.jpg>]
+<Screenshot2/Autoshimwerte.jpg, id=25, 144.54pt x 27.10126pt>
+File: Screenshot2/Autoshimwerte.jpg Graphic file (type jpg)
+<use Screenshot2/Autoshimwerte.jpg>
+Package pdftex.def Info: Screenshot2/Autoshimwerte.jpg  used on input line 78.
+(pdftex.def)             Requested size: 298.75269pt x 56.019pt.
 
-c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex:146: Class scrartcl Error: undefined old font command `\bf'.
+Overfull \hbox (70.10497pt too wide) in paragraph at lines 82--147
+[][] 
+ []
 
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146         {\bf
-                   Paramters} &            \\
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
+<Screenshot2/1_1.jpg, id=26, 967.36406pt x 422.32782pt>
+File: Screenshot2/1_1.jpg Graphic file (type jpg)
+<use Screenshot2/1_1.jpg>
+Package pdftex.def Info: Screenshot2/1_1.jpg  used on input line 150.
+(pdftex.def)             Requested size: 341.43442pt x 149.06067pt.
+[3 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/Messreihenfolge.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/Autoshimwerte.jpg>]
+<Screenshot2/1_2.jpg, id=33, 970.3753pt x 427.5975pt>
+File: Screenshot2/1_2.jpg Graphic file (type jpg)
+<use Screenshot2/1_2.jpg>
+Package pdftex.def Info: Screenshot2/1_2.jpg  used on input line 155.
+(pdftex.def)             Requested size: 341.43442pt x 150.45737pt.
+ [4]
+<Screenshot2/1_3.jpg, id=38, 982.42032pt x 395.97937pt>
+File: Screenshot2/1_3.jpg Graphic file (type jpg)
+<use Screenshot2/1_3.jpg>
+Package pdftex.def Info: Screenshot2/1_3.jpg  used on input line 160.
+(pdftex.def)             Requested size: 341.43442pt x 137.61603pt.
+<Screenshot2/1_4.jpg, id=39, 982.42032pt x 395.97937pt>
+File: Screenshot2/1_4.jpg Graphic file (type jpg)
+<use Screenshot2/1_4.jpg>
+Package pdftex.def Info: Screenshot2/1_4.jpg  used on input line 165.
+(pdftex.def)             Requested size: 341.43442pt x 137.61603pt.
+<Screenshot2/3_2.jpg, id=40, 974.13937pt x 422.32782pt>
+File: Screenshot2/3_2.jpg Graphic file (type jpg)
+<use Screenshot2/3_2.jpg>
+Package pdftex.def Info: Screenshot2/3_2.jpg  used on input line 170.
+(pdftex.def)             Requested size: 341.43442pt x 148.02316pt.
+ [5 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/1_1.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/1_2.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/1_3.jpg>]
+<Screenshot2/3_1.jpg, id=48, 983.17313pt x 431.36156pt>
+File: Screenshot2/3_1.jpg Graphic file (type jpg)
+<use Screenshot2/3_1.jpg>
+Package pdftex.def Info: Screenshot2/3_1.jpg  used on input line 175.
+(pdftex.def)             Requested size: 341.43442pt x 149.80061pt.
+<Screenshot2/4_2.jpg, id=49, 952.30782pt x 386.94562pt>
+File: Screenshot2/4_2.jpg Graphic file (type jpg)
+<use Screenshot2/4_2.jpg>
+Package pdftex.def Info: Screenshot2/4_2.jpg  used on input line 180.
+(pdftex.def)             Requested size: 341.43442pt x 138.73349pt.
+<Screenshot2/4_1.jpg, id=50, 952.30782pt x 386.94562pt>
+File: Screenshot2/4_1.jpg Graphic file (type jpg)
+<use Screenshot2/4_1.jpg>
+Package pdftex.def Info: Screenshot2/4_1.jpg  used on input line 185.
+(pdftex.def)             Requested size: 341.43442pt x 138.73349pt.
+ [6 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/1_4.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/3_2.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/3_1.jpg>]
+<Screenshot2/5_2.jpg, id=58, 590.95781pt x 426.84468pt>
+File: Screenshot2/5_2.jpg Graphic file (type jpg)
+<use Screenshot2/5_2.jpg>
+Package pdftex.def Info: Screenshot2/5_2.jpg  used on input line 190.
+(pdftex.def)             Requested size: 341.43442pt x 246.61917pt.
+<Screenshot2/5_1.jpg, id=59, 971.12813pt x 428.35031pt>
+File: Screenshot2/5_1.jpg Graphic file (type jpg)
+<use Screenshot2/5_1.jpg>
+Package pdftex.def Info: Screenshot2/5_1.jpg  used on input line 195.
+(pdftex.def)             Requested size: 341.43442pt x 150.59807pt.
+ [7 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/4_2.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/4_1.jpg>]
+<Screenshot2/6_2.jpg, id=67, 970.3753pt x 381.67593pt>
+File: Screenshot2/6_2.jpg Graphic file (type jpg)
+<use Screenshot2/6_2.jpg>
+Package pdftex.def Info: Screenshot2/6_2.jpg  used on input line 200.
+(pdftex.def)             Requested size: 341.43442pt x 134.29909pt.
+ [8 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/5_2.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/5_1.jpg>]
+<Screenshot2/7_4.jpg, id=74, 964.35281pt x 413.29407pt>
+File: Screenshot2/7_4.jpg Graphic file (type jpg)
+<use Screenshot2/7_4.jpg>
+Package pdftex.def Info: Screenshot2/7_4.jpg  used on input line 206.
+(pdftex.def)             Requested size: 341.43442pt x 146.32626pt.
+<Screenshot2/7_3.jpg, id=75, 974.89218pt x 429.10312pt>
+File: Screenshot2/7_3.jpg Graphic file (type jpg)
+<use Screenshot2/7_3.jpg>
+Package pdftex.def Info: Screenshot2/7_3.jpg  used on input line 212.
+(pdftex.def)             Requested size: 341.43442pt x 150.28pt.
+<Screenshot2/7_6.jpg, id=76, 962.09438pt x 426.09187pt>
+File: Screenshot2/7_6.jpg Graphic file (type jpg)
+<use Screenshot2/7_6.jpg>
+Package pdftex.def Info: Screenshot2/7_6.jpg  used on input line 218.
+(pdftex.def)             Requested size: 341.43442pt x 151.2149pt.
+ [9 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/6_2.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/7_4.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/7_3.jpg>]
+<Screenshot2/7_5.jpg, id=84, 975.645pt x 428.35031pt>
+File: Screenshot2/7_5.jpg Graphic file (type jpg)
+<use Screenshot2/7_5.jpg>
+Package pdftex.def Info: Screenshot2/7_5.jpg  used on input line 224.
+(pdftex.def)             Requested size: 341.43442pt x 149.90524pt.
 
 
-c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex:148: Package inputenc Error: Unicode character − (U+2212)
+c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex:247: Package inputenc Error: Unicode character − (U+2212)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 ... $x = 10.11$ mA; $y = 20.88$ mA; $z = −
+l.247 ... $x = 10.11$ mA; $y = 20.88$ mA; $z = −
                                                   20.07$ mA \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[2]
-Overfull \hbox (19.67632pt too wide) in paragraph at lines 162--193
+
+Overfull \hbox (82.33505pt too wide) in paragraph at lines 261--292
 [][] 
  []
 
+[10 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/7_6.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/7_5.jpg>]
+<Screenshot2/9_2Messwerte.jpg, id=92, 965.10562pt x 223.58531pt>
+File: Screenshot2/9_2Messwerte.jpg Graphic file (type jpg)
+<use Screenshot2/9_2Messwerte.jpg>
+Package pdftex.def Info: Screenshot2/9_2Messwerte.jpg  used on input line 298.
+(pdftex.def)             Requested size: 341.43442pt x 79.0987pt.
+<Screenshot2/9_2Messergebnisse.jpg, id=93, 565.36218pt x 226.59656pt>
+File: Screenshot2/9_2Messergebnisse.jpg Graphic file (type jpg)
+<use Screenshot2/9_2Messergebnisse.jpg>
+Package pdftex.def Info: Screenshot2/9_2Messergebnisse.jpg  used on input line 303.
+(pdftex.def)             Requested size: 341.43442pt x 136.84756pt.
+<Screenshot2/9_2_Messwerte_echozeithoeher_fovhoeher.jpg, id=94, 973.38657pt x 226.59656pt>
+File: Screenshot2/9_2_Messwerte_echozeithoeher_fovhoeher.jpg Graphic file (type jpg)
+<use Screenshot2/9_2_Messwerte_echozeithoeher_fovhoeher.jpg>
+Package pdftex.def Info: Screenshot2/9_2_Messwerte_echozeithoeher_fovhoeher.jpg  used on input line 309.
+(pdftex.def)             Requested size: 341.43442pt x 79.48285pt.
+ [11 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/9_2Messwerte.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/9_2Messergebnisse.jpg>]
+<Screenshot2/9_2_Messergebnisse_echozeithoeher_fovhoeher.jpg, id=102, 947.79094pt x 423.08063pt>
+File: Screenshot2/9_2_Messergebnisse_echozeithoeher_fovhoeher.jpg Graphic file (type jpg)
+<use Screenshot2/9_2_Messergebnisse_echozeithoeher_fovhoeher.jpg>
+Package pdftex.def Info: Screenshot2/9_2_Messergebnisse_echozeithoeher_fovhoeher.jpg  used on input line 314.
+(pdftex.def)             Requested size: 341.43442pt x 152.4122pt.
+<Screenshot2/9_4Messwerte.jpg, id=103, 944.02687pt x 223.58531pt>
+File: Screenshot2/9_4Messwerte.jpg Graphic file (type jpg)
+<use Screenshot2/9_4Messwerte.jpg>
+Package pdftex.def Info: Screenshot2/9_4Messwerte.jpg  used on input line 319.
+(pdftex.def)             Requested size: 341.43442pt x 80.86592pt.
+<Screenshot2/9_4Messergebnisse.jpg, id=104, 954.56625pt x 427.5975pt>
+File: Screenshot2/9_4Messergebnisse.jpg Graphic file (type jpg)
+<use Screenshot2/9_4Messergebnisse.jpg>
+Package pdftex.def Info: Screenshot2/9_4Messergebnisse.jpg  used on input line 324.
+(pdftex.def)             Requested size: 341.43442pt x 152.94324pt.
+<Screenshot2/9_4_bandbreite.jpg, id=105, 929.72343pt x 420.82219pt>
+File: Screenshot2/9_4_bandbreite.jpg Graphic file (type jpg)
+<use Screenshot2/9_4_bandbreite.jpg>
+Package pdftex.def Info: Screenshot2/9_4_bandbreite.jpg  used on input line 329.
+(pdftex.def)             Requested size: 341.43442pt x 154.53952pt.
+ [12 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/9_2_Messwerte_echozeithoeher_fovhoeher.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/9_2_Messergebnisse_echozeithoeher_fovhoeher.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/9_4Messwerte.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/9_4Messergebnisse.jpg>]
 
-c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex:205: Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.205         {\bf
-                   Paramters} &            \\
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex:207: Package inputenc Error: Unicode character − (U+2212)
+c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex:346: Package inputenc Error: Unicode character − (U+2212)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 ... $x = 10.11$ mA; $y = 20.88$ mA; $z = −
+l.346 ... $x = 10.11$ mA; $y = 20.88$ mA; $z = −
                                                   20.07$ mA \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[3]
-
-c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Messprotokoll.tex:223: Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.223     {\bf
-               Werte} &            \\
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-Overfull \hbox (1.96446pt too wide) in paragraph at lines 221--244
+<Screenshot2/12_1rauschen.jpg, id=114, 968.86969pt x 424.58624pt>
+File: Screenshot2/12_1rauschen.jpg Graphic file (type jpg)
+<use Screenshot2/12_1rauschen.jpg>
+Package pdftex.def Info: Screenshot2/12_1rauschen.jpg  used on input line 363.
+(pdftex.def)             Requested size: 341.43442pt x 149.62456pt.
+<Screenshot2/12_1.jpg, id=115, 986.18437pt x 423.83344pt>
+File: Screenshot2/12_1.jpg Graphic file (type jpg)
+<use Screenshot2/12_1.jpg>
+Package pdftex.def Info: Screenshot2/12_1.jpg  used on input line 369.
+(pdftex.def)             Requested size: 341.43442pt x 146.74005pt.
+[13 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/9_4_bandbreite.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/12_1rauschen.jpg>]
+Overfull \hbox (1.96446pt too wide) in paragraph at lines 374--397
 [][] 
  []
 
 
-Overfull \hbox (27.06706pt too wide) in paragraph at lines 267--305
+Overfull \hbox (600.89742pt too wide) in paragraph at lines 420--460
 [] 
  []
 
-[4]
-<1.png, id=33, 496.85625pt x 258.9675pt>
+<Screenshot2/14_2ersteMessung.jpg, id=124, 962.09438pt x 428.35031pt>
+File: Screenshot2/14_2ersteMessung.jpg Graphic file (type jpg)
+<use Screenshot2/14_2ersteMessung.jpg>
+Package pdftex.def Info: Screenshot2/14_2ersteMessung.jpg  used on input line 465.
+(pdftex.def)             Requested size: 341.43442pt x 152.0164pt.
+[14 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/12_1.jpg>]
+<Screenshot2/14_2_600ms.jpg, id=130, 985.43156pt x 429.85594pt>
+File: Screenshot2/14_2_600ms.jpg Graphic file (type jpg)
+<use Screenshot2/14_2_600ms.jpg>
+Package pdftex.def Info: Screenshot2/14_2_600ms.jpg  used on input line 470.
+(pdftex.def)             Requested size: 341.43442pt x 148.93668pt.
+ [15 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/14_2ersteMessung.jpg>]
+<Screenshot2/14_2_1300ms.jpg, id=140, 983.17313pt x 427.5975pt>
+File: Screenshot2/14_2_1300ms.jpg Graphic file (type jpg)
+<use Screenshot2/14_2_1300ms.jpg>
+Package pdftex.def Info: Screenshot2/14_2_1300ms.jpg  used on input line 475.
+(pdftex.def)             Requested size: 341.43442pt x 148.49345pt.
+<Screenshot2/14_2_2100ms.jpg, id=141, 963.6pt x 426.09187pt>
+File: Screenshot2/14_2_2100ms.jpg Graphic file (type jpg)
+<use Screenshot2/14_2_2100ms.jpg>
+Package pdftex.def Info: Screenshot2/14_2_2100ms.jpg  used on input line 481.
+(pdftex.def)             Requested size: 341.43442pt x 150.97433pt.
+<Screenshot2/14_2_2800ms.jpg, id=142, 963.6pt x 429.85594pt>
+File: Screenshot2/14_2_2800ms.jpg Graphic file (type jpg)
+<use Screenshot2/14_2_2800ms.jpg>
+Package pdftex.def Info: Screenshot2/14_2_2800ms.jpg  used on input line 487.
+(pdftex.def)             Requested size: 341.43442pt x 152.30804pt.
+ [16 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/14_2_600ms.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/14_2_1300ms.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/14_2_2100ms.jpg>]
+File: Screenshot2/14_2_2800ms.jpg Graphic file (type jpg)
+<use Screenshot2/14_2_2800ms.jpg>
+Package pdftex.def Info: Screenshot2/14_2_2800ms.jpg  used on input line 493.
+(pdftex.def)             Requested size: 341.43442pt x 152.30804pt.
+<Screenshot2/15_3.jpg, id=150, 954.56625pt x 422.32782pt>
+File: Screenshot2/15_3.jpg Graphic file (type jpg)
+<use Screenshot2/15_3.jpg>
+Package pdftex.def Info: Screenshot2/15_3.jpg  used on input line 498.
+(pdftex.def)             Requested size: 341.43442pt x 151.05838pt.
+<Screenshot2/15_4.jpg, id=151, 964.35281pt x 430.60875pt>
+File: Screenshot2/15_4.jpg Graphic file (type jpg)
+<use Screenshot2/15_4.jpg>
+Package pdftex.def Info: Screenshot2/15_4.jpg  used on input line 503.
+(pdftex.def)             Requested size: 341.43442pt x 152.45651pt.
+ [17 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/14_2_2800ms.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/15_3.jpg>]
+<Screenshot2/15_5.jpg, id=159, 984.67876pt x 427.5975pt>
+File: Screenshot2/15_5.jpg Graphic file (type jpg)
+<use Screenshot2/15_5.jpg>
+Package pdftex.def Info: Screenshot2/15_5.jpg  used on input line 509.
+(pdftex.def)             Requested size: 341.43442pt x 148.26509pt.
+<Screenshot2/15_6.jpg, id=160, 965.10562pt x 437.38406pt>
+File: Screenshot2/15_6.jpg Graphic file (type jpg)
+<use Screenshot2/15_6.jpg>
+Package pdftex.def Info: Screenshot2/15_6.jpg  used on input line 514.
+(pdftex.def)             Requested size: 341.43442pt x 154.73517pt.
+ [18 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/15_4.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/15_5.jpg> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/15_6.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 534--537
+
+ []
+
+<Screenshot2/16_2.jpg, id=168, 978.65625pt x 428.35031pt>
+File: Screenshot2/16_2.jpg Graphic file (type jpg)
+<use Screenshot2/16_2.jpg>
+Package pdftex.def Info: Screenshot2/16_2.jpg  used on input line 540.
+(pdftex.def)             Requested size: 384.10966pt x 168.12132pt.
+<1.png, id=169, 496.85625pt x 258.9675pt>
 File: 1.png Graphic file (type png)
 <use 1.png>
-Package pdftex.def Info: 1.png  used on input line 321.
+Package pdftex.def Info: 1.png  used on input line 546.
 (pdftex.def)             Requested size: 426.79141pt x 222.45084pt.
- [5]
-<2.png, id=42, 542.40141pt x 307.52391pt>
+[19 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/Screenshot2/16_2.jpg>]
+<2.png, id=178, 542.40141pt x 307.52391pt>
 File: 2.png Graphic file (type png)
 <use 2.png>
-Package pdftex.def Info: 2.png  used on input line 327.
+Package pdftex.def Info: 2.png  used on input line 552.
 (pdftex.def)             Requested size: 426.79141pt x 241.98396pt.
- [6 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/1.png> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/2.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
+ [20 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/1.png> <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/Messprotokoll/2.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
  (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Messprotokoll\Messprotokoll.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 341.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 566.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
 
 
 Package rerunfilecheck Warning: File `Messprotokoll.out' has changed.
@@ -1210,20 +1322,20 @@ Package rerunfilecheck Info: Checksums for `Messprotokoll.out':
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 566.
  ) 
 Here is how much of TeX's memory you used:
- 29327 strings out of 480790
- 615277 string characters out of 2895393
+ 29603 strings out of 480790
+ 621938 string characters out of 2895393
  1013009 words of memory out of 3000000
- 44752 multiletter control sequences out of 15000+200000
+ 44937 multiletter control sequences out of 15000+200000
  573582 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,19n,83p,10191b,747s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Messprotokoll\Messprotokoll.pdf (6 pages, 1131921 bytes).
+ 67i,20n,83p,10191b,772s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Messprotokoll\Messprotokoll.pdf (20 pages, 12518865 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
