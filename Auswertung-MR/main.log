@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  28 JUL 2020 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  28 JUL 2020 16:37
 entering extended mode
 **"c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.tex"
 ("c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.tex"
@@ -1338,7 +1338,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout6 = `main.toc'.
 
  [2] ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel/einleitung.tex") ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel/aufbau.tex"
-<Aufbau.png, id=54, 1099.10625pt x 342.5297pt>
+<Aufbau.png, id=56, 1099.10625pt x 342.5297pt>
 File: Aufbau.png Graphic file (type png)
 <use Aufbau.png>
 Package pdftex.def Info: Aufbau.png  used on input line 8.
@@ -1369,7 +1369,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/noise-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/noise-eps-converted-to.pdf, id=69, 361.35pt x 252.945pt>
+<plots/noise-eps-converted-to.pdf, id=71, 361.35pt x 252.945pt>
 File: plots/noise-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/noise-eps-converted-to.pdf>
 Package pdftex.def Info: plots/noise-eps-converted-to.pdf  used on input line 115.
@@ -1389,7 +1389,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/MonitorNoise138-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/MonitorNoise138-eps-converted-to.pdf, id=79, 361.35pt x 252.945pt>
+<plots/MonitorNoise138-eps-converted-to.pdf, id=81, 361.35pt x 252.945pt>
 File: plots/MonitorNoise138-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/MonitorNoise138-eps-converted-to.pdf>
 Package pdftex.def Info: plots/MonitorNoise138-eps-converted-to.pdf  used on input line 115.
@@ -1409,7 +1409,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/PulsandcollectValesignal-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/PulsandcollectValesignal-eps-converted-to.pdf, id=89, 361.35pt x 252.945pt>
+<plots/PulsandcollectValesignal-eps-converted-to.pdf, id=91, 361.35pt x 252.945pt>
 File: plots/PulsandcollectValesignal-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/PulsandcollectValesignal-eps-converted-to.pdf>
 Package pdftex.def Info: plots/PulsandcollectValesignal-eps-converted-to.pdf  used on input line 115.
@@ -1429,7 +1429,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/Coilanalyse-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Coilanalyse-eps-converted-to.pdf, id=103, 361.35pt x 252.945pt>
+<plots/Coilanalyse-eps-converted-to.pdf, id=105, 361.35pt x 252.945pt>
 File: plots/Coilanalyse-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Coilanalyse-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Coilanalyse-eps-converted-to.pdf  used on input line 113.
@@ -1449,7 +1449,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/B1dauer-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/B1dauer-eps-converted-to.pdf, id=111, 361.35pt x 252.945pt>
+<plots/B1dauer-eps-converted-to.pdf, id=113, 361.35pt x 252.945pt>
 File: plots/B1dauer-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/B1dauer-eps-converted-to.pdf>
 Package pdftex.def Info: plots/B1dauer-eps-converted-to.pdf  used on input line 111.
@@ -1469,7 +1469,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf, id=120, 361.35pt x 252.945pt>
+<plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf, id=122, 361.35pt x 252.945pt>
 File: plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf>
 Package pdftex.def Info: plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf  used on input line 116.
@@ -1489,7 +1489,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Pulsandcollect138-eps-converted-to.pdf, id=134, 361.35pt x 252.945pt>
+<plots/Pulsandcollect138-eps-converted-to.pdf, id=136, 361.35pt x 252.945pt>
 File: plots/Pulsandcollect138-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Pulsandcollect138-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Pulsandcollect138-eps-converted-to.pdf  used on input line 116.
@@ -1509,13 +1509,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf, id=149, 361.35pt x 252.945pt>
+<plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf, id=151, 361.35pt x 252.945pt>
 File: plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf  used on input line 122.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 ) [10 <c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138-eps-converted-to.pdf>]) ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel/long.tex" [11]
-<BildT1.png, id=169, 782.17218pt x 495.35063pt>
+<BildT1.png, id=171, 782.17218pt x 495.35063pt>
 File: BildT1.png Graphic file (type png)
 <use BildT1.png>
 Package pdftex.def Info: BildT1.png  used on input line 8.
@@ -1535,7 +1535,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/T1Polarisationsfeldfeld-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T1Polarisationsfeldfeld-eps-converted-to.pdf, id=181, 361.35pt x 252.945pt>
+<plots/T1Polarisationsfeldfeld-eps-converted-to.pdf, id=183, 361.35pt x 252.945pt>
 File: plots/T1Polarisationsfeldfeld-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T1Polarisationsfeldfeld-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T1Polarisationsfeldfeld-eps-converted-to.pdf  used on input line 115.
@@ -1555,7 +1555,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/T1Erdmagnetfeld-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T1Erdmagnetfeld-eps-converted-to.pdf, id=192, 361.35pt x 252.945pt>
+<plots/T1Erdmagnetfeld-eps-converted-to.pdf, id=194, 361.35pt x 252.945pt>
 File: plots/T1Erdmagnetfeld-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T1Erdmagnetfeld-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T1Erdmagnetfeld-eps-converted-to.pdf  used on input line 115.
@@ -1575,7 +1575,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/Echobeispeilsignal-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Echobeispeilsignal-eps-converted-to.pdf, id=203, 361.35pt x 252.945pt>
+<plots/Echobeispeilsignal-eps-converted-to.pdf, id=205, 361.35pt x 252.945pt>
 File: plots/Echobeispeilsignal-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Echobeispeilsignal-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Echobeispeilsignal-eps-converted-to.pdf  used on input line 113.
@@ -1595,7 +1595,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf, id=216, 361.35pt x 252.945pt>
+<plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf, id=218, 361.35pt x 252.945pt>
 File: plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf>
 Package pdftex.def Info: plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf  used on input line 117.
@@ -1615,7 +1615,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/180pulsephasedegree-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/180pulsephasedegree-eps-converted-to.pdf, id=234, 361.35pt x 252.945pt>
+<plots/180pulsephasedegree-eps-converted-to.pdf, id=236, 361.35pt x 252.945pt>
 File: plots/180pulsephasedegree-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/180pulsephasedegree-eps-converted-to.pdf>
 Package pdftex.def Info: plots/180pulsephasedegree-eps-converted-to.pdf  used on input line 115.
@@ -1635,7 +1635,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/T2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T2-eps-converted-to.pdf, id=241, 361.35pt x 252.945pt>
+<plots/T2-eps-converted-to.pdf, id=243, 361.35pt x 252.945pt>
 File: plots/T2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T2-eps-converted-to.pdf  used on input line 114.
@@ -1655,7 +1655,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/CPMG045shimming-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/CPMG045shimming-eps-converted-to.pdf, id=252, 361.35pt x 252.945pt>
+<plots/CPMG045shimming-eps-converted-to.pdf, id=254, 361.35pt x 252.945pt>
 File: plots/CPMG045shimming-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/CPMG045shimming-eps-converted-to.pdf>
 Package pdftex.def Info: plots/CPMG045shimming-eps-converted-to.pdf  used on input line 112.
@@ -1675,7 +1675,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/Polarisationszeit-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Polarisationszeit-eps-converted-to.pdf, id=261, 361.35pt x 252.945pt>
+<plots/Polarisationszeit-eps-converted-to.pdf, id=263, 361.35pt x 252.945pt>
 File: plots/Polarisationszeit-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Polarisationszeit-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Polarisationszeit-eps-converted-to.pdf  used on input line 117.
@@ -1695,7 +1695,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/T1Wasser-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T1Wasser-eps-converted-to.pdf, id=268, 361.35pt x 252.945pt>
+<plots/T1Wasser-eps-converted-to.pdf, id=270, 361.35pt x 252.945pt>
 File: plots/T1Wasser-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T1Wasser-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T1Wasser-eps-converted-to.pdf  used on input line 115.
@@ -1715,7 +1715,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/T2Wasser-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T2Wasser-eps-converted-to.pdf, id=276, 361.35pt x 252.945pt>
+<plots/T2Wasser-eps-converted-to.pdf, id=278, 361.35pt x 252.945pt>
 File: plots/T2Wasser-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T2Wasser-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T2Wasser-eps-converted-to.pdf  used on input line 113.
@@ -1735,7 +1735,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/KupferalleT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/KupferalleT1-eps-converted-to.pdf, id=285, 361.35pt x 252.945pt>
+<plots/KupferalleT1-eps-converted-to.pdf, id=287, 361.35pt x 252.945pt>
 File: plots/KupferalleT1-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/KupferalleT1-eps-converted-to.pdf>
 Package pdftex.def Info: plots/KupferalleT1-eps-converted-to.pdf  used on input line 119.
@@ -1755,7 +1755,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/KupferalleT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/KupferalleT2-eps-converted-to.pdf, id=286, 361.35pt x 252.945pt>
+<plots/KupferalleT2-eps-converted-to.pdf, id=288, 361.35pt x 252.945pt>
 File: plots/KupferalleT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/KupferalleT2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/KupferalleT2-eps-converted-to.pdf  used on input line 119.
@@ -1775,7 +1775,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/ManganalleT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/ManganalleT1-eps-converted-to.pdf, id=287, 361.35pt x 252.945pt>
+<plots/ManganalleT1-eps-converted-to.pdf, id=289, 361.35pt x 252.945pt>
 File: plots/ManganalleT1-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/ManganalleT1-eps-converted-to.pdf>
 Package pdftex.def Info: plots/ManganalleT1-eps-converted-to.pdf  used on input line 119.
@@ -1795,7 +1795,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/ManganalleT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/ManganalleT2-eps-converted-to.pdf, id=298, 361.35pt x 252.945pt>
+<plots/ManganalleT2-eps-converted-to.pdf, id=300, 361.35pt x 252.945pt>
 File: plots/ManganalleT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/ManganalleT2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/ManganalleT2-eps-converted-to.pdf  used on input line 119.
@@ -1815,7 +1815,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/1DMRI-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/1DMRI-eps-converted-to.pdf, id=309, 361.35pt x 252.945pt>
+<plots/1DMRI-eps-converted-to.pdf, id=311, 361.35pt x 252.945pt>
 File: plots/1DMRI-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/1DMRI-eps-converted-to.pdf>
 Package pdftex.def Info: plots/1DMRI-eps-converted-to.pdf  used on input line 114.
@@ -1835,12 +1835,32 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/1DMRIy-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/1DMRIy-eps-converted-to.pdf, id=317, 361.35pt x 252.945pt>
+<plots/1DMRIy-eps-converted-to.pdf, id=319, 361.35pt x 252.945pt>
 File: plots/1DMRIy-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/1DMRIy-eps-converted-to.pdf>
 Package pdftex.def Info: plots/1DMRIy-eps-converted-to.pdf  used on input line 115.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-)) ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel/Diffusion.tex" [27 <c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/1DMRI-eps-converted-to.pdf>] ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots/T2Wasser.tex" ("C:\Program Files\MiKTeX 2.9\tex/latex/base\cp1252.def"
+)) ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel/2DMRI.tex" [27 <c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/1DMRI-eps-converted-to.pdf>] ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots/Tunensignalpulsandcollect.tex" ("C:\Program Files\MiKTeX 2.9\tex/latex/base\cp1252.def"
+File: cp1252.def 2018/08/11 v1.3c Input encoding file
+)
+Package epstopdf Info: Source file: <plots/Tunensignalpulsandcollect.eps>
+(epstopdf)                    date: 2020-07-28 16:35:46
+(epstopdf)                    size: 18514 bytes
+(epstopdf)             Output file: <plots/Tunensignalpulsandcollect-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-28 16:37:41
+(epstopdf)                    size: 3097 bytes
+(epstopdf)             Command: <epstopdf --outfile=plots/Tunensignalpulsandcollect-eps-converted-to.pdf plots/Tunensignalpulsandcollect.eps>
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/Tunensignalpulsandcollect-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<plots/Tunensignalpulsandcollect-eps-converted-to.pdf, id=327, 361.35pt x 252.945pt>
+File: plots/Tunensignalpulsandcollect-eps-converted-to.pdf Graphic file (type pdf)
+<use plots/Tunensignalpulsandcollect-eps-converted-to.pdf>
+Package pdftex.def Info: plots/Tunensignalpulsandcollect-eps-converted-to.pdf  used on input line 113.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+)) ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel/Diffusion.tex" [28 <c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/1DMRIy-eps-converted-to.pdf>] ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots/T2Wasser.tex" ("C:\Program Files\MiKTeX 2.9\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/T2Wasser.eps>
@@ -1856,7 +1876,7 @@ File: plots/T2Wasser-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T2Wasser-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T2Wasser-eps-converted-to.pdf  used on input line 113.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-)) [28 <c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/1DMRIy-eps-converted-to.pdf>] [29] ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel/fazit.tex") [30] ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel/tables.tex" ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.bbl"
+)) [29 <c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/Tunensignalpulsandcollect-eps-converted-to.pdf>] [30] ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel/fazit.tex") [31] ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel/tables.tex" ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.bbl"
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1876,36 +1896,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--39
 \T1/lmtt/m/n/10.95 utep . edu / cgi / viewcontent . cgi ? article = 3739 & context = open _ etd$[]\T1/lmr/m/n/10.95 , loo-ked
  []
 
-) [31] ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.lof")
+) [32] ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.lof")
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [32])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
+ [33])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
  ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 38099 strings out of 492945
- 780170 string characters out of 3135517
+ 38117 strings out of 492945
+ 781115 string characters out of 3135517
  946599 words of memory out of 3000000
- 41155 multiletter control sequences out of 15000+200000
+ 41162 multiletter control sequences out of 15000+200000
  630476 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,20n,76p,9191b,1425s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.pdf" (34 pages, 2781192 bytes).
+Output written on "c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.pdf" (35 pages, 2784540 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
- 255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 527 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
