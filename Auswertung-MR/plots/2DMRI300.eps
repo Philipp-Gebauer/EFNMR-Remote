@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
-%%Title: plots/Tunensignalpulsandcollect.tex
+%%Title: plots/2DMRI300.tex
 %%Creator: gnuplot 5.2 patchlevel 6
-%%CreationDate: Tue Jul 28 19:25:39 2020
+%%CreationDate: Tue Jul 28 19:18:37 2020
 %%DocumentFonts: 
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -436,12 +436,12 @@ systemdict /pdfmark known not {
   userdict /pdfmark systemdict /cleartomark get put
 } if
 SDict begin [
-  /Title (plots/Tunensignalpulsandcollect.tex)
+  /Title (plots/2DMRI300.tex)
   /Subject (gnuplot plot)
   /Creator (gnuplot 5.2 patchlevel 6)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Tue Jul 28 19:25:39 2020)
+  /CreationDate (Tue Jul 28 19:18:37 2020)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -481,211 +481,492 @@ doclip
 0.050 0.050 scale
 0 setgray
 newpath
+gsave % colour palette begin
+/maxcolors 0 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .125 .25 .375 .5 .625 .75 .875 1 ] def
+/RedA [0 0 0 0 .5 1 1 1 .5 ] def
+/GreenA [0 0 .5 1 1 1 .5 0 0 ] def
+/BlueA [.5 1 1 1 .5 0 0 0 0 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
 1.000 UL
 LTb
 LCb setrgbcolor
 [] 0 setdash
-814 704 M
-63 0 V
-5926 0 R
--63 0 V
-stroke
-LTb
-814 1527 M
-63 0 V
-5926 0 R
--63 0 V
-stroke
-814 2350 M
-63 0 V
-5926 0 R
--63 0 V
-stroke
-814 3173 M
-63 0 V
-5926 0 R
--63 0 V
-stroke
-814 3996 M
-63 0 V
-5926 0 R
--63 0 V
-stroke
-814 4819 M
-63 0 V
-5926 0 R
--63 0 V
-stroke
-814 704 M
-0 63 V
-0 4052 R
-0 -63 V
-stroke
-2012 704 M
-0 63 V
-0 4052 R
-0 -63 V
-stroke
-3210 704 M
-0 63 V
-0 4052 R
-0 -63 V
-stroke
-4407 704 M
-0 63 V
-0 4052 R
-0 -63 V
-stroke
-5605 704 M
-0 63 V
-0 4052 R
-0 -63 V
-stroke
-6803 704 M
-0 63 V
-0 4052 R
-0 -63 V
-stroke
-1.000 UL
-LTb
-814 4819 N
-814 704 L
-5989 0 V
-0 4115 V
--5989 0 V
-Z stroke
 1.000 UP
-1.000 UL
-LTb
 % Begin plot #1
 1.000 UL
-LTb
-0.90 0.12 0.06 C
+LTw
+LCw setrgbcolor
+[] 0 setdash
 LCb setrgbcolor
 1.000 UL
-LTb
-0.90 0.12 0.06 C
-5948 4646 M
-591 0 V
-814 787 M
-60 -32 V
-60 -9 V
-60 -11 V
-60 29 V
-59 -14 V
-60 14 V
-60 6 V
-60 -3 V
-60 -4 V
-60 -41 V
-60 58 V
-60 -16 V
-60 8 V
-59 18 V
-60 -35 V
-60 5 V
-60 54 V
-60 -24 V
-60 -13 V
-60 -3 V
-60 -5 V
-60 31 V
-59 8 V
-60 11 V
-60 -21 V
-60 39 V
-60 -13 V
-60 9 V
-60 21 V
-60 38 V
-60 16 V
-59 110 V
-60 196 V
-60 407 V
-60 -550 V
-60 -170 V
-60 25 V
-60 119 V
-60 342 V
-60 766 V
-59 -582 V
-60 -488 V
-60 -121 V
-60 -73 V
-60 26 V
-60 408 V
-60 -113 V
-60 -254 V
-60 -118 V
-60 -18 V
-59 17 V
-60 -18 V
-60 -27 V
-60 1 V
-60 -8 V
-60 2 V
-60 -7 V
-60 -14 V
-60 -12 V
-59 3 V
-60 -17 V
-60 6 V
-60 -6 V
-60 14 V
-60 7 V
-60 -33 V
-60 33 V
-60 -14 V
-59 -2 V
-60 -6 V
-60 35 V
-60 -43 V
-60 -4 V
-60 30 V
-60 -19 V
-60 1 V
-60 -21 V
-59 11 V
-60 8 V
-60 -22 V
-60 25 V
-60 -22 V
-60 10 V
-60 -6 V
-60 5 V
-60 -10 V
-59 16 V
-60 14 V
-60 4 V
-60 -24 V
-60 -17 V
-60 7 V
-60 29 V
-60 -17 V
-60 -3 V
-59 -12 V
-60 15 V
-60 12 V
-60 -1 V
-60 -10 V
-stroke
+LTw
+LCw setrgbcolor
+[] 0 setdash
+LCb setrgbcolor
+%pm3d_map_begin
+.0894 g 5642 994 N 0 -212 334 0 0 212 h
+.1215 g 5309 994 N 0 -212 333 0 0 212 h
+.0796 g 4976 994 N 0 -212 333 0 0 212 h
+.0509 g 4643 994 N 0 -212 333 0 0 212 h
+.0896 g 4310 994 N 0 -212 333 0 0 212 h
+.0949 g 3977 994 N 0 -212 333 0 0 212 h
+.0756 g 3644 994 N 0 -212 333 0 0 212 h
+.0991 g 3312 994 N 0 -212 332 0 0 212 h
+.1026 g 2979 994 N 0 -212 333 0 0 212 h
+.0694 g 2646 994 N 0 -212 333 0 0 212 h
+.0467 g 2313 994 N 0 -212 333 0 0 212 h
+.0459 g 1979 994 N 0 -212 334 0 0 212 h
+.0439 g 1646 994 N 0 -212 333 0 0 212 h
+.0383 g 1313 994 N 0 -212 333 0 0 212 h
+.0391 g 980 994 N 0 -212 333 0 0 212 h
+.1199 g 5642 1206 N 0 -211 334 0 0 211 h
+.1227 g 5309 1206 N 0 -211 333 0 0 211 h
+.0588 g 4976 1206 N 0 -211 333 0 0 211 h
+.0436 g 4643 1206 N 0 -211 333 0 0 211 h
+.075 g 4310 1206 N 0 -211 333 0 0 211 h
+.0695 g 3977 1206 N 0 -211 333 0 0 211 h
+.0561 g 3644 1206 N 0 -211 333 0 0 211 h
+.073 g 3312 1206 N 0 -211 332 0 0 211 h
+.0963 g 2979 1206 N 0 -211 333 0 0 211 h
+.078 g 2646 1206 N 0 -211 333 0 0 211 h
+.0587 g 2313 1206 N 0 -211 333 0 0 211 h
+.0477 g 1979 1206 N 0 -211 334 0 0 211 h
+.048 g 1646 1206 N 0 -211 333 0 0 211 h
+.0654 g 1313 1206 N 0 -211 333 0 0 211 h
+.0675 g 980 1206 N 0 -211 333 0 0 211 h
+.1071 g 5642 1417 N 0 -212 334 0 0 212 h
+.1081 g 5309 1417 N 0 -212 333 0 0 212 h
+.0621 g 4976 1417 N 0 -212 333 0 0 212 h
+.0877 g 4643 1417 N 0 -212 333 0 0 212 h
+.1297 g 4310 1417 N 0 -212 333 0 0 212 h
+.1094 g 3977 1417 N 0 -212 333 0 0 212 h
+.0638 g 3644 1417 N 0 -212 333 0 0 212 h
+.0524 g 3312 1417 N 0 -212 332 0 0 212 h
+.0791 g 2979 1417 N 0 -212 333 0 0 212 h
+.0749 g 2646 1417 N 0 -212 333 0 0 212 h
+.085 g 2313 1417 N 0 -212 333 0 0 212 h
+.0705 g 1979 1417 N 0 -212 334 0 0 212 h
+.0455 g 1646 1417 N 0 -212 333 0 0 212 h
+.0643 g 1313 1417 N 0 -212 333 0 0 212 h
+.0802 g 980 1417 N 0 -212 333 0 0 212 h
+.107 g 5642 1629 N 0 -211 334 0 0 211 h
+.1023 g 5309 1629 N 0 -211 333 0 0 211 h
+.0904 g 4976 1629 N 0 -211 333 0 0 211 h
+.1319 g 4643 1629 N 0 -211 333 0 0 211 h
+.1843 g 4310 1629 N 0 -211 333 0 0 211 h
+.1514 g 3977 1629 N 0 -211 333 0 0 211 h
+.0791 g 3644 1629 N 0 -211 333 0 0 211 h
+.0555 g 3312 1629 N 0 -211 332 0 0 211 h
+.0792 g 2979 1629 N 0 -211 333 0 0 211 h
+.0855 g 2646 1629 N 0 -211 333 0 0 211 h
+.0909 g 2313 1629 N 0 -211 333 0 0 211 h
+.0791 g 1979 1629 N 0 -211 334 0 0 211 h
+.067 g 1646 1629 N 0 -211 333 0 0 211 h
+.061 g 1313 1629 N 0 -211 333 0 0 211 h
+.0617 g 980 1629 N 0 -211 333 0 0 211 h
+.1261 g 5642 1840 N 0 -212 334 0 0 212 h
+.0851 g 5309 1840 N 0 -212 333 0 0 212 h
+.0732 g 4976 1840 N 0 -212 333 0 0 212 h
+.1142 g 4643 1840 N 0 -212 333 0 0 212 h
+.1497 g 4310 1840 N 0 -212 333 0 0 212 h
+.1299 g 3977 1840 N 0 -212 333 0 0 212 h
+.0987 g 3644 1840 N 0 -212 333 0 0 212 h
+.0833 g 3312 1840 N 0 -212 332 0 0 212 h
+.0877 g 2979 1840 N 0 -212 333 0 0 212 h
+.0871 g 2646 1840 N 0 -212 333 0 0 212 h
+.0628 g 2313 1840 N 0 -212 333 0 0 212 h
+.0585 g 1979 1840 N 0 -212 334 0 0 212 h
+.0885 g 1646 1840 N 0 -212 333 0 0 212 h
+.0742 g 1313 1840 N 0 -212 333 0 0 212 h
+.0414 g 980 1840 N 0 -212 333 0 0 212 h
+.1038 g 5642 2052 N 0 -212 334 0 0 212 h
+.0548 g 5309 2052 N 0 -212 333 0 0 212 h
+.0773 g 4976 2052 N 0 -212 333 0 0 212 h
+.2151 g 4643 2052 N 0 -212 333 0 0 212 h
+.3262 g 4310 2052 N 0 -212 333 0 0 212 h
+.2874 g 3977 2052 N 0 -212 333 0 0 212 h
+.182 g 3644 2052 N 0 -212 333 0 0 212 h
+.1089 g 3312 2052 N 0 -212 332 0 0 212 h
+.0951 g 2979 2052 N 0 -212 333 0 0 212 h
+.1064 g 2646 2052 N 0 -212 333 0 0 212 h
+.1012 g 2313 2052 N 0 -212 333 0 0 212 h
+.0776 g 1979 2052 N 0 -212 334 0 0 212 h
+.091 g 1646 2052 N 0 -212 333 0 0 212 h
+.1028 g 1313 2052 N 0 -212 333 0 0 212 h
+.0532 g 980 2052 N 0 -212 333 0 0 212 h
+.0789 g 5642 2264 N 0 -211 334 0 0 211 h
+.0362 g 5309 2264 N 0 -211 333 0 0 211 h
+.1242 g 4976 2264 N 0 -211 333 0 0 211 h
+.4269 g 4643 2264 N 0 -211 333 0 0 211 h
+.7026 g 4310 2264 N 0 -211 333 0 0 211 h
+.6442 g 3977 2264 N 0 -211 333 0 0 211 h
+.3075 g 3644 2264 N 0 -211 333 0 0 211 h
+.0773 g 3312 2264 N 0 -211 332 0 0 211 h
+.1555 g 2979 2264 N 0 -211 333 0 0 211 h
+.3055 g 2646 2264 N 0 -211 333 0 0 211 h
+.3021 g 2313 2264 N 0 -211 333 0 0 211 h
+.1421 g 1979 2264 N 0 -211 334 0 0 211 h
+.0803 g 1646 2264 N 0 -211 333 0 0 211 h
+.1139 g 1313 2264 N 0 -211 333 0 0 211 h
+.0603 g 980 2264 N 0 -211 333 0 0 211 h
+.0743 g 5642 2475 N 0 -211 334 0 0 211 h
+.0532 g 5309 2475 N 0 -211 333 0 0 211 h
+.1639 g 4976 2475 N 0 -211 333 0 0 211 h
+.5331 g 4643 2475 N 0 -211 333 0 0 211 h
+.8714 g 4310 2475 N 0 -211 333 0 0 211 h
+.8025 g 3977 2475 N 0 -211 333 0 0 211 h
+.3526 g 3644 2475 N 0 -211 333 0 0 211 h
+.0969 g 3312 2475 N 0 -211 332 0 0 211 h
+.3333 g 2979 2475 N 0 -211 333 0 0 211 h
+.6028 g 2646 2475 N 0 -211 333 0 0 211 h
+.5342 g 2313 2475 N 0 -211 333 0 0 211 h
+.2281 g 1979 2475 N 0 -211 334 0 0 211 h
+.07 g 1646 2475 N 0 -211 333 0 0 211 h
+.0786 g 1313 2475 N 0 -211 333 0 0 211 h
+.0486 g 980 2475 N 0 -211 333 0 0 211 h
+.0757 g 5642 2686 N 0 -212 334 0 0 212 h
+.0685 g 5309 2686 N 0 -212 333 0 0 212 h
+.1547 g 4976 2686 N 0 -212 333 0 0 212 h
+.455 g 4643 2686 N 0 -212 333 0 0 212 h
+.7055 g 4310 2686 N 0 -212 333 0 0 212 h
+.6153 g 3977 2686 N 0 -212 333 0 0 212 h
+.2605 g 3644 2686 N 0 -212 333 0 0 212 h
+.1417 g 3312 2686 N 0 -212 332 0 0 212 h
+.4589 g 2979 2686 N 0 -212 333 0 0 212 h
+.7233 g 2646 2686 N 0 -212 333 0 0 212 h
+.6023 g 2313 2686 N 0 -212 333 0 0 212 h
+.2628 g 1979 2686 N 0 -212 334 0 0 212 h
+.0607 g 1646 2686 N 0 -212 333 0 0 212 h
+.0351 g 1313 2686 N 0 -212 333 0 0 212 h
+.0329 g 980 2686 N 0 -212 333 0 0 212 h
+.1064 g 5642 2898 N 0 -211 334 0 0 211 h
+.0674 g 5309 2898 N 0 -211 333 0 0 211 h
+.0984 g 4976 2898 N 0 -211 333 0 0 211 h
+.2544 g 4643 2898 N 0 -211 333 0 0 211 h
+.3669 g 4310 2898 N 0 -211 333 0 0 211 h
+.2914 g 3977 2898 N 0 -211 333 0 0 211 h
+.1324 g 3644 2898 N 0 -211 333 0 0 211 h
+.1495 g 3312 2898 N 0 -211 332 0 0 211 h
+.3903 g 2979 2898 N 0 -211 333 0 0 211 h
+.5752 g 2646 2898 N 0 -211 333 0 0 211 h
+.4847 g 2313 2898 N 0 -211 333 0 0 211 h
+.2048 g 1979 2898 N 0 -211 334 0 0 211 h
+.0494 g 1646 2898 N 0 -211 333 0 0 211 h
+.0342 g 1313 2898 N 0 -211 333 0 0 211 h
+.0355 g 980 2898 N 0 -211 333 0 0 211 h
+.1242 g 5642 3109 N 0 -212 334 0 0 212 h
+.0696 g 5309 3109 N 0 -212 333 0 0 212 h
+.0635 g 4976 3109 N 0 -212 333 0 0 212 h
+.1169 g 4643 3109 N 0 -212 333 0 0 212 h
+.1676 g 4310 3109 N 0 -212 333 0 0 212 h
+.1444 g 3977 3109 N 0 -212 333 0 0 212 h
+.113 g 3644 3109 N 0 -212 333 0 0 212 h
+.1637 g 3312 3109 N 0 -212 332 0 0 212 h
+.2511 g 2979 3109 N 0 -212 333 0 0 212 h
+.3014 g 2646 3109 N 0 -212 333 0 0 212 h
+.26 g 2313 3109 N 0 -212 333 0 0 212 h
+.1206 g 1979 3109 N 0 -212 334 0 0 212 h
+.0486 g 1646 3109 N 0 -212 333 0 0 212 h
+.0412 g 1313 3109 N 0 -212 333 0 0 212 h
+.0367 g 980 3109 N 0 -212 333 0 0 212 h
+.0949 g 5642 3321 N 0 -211 334 0 0 211 h
+.061 g 5309 3321 N 0 -211 333 0 0 211 h
+.0412 g 4976 3321 N 0 -211 333 0 0 211 h
+.0917 g 4643 3321 N 0 -211 333 0 0 211 h
+.1743 g 4310 3321 N 0 -211 333 0 0 211 h
+.1614 g 3977 3321 N 0 -211 333 0 0 211 h
+.0967 g 3644 3321 N 0 -211 333 0 0 211 h
+.122 g 3312 3321 N 0 -211 332 0 0 211 h
+.1605 g 2979 3321 N 0 -211 333 0 0 211 h
+.1397 g 2646 3321 N 0 -211 333 0 0 211 h
+.1173 g 2313 3321 N 0 -211 333 0 0 211 h
+.089 g 1979 3321 N 0 -211 334 0 0 211 h
+.05 g 1646 3321 N 0 -211 333 0 0 211 h
+.0252 g 1313 3321 N 0 -211 333 0 0 211 h
+.0286 g 980 3321 N 0 -211 333 0 0 211 h
+.1237 g 5642 3532 N 0 -212 334 0 0 212 h
+.0745 g 5309 3532 N 0 -212 333 0 0 212 h
+.0442 g 4976 3532 N 0 -212 333 0 0 212 h
+.091 g 4643 3532 N 0 -212 333 0 0 212 h
+.1725 g 4310 3532 N 0 -212 333 0 0 212 h
+.1615 g 3977 3532 N 0 -212 333 0 0 212 h
+.0868 g 3644 3532 N 0 -212 333 0 0 212 h
+.0828 g 3312 3532 N 0 -212 332 0 0 212 h
+.1025 g 2979 3532 N 0 -212 333 0 0 212 h
+.082 g 2646 3532 N 0 -212 333 0 0 212 h
+.0711 g 2313 3532 N 0 -212 333 0 0 212 h
+.0985 g 1979 3532 N 0 -212 334 0 0 212 h
+.0759 g 1646 3532 N 0 -212 333 0 0 212 h
+.0346 g 1313 3532 N 0 -212 333 0 0 212 h
+.0519 g 980 3532 N 0 -212 333 0 0 212 h
+.1664 g 5642 3744 N 0 -212 334 0 0 212 h
+.1146 g 5309 3744 N 0 -212 333 0 0 212 h
+.0943 g 4976 3744 N 0 -212 333 0 0 212 h
+.096 g 4643 3744 N 0 -212 333 0 0 212 h
+.1002 g 4310 3744 N 0 -212 333 0 0 212 h
+.1125 g 3977 3744 N 0 -212 333 0 0 212 h
+.1192 g 3644 3744 N 0 -212 333 0 0 212 h
+.1084 g 3312 3744 N 0 -212 332 0 0 212 h
+.0741 g 2979 3744 N 0 -212 333 0 0 212 h
+.0487 g 2646 3744 N 0 -212 333 0 0 212 h
+.0697 g 2313 3744 N 0 -212 333 0 0 212 h
+.1281 g 1979 3744 N 0 -212 334 0 0 212 h
+.1151 g 1646 3744 N 0 -212 333 0 0 212 h
+.0721 g 1313 3744 N 0 -212 333 0 0 212 h
+.0707 g 980 3744 N 0 -212 333 0 0 212 h
+.138 g 5642 3956 N 0 -211 334 0 0 211 h
+.1182 g 5309 3956 N 0 -211 333 0 0 211 h
+.121 g 4976 3956 N 0 -211 333 0 0 211 h
+.1097 g 4643 3956 N 0 -211 333 0 0 211 h
+.0733 g 4310 3956 N 0 -211 333 0 0 211 h
+.0826 g 3977 3956 N 0 -211 333 0 0 211 h
+.1055 g 3644 3956 N 0 -211 333 0 0 211 h
+.1058 g 3312 3956 N 0 -211 332 0 0 211 h
+.0672 g 2979 3956 N 0 -211 333 0 0 211 h
+.0429 g 2646 3956 N 0 -211 333 0 0 211 h
+.0756 g 2313 3956 N 0 -211 333 0 0 211 h
+.1272 g 1979 3956 N 0 -211 334 0 0 211 h
+.1052 g 1646 3956 N 0 -211 333 0 0 211 h
+.084 g 1313 3956 N 0 -211 333 0 0 211 h
+.0687 g 980 3956 N 0 -211 333 0 0 211 h
+%pm3d_map_end
 LTw
 % End plot #1
-2.000 UL
+1.000 UL
 LTb
 LCb setrgbcolor
 [] 0 setdash
-1.000 UL
-LTb
-814 4819 N
-814 704 L
-5989 0 V
-0 4115 V
--5989 0 V
+936 4322 N
+936 938 L
+5328 0 V
+0 3384 V
+-5328 0 V
 Z stroke
-1.000 UP
 1.000 UL
 LTb
+936 938 M
+0 71 V
+stroke
+936 4322 M
+0 -71 V
+stroke
+1.000 UL
+LTb
+1824 938 M
+0 71 V
+stroke
+1824 4322 M
+0 -71 V
+stroke
+1.000 UL
+LTb
+2712 938 M
+0 71 V
+stroke
+2712 4322 M
+0 -71 V
+stroke
+1.000 UL
+LTb
+3600 938 M
+0 71 V
+stroke
+3600 4322 M
+0 -71 V
+stroke
+1.000 UL
+LTb
+4488 938 M
+0 71 V
+stroke
+4488 4322 M
+0 -71 V
+stroke
+1.000 UL
+LTb
+5376 938 M
+0 71 V
+stroke
+5376 4322 M
+0 -71 V
+stroke
+1.000 UL
+LTb
+6264 938 M
+0 71 V
+stroke
+6264 4322 M
+0 -71 V
+stroke
+1.000 UL
+LTb
+936 938 M
+112 0 V
+stroke
+6264 938 M
+-112 0 V
+stroke
+1.000 UL
+LTb
+936 1502 M
+112 0 V
+stroke
+6264 1502 M
+-112 0 V
+stroke
+1.000 UL
+LTb
+936 2066 M
+112 0 V
+stroke
+6264 2066 M
+-112 0 V
+stroke
+1.000 UL
+LTb
+936 2630 M
+112 0 V
+stroke
+6264 2630 M
+-112 0 V
+stroke
+1.000 UL
+LTb
+936 3194 M
+112 0 V
+stroke
+6264 3194 M
+-112 0 V
+stroke
+1.000 UL
+LTb
+936 3758 M
+112 0 V
+stroke
+6264 3758 M
+-112 0 V
+stroke
+1.000 UL
+LTb
+936 4322 M
+112 0 V
+stroke
+6264 4322 M
+-112 0 V
+stroke
+stroke gsave	%% draw gray scale smooth box
+maxcolors 0 gt {/imax maxcolors def} {/imax 1024 def} ifelse
+6397 938 translate 266 3384 scale 0 setlinewidth
+/ystep 1 imax div def /y0 0 def /ii 0 def
+{ y0 g 0 y0 N 1 0 V 0 ystep V -1 0 f
+/y0 y0 ystep add def /ii ii 1 add def
+ii imax ge {exit} if } loop
+grestore 0 setgray
+1.000 UL
+LTb
+6397 938 N
+266 0 V
+0 3384 V
+-266 0 V
+0 -3384 V
+Z stroke
+1.000 UL
+LTb
+1.000 UL
+LTb
+6663 938 M
+-63 0 V
+stroke
+6397 938 M
+63 0 V
+203 483 R
+-63 0 V
+stroke
+6397 1421 M
+63 0 V
+203 483 R
+-63 0 V
+stroke
+6397 1904 M
+63 0 V
+203 484 R
+-63 0 V
+stroke
+6397 2388 M
+63 0 V
+203 483 R
+-63 0 V
+stroke
+6397 2871 M
+63 0 V
+203 484 R
+-63 0 V
+stroke
+6397 3355 M
+63 0 V
+203 483 R
+-63 0 V
+stroke
+6397 3838 M
+63 0 V
+203 484 R
+-63 0 V
+stroke
+6397 4322 M
+63 0 V
+1.000 UP
+stroke
+grestore % colour palette end
 stroke
 grestore
 end

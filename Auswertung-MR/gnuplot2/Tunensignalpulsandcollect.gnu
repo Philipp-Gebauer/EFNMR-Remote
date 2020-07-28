@@ -1,3 +1,4 @@
+# für die J-J-Kopplung das fine tuning
 #png
 # set terminal png size 1024,720
 # set output "pngplots/Tunensignalpulsandcollect.png"
@@ -9,8 +10,8 @@ set output "plots/Tunensignalpulsandcollect.tex"
 # Peak bei alllen 50 Hz enstehen durch Steckdose
 
 set datafile separator ","
-x_min = 1820
-x_max = 1860
+x_min = 1800
+x_max = 1900
 
 y_min = 0
 y_max = 10
