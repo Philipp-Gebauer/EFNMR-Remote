@@ -10,7 +10,7 @@ set output "plots/Tunensignalpulsandcollect.tex"
 # Peak bei alllen 50 Hz enstehen durch Steckdose
 
 set datafile separator ","
-x_min = 1800
+x_min = 1700
 x_max = 1900
 
 y_min = 0
