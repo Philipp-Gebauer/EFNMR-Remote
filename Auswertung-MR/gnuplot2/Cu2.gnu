@@ -1,7 +1,7 @@
 # Die Relaxationszeit von Cu2+ T1 und T2
 
 
-# T_1 Kupfer 250:
+# # T_1 Kupfer 250:
 
 #png
 # set terminal png size 1024,720
@@ -22,10 +22,11 @@ dataPTH = "Messwerte2/3_2/T1.txt"
 
 load "jet.pal"
 
-set ylabel "Dämpfung $\\frac{\\text{E}}{\\text{E}_0}$"
+set ylabel "D\\\"ampfung $\\frac{\\text{E}}{\\text{E}_0}$"
 set xlabel "Zeit zwischen den Pulsen $t$ in $\\si{\\milli \\second}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
+#set key at graph 1,1
 
 S(x) = S_0 * (1-exp(-x/T_1))
 S_0 = 1.11
@@ -34,15 +35,15 @@ fit [x_min:x_max] S(x) dataPTH using 1:2 via T_1, S_0
 plot dataPTH using 1:2 ls 2 ps 3 lw 3 title "Gemessenen Datenpunkte für $Cu^{2+} \\SI{250}{\\micro\\mole}$" , S(x) ls 8 lw 3 title "Dämpfungsfit"
 
 
-# #T_2 Kupfer 250:
+#T_2 Kupfer 250:
 
 #png
 #set terminal png size 1024,720
 #set output "pngplots/T2Kupfer250.png"
 
 # epslatex
- set terminal epslatex
- set output "plots/T2Kupfer250.tex"
+set terminal epslatex
+set output "plots/T2Kupfer250.tex"
 
 set datafile separator ","
 
@@ -71,11 +72,11 @@ plot dataPTH1 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte für $Cu^{2+
 
 
 
-# # T1_1 Kupfer 500:
+# # # T1_1 Kupfer 500:
 
 #png
 # set terminal png size 1024,720
-# set output "pngplots/T1Kupfer250.png"
+# set output "pngplots/T1Kupfer500.png"
 
 #epslatex
 set terminal epslatex
@@ -104,15 +105,15 @@ fit [x_min:x_max] S1(x) dataPTH2 using 1:2 via T1_1, S1_0
 plot dataPTH2 using 1:2 ls 2 ps 3 lw 3 title "Gemessenen Datenpunkte für $Cu^{2+} \\SI{500}{\\micro\\mole}$" , S1(x) ls 8 lw 3 title "Dämpfungsfit"
 
 
-# #T1_2 Kupfer:
+# #T1_2 Kupfer500:
 
 #png
-#set terminal png size 1024,720
-#set output "pngplots/T2Kupfer250.png"
+# set terminal png size 1024,720
+# set output "pngplots/T2Kupfer500.png"
 
 # epslatex
- set terminal epslatex
- set output "plots/T2Kupfer250.tex"
+set terminal epslatex
+set output "plots/T2Kupfer500.tex"
 
 set datafile separator ","
 
@@ -137,11 +138,12 @@ fit [x_min:x_max] M1(x) dataPTH3 using 1:2 via T1_2, M1_0
 
 plot dataPTH3 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte für $Cu^{2+} \\SI{250}{\\micro\\mole}$", M1(x) ls 8 lw 3 title "Dämpfungsfit Fit"
 
+
 # # T2_1 Kupfer 1000:
 
 #png
 # set terminal png size 1024,720
-# set output "pngplots/T1Kupfer250.png"
+# set output "pngplots/T1Kupfer1000.png"
 
 #epslatex
 set terminal epslatex
@@ -173,12 +175,12 @@ plot dataPTH4 using 1:2 ls 2 ps 3 lw 3 title "Gemessenen Datenpunkte für $Cu^{2
 # #T2_2 Cu 1000:
 
 #png
-#set terminal png size 1024,720
-#set output "pngplots/T2Kupfer250.png"
+# set terminal png size 1024,720
+# set output "pngplots/T2Kupfer1000.png"
 
 # epslatex
- set terminal epslatex
- set output "plots/T2Kupfer1000.tex"
+set terminal epslatex
+set output "plots/T2Kupfer1000.tex"
 
 set datafile separator ","
 
@@ -239,12 +241,12 @@ plot dataPTH4 using 1:2 ls 2 ps 3 lw 3 title "Gemessenen Datenpunkte für $Cu^{2
 # #T2_2 Cu 1000:
 
 #png
-#set terminal png size 1024,720
-#set output "pngplots/T2Kupfer2000.png"
+# set terminal png size 1024,720
+# set output "pngplots/T2Kupfer2000.png"
 
 # epslatex
- set terminal epslatex
- set output "plots/T2Kupfer2000.tex"
+set terminal epslatex
+set output "plots/T2Kupfer2000.tex"
 
 set datafile separator ","
 
@@ -297,6 +299,7 @@ set ylabel "Dämpfung $\\frac{\\text{E}}{\\text{E}_0}$"
 set xlabel "Zeit zwischen den Pulsen $t$ in $\\si{\\milli \\second}$"
 set xrange [x5_min:x5_max]
 set yrange [y5_min:y5_max]
+set key at graph 0.985,0.975
 
 S3(x) = S3_0 * (1-exp(-x/T3_1))
 S3_0 = 1.11
@@ -348,10 +351,12 @@ plot dataPTH7 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte für Wasser"
 # set output "pngplots/T1Kupferalle.png"
 
 # epslatex
- set terminal epslatex
- set output "plots/KupferalleT1.tex"
+set terminal epslatex
+set output "plots/KupferalleT1.tex"
+
 set ylabel "Dämpfung $\\frac{\\text{E}}{\\text{E}_0}$"
 set xlabel "Zeit in $\\si{\\milli \\second}$"
+set key at graph 0.99,0.8
 
 x7_min = 0
 x7_max = 6000
@@ -369,8 +374,12 @@ plot dataPTH using 1:2 ls 10 ps 3 lw 3 title "$Cu^{2+} \\SI{250}{\\micro\\mole}$
 #set output "pngplots/T2Kupferalle.png"
 
 # epslatex
- set terminal epslatex
- set output "plots/KupferalleT2.tex"
+set terminal epslatex
+set output "plots/KupferalleT2.tex"
+
+set ylabel "Dämpfung $\\frac{\\text{E}}{\\text{E}_0}$"
+set xlabel "Zeit in $\\si{\\milli \\second}$"
+set key at graph 0.985,0.975
 
 x8_min = 0
 x8_max = 6000
@@ -379,5 +388,6 @@ y8_min = 0
 y8_max = 1
 set xrange [x8_min:x8_max]
 set yrange [y_min:y8_max]
+
 
 plot dataPTH1 using 1:2 ls 10 ps 3 lw 3 title "$Cu^{2+} \\SI{250}{\\micro\\mole}$", M(x) ls 8 lw 3 notitle,dataPTH5 using 1:2 ls 7 ps 3 lw 3 title "$Cu^{2+} \\SI{1000}{\\micro\\mole}$", M2(x) ls 8 lw 3 notitle, dataPTH3 using 1:2 ls 8 ps 3 lw 3 title "$Cu^{2+} \\SI{250}{\\micro\\mole}$", M1(x) ls 8 lw 3 notitle,dataPTH9 using 1:2 ls 15 ps 3 lw 3 title "$Cu^{2+} \\SI{2000}{\\micro\\mole}$", M9(x) ls 8 lw 3 notitle, dataPTH7 using 1:2 ls 2 ps 3 lw 3 title "Wasser", M3(x) ls 8 lw 3 notitle

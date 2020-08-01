@@ -29,4 +29,4 @@ set output "pngplots/Relaxativitat.png"
 # T_2 = 2700
 # fit [x_min:x_max] M(x) dataPTH1 using 1:2 via T_2, M_0
 
-plot dataPTH0 using (log($2)):(log($1)) ls 2 ps 3 lw 3 title "gemessene Datenpunkte für Wasser"#, M(x) ls 8 lw 3 title "Dämpfungsfit Fit"
+plot dataPTH0 using (log($2)):(log($1)) ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur Wasser"#, M(x) ls 8 lw 3 title "Dämpfungsfit Fit"
