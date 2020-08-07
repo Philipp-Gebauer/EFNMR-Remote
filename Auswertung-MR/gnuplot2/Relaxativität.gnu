@@ -14,7 +14,11 @@ set output "pngplots/Relaxativitat.png"
 # y_min = 430
 # y_max = 1400
  dataPTH0 = "Messwerte2/T1T2konzentration/KupferT1.txt"
-# load "jet.pal"
+ dataPTH1 = "Messwerte2/T1T2konzentration/KupferT2.txt"
+ dataPTH2 = "Messwerte2/T1T2konzentration/MnT1.txt"
+ dataPTH3 = "Messwerte2/T1T2konzentration/MnT2.txt"
+ dataPTH4 = "Messwerte2/T1T2konzentration/T1Kupferanders.txt"
+ load "jet.pal"
 
 # set ylabel "Dämpfung $\\frac{\\text{E}}{\\text{E}_0}$"
 # set xlabel "Zeit in $\\si{\\milli \\second}$"
@@ -24,9 +28,13 @@ set output "pngplots/Relaxativitat.png"
 # set logscale y
 
 
-# M(x) = M_0 * exp(-x/T_2)
-# M_0 = 1
-# T_2 = 2700
-# fit [x_min:x_max] M(x) dataPTH1 using 1:2 via T_2, M_0
+# M(x) = a*x+b
+# a = 0.1
+# b = 7
+# fit M(x) dataPTH0 using 2:1 via a, b
 
-plot dataPTH0 using (log($2)):(log($1)) ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur Wasser"#, M(x) ls 8 lw 3 title "Dämpfungsfit Fit"
+ plot dataPTH0 using (log($2)):(log($1)) ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur Kupfer T1 in abhängigkeit von der Konzentration",# M(x) ls 8 lw 3 title "Konzentrationsfit für r"
+
+# plot dataPTH1 using (log($2)):(log($1)) ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur Kupfer T2 in abhängigkeit von der Konzentration"
+# plot dataPTH2 using (log($2)):(log($1)) ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur Mangan T1 in abhängigkeit von der Konzentration"
+# plot dataPTH3 using (log($2)):(log($1)) ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur Mangan T1 in abhängigkeit von der Konzentration"
