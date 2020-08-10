@@ -9,7 +9,7 @@ Abschnitt 11:
 Einfluss T_1 und T_2 auf Signalintensität -->
 Spektrum betrachten bei Cu2 (250 & 200) & Mn (25 & 200) und evtl alle auf einmal.
 Allgemeine Trends!
-Relaxivitäten berechnen.
+Relaxivitäten berechnen. [check, aber nur bei den Kobnzetrationen die wir hatten]
 
 Relaxivitäten über Konzentration
 
