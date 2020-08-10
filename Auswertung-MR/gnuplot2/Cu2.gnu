@@ -356,7 +356,7 @@ set output "plots/KupferalleT1.tex"
 
 set ylabel "Dämpfung $\\frac{\\text{E}}{\\text{E}_0}$"
 set xlabel "Zeit in $\\si{\\milli \\second}$"
-set key at graph 0.99,0.8
+set key at graph 0.985,0.75
 
 x7_min = 0
 x7_max = 6000

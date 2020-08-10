@@ -347,12 +347,13 @@ plot dataPTH7 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte für Wasser"
 # set terminal png size 1024,720
 # set output "pngplots/T1Manganalle.png"
 
+
 # epslatex
  set terminal epslatex
  set output "plots/ManganalleT1.tex"
-set ylabel "Dämpfung $\\frac{\\text{E}}{\\text{E}_0}$"
+set ylabel "D\\\"ampfung $\\frac{\\text{E}}{\\text{E}_0}$"
 set xlabel "Zeit in $\\si{\\milli \\second}$"
-
+set key at graph 0.985,0.75
 x7_min = 0
 x7_max = 6000
 
@@ -360,7 +361,7 @@ y7_min = 0
 y7_max = 1
 set xrange [x7_min:x7_max]
 set yrange [y7_min:y7_max]
-
+#set key at graph 0.985,0.975
 plot dataPTH using 1:2 ls 10 ps 3 lw 3 title "$Mn^{2+} \\SI{25}{\\micro\\mole}$" , S(x) ls 8 lw 3 notitle,  dataPTH2 using 1:2 ls 7 ps 3 lw 3 title "$Mn^{2+} \\SI{50}{\\micro\\mole}$" , S1(x) ls 8 lw 3 notitle,  dataPTH4 using 1:2 ls 8 ps 3 lw 3 title "$Mn^{2+} \\SI{100}{\\micro\\mole}$" , S2(x) ls 8 lw 3 notitle, dataPTH8 using 1:2 ls 15 ps 3 lw 3 title "$Mn^{2+} \\SI{200}{\\micro\\mole}$" , S8(x) ls 8 lw 3 notitle, dataPTH6 using 1:2 ls 2 ps 3 lw 3 title "Wasser" , S3(x) ls 8 lw 3 notitle
 
 #Alle Plots von T1 und T2 für Co2+
@@ -379,5 +380,5 @@ y8_min = 0
 y8_max = 1
 set xrange [x8_min:x8_max]
 set yrange [y_min:y8_max]
-
+set key at graph 0.985,0.975
 plot dataPTH1 using 1:2 ls 10 ps 3 lw 3 title "$Mn^{2+} \\SI{25}{\\micro\\mole}$", M(x) ls 8 lw 3 notitle,dataPTH5 using 1:2 ls 7 ps 3 lw 3 title "$Mn^{2+} \\SI{100}{\\micro\\mole}$", M2(x) ls 8 lw 3 notitle, dataPTH3 using 1:2 ls 8 ps 3 lw 3 title "$Mn^{2+} \\SI{25}{\\micro\\mole}$", M1(x) ls 8 lw 3 notitle,dataPTH9 using 1:2 ls 15 ps 3 lw 3 title "$Mn^{2+} \\SI{200}{\\micro\\mole}$", M9(x) ls 8 lw 3 notitle, dataPTH7 using 1:2 ls 2 ps 3 lw 3 title "Wasser", M3(x) ls 8 lw 3 notitle
