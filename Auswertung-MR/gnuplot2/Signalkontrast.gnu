@@ -11,14 +11,14 @@ x_min = 1800
 x_max = 1900
 
 y_min = 0
-y_max = 165000
+y_max = 18000
 dataPTH0 = "Messwerte2/3_1/spectrum.txt"
 dataPTH  = "Messwerte2/4_1/spectrum.txt"
 dataPTH1 = "Messwerte2/5_1/spectrum.txt"
 
 load "jet.pal"
 
-set ylabel "Amplitude in willkürlicher Enheit"
+set ylabel "Amplitude in willk\\\"urlicher Enheit"
 set xlabel "Frequenz in $\\si{\\hertz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
@@ -38,7 +38,7 @@ x_min = 1800
 x_max = 1900
 
 y_min = 0
-y_max = 30
+y_max = 33
 dataPTH2 = "Messwerte2/4_2/complexspektrum.txt"
 dataPTH3 = "Messwerte2/3_2/complexspectrum.txt"
 set ylabel "Amplitude in $\\si{\\frac{\\mu \\volt}{\\hertz}}$"
