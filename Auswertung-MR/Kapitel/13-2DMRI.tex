@@ -1,49 +1,69 @@
 % !TEX root = main.tex
 \section{2D MRI}
-\begin{figure}[H]
-    \centering
-    \input{plots/2DMRI600.tex}
-    \caption{2D MRI mit T1 $\SI{600}{\milli\second}$}
-\end{figure}
+% Alle einzelnen Plots
+%     \begin{figure}[H]
+%         \centering
+%         \input{plots/2DMRI600.tex}
+%         \caption{2D MRI mit T1 $\SI{600}{\milli\second}$}
+%     \end{figure}
+%     \begin{figure}[H]
+%         \centering
+%         \input{plots/2DMRI1300.tex}
+%         \caption{2D MRI mit T1 $\SI{1300}{\milli\second}$}
+%     \end{figure}
+%     \begin{figure}[H]
+%         \centering
+%         \input{plots/2DMRI2100.tex}
+%         \caption{2D MRI mit T1 $\SI{2100}{\milli\second}$}
+%     \end{figure}
+%     \begin{figure}[H]
+%         \centering
+%         \input{plots/2DMRI2800.tex}
+%         \caption{2D MRI mit T1 $\SI{2800}{\milli\second}$}
+%     \end{figure}
+%     \begin{figure}[H]
+%         \centering
+%         \input{plots/2DMRI200.tex}
+%         \caption{2D MRI mit T2 $\SI{200}{\milli\second}$}
+%     \end{figure}
+%     \begin{figure}[H]
+%         \centering
+%         \input{plots/2DMRI250.tex}
+%         \caption{2D MRI mit T2 $\SI{250}{\milli\second}$}
+%     \end{figure}
+%     \begin{figure}[H]
+%         \centering
+%         \input{plots/2DMRI300.tex}
+%         \caption{2D MRI mit T2 $\SI{300}{\milli\second}$}
+%     \end{figure}
+%     \begin{figure}[H]
+%         \centering
+%         \input{plots/2DMRI450.tex}
+%         \caption{2D MRI mit T2 $\SI{450}{\milli\second}$}
+%     \end{figure}
+%     \begin{figure}[H]
+%         \centering
+%         \input{plots/2DMRI550.tex}
+%         \caption{2D MRI mit T2 $\SI{550}{\milli\second}$}
+%     \end{figure}
 
 \begin{figure}[H]
     \centering
-    \input{plots/2DMRI1300.tex}
-    \caption{2D MRI mit T1 $\SI{1300}{\milli\second}$}
+    \subfigure{\input{plots/2DMRI600.tex}}
+    \subfigure{\input{plots/2DMRI1300.tex}}
+    \subfigure{\input{plots/2DMRI2100.tex}}
+    \subfigure{\input{plots/2DMRI2800.tex}}
+    \caption{Links oben: 2DMRI mit T1 $\SI{600}{\milli\second}$;\\ Rechts oben: 2DMRI T1 $\SI{1300}{\milli\second}$;\\
+    Links oben: 2DMRI T1 $\SI{2100}{\milli\second}$;\\ Rechts unten: 2DMRI T1 $\SI{2800}{\milli\second}$}
+    \label{fig:Energieschema}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \input{plots/2DMRI2100.tex}
-    \caption{2D MRI mit T1 $\SI{2100}{\milli\second}$}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \input{plots/2DMRI2800.tex}
-    \caption{2D MRI mit T1 $\SI{2800}{\milli\second}$}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \input{plots/2DMRI200.tex}
-    \caption{2D MRI mit T2 $\SI{200}{\milli\second}$}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \input{plots/2DMRI250.tex}
-    \caption{2D MRI mit T2 $\SI{250}{\milli\second}$}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \input{plots/2DMRI300.tex}
-    \caption{2D MRI mit T2 $\SI{300}{\milli\second}$}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \input{plots/2DMRI450.tex}
-    \caption{2D MRI mit T2 $\SI{450}{\milli\second}$}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \input{plots/2DMRI550.tex}
-    \caption{2D MRI mit T2 $\SI{550}{\milli\second}$}
+    \subfigure{\input{plots/2DMRI200.tex}}
+    \subfigure{\input{plots/2DMRI250.tex}}
+    \subfigure{\input{plots/2DMRI450.tex}}
+    \subfigure{\input{plots/2DMRI550.tex}}
+    \caption{Links oben: 2DMRI T2 $\SI{200}{\milli\second}$;\\ Rechts oben: 2DMRI T2 $\SI{250}{\milli\second}$;\\
+    Links oben: 2DMRI T2 $\SI{450}{\milli\second}$;\\ Rechts unten: 2DMRI T2 $\SI{550}{\milli\second}$}
+    \label{fig:Energieschema}
 \end{figure}
