@@ -13,7 +13,7 @@ x_min = -32
 x_max = 32
 
 y_min = 0
-y_max = 33000
+y_max = 35000
 dataPTH = "Messwerte2/9_2/9_2_magnitudespectrum.txt"
 dataPTH1 = "Messwerte2/9_2_echozeithoeher_fovhoeher/magnitude_image.txt"
 load "jet.pal"
@@ -25,7 +25,7 @@ set yrange [y_min:y_max]
 
 
 #plot dataPTH using 1:2 ls 2 ps 3 lw 3 notitle
-plot dataPTH using 1:2 lt 5 lc 15 w lines title "erste 1D MRI Messung", dataPTH1 using 1:2 lt 6 w lines title "zweite 1D MRI Messung mit erh\\\"ohter Echozeit und gr\\\"o\\ßeren FOV"
+plot dataPTH using 1:2 lt 5 lc 15 w lines title "erste 1D MRI Messung", dataPTH1 using 1:2 lt 6 w lines title "Messung mit erh\\\"ohter Echozeit, gr\\\"o\\ss{}eren FOV"
 
 # in y-Richtung
 #png
@@ -34,7 +34,7 @@ plot dataPTH using 1:2 lt 5 lc 15 w lines title "erste 1D MRI Messung", dataPTH1
 
 # #epslatex
 set terminal epslatex
-set output "plots/1DMRI.tex"
+set output "plots/1DMRIy.tex"
 
 # Peak bei alllen 50 Hz enstehen durch Steckdose
 
@@ -55,4 +55,4 @@ set yrange [y1_min:y1_max]
 
 
 #plot dataPTH using 1:2 ls 2 ps 3 lw 3 notitle
-plot dataPTH2 using 1:2 lt 5 lc 15 w lines title "erste 1D MRI Messung in yRichtung", dataPTH3 using 1:2 lt 6 w lines title "zweite 1D MRI Messung mit ver\\\"anderter Bandbreite"
+plot dataPTH2 using 1:2 lt 5 lc 15 w lines title "erste 1D MRI Messung in yRichtung", dataPTH3 using 1:2 lt 6 w lines title "zweite Messung mit ver\\\"anderter Bandbreite"
