@@ -1,0 +1,43 @@
+ToDo:
+
+Messprotokoll beachten.
+Referenzbilder aus Terranova.
+FP Requirements.
+
+Abschnitt 11: 
+
+Einfluss T_1 und T_2 auf Signalintensität -->
+Spektrum betrachten bei Cu2 (250 & 200) & Mn (25 & 200) und evtl alle auf einmal.
+Allgemeine Trends!
+Relaxivitäten berechnen.
+
+Relaxivitäten über Konzentration
+
+
+Abschnitt 12:
+Abb 12.1 in x-Richtung
+Abb 12.2 evtl x-achsen-skala anpassen (Zentrum bei 1839Hz) in y-Richtung
+
+Abmessungen ableiten --> Terranova! (evtl FOV)
+
+Abschnitt 13:
+
+Bilder: Legende (Einheiten) & Ausfüllen des Abbildungsbereichs (weißer Rand)
+Beschreibung & Subfigures
+
+Aussage der Stoffe in den Röhren --> evtl referenz zu Mn und Cu und Wasser
+
+Abschnitt 14:
+J-Kopplung
+Kopplungskonstanten berechnen.
+Und evtl Integral bzw im Gauß-Fit --> Pascalschesdreieck
+Normierung auf 1 oder so
+Annahme der schwachen Kopplung überprüfen
+2 Pi J << |w1-w2|.
+
+Abschnitt 15:
+
+Y-Achse: Log-Skala
+Längenmaßstab in der Probe definiere.
+Selbstdiffusionskoeffizient bestimmen. --> PGSE-Anleitung
+Vergleich mit Literaturwert.
