@@ -7,7 +7,6 @@ set terminal epslatex
 set output "plots/1DMRI.tex"
 
 # Peak bei alllen 50 Hz enstehen durch Steckdose
-
 set datafile separator ","
 x_min = -32
 x_max = 32

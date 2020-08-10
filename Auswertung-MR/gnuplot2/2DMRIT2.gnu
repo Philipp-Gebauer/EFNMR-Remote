@@ -4,7 +4,8 @@ x_max = 120
 
 y_min = 0
 y_max = 120
-
+set border 10
+set tics nomirror
 #  z_min = 0
 #  z_max = 120
 load "jet.pal"

@@ -4,6 +4,8 @@ x_max = 120
 
 y_min = 0
 y_max = 120
+# set border 160
+set border 10
 
 #  z_min = 0
 #  z_max = 120
@@ -14,7 +16,7 @@ set xlabel "Y in $\\si{\\milli \\meter}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 #set zrange [z_min:z_max]
-
+set tics nomirror
 dataPTH1 = "Messwerte2/14_2_erstemessung/scan2phase.txt"
 dataPTH600 = "Messwerte2/14_2_600ms/scan1.txt"
 dataPTH1300 = "Messwerte2/14_2_1300ms/scan.txt"
@@ -31,6 +33,7 @@ set pm3d map
     set terminal epslatex
     set output "plots/2DMRIerste.tex"
     splot dataPTH1   matrix using (1+$1*3.75):(2+$2*3.75):3   notitle 'erste 2D MRI Messung mit einer 32*32 Matrix'
+    #splot dataPTH1   matrix using 1:(2+$2*3.75):(3+$3*3.75)   notitle 'erste 2D MRI Messung mit einer 32*32 Matrix'
 
 #Messung 600ms
     #png
