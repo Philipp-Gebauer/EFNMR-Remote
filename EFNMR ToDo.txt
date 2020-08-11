@@ -75,7 +75,7 @@ Abschnitt 14: J-Kopplung
 
 Abschnitt 15: Selbstdiffusion
 
-	• Y-Achse: Log-Skala
+[check]	• Y-Achse: Log-Skala
 	• Längenmaßstab in der Probe definiere.
 	• Selbstdiffusionskoeffizient bestimmen. --> PGSE-Anleitung bzw
 		--> Luc's Daten sind ok. Evtl kommen wir noch drauf, 
