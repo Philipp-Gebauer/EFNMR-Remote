@@ -6,16 +6,20 @@ y_min = 0
 y_max = 120
 # set border 160
 set border 10
-
-#  z_min = 0
-#  z_max = 120
+#  set autoscale xfix
+#  set autoscale yfix
+#   set autoscale cbfix
+#   set autoscale zfix
+ z_min = 0
+ z_max = 120
+#  set cbrange[83.5024:85.1894]
 load "jet.pal"
 
 set ylabel "Z in $\\si{\\milli \\meter}$"
 set xlabel "Y in $\\si{\\milli \\meter}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
-#set zrange [z_min:z_max]
+# set zrange [z_min:z_max]
 set tics nomirror
 dataPTH1 = "Messwerte2/14_2_erstemessung/scan2phase.txt"
 dataPTH600 = "Messwerte2/14_2_600ms/scan1.txt"

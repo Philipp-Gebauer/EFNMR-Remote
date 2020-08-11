@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  10 AUG 2020 20:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.1)  11 AUG 2020 10:55
 entering extended mode
 **"c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.tex"
 ("c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.tex"
@@ -1865,10 +1865,10 @@ Package pdftex.def Info: plots/1DMRIy-eps-converted-to.pdf  used on input line 1
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/2DMRI600.eps>
-(epstopdf)                    date: 2020-08-10 17:35:57
+(epstopdf)                    date: 2020-08-11 10:14:14
 (epstopdf)                    size: 30268 bytes
 (epstopdf)             Output file: <plots/2DMRI600-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-10 17:36:07
+(epstopdf)                    date: 2020-08-11 10:14:24
 (epstopdf)                    size: 15120 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/2DMRI600-eps-converted-to.pdf plots/2DMRI600.eps>
 (epstopdf)             \includegraphics on input line 117.
@@ -1885,10 +1885,10 @@ Package pdftex.def Info: plots/2DMRI600-eps-converted-to.pdf  used on input line
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/2DMRI1300.eps>
-(epstopdf)                    date: 2020-08-10 17:35:57
+(epstopdf)                    date: 2020-08-11 10:14:14
 (epstopdf)                    size: 30251 bytes
 (epstopdf)             Output file: <plots/2DMRI1300-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-10 17:36:08
+(epstopdf)                    date: 2020-08-11 10:14:25
 (epstopdf)                    size: 14970 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/2DMRI1300-eps-converted-to.pdf plots/2DMRI1300.eps>
 (epstopdf)             \includegraphics on input line 116.
@@ -1905,10 +1905,10 @@ Package pdftex.def Info: plots/2DMRI1300-eps-converted-to.pdf  used on input lin
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/2DMRI2100.eps>
-(epstopdf)                    date: 2020-08-10 17:35:57
+(epstopdf)                    date: 2020-08-11 10:14:14
 (epstopdf)                    size: 30245 bytes
 (epstopdf)             Output file: <plots/2DMRI2100-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-10 17:36:09
+(epstopdf)                    date: 2020-08-11 10:14:26
 (epstopdf)                    size: 15048 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/2DMRI2100-eps-converted-to.pdf plots/2DMRI2100.eps>
 (epstopdf)             \includegraphics on input line 116.
@@ -1925,10 +1925,10 @@ Package pdftex.def Info: plots/2DMRI2100-eps-converted-to.pdf  used on input lin
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/2DMRI2800.eps>
-(epstopdf)                    date: 2020-08-10 17:35:57
+(epstopdf)                    date: 2020-08-11 10:14:14
 (epstopdf)                    size: 30249 bytes
 (epstopdf)             Output file: <plots/2DMRI2800-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-10 17:36:09
+(epstopdf)                    date: 2020-08-11 10:14:27
 (epstopdf)                    size: 15014 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/2DMRI2800-eps-converted-to.pdf plots/2DMRI2800.eps>
 (epstopdf)             \includegraphics on input line 116.
@@ -2045,13 +2045,13 @@ Package pdftex.def Info: plots/2DMRI550-eps-converted-to.pdf  used on input line
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Tunensignalpulsandcollect.eps>
-(epstopdf)                    date: 2020-08-10 20:17:32
-(epstopdf)                    size: 20428 bytes
+(epstopdf)                    date: 2020-08-11 10:55:00
+(epstopdf)                    size: 20694 bytes
 (epstopdf)             Output file: <plots/Tunensignalpulsandcollect-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-10 20:17:32
-(epstopdf)                    size: 3750 bytes
+(epstopdf)                    date: 2020-08-11 10:55:14
+(epstopdf)                    size: 4304 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/Tunensignalpulsandcollect-eps-converted-to.pdf plots/Tunensignalpulsandcollect.eps>
-(epstopdf)             \includegraphics on input line 109.
+(epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2059,16 +2059,16 @@ pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Ke
 <plots/Tunensignalpulsandcollect-eps-converted-to.pdf, id=396, 361.35pt x 252.945pt>
 File: plots/Tunensignalpulsandcollect-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Tunensignalpulsandcollect-eps-converted-to.pdf>
-Package pdftex.def Info: plots/Tunensignalpulsandcollect-eps-converted-to.pdf  used on input line 109.
+Package pdftex.def Info: plots/Tunensignalpulsandcollect-eps-converted-to.pdf  used on input line 114.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 )) ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel/15-Diffusion.tex" [34 <c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/2DMRI450-eps-converted-to.pdf> <c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/2DMRI550-eps-converted-to.pdf>] ("c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots/Diffusion.tex" ("C:\Program Files\MiKTeX 2.9\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Diffusion.eps>
-(epstopdf)                    date: 2020-08-10 20:55:59
+(epstopdf)                    date: 2020-08-11 10:50:30
 (epstopdf)                    size: 19481 bytes
 (epstopdf)             Output file: <plots/Diffusion-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-10 20:56:12
+(epstopdf)                    date: 2020-08-11 10:50:44
 (epstopdf)                    size: 3657 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/Diffusion-eps-converted-to.pdf plots/Diffusion.eps>
 (epstopdf)             \includegraphics on input line 113.
@@ -2124,7 +2124,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  66i,20n,85p,9191b,1425s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.pdf" (42 pages, 2928393 bytes).
+Output written on "c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.pdf" (42 pages, 2929022 bytes).
 PDF statistics:
  630 PDF objects out of 1000 (max. 8388607)
  111 named destinations out of 1000 (max. 500000)

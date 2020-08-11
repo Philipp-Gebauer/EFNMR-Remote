@@ -27,6 +27,7 @@ a = 1e-9
 fit f(x) dataPTH using ($1*1e9):2 via a
 set logscale y
 set format y "$10^{%L}$"
+set format x "$10^{%L}$"
 #plot dataPTH using 1:2 ls 2 ps 3 lw 3 notitle
 plot dataPTH using ($1*1e9):2 ls 2 ps 3 w p title "Polarisationszeit $\\SI{4}{\\second}$",\
 f(x) ls 8 lw 3
