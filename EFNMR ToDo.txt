@@ -39,8 +39,8 @@ Abschnitt 11: Relaxivitäten
 		--> Polarisationszeiten beachten.
 	--> Mehr WW aufgrund von mehr ungepaarten Elektronen, zusätzliche Dipolmomente --> schnellere Diffusion
 [check]	• Relaxivitäten berechnen. 
-	• Relaxivitäten über Konzentration plotten 
-	• T(0) = y-Achsenabschnitt! Plotte 1/T --> Fitte: Steigung = r
+[check]	• Relaxivitäten über Konzentration plotten 
+[check]	• T(0) = y-Achsenabschnitt! Plotte 1/T --> Fitte: Steigung = r
 
 
 Abschnitt 12: 1D
