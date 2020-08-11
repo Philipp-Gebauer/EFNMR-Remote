@@ -47,9 +47,9 @@ Abschnitt 12: 1D
 
 	• Abb 12.1 in x-Richtung
 	• Abb 12.2 evtl x-achsen-skala anpassen (Zentrum bei 1839Hz) in y-Richtung
-	• Abmessungen ableiten --> Terranova! (evtl FOV)
+[check]	• Abmessungen ableiten --> Terranova! (evtl FOV)
 
-	• G = 2 pi df/gamma FOV
+[check]	• G = 2 pi df/gamma FOV
 		--> Bandbreite und räumliche Ausdehnung sind in Zsh.
 		--> genaue Position zuordnen, da FOV Gradienten festlegt (Frequenzänderung pro mm).
 
@@ -76,7 +76,7 @@ Abschnitt 14: J-Kopplung
 Abschnitt 15: Selbstdiffusion
 
 [check]	• Y-Achse: Log-Skala
-	• Längenmaßstab in der Probe definiere.
+[check]	• Längenmaßstab in der Probe definiere.
 	• Selbstdiffusionskoeffizient bestimmen. --> PGSE-Anleitung bzw
 		--> Luc's Daten sind ok. Evtl kommen wir noch drauf, 
 			wie aus unseren Daten das möglich ist auszuwerten.
