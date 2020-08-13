@@ -114,6 +114,7 @@
 \usepackage{ textcomp }
 \usepackage{dsfont}
 \usepackage{siunitx}
+
 \usepackage{comment}
 \usepackage{tikz}
 \usepackage{epstopdf}
@@ -126,3 +127,4 @@
 \DeclareSIUnit\lightyear{ly}                            %   Neuer SI-Command Lichtjahr
 \newcommand{\textSC}[1]{{\normalfont \textsc{#1}}}      %   Für Kapitälchen in Überschriften
 \DeclareMathOperator{\sinc}{sinc}                       %   sinc-Funktion
+\sisetup{exponent-product = \cdot}                      %   Zehnerpotenzen werden mit Punkt statt Kreuz geschrieben
