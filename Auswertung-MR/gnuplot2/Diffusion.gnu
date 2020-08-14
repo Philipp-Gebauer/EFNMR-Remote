@@ -18,7 +18,7 @@ dataPTH = "Messwerte2/16_2/Luc.txt"
 load "jet.pal"
 
 set ylabel "Abd\\\"ampfung $\\frac{E}{E_0}$"
-set xlabel "$\\gamma^2 G^2 \\delta^2 (\\Delta-\\frac{\\delta}{3})$$\\left[\\frac{\\si{\\s}}{\\si{\\m^2}}\\right]$"
+set xlabel "$\\gamma^2 g^2 \\delta^2 (\\Delta-\\frac{\\delta}{3})$$\\left[\\frac{\\si{\\s}}{\\si{\\m^2}}\\right]$"
 set xrange [x_min:x_max]
 # set yrange [y_min:y_max]
 f(x) = exp(-a*x)
