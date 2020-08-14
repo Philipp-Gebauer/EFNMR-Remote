@@ -1,0 +1,22 @@
+% !TEX root = main.tex
+\section{Noisemeasurement}
+\label{sec:Noisemeasurement}
+The first step in the EFNMR Remote experiment is to measure the external noise. The external noise depends on the location where the setup is placed, the orientation of the probe and by surrounding metal objects e.g. a metal desk. To detect this external noise, a measurement without an NMR signal is provided. The time domain noise signal is shwon in figure \ref{fig: noise}. It is clearly visible that the noise is centered around \SI{0}{\mu \volt}. To gain knowledge about the noise level, the computer calculates the root-mean-square (RMS). This means that it calculates the square of each data point, than sum up all the squared values, calculates the average and than applies a square root. With this method the noise level can be calculated. In this case it is \SI{7.5}{\mu \volt}. This is an acceptable noise value, because any value below \SI{10}{\mu \volt} is good enough to provide good NMR data.
+
+\begin{figure}[H]
+    \centering
+    \input{plots/noise.tex}
+    \caption[Noise signal taken by the B$_1$ coil.]{Noise signal taken by the B$_1$ coil. The noise value of this noise is \SI{7.5}{\mu \volt}.}
+    \label{fig: noise}
+\end{figure}
+
+Figure \ref{fig: MonitorNoise138} shows the frequency domain noise. This means that the time domain is fourier transformed into the frequency domain. This method is one of the basic principles we use in this experiment to make research about the properties of the measured signals. The frequency domain noise shows very specific sharp peaks every \SI{50}{\hertz}. To be more specific the peaks in the middle of every hundred \si{\hertz} steps are way higher than those at \SI{1400}{\hertz}, \SI{1500}{\hertz} and so on. This results of the frequency in the power grid which is \SI{50}{\hertz} in Germany and can also be affiliated to the electrical noise of a surrounding fluorescent light or the CRT computer monitor. Unfortunately the remote camera program of the computer did not work and therefore it is not clear if there was a fluorescent light in the room. Even though the noise peaks in the frequency domain figure indicates that there could be a fluorescent light source in the room.
+Despite all sharp peaks there is also a slight increase of the amplitude around $\SI{185 \pm 10}{\cdot 10^1 \frac{\mu \volt}{\hertz}}$ visible. This is explicable by the resonance frequency of the instrument and its sensitvity around the lamorfrequency (\SI{1841.4}{\hertz} for water in Germany in July 2020). All our following measurements will be done nearby the lamorfrequency. That is why the instrument sensitvity is sharpend around this value.
+
+\begin{figure}[H]
+    \centering
+    \input{plots/MonitorNoise138.tex}
+    \caption[Fourier transformed noise signal of the previous figure \ref{fig: noise}.]{Fourier transformed noise signal of the previous figure \ref{fig: noise}. Strong peaks every \SI{50}{\hertz} correspond to the frequency of the power grid in Germany and to electrical noise of a surrounding fluorescent light or the CRT computer monitor. The slight increase of the amplitude around $\SI{185 \pm 10}{\cdot 10^1 \frac{\mu \volt}{\hertz}}$ is explicable by the resonance frequency of instrument and its sensitvity around the lamorfrequency (\SI{1841.4}{\hertz} for water in Germany in July 2020).}
+    \label{fig: MonitorNoise138}
+\end{figure}
+

@@ -1,0 +1,25 @@
+% !TEX root = main.tex
+\section{Coil Analysis}
+\label{sec:CoilAnalyssis}
+Now knowing that we have a acceptable noise value under \SI{10}{\mu \volt}, we can analyse the coil. In order to do so we explain the general approach of NMR signals first. To measure a NMR signal a pulse and collect measurement has to be done. Therefore the B$_1$ coil (transmit and collect coil) has to apply a pulse. This pulse changes the spins direction out of its thermal equilibrium (along z-axes, due to the earths magnetic field B$_e$) into a direction with a component in the transversal plain. Therefore the B$_1$ coil collects a signal, because its aligned orthogonal to B$_e$. The transmit and collect procedure is based on \textit{Faraday}'s law of induction. Figure \ref{fig: PulsandcollectValesignal} exemplarly shows such a pulse and collect signal by the B$_1$ coil. Every following measurement in this report is based on the procedure of pulse and collect.
+
+\begin{figure}[H]
+    \centering
+    \input{plots/PulsandcollectValesignal.tex}
+    \caption[Example signal for a pulse and collect signal made by the B$_1$ coil.]{Example signal for a pulse and collect signal made by the B$_1$ coil. The example signal is taken from a FID signal.}
+    \label{fig: PulsandcollectValesignal}
+\end{figure}
+
+Due to the fact that the B$_1$ coil is a tuned LCR circuit a resonance frequency exists, which can be calculated by following formula:
+\begin{align}
+    \omega_{calc} = \frac{1}{\sqrt{L \cdot C}} \ .
+    \label{eq: lamorcalc}
+\end{align}
+To analyse the B$_1$ coil the resonance frequency versus the capacity is measured. Therefore the B$_1$ coil transmits a signal. Due to this signal the response of the coil can be measured. This signal is than fourier transformed and the resonance frequency can be deduced from the frequency domain (maxmimum in the frequency domain). This procedure is repeated automatically by the computer programm ''\textit{Prospa}'' for different capacities. By changing the capacity we can examen the best capacity in dependence of the lamor frequency. Figure \ref{fig: Coilanalyse} shows the measured and theoretically calculated resonance frequency (Equation \ref{eq: lamorcalc}; $L = \SI{0.417}{\henry}$) in dependence of the capacity. The horizontal line represents the lamor frequency of \SI{1841.4}{\hertz} for hydrogen in Germany in July 2020. To gain this value the vertical component of the earths magnetic field (\SI{43248.8}{\nano \tesla} \cite{magnetfeld}) is multiplied to the gyromagnetic ration $\SI{42.577}{\frac{\mega \hertz}{\tesla}}$ \cite{magnetfeld}. The vertical line represents the correct capacity we should use for our measurement, due to the resonance frequency of the lamor frequency. In this case the correct capacity is \SI{13.8}{\nano \farad}. For the calculated resonance frequency the correct capacity would be \SI{17.9}{\nano \farad}. It is not deniable that the measured curve is not parallel to the measured resonance frequency. This probably has its cause in the the not fix inductance $L$. Due to heating of the coil $L$ might change a little by increasing capacity and thus the calculated curve does not fit to the measured one. Another reason for the different calculated curve is that we use real coils and those have parasite resistances and also in-built capacities. This in-built capacity is not taken into account in the formula \ref{eq: lamorcalc} and therefore the calculated curve might be not correct. Since the calculated curve does not fit to the measured one, the calculated value for the capacity is not taken into account.
+
+\begin{figure}[H]
+    \centering
+    \input{plots/Coilanalyse.tex}
+    \caption[This figure shows the measured and calculated resonance frequencies for different capacities.]{This figure shows the measured and calculated resonance frequencies for different capacities. The marked cross represents the lamor frequency of \SI{1841.4}{\hertz} for hydrogen in Germany in July 2020.}
+    \label{fig: Coilanalyse}
+\end{figure}

@@ -1,0 +1,64 @@
+\input{header.tex}
+\begin{document}
+\selectlanguage{english}
+%----------------------------------------------------------------%
+%----------------------Titelseite--------------------------------%
+%----------------------------------------------------------------%
+\input{Kapitel/title}
+%----------------------------------------------------------------%
+%----------------------Inhaltsverzeichnis------------------------%
+%----------------------------------------------------------------%
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1} 
+%---------------------------------------------------------------%
+%----------------------Einleitung--------------------------------%
+%----------------------------------------------------------------%
+\input{Kapitel/1-einleitung}
+%----------------------------------------------------------------%
+%----------------------Grundlagen--------------------------------%
+%----------------------------------------------------------------%
+
+%----------------------------------------------------------------%
+%-----------------------Aufbau und Durchführung------------------%
+%---------------------------------------------------------------%
+\input{Kapitel/2-aufbau}
+% !!!!!!!!
+% !!!!!!!!!!
+% !!!!!!!!!
+% %Einstellen von größe des Bidles mit epslatex:  \resizebox{0.5\textwidth}{!}{\input{plots/Belichtungszeit.tex}}
+% !!!!!!!!!!
+% !!!!!!!!!!!
+% !!!!!!!!!
+\newpage
+%----------------------------------------------------------------%
+%----------------------Auswertung--------------------------------%
+%----------------------------------------------------------------%
+\input{Kapitel/3-Noisemeasurement}
+\input{Kapitel/4-CoilAnalyssis}
+\input{Kapitel/5-OptimizationandCharacterisationofFIDinwatersample}
+\input{Kapitel/6-long}
+\input{Kapitel/7-Hahnecho}
+\input{Kapitel/8-Multipleechosequences} 
+\input{Kapitel/9-Transversalrelaxationmeasurements}
+\selectlanguage{ngerman}
+\newpage
+\textcolor{red}{@Philipp ab hier Alle TITEL, BUs, LEGENDEN nochmal korrigieren!! ''todo''}
+\input{Kapitel/10-Polarisationszeit}
+\input{Kapitel/11-T1T2Relaxationszeit}
+\input{Kapitel/12-1DMRI}
+\input{Kapitel/13-2DMRI}
+\input{Kapitel/14-JKopplung}
+\input{Kapitel/15-Diffusion}
+%----------------------------------------------------------------%
+%----------------------Fazit-------------------------------------%
+%----------------------------------------------------------------%
+\newpage
+\input{Kapitel/fazit}
+\newpage
+%----------------------------------------------------------------%
+%----------------------Verzeichnisse-----------------------------%
+%----------------------------------------------------------------%
+\input{Kapitel/tables}
+\end{document}

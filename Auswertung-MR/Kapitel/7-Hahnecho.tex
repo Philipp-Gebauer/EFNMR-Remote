@@ -1,0 +1,25 @@
+% !TEX root = main.tex
+\section{Hahn echo}
+\label{sec:Hahnecho}
+The other relaxationmeasurement is the T$_2$ measurement. In order to understand that, we first have to explain the \textit{Hahn} echo and the principle of multiple echo sequences.\newline
+The principle of the \textit{Hahn} echo is that an \SI{90}{\degree} pulse is applied and after a certain time $\tau$ a \SI{180}{\degree} pulse. The reason behind this method is that after the \SI{90}{\degree} pulse the spins are oriented in the transversal plane and start to precise around the earths magnetic field vector (z-axis). Due to spin-spin interaction (inhomogeneous magnetic field accrues) the spins also interact with each other and therefore some spins have a higher lamor frequency and some have a lower one. If an \SI{180}{\degree} pulse is applied after a certain time the spins will flip in the transversal plane and the slow precessing spins will be before the fast precessing spins again and when the fast precessing  overtake the slow ones again the B$_1$ coil will detect a signal again. The reason why the B$_1$ coil does not detect something while the slow and fast precessing spins are at different position is that they erase each other. If the spin-spin interaction is too weak than it also helps to deshim the system along the x-direction. This also makes the homogeneous magnetic field inhomogeneous and thus the spins will get different lamor frequencies according to there position.\newline
+Figure \ref{fig:Echobeispeilsignal} exemplarily shows the \textit{Hahn} echo for a shimming value of \SI{4.95}{\milli \ampere} along the x-axis (original value \SI{10.11}{\milli \ampere}). It is also possible to change the time between the \SI{90}{\degree} and \SI{180}{\degree} pulse. This would shift the peak to higher times in the timescale and due to loss effects, the amplitude will shrink a little bit.
+\begin{figure}[H]
+    \centering
+    \input{plots/Echobeispeilsignal.tex}
+    \caption[Example of a single \textit{Hahn} echo for an echo time of \SI{0}{\milli \second}.]{Example of a single \textit{Hahn} echo for an echo time of \SI{0}{\milli \second}. The maximum of the echo is clearly visible. Due to relaxation after the maximum the signal after about \SI{0.2}{\second} is noise.}
+    \label{fig:Echobeispeilsignal}
+\end{figure}
+It is also possible to fourier transform the signal from figure \ref{fig:Echobeispeilsignal}. Figure \ref{fig:SpinEcho} shows this for two different shimming values. The amplitude of the spectrum with the shimming value of \SI{0}{\milli \ampere} along the x-axis is clearly smaller than the amplitude of the spectrum with shimming value of \SI{4.95}{\milli \ampere} along the x-axis. This effect comes from the more inhomogeneous magnetic field of the spectrum with the shimming value of \SI{0}{\milli \ampere} along the x-axis. A more inhomogeneous magnetic field also means that the spins have more different lamor frequencies and thus the total intensity will shrink. The area under the spectrum should be independent from the inhomogeneity, because in total the magnetisation has to be the same. Only the distribution is different. This effect is also really good visible in the figure \ref{fig:SpinEcho}. This time it is not possible to find a good fitting function. Therefore this discussion is more qualitativ as mentioned before in chapter \ref{sec:OptimizationandCharacterisationofFIDinwatersample}. The reason why there is no good fitting function is that there are a lot of random peaks in the spectrum and the more peaks there are the more difficult it is to find a good fitting function. Another thing which makes it rather hard is that the frequency steps are not very small and thus there are not many datapoints to make a good fit. This was also a problem in chapter \ref{sec:OptimizationandCharacterisationofFIDinwatersample} as mentioned before.
+\begin{figure}[H]
+    \centering
+    \input{plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo.tex}
+    \caption[Spectrum of a single \textit{Hahn} echo applied by different shimming values.]{Spectrum of a single \textit{Hahn} echo applied by different shimming values. Due to more deshimming of the red curve, the apmlitude is lower. Nevertheless the area under the spectrum is the same, due to the same magnetisation.}
+    \label{fig:SpinEcho}
+\end{figure}
+For the following chapter it is specifcally important to know which relaxation time we observe. Due to the inhomogeneous magnetic field there exist different relaxation times of the transversal relaxation time T$_2$. The transversal relaxation time T$_2^*$ describes the relaxation in consideration of the inhomogeneous magentic field. Therefore the formula has following shape:
+\begin{align}
+    \frac{1}{T_2^*} = \frac{1}{T_2} + \gamma \Delta B_0 \ .
+    \label{eq:T2_star}
+\end{align}
+In this equation $\gamma$ is the gyromagnetic ratio of the probe and $\Delta B_0$ is the difference of the magnetic field to its equilibrium. Knowing that we now know that every time we deshim the system we observe T$_2^*$ and not T$_2$.

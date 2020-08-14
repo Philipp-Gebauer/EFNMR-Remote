@@ -1,0 +1,13 @@
+expName = "MonitorNoise_14"
+dataDirectory = "C:\Users\EFNMR\Desktop\Daten\SoSe20\sk\Neu"
+maxFreqAmp = 10
+freqRange = 1000
+maxTimeAmp = 30
+b1freq = 1837
+cap = 14
+rxGain = 2
+nrPnts = 16384
+acqTime = 2
+nrScans = 5
+position = [48,35]
+experiment = "MonitorNoise"

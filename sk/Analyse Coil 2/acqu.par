@@ -1,0 +1,7 @@
+z_shim = -20.07
+y_shim = 20.88
+x_shim = 9.86
+expName = "Analyse Coil 2"
+dataDirectory = "C:\Users\EFNMR\Desktop\Daten\SoSe20\sk"
+position = [24,416]
+experiment = "AnalyseCoil"

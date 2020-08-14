@@ -1,0 +1,83 @@
+ToDo:
+
+Allgemeines:
+
+Sprache noch überlegen! Komplett auf Englisch wäre ok!
+Ansonsten in jedem Fall Abstract und Fazit auf Englisch.
+BUs ausführlicher und Legenden anpassen. V.a. präzise Formulierung.
+
+Bei jedem Abschnitt kurz erläutern worum es geht, was warum untersucht wurde und welche Ergebnisse evtl. erwartet werden.
+Welcher Erkenntnisgewinn wird erwartet. 
+Evtl auch wie gemessen wurde: Entweder Referenz zu Teil 1 oder neu erläutern
+--> z.B. bei PGSE verfahren komplett erläutern. + Skizze aus Teranova.
+
+Z.B. Vor Abschnitt 11 erklären, dass erneut Shimming gemacht wurde um zu erkennen, 
+dass die gleichen Voraussetzungen wie am ersten Versuchstag gegeben sind.
+
+Grundlagen aus Terranova mit einbeziehen. Evtl Referenzbilder.
+
+
+Messprotokoll beachten.
+Referenzbilder aus Terranova.
+FP Requirements beachten!
+
+
+Intensitätseinheiten sind arbitrary units, nur qualitativ nötig um Vergleichbarkeit zu schaffen.
+
+
+einzelne Kapitel:
+
+Abschnitt 11: Relaxivitäten
+
+[check]	• Signal plotten, die wir hatten
+	• T1 und T2: Plots gut, Tabelle evtl unnötig. --> Anhang
+	• Einfluss T_1 und T_2 auf Signalintensität
+	• Spektrum betrachten bei Cu2 (250 & 200) & Mn (25 & 200) und evtl alle auf einmal.
+	• Allgemeine Trends!
+		--> Vergleich Kupfer und Mangan, was ist besser für welchen Kontrast geeignet?
+		--> Vergleich mit Wasser 
+		--> Polarisationszeiten beachten.
+	--> Mehr WW aufgrund von mehr ungepaarten Elektronen, zusätzliche Dipolmomente --> schnellere Diffusion
+[check]	• Relaxivitäten berechnen. 
+[check]	• Relaxivitäten über Konzentration plotten 
+[check]	• T(0) = y-Achsenabschnitt! Plotte 1/T --> Fitte: Steigung = r
+
+
+Abschnitt 12: 1D
+
+	• Abb 12.1 in x-Richtung
+	• Abb 12.2 evtl x-achsen-skala anpassen (Zentrum bei 1839Hz) in y-Richtung
+[check]	• Abmessungen ableiten --> Terranova! (evtl FOV)
+
+[check]	• G = 2 pi df/gamma FOV
+		--> Bandbreite und räumliche Ausdehnung sind in Zsh.
+		--> genaue Position zuordnen, da FOV Gradienten festlegt (Frequenzänderung pro mm).
+
+Abschnitt 13: 2D
+
+	• Bilder: Legende (Einheiten) & Ausfüllen des Abbildungsbereichs (weißer Rand)
+	• Beschreibung & Subfigures
+	• Aussage der Stoffe in den Röhren --> evtl referenz zu Mn und Cu und Wasser
+	• Echozeit ist 200ms, nicht T1!!
+	• schlechtes Bild:
+		--> entweder diskutieren, evtl zu kurze Echozeit, überlagerung mit FID etc (störsignale)
+		--> oder weglassen und schöne Daten diskutieren.
+
+Abschnitt 14: J-Kopplung
+
+	• Kopplungskonstanten berechnen. Oder Ablesen (Abstand sind 6Hz!)
+	• Lorentz-Fit probieren
+	• Halbwertsbreite hat eine Aussage!
+	• Und evtl Integral bzw im Gauß-Fit --> Pascalschesdreieck
+		--> Normierung auf 1 oder im Zweifel ablesen
+		--> Diskussion, dass absichtlich wenige Datenpunkte genommen wurden um Peakhöhen schärfer zu sehen.
+	• Annahme der schwachen Kopplung überprüfen (2 Pi J << |w1-w2|.)
+
+Abschnitt 15: Selbstdiffusion
+
+[check]	• Y-Achse: Log-Skala
+[check]	• Längenmaßstab in der Probe definiere.
+	• Selbstdiffusionskoeffizient bestimmen. --> PGSE-Anleitung bzw
+		--> Luc's Daten sind ok. Evtl kommen wir noch drauf, 
+			wie aus unseren Daten das möglich ist auszuwerten.
+	• Vergleich mit Literaturwert.
