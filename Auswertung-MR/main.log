@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.22)  12 AUG 2020 20:46
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.18)  14 AUG 2020 09:58
+>>>>>>> parent of eb81a07... korrekturerster teil
 entering extended mode
 **"c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/main.tex"
 ("c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/main.tex"
@@ -1099,7 +1103,11 @@ Package epstopdf Info: Source file: <plots/Coilanalyse.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Coilanalyse-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Coilanalyse-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/Coilanalyse-eps-converted-to.pdf, id=107, 361.35pt x 252.945pt>
 File: plots/Coilanalyse-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Coilanalyse-eps-converted-to.pdf>
@@ -1119,7 +1127,11 @@ Package epstopdf Info: Source file: <plots/B1dauer.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/B1dauer-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/B1dauer-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/B1dauer-eps-converted-to.pdf, id=115, 361.35pt x 252.945pt>
 File: plots/B1dauer-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/B1dauer-eps-converted-to.pdf>
@@ -1139,7 +1151,11 @@ Package epstopdf Info: Source file: <plots/138_puls_and_collect_number_of_delay2
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf, id=124, 361.35pt x 252.945pt>
 File: plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf>
@@ -1159,7 +1175,11 @@ Package epstopdf Info: Source file: <plots/Pulsandcollect138.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/Pulsandcollect138-eps-converted-to.pdf, id=138, 361.35pt x 252.945pt>
 File: plots/Pulsandcollect138-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Pulsandcollect138-eps-converted-to.pdf>
@@ -1179,13 +1199,21 @@ Package epstopdf Info: Source file: <plots/Pulsandcollect138_delay_25_gauss.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf, id=153, 361.35pt x 252.945pt>
 File: plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf  used on input line 122.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+<<<<<<< HEAD
 ) [10 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138-eps-converted-to.pdf>]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/6-long.tex" [11]
+=======
+) [10 <c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138-eps-converted-to.pdf>]) (c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\Kapitel/6-long.tex [11]
+>>>>>>> parent of eb81a07... korrekturerster teil
 <Abbildungen/BildT1.png, id=173, 782.17218pt x 495.35063pt>
 File: Abbildungen/BildT1.png Graphic file (type png)
 <use Abbildungen/BildT1.png>
@@ -1205,7 +1233,11 @@ Package epstopdf Info: Source file: <plots/T1Polarisationsfeldfeld.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Polarisationsfeldfeld-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/T1Polarisationsfeldfeld-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/T1Polarisationsfeldfeld-eps-converted-to.pdf, id=185, 361.35pt x 252.945pt>
 File: plots/T1Polarisationsfeldfeld-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T1Polarisationsfeldfeld-eps-converted-to.pdf>
@@ -1225,7 +1257,11 @@ Package epstopdf Info: Source file: <plots/T1Erdmagnetfeld.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Erdmagnetfeld-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/T1Erdmagnetfeld-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/T1Erdmagnetfeld-eps-converted-to.pdf, id=196, 361.35pt x 252.945pt>
 File: plots/T1Erdmagnetfeld-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T1Erdmagnetfeld-eps-converted-to.pdf>
@@ -1245,7 +1281,11 @@ Package epstopdf Info: Source file: <plots/Echobeispeilsignal.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Echobeispeilsignal-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Echobeispeilsignal-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/Echobeispeilsignal-eps-converted-to.pdf, id=207, 361.35pt x 252.945pt>
 File: plots/Echobeispeilsignal-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Echobeispeilsignal-eps-converted-to.pdf>
@@ -1265,7 +1305,11 @@ Package epstopdf Info: Source file: <plots/SpinEcho_4scans_ideal_Repetitiontime_
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf, id=220, 361.35pt x 252.945pt>
 File: plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf>
@@ -1285,7 +1329,11 @@ Package epstopdf Info: Source file: <plots/180pulsephasedegree.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/180pulsephasedegree-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/180pulsephasedegree-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/180pulsephasedegree-eps-converted-to.pdf, id=238, 361.35pt x 252.945pt>
 File: plots/180pulsephasedegree-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/180pulsephasedegree-eps-converted-to.pdf>
@@ -1305,7 +1353,11 @@ Package epstopdf Info: Source file: <plots/T2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/T2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/T2-eps-converted-to.pdf, id=245, 361.35pt x 252.945pt>
 File: plots/T2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T2-eps-converted-to.pdf>
@@ -1325,7 +1377,11 @@ Package epstopdf Info: Source file: <plots/CPMG045shimming.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/CPMG045shimming-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/CPMG045shimming-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/CPMG045shimming-eps-converted-to.pdf, id=257, 361.35pt x 252.945pt>
 File: plots/CPMG045shimming-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/CPMG045shimming-eps-converted-to.pdf>
@@ -1345,7 +1401,11 @@ Package epstopdf Info: Source file: <plots/Polarisationszeit.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Polarisationszeit-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Polarisationszeit-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/Polarisationszeit-eps-converted-to.pdf, id=271, 361.35pt x 252.945pt>
 File: plots/Polarisationszeit-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Polarisationszeit-eps-converted-to.pdf>
@@ -1365,7 +1425,11 @@ Package epstopdf Info: Source file: <plots/T1Wasser.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Wasser-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/T1Wasser-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/T1Wasser-eps-converted-to.pdf, id=272, 361.35pt x 252.945pt>
 File: plots/T1Wasser-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T1Wasser-eps-converted-to.pdf>
@@ -1385,7 +1449,11 @@ Package epstopdf Info: Source file: <plots/T2Wasser.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T2Wasser-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/T2Wasser-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/T2Wasser-eps-converted-to.pdf, id=280, 361.35pt x 252.945pt>
 File: plots/T2Wasser-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T2Wasser-eps-converted-to.pdf>
@@ -1405,7 +1473,11 @@ Package epstopdf Info: Source file: <plots/KupferalleT1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/KupferalleT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/KupferalleT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/KupferalleT1-eps-converted-to.pdf, id=289, 361.35pt x 252.945pt>
 File: plots/KupferalleT1-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/KupferalleT1-eps-converted-to.pdf>
@@ -1425,7 +1497,11 @@ Package epstopdf Info: Source file: <plots/KupferalleT2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/KupferalleT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/KupferalleT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/KupferalleT2-eps-converted-to.pdf, id=290, 361.35pt x 252.945pt>
 File: plots/KupferalleT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/KupferalleT2-eps-converted-to.pdf>
@@ -1445,7 +1521,11 @@ Package epstopdf Info: Source file: <plots/ManganalleT1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/ManganalleT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/ManganalleT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/ManganalleT1-eps-converted-to.pdf, id=291, 361.35pt x 252.945pt>
 File: plots/ManganalleT1-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/ManganalleT1-eps-converted-to.pdf>
@@ -1465,7 +1545,11 @@ Package epstopdf Info: Source file: <plots/ManganalleT2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/ManganalleT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/ManganalleT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/ManganalleT2-eps-converted-to.pdf, id=302, 361.35pt x 252.945pt>
 File: plots/ManganalleT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/ManganalleT2-eps-converted-to.pdf>
@@ -1485,7 +1569,11 @@ Package epstopdf Info: Source file: <plots/SignalkontrastT1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/SignalkontrastT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/SignalkontrastT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/SignalkontrastT1-eps-converted-to.pdf, id=313, 361.35pt x 252.945pt>
 File: plots/SignalkontrastT1-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/SignalkontrastT1-eps-converted-to.pdf>
@@ -1505,7 +1593,11 @@ Package epstopdf Info: Source file: <plots/1DMRI.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/1DMRI-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/1DMRI-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/1DMRI-eps-converted-to.pdf, id=322, 361.35pt x 252.945pt>
 File: plots/1DMRI-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/1DMRI-eps-converted-to.pdf>
@@ -1525,7 +1617,11 @@ Package epstopdf Info: Source file: <plots/1DMRIy.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/1DMRIy-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/1DMRIy-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/1DMRIy-eps-converted-to.pdf, id=331, 361.35pt x 252.945pt>
 File: plots/1DMRIy-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/1DMRIy-eps-converted-to.pdf>
@@ -1545,7 +1641,11 @@ Package epstopdf Info: Source file: <plots/2DMRI600.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI600-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/2DMRI600-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/2DMRI600-eps-converted-to.pdf, id=339, 361.35pt x 252.945pt>
 File: plots/2DMRI600-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI600-eps-converted-to.pdf>
@@ -1565,7 +1665,11 @@ Package epstopdf Info: Source file: <plots/2DMRI1300.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI1300-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/2DMRI1300-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/2DMRI1300-eps-converted-to.pdf, id=340, 361.35pt x 252.945pt>
 File: plots/2DMRI1300-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI1300-eps-converted-to.pdf>
@@ -1585,7 +1689,11 @@ Package epstopdf Info: Source file: <plots/2DMRI2100.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI2100-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/2DMRI2100-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/2DMRI2100-eps-converted-to.pdf, id=349, 361.35pt x 252.945pt>
 File: plots/2DMRI2100-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI2100-eps-converted-to.pdf>
@@ -1605,7 +1713,11 @@ Package epstopdf Info: Source file: <plots/2DMRI2800.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI2800-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/2DMRI2800-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/2DMRI2800-eps-converted-to.pdf, id=357, 361.35pt x 252.945pt>
 File: plots/2DMRI2800-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI2800-eps-converted-to.pdf>
@@ -1625,7 +1737,11 @@ Package epstopdf Info: Source file: <plots/2DMRI200.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI200-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/2DMRI200-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/2DMRI200-eps-converted-to.pdf, id=358, 361.35pt x 252.945pt>
 File: plots/2DMRI200-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI200-eps-converted-to.pdf>
@@ -1645,7 +1761,11 @@ Package epstopdf Info: Source file: <plots/2DMRI250.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI250-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/2DMRI250-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/2DMRI250-eps-converted-to.pdf, id=369, 361.35pt x 252.945pt>
 File: plots/2DMRI250-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI250-eps-converted-to.pdf>
@@ -1665,7 +1785,11 @@ Package epstopdf Info: Source file: <plots/2DMRI300.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI300-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/2DMRI300-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/2DMRI300-eps-converted-to.pdf, id=370, 361.35pt x 252.945pt>
 File: plots/2DMRI300-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI300-eps-converted-to.pdf>
@@ -1685,7 +1809,11 @@ Package epstopdf Info: Source file: <plots/2DMRI450.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI450-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/2DMRI450-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/2DMRI450-eps-converted-to.pdf, id=381, 361.35pt x 252.945pt>
 File: plots/2DMRI450-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI450-eps-converted-to.pdf>
@@ -1705,7 +1833,11 @@ Package epstopdf Info: Source file: <plots/2DMRI550.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI550-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/2DMRI550-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/2DMRI550-eps-converted-to.pdf, id=382, 361.35pt x 252.945pt>
 File: plots/2DMRI550-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI550-eps-converted-to.pdf>
@@ -1725,7 +1857,11 @@ Package epstopdf Info: Source file: <plots/Tunensignalpulsandcollect.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Tunensignalpulsandcollect-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Tunensignalpulsandcollect-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/Tunensignalpulsandcollect-eps-converted-to.pdf, id=393, 361.35pt x 252.945pt>
 File: plots/Tunensignalpulsandcollect-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Tunensignalpulsandcollect-eps-converted-to.pdf>
@@ -1745,7 +1881,11 @@ Package epstopdf Info: Source file: <plots/Diffusion.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 
+<<<<<<< HEAD
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Diffusion-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+=======
+pdfTeX warning: pdflatex (file c:/Users/simon/Desktop/EFNMR-Remote/Auswertung-MR/plots/Diffusion-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+>>>>>>> parent of eb81a07... korrekturerster teil
 <plots/Diffusion-eps-converted-to.pdf, id=404, 361.35pt x 252.945pt>
 File: plots/Diffusion-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Diffusion-eps-converted-to.pdf>
@@ -1792,9 +1932,15 @@ Here is how much of TeX's memory you used:
  45132 multiletter control sequences out of 15000+200000
  630476 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< HEAD
  67i,21n,89p,10204b,1430s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmtt10.pfb>
 Output written on "c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.pdf" (42 pages, 2929853 bytes).
+=======
+ 67i,21n,90p,10168b,1430s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on c:/Users\simon\Desktop\EFNMR-Remote\Auswertung-MR\main.pdf (42 pages, 2928615 bytes).
+>>>>>>> parent of eb81a07... korrekturerster teil
 PDF statistics:
  626 PDF objects out of 1000 (max. 8388607)
  111 named destinations out of 1000 (max. 500000)
