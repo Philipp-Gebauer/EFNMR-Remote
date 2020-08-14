@@ -12,7 +12,7 @@ There exist two possibilities to measure the longitudinal spin lattice relaxatio
 
 Due to the increasing magnetisation it is possible to calculate the T$_{1,p}$ relaxation. In order to do so the magnetisation time is increased step by step from \SI{500}{\milli \second} to \SI{4500}{\milli \second} in step sizes of \SI{500}{\milli \second} and in each configuration the signal maximum is calculated of the fourier transformed spectrum. Figure \ref{fig:T1Polarisationsfeldfeld} shows the attenuation of the signals normalized to the maximum peak E$_0$. The reason of that is that by applying a fit function as followed:
 \begin{align}
-    S(x)=S_0 \cdot [1-exp(\frac{-x}{T_{1,p}})] \ ,
+    S(x)=S_0 \cdot [1-exp\left(\frac{-x}{T_{1,p}}\right)] \ ,
     \label{eq: fitBp}
 \end{align}
 it is possible to calculate the relaxation time T$_{1,p}$. The exponential decay is a result of loss of phase coherence between the spins and will be used for every measurement of spin relaxation. In this case T$_{1,p}$ is \SI{2912.8800 \pm 0.0048}{\milli \second}.
@@ -26,11 +26,11 @@ it is possible to calculate the relaxation time T$_{1,p}$. The exponential decay
 
 The second option is to calculate the spin lattice relaxation via the earths magnetic field B$_e$. In this case the index will be $e$ for the spin lattice relaxation. The procedure in this case is to change the time $t$ (pre-90 minimum delay) between the polarizing pulse ends and the \SI{90}{\degree} pulse begins. This relation is also visualized in the figure \ref{fig:BildT1}. The pre-90 minimum delay is chosen as \SI{0}{\milli \second} and the pre-90 delay step size \SI{500}{\milli \second}. For every configuration the signal maximum is calculated again of the fourier transformed spectrum. Figure \ref{fig:T1Erdmagnetfeld} shows the attenuation of the signals normalized to the maximum peak E$_0$. This time the T$_{1,e}$ can be calculated by following fit function:
 \begin{align}
-    S(x) = S_0 \cdot exp(\frac{-x}{T_{1,e}}) \ .
+    S(x) = S_0 \cdot exp\left(\frac{-x}{T_{1,e}}\right) \ .
     \label{eq: fitBe}
 \end{align}
 For our case T$_{1,e}$ is \SI{2753.0500 \pm 0.0012}{\milli \second}.\newline
-In both ways the uncertainty of the T$_1$ values are really small. This is the result of really good aligned values to the fit function. Nevertheless T$_{1,p}$ and T$_{1,e}$ are not consistent even though the uncertainty is considered. This might be, due to the fact that those to measurements are based on two different methods and T$_{1,e}$ is dependent on the earths magnetic field. Even though they are not consistent, the values for T$_{1,p}$ and T$_{1,e}$ have the same magnitude and also have the same magnitude according to a literature value of \SI{4000}{\milli \second} \cite{literaturT1}. Keep in mind that a comparison to literature values is just there to get the magnitude. Since the surrounding magnetic field and the probe define the exact value.
+In both ways the uncertainty of the T$_1$ values are really small. This is the result of really good aligned values to the fit function. Nevertheless T$_{1,p}$ and T$_{1,e}$ are not consistent even though the uncertainty is considered. This might be, due to the fact that those two measurements are based on two different methods and T$_{1,e}$ is dependent on the earths magnetic field. Even though they are not consistent, the values for T$_{1,p}$ and T$_{1,e}$ have the same magnitude and also have the same magnitude according to a literature value of \SI{4000}{\milli \second} \cite{literaturT1}. Keep in mind that a comparison to literature values is just there to get the magnitude. Since the surrounding magnetic field and the probe define the exact value.
 \begin{figure}[H]
     \centering
     \input{plots/T1Erdmagnetfeld.tex}
