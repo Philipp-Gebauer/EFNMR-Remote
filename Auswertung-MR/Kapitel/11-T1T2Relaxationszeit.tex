@@ -1,5 +1,7 @@
 % !TEX root = main.tex
 \section{T1 und T2 Relaxationszeit für Wasser und mit Zusatzmitteln}
+\ce{Cu^2+} \ce{Mn^2+}
+
 \begin{figure}[H]
     \centering
     \input{plots/T1Wasser.tex}
@@ -12,92 +14,103 @@
     \caption{T2 Messung von Wasser}
 \end{figure}
 
-% \begin{figure}[H]
-%     \centering
-%     \input{plots/Relaxivitat_CuT1.tex}
-%     \caption{Relaxivitat $r_1$ von Kupfer}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \input{plots/Relaxivitat_CuT1.tex}
+    \caption{\textcolor{red}{ToD:}Relaxivitat $r_1$ von Kupfer}
+    \label{fig:RelaxCUT1}
+\end{figure}
 
-% \begin{figure}[H]
-%     \centering
-%     \input{plots/Relaxivitat_CuT2.tex}
-%     \caption{Relaxivitat $r_2$ von Kupfer}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \input{plots/Relaxivitat_CuT2.tex}
+    \caption{\textcolor{red}{ToD:}Relaxivitat $r_2$ von Kupfer}
+    \label{fig:RelaxCUT2}
+\end{figure}
 
-% \begin{figure}[H]
-%     \centering
-%     \input{plots/Relaxivitat_MnT1.tex}
-%     \caption{Relaxivitat $r_1$ von Mangan}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \input{plots/Relaxivitat_MnT1.tex}
+    \caption{\textcolor{red}{ToD:}Relaxivitat $r_1$ von Mangan}
+    \label{fig:RelaxMNT1}
+\end{figure}
 
-% \begin{figure}[H]
-%     \centering
-%     \input{plots/Relaxivitat_MnT2.tex}
-%     \caption{Relaxivitat $r_2$ von Mangan}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \input{plots/Relaxivitat_MnT2.tex}
+    \caption{\textcolor{red}{ToD:}Relaxivitat $r_2$ von Mangan}
+    \label{fig:RelaxMNT2}
+\end{figure}
 
 \begin{figure}[H]
     \centering
     \input{plots/KupferalleT1.tex}
-    \caption{Alle Messungen T1 Cu2+}
+    \caption{\textcolor{red}{ToD:}Alle Messungen T1 Cu2+}
+    \label{fig:T1CU}
 \end{figure}
+
 \begin{figure}[H]
     \centering
     \input{plots/KupferalleT2.tex}
-    \caption{Alle Messungen T2Cu2+}
+    \caption{\textcolor{red}{ToD:}Alle Messungen T2Cu2+}
+    \label{fig:T2CU}
 \end{figure}
+
 \begin{figure}[H]
     \centering
     \input{plots/ManganalleT1.tex}
-    \caption{Alle Messungen T1Mn2+}
+    \caption{\textcolor{red}{ToD:}Alle Messungen T1Mn2+}
+    \label{fig:T1Mn}
 \end{figure}
+
 \begin{figure}[H]
     \centering
     \input{plots/ManganalleT2.tex}
-    \caption{Alle Messungen T2MN2+}
+    \caption{\textcolor{red}{ToD:}Alle Messungen T2MN2+}
+    \label{fig:T2M}
 \end{figure}
 
- \begin{table}[H]
-    \centering]
-    \begin{tabular}{lllll}
-    \hline
-    \multicolumn{1}{|l|}{}            & \multicolumn{1}{l|}{T1}      & \multicolumn{1}{l|}{U(T1)-Fit} & \multicolumn{1}{l|}{T2}      & \multicolumn{1}{l|}{U(T2)-Fit}  \\ \hline
-    \multicolumn{1}{|l|}{Cu2    250}  & \multicolumn{1}{l|}{1394,84} & \multicolumn{1}{l|}{0,001055}  & \multicolumn{1}{l|}{1215,51} & \multicolumn{1}{l|}{0,0002529}  \\ \hline
-    \multicolumn{1}{|l|}{Cu2    500}  & \multicolumn{1}{l|}{1003,4}  & \multicolumn{1}{l|}{0,0004851} & \multicolumn{1}{l|}{1066,44} & \multicolumn{1}{l|}{0,0002621}  \\ \hline
-    \multicolumn{1}{|l|}{Cu2    1000} & \multicolumn{1}{l|}{646,849} & \multicolumn{1}{l|}{71,54}     & \multicolumn{1}{l|}{748,404} & \multicolumn{1}{l|}{0,0001937}  \\ \hline
-    \multicolumn{1}{|l|}{Cu2    2000} & \multicolumn{1}{l|}{431,268} & \multicolumn{1}{l|}{0,0002906} & \multicolumn{1}{l|}{341,83}  & \multicolumn{1}{l|}{0,0001228}  \\ \hline
-                                      &                              &                                &                              &                                 \\ \hline
-    \multicolumn{1}{|l|}{}            & \multicolumn{1}{l|}{T1}      & \multicolumn{1}{l|}{U(T1)-Fit} & \multicolumn{1}{l|}{T2}      & \multicolumn{1}{l|}{U(T2)-Fit}  \\ \hline
-    \multicolumn{1}{|l|}{Wasser}      & \multicolumn{1}{l|}{2199,46} & \multicolumn{1}{l|}{0,003027}  & \multicolumn{1}{l|}{1901,06} & \multicolumn{1}{l|}{89,83}      \\ \hline
-                                      &                              &                                &                              &                                 \\
-                                      &                              &                                &                              &                                 \\ \hline
-    \multicolumn{1}{|l|}{}            & \multicolumn{1}{l|}{T1}      & \multicolumn{1}{l|}{U(T1)-Fit} & \multicolumn{1}{l|}{T2}      & \multicolumn{1}{l|}{U(T2)-Fit}  \\ \hline
-    \multicolumn{1}{|l|}{Mn 2 25}     & \multicolumn{1}{l|}{1178,28} & \multicolumn{1}{l|}{0,0009801} & \multicolumn{1}{l|}{548,337} & \multicolumn{1}{l|}{0,0001258}  \\ \hline
-    \multicolumn{1}{|l|}{Mn 2 50}     & \multicolumn{1}{l|}{725,857} & \multicolumn{1}{l|}{0,0006027} & \multicolumn{1}{l|}{279,858} & \multicolumn{1}{l|}{0,00008179} \\ \hline
-    \multicolumn{1}{|l|}{Mn 2 100}    & \multicolumn{1}{l|}{316,085} & \multicolumn{1}{l|}{0,0003079} & \multicolumn{1}{l|}{170,996} & \multicolumn{1}{l|}{0,0001182}  \\ \hline
-    \multicolumn{1}{|l|}{Mn 2 200}    & \multicolumn{1}{l|}{180,244} & \multicolumn{1}{l|}{0,0001274} & \multicolumn{1}{l|}{69,1512} & \multicolumn{1}{l|}{0,0000547}  \\ \hline
-    \end{tabular}
-    \caption{T1- und T2- abhängig von den Stoffen und der Konzentration}
-     \end{table}
+\begin{table}[H]
+    	\centering
+        \begin{tabular}{lllll}  \hline
+        \multicolumn{1}{|l|}{}            & \multicolumn{1}{l|}{T1}      & \multicolumn{1}{l|}{U(T1)-Fit} & \multicolumn{1}{l|}{T2}      & \multicolumn{1}{l|}{U(T2)-Fit}  \\ \hline
+        \multicolumn{1}{|l|}{Cu2    250}  & \multicolumn{1}{l|}{1394,84} & \multicolumn{1}{l|}{0,001055}  & \multicolumn{1}{l|}{1215,51} & \multicolumn{1}{l|}{0,0002529}  \\ \hline
+        \multicolumn{1}{|l|}{Cu2    500}  & \multicolumn{1}{l|}{1003,4}  & \multicolumn{1}{l|}{0,0004851} & \multicolumn{1}{l|}{1066,44} & \multicolumn{1}{l|}{0,0002621}  \\ \hline
+        \multicolumn{1}{|l|}{Cu2    1000} & \multicolumn{1}{l|}{646,849} & \multicolumn{1}{l|}{71,54}     & \multicolumn{1}{l|}{748,404} & \multicolumn{1}{l|}{0,0001937}  \\ \hline
+        \multicolumn{1}{|l|}{Cu2    2000} & \multicolumn{1}{l|}{431,268} & \multicolumn{1}{l|}{0,0002906} & \multicolumn{1}{l|}{341,83}  & \multicolumn{1}{l|}{0,0001228}  \\ \hline
+                                        &                              &                                &                              &                                 \\ \hline
+        \multicolumn{1}{|l|}{}            & \multicolumn{1}{l|}{T1}      & \multicolumn{1}{l|}{U(T1)-Fit} & \multicolumn{1}{l|}{T2}      & \multicolumn{1}{l|}{U(T2)-Fit}  \\ \hline
+        \multicolumn{1}{|l|}{Wasser}      & \multicolumn{1}{l|}{2199,46} & \multicolumn{1}{l|}{0,003027}  & \multicolumn{1}{l|}{1901,06} & \multicolumn{1}{l|}{89,83}      \\ \hline
+                                        &                              &                                &                              &                                 \\
+                                        &                              &                                &                              &                                 \\ \hline
+        \multicolumn{1}{|l|}{}            & \multicolumn{1}{l|}{T1}      & \multicolumn{1}{l|}{U(T1)-Fit} & \multicolumn{1}{l|}{T2}      & \multicolumn{1}{l|}{U(T2)-Fit}  \\ \hline
+        \multicolumn{1}{|l|}{Mn 2 25}     & \multicolumn{1}{l|}{1178,28} & \multicolumn{1}{l|}{0,0009801} & \multicolumn{1}{l|}{548,337} & \multicolumn{1}{l|}{0,0001258}  \\ \hline
+        \multicolumn{1}{|l|}{Mn 2 50}     & \multicolumn{1}{l|}{725,857} & \multicolumn{1}{l|}{0,0006027} & \multicolumn{1}{l|}{279,858} & \multicolumn{1}{l|}{0,00008179} \\ \hline
+        \multicolumn{1}{|l|}{Mn 2 100}    & \multicolumn{1}{l|}{316,085} & \multicolumn{1}{l|}{0,0003079} & \multicolumn{1}{l|}{170,996} & \multicolumn{1}{l|}{0,0001182}  \\ \hline
+        \multicolumn{1}{|l|}{Mn 2 200}    & \multicolumn{1}{l|}{180,244} & \multicolumn{1}{l|}{0,0001274} & \multicolumn{1}{l|}{69,1512} & \multicolumn{1}{l|}{0,0000547}  \\ \hline
+        \end{tabular}
+        \caption{T1- und T2- abhängig von den Stoffen und der Konzentration}
+\end{table}
 
-    \begin{figure}[H]
-        \centering
-        \input{plots/SignalkontrastT1.tex}
-        \caption{Die T1 Signale bei der jeweiligen Konzentration}
-    \end{figure}
+\begin{figure}[H]
+    \centering
+    \input{plots/SignalkontrastT1.tex}
+    \caption{Die T1 Signale bei der jeweiligen Konzentration}
+    \label{fig:T1Signalkontrast}
+\end{figure}
 
-    \begin{table}[H]
-        \centering
-        \caption{Relaxivitäten von Kupfer und Mangan.}
-        \begin{tabular}{|l||r|r|} \hline
-                & Kupfer    & Mangan    \\    \hline \hline
-            $r_{1}$ in $\si{\frac{\mol}{\metre \cubed \second}}$    & $\SI{4.53 \pm 0.31e-4}{}$   & $\SI{1.365 \pm 0.084e-2}{}$    \\    \hline
-            $T_{1}$ in $\si{\second}$                               & $\SI{1.84 \pm 0.24e3}{}$    & $\SI{5.7    \pm 6.3e3}{}$       \\    \hline
-            $r_{2}$ in $\si{\frac{\mol}{\metre \cubed \second}}$    & $\SI{6.16 \pm 0.84e-4}{}$   & $\SI{3.593  \pm 0.0031e-1}{}$   \\    \hline
-            $T_{2}$ in $\si{\second}$                               & $\SI{2.9  \pm 1.6e3}{}$     & $\SI{-3.2   \pm 7.5e3}{}$       \\    \hline
-        \end{tabular} 
-        \label{tab:Relaxivitat} 
-    \end{table}
+\begin{table}[H]
+    \centering
+    \caption{Relaxivitäten von Kupfer und Mangan.}
+    \begin{tabular}{|l||r|r|} \hline
+            & Kupfer    & Mangan    \\    \hline \hline
+        $r_{1}$ in $\si{\frac{\mol}{\metre \cubed \second}}$    & $\SI{4.53 \pm 0.31e-4}{}$   & $\SI{1.365 \pm 0.084e-2}{}$    \\    \hline
+        $T_{1}$ in $\si{\second}$                               & $\SI{1.84 \pm 0.24e3}{}$    & $\SI{5.7    \pm 6.3e3}{}$       \\    \hline
+        $r_{2}$ in $\si{\frac{\mol}{\metre \cubed \second}}$    & $\SI{6.16 \pm 0.84e-4}{}$   & $\SI{3.593  \pm 0.0031e-1}{}$   \\    \hline
+        $T_{2}$ in $\si{\second}$                               & $\SI{2.9  \pm 1.6e3}{}$     & $\SI{-3.2   \pm 7.5e3}{}$       \\    \hline
+    \end{tabular} 
+    \label{tab:Relaxivitat} 
+\end{table}
     
     % \begin{figure}[H]
     %     \centering

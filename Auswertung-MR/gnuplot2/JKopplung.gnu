@@ -1,11 +1,11 @@
 # für die J-J-Kopplung das fine tuning
 #png
-set terminal png size 1024,720
-set output "pngplots/JKopplung.png"
+# set terminal png size 1024,720
+# set output "pngplots/JKopplung.png"
 
 # #epslatex
-# set terminal epslatex
-# set output "plots/JKopplung.tex"
+set terminal epslatex
+set output "plots/JKopplung.tex"
 
 # Peak bei alllen 50 Hz enstehen durch Steckdose
 
@@ -19,7 +19,7 @@ y_max = 4
 dataPTH = "Messwerte2/12_1/spectrum.txt"
 load "jet.pal"
 
-set ylabel "Amplitude in $\\si{\\milli \\second}$"
+set ylabel "Amplitude in willk\\\"urlicher Einheit"
 set xlabel "Frequenz in $\\si{\\hertz}$"
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
@@ -105,16 +105,16 @@ s6 = 0.65
 d6 = 1846
 b6 = 2.1
 fit [1830:1849] g(x) dataPTH using 1:2 via  a5, s4, d4, b4, s5, d5, b5, s6, d6, b6
-set arrow from 1724,0 to 1724,4 nohead
-set arrow from 1730,0 to 1730,4 nohead
-set arrow from 1737,0 to 1737,4 nohead
-set arrow from 1834,0 to 1834,4 nohead
-set arrow from 1840,0 to 1840,4 nohead
-set arrow from 1846,0 to 1846,4 nohead
+# set arrow from 1724,0 to 1724,4 nohead
+# set arrow from 1730,0 to 1730,4 nohead
+# set arrow from 1737,0 to 1737,4 nohead
+# set arrow from 1834,0 to 1834,4 nohead
+# set arrow from 1840,0 to 1840,4 nohead
+# set arrow from 1846,0 to 1846,4 nohead
 
 
 
 
 #plot dataPTH using 1:2 ls 2 ps 3 lw 3 notitle
-plot dataPTH using 1:2 lt 5 lc 15 w lines title "Messung zur J-Kopplung", [1720:1740] f(x) ls 2 lw 3 title "\\textsc{Gauss}-Fits der Fluor-Peaks", [1830:1849] g(x) ls 7 lw 3 title "\\textsc{Gauss}-Fits der Wasserstoff-Peaks"
-set label sprintf("FWHM $= \\SI{%4.3f \\pm %4.3f}{\\hertz}$",(2*(2*log(2))**(1.0/2)*s),(2*(2*log(2))**(1.0/2)*s_err)) at 1838.5,35
+plot dataPTH using 1:2 lw 3 lt 5 lc 15 w lines title "Messung zur J-Kopplung", [1720:1740] f(x) ls 2 lw 3 title "\\textsc{Gauss}-Fits der Fluor-Peaks", [1830:1849] g(x) ls 5 lw 3 title "\\textsc{Gauss}-Fits der Wasserstoff-Peaks"
+# set label sprintf("FWHM $= \\SI{%4.3f \\pm %4.3f}{\\hertz}$",(2*(2*log(2))**(1.0/2)*s),(2*(2*log(2))**(1.0/2)*s_err)) at 1838.5,35
