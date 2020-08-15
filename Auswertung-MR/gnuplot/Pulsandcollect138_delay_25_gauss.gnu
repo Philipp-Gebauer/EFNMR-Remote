@@ -67,6 +67,6 @@ set arrow from E2,0 to E2,90 nohead
 
 #plot dataPTH using 1:2 ls 2 ps 3 lw 3 notitle
 plot dataPTH using 1:2 lt 5 lc 15 w lines title "magnitude spectrum", \
-[1800:1900] E(x) lt 2 title "voigt-profile", \
-[1800:1900] f(x) lt 6 title "\\textsc{Gauss}-Fit", \
+[1800:1900] E(x) lt 2 title "\\textsc{Voigt} profile", \
+[1800:1900] f(x) lt 6 title "\\textsc{Gaussian} fit", \
 dataPTH using 1:2 ls 5 lc 15 ps 3 lw 3 notitle
