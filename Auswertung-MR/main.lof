@@ -11,10 +11,10 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces This figure shows the impact of the capacity in the LCR circuit of the B$_1$ coil.}}{10}{figure.caption.9}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces This figure shows the measured hydrogen signal after an acquisition delay of \SI {25}{\milli \second } and two possible ways to fit the peak.}}{12}{figure.caption.10}%
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Sketch to show how T$_1$ can be measured. \cite {Bild}}}{13}{figure.caption.11}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces T$_{1,p}$ measurement by variy $\tau _p$ and see how the attenuation $\frac {\text {E}}{\text {E}_0}$ evolves.}}{14}{figure.caption.12}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces T$_{1,e}$ measurement by variy $t$ and see how the attenuation $\frac {\text {E}}{\text {E}_0}$ evolves.}}{15}{figure.caption.13}%
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Example of a single \textit {Hahn} echo for an echo time of \SI {0}{\milli \second }.}}{16}{figure.caption.14}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Spectrum of a single \textit {Hahn} echo applied by different shimming values.}}{17}{figure.caption.15}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces T$_{1,p}$ measurement by varying $\tau _p$ and observing how the attenuation $\frac {\text {E}}{\text {E}_0}$ evolves.}}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces T$_{1,e}$ measurement by varying $t$ and observing how the attenuation $\frac {\text {E}}{\text {E}_0}$ evolves.}}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Example of a single \textsc {Hahn} echo for an echo time of \SI {0}{\milli \second }.}}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Spectrum of a single \textsc {Hahn} echo applied by different shimming values.}}{17}{figure.caption.15}%
 \contentsline {figure}{\numberline {8.1}{\ignorespaces This figure shows the impact of the 180 pulse phase.}}{19}{figure.caption.16}%
 \contentsline {figure}{\numberline {9.1}{\ignorespaces Attenuation $\frac {\text {E}}{\text {E}_0}$ for different echo times and exponential fit.}}{20}{figure.caption.17}%
 \contentsline {figure}{\numberline {9.2}{\ignorespaces Attenuation $\frac {\text {E}}{\text {E}_0}$ for different echo maxima provided by the CPMG method.}}{21}{figure.caption.18}%
