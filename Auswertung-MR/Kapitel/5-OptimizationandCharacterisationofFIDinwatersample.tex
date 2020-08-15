@@ -19,10 +19,10 @@ That means with those shimming values the magnetic field in the setup is as homo
 \\
 The second optimization step is to change the B$_1$ pulse duration.
 The longer the pulse duration is, the larger is the angle of the flipping spins and thus the signal will get stronger (only for flipping angles up to \SI{90}{\degree}).
-The best signal is obtained for a flipping angle of \SI{90}{\degree}, because with this angle the spins only have a component in the transversal plane and therefore the signal is maximized.
+The best signal is obtained for a flipping angle of \SI{90}{\degree} because with this angle the spins only have a component in the transversal plane and therefore the signal is maximized.
 If the pulse duration is too long, then the flipping angle is larger than \SI{90}{\degree} and the spins get a horizontal component again and the signal will decrease again.
 When a flipping angle of \SI{180}{\degree} is reached the signal will be at its minimum.
-Afterwards the signal will rise again, because of the increasing horizontal component.
+Afterwards the signal will rise again because of the increasing horizontal component.
 Figure \ref{fig:B1dauer} shows this issue.
 The maxmimum at a pulse duration of \SI{1.35}{\milli \second} is clearly visible.
 This means that after applying a B$_1$ pulse with a duration of \SI{1.35}{\milli \second} the spins are in the transversal plane and therefore the best signal is obtained.
@@ -41,7 +41,7 @@ The signal that was taken for the pulse duration of \SI{0.27}{\milli \second} is
     \input{plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.tex}
     \caption[Example spectrum for two different B$_1$ pulse durations.]{Example spectrum for two different B$_1$ pulse durations.
     The peak which is higher corresponds to the \SI{1.35}{\milli \second} duration pulse and represents the \SI{90}{\degree} pulse.
-    This peak is high, because at this duration most of the spins are in the transversal plane and therfore the amplitude is at its maximum.}
+    This peak is high because at this duration most of the spins are in the transversal plane and therfore the amplitude is at its maximum.}
     \label{fig:pulsedurationbeispiel}
 \end{figure}
 Now that the B$_1$ pulse duration is also optimized, we can have a closer look at the capacity of the LCR circuit of the B$_1$ coil again.
@@ -51,7 +51,7 @@ When we measure the signal shortly (acquisition delay: \SI{2}{\milli \second}) a
 In figure \ref{fig:Pulsandcollect} there is also a really sharp peak visible.
 This is referred to the hydrogen signal.
 The hydrogen signal is independed of the applied capacity, but the $B_1$ pulse is, because the capacity changes the properties of the LCR-circuit, of the B$_1$ coil.
-The best capacity is adjusted when the hydrogen signal is located in the middle of the \textit{sinc} function, because then the LCR-circuit is tuned to the larmor frequency of the hydrogen signal.
+The best capacity is adjusted when the hydrogen signal is located in the middle of the \textit{sinc} function because then the LCR-circuit is tuned to the larmor frequency of the hydrogen signal.
 This is also visible by the amplitude of the spectrum in figure \ref{fig:Pulsandcollect}.
 The amplitude of the spectrum which was observed for a capacity of \SI{13.8}{\nano \farad} is higher than for the amplitude of the spectrum which was observed for a capacity of \SI{14.2}{\nano \farad}.
 As already explained before in chapter \ref{sec:CoilAnalyssis} the capacity of \SI{13.8}{\nano \farad} is indeed the best capacity in order to observe a maximized spectrum.
@@ -64,7 +64,7 @@ As already explained before in chapter \ref{sec:CoilAnalyssis} the capacity of \
     \label{fig:Pulsandcollect}
 \end{figure}
 Now that the FID signal is optimized best we can start to characterize it.
-Therefore we measure a FID with a acquisition delay of \SI{25}{\milli \second}, because after this delay there are no effects from the rectangular applied B$_1$ pulse anymore (no \textit{sinc} function in the spectrum).
+Therefore we measure a FID with a acquisition delay of \SI{25}{\milli \second} because after this delay there are no effects from the rectangular applied B$_1$ pulse anymore (no \textit{sinc} function in the spectrum).
 Figure \ref{fig:Pulsandcollect138_delay_25_gauss} shows the observed spectrum and two different fit possibilities.\newline
 One option to fit a peak in a spectrum is by applying a \textsc{Voigt} profile ($V(x;\sigma , \gamma)$).
 This function is a convolution of the \textsc{Cauchy-Lorentz} and \textsc{Gaussian}distribution and is described by the following formula:
