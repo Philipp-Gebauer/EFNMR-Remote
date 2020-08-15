@@ -3,7 +3,7 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}Setup}{2}{section.2}%
-\contentsline {section}{\numberline {3}Noisemeasurement}{3}{section.3}%
+\contentsline {section}{\numberline {3}Noise measurement}{3}{section.3}%
 \contentsline {section}{\numberline {4}Coil Analysis}{5}{section.4}%
 \contentsline {section}{\numberline {5}Optimization and Characterisation of FID in water sample}{7}{section.5}%
 \contentsline {section}{\numberline {6}Longitudinal relaxation measurements T1}{12}{section.6}%

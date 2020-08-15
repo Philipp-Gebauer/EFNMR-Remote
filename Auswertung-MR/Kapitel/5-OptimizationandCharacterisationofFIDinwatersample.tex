@@ -6,7 +6,7 @@ One of the main goals of this experiment is to measure a good FID of the water s
 In order to do so we first have to optimize our FID signal of the water probe.\newline
 At first the inhomogeneity of the magnetic field has to be cancelled.
 The process to make the magnetic field more homogeneous is to \textit{autoshim} the components of the gradient coil.
-The computer programm does this automatically. So it de-shims the system step by step and checks if the output maximizes or minimizes.
+The computer program does this automatically. So it de-shims the system step by step and checks if the output maximizes or minimizes.
 By checking many different combinations it finds the best shimming values for the gradient coil.
 In our case they are:
 \begin{align*}
@@ -47,10 +47,10 @@ The signal that was taken for the pulse duration of \SI{0.27}{\milli \second} is
 Now that the B$_1$ pulse duration is also optimized, we can have a closer look at the capacity of the LCR circuit of the B$_1$ coil again.
 First it is necessary to know that the B$_1$ pulse is applied by a \textit{rectangular} function and the fourier transform of a \textit{rectangular} function is a \textit{sinc} function.
 Therefore the fourier transformed spectrum of the B$_1$ pulse signal is a \textit{sinc} function.
-When we measure the signal shortly (acquisition delay: \SI{2}{\milli \second}) after the \SI{90}{\degree} pulse, there shoud be a \textit{sinc} function visible and indeed this is what we obtained (figure \ref{fig:Pulsandcollect}).
+When we measure the signal shortly (acquisition delay: \SI{2}{\milli \second}) after the \SI{90}{\degree} pulse, there should be a \textit{sinc} function visible and indeed this is what we obtained (figure \ref{fig:Pulsandcollect}).
 In figure \ref{fig:Pulsandcollect} there is also a really sharp peak visible.
 This is referred to the hydrogen signal.
-The hydrogen signal is independed of the applied capacity, but the $B_1$ pulse is, because the capacity changes the properties of the LCR-circuit, of the B$_1$ coil.
+The hydrogen signal is independent of the applied capacity, but the $B_1$ pulse is, because the capacity changes the properties of the LCR-circuit, of the B$_1$ coil.
 The best capacity is adjusted when the hydrogen signal is located in the middle of the \textit{sinc} function because then the LCR-circuit is tuned to the larmor frequency of the hydrogen signal.
 This is also visible by the amplitude of the spectrum in figure \ref{fig:Pulsandcollect}.
 The amplitude of the spectrum which was observed for a capacity of \SI{13.8}{\nano \farad} is higher than for the amplitude of the spectrum which was observed for a capacity of \SI{14.2}{\nano \farad}.
@@ -82,9 +82,9 @@ Therefore the peak is really sharp and a correct fit with the \textsc{Voigt} pro
 Therefore a second fit function has been applied.
 This time only the \textsc{Gaussian} distribution was used.
 This fit function is better to calculate the width of the peak, due to the fact that it is easier to fit it to this narrow peak.
-The full width of the peak at have maximum (FWHM) is calculated by the applied \textsc{Gaussian} fit and is quantified as \SI{1.177 \pm 0.042}{\hertz}. \newline
+The full width of the peak at half maximum (FWHM) is calculated by the applied \textsc{Gaussian} fit and is quantified as \SI{1.177 \pm 0.042}{\hertz}. \newline
 The amplitude of the peak is \SI{73.85}{\mu \volt} according to the \textsc{Gaussian} fit and is in comparison to the amplitude of the noise measurement (magnitude \SI{1}{}) in figure \ref{fig: MonitorNoise138} rather high.
-The signal to noise ratio of this point is \SI{47.57}{}.
+The signal to noise ratio at this point is \SI{47.57}{}.
 To calculate this value the amplitude at \SI{1837.27}{\hertz} (center of the peak) in figure \ref{fig:Pulsandcollect138_delay_25_gauss} is devided by the value of the amplitude at the same frequency in figure \ref{fig: MonitorNoise138}.
 That value clearly shows that the peak must arise from the hydrogen signal and is barely disturbed by any noise.\newline
 The width of the measured hydrogen peak at half height (FWHM) is \SI{1.177 \pm 0.042}{\hertz} and hence really sharp.
