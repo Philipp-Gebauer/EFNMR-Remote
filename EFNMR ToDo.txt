@@ -66,7 +66,7 @@ Abschnitt 13: 2D
 Abschnitt 14: J-Kopplung
 
 	• Kopplungskonstanten berechnen. Oder Ablesen (Abstand sind 6Hz!)
-	• Lorentz-Fit probieren
+[check]	• Lorentz-Fit probieren
 	• Halbwertsbreite hat eine Aussage!
 	• Und evtl Integral bzw im Gauß-Fit --> Pascalschesdreieck
 		--> Normierung auf 1 oder im Zweifel ablesen
