@@ -15,6 +15,7 @@ y_min = 0.0
 y_max = 0.01
 set xrange [x_min:x_max]
 set yrange [y_min:y_max]
+set key at graph 0.985,0.975
 
 set xlabel "Konzentration in  $\\si{\\mol \\per \\meter \\tothe{3} }$"
 set ylabel "Kehrwert der Zeit in $\\si{\\per \\second}$"
@@ -40,4 +41,4 @@ a = 0.0136523
 b = 0.000174718
 fit [0:5] f(x) dataPTH using 3:1 via a, b
 
-plot dataPTH using 3:1:2 w yerrorbars ls 2 ps 3 lw 3 title "Reziproke longitudinale Relaxationszeit von Mangan in Abh\\\"angigkeit von der Konzentration", f(x) ls 8 lw 3 title "linearer Fit f\\\"ur (1/T)"
+plot dataPTH using 3:1:2 w yerrorbars ls 2 ps 3 lw 3 title "$1/T_{\\text{1}}\\left([\\ce{Mn^2+}]\\right)$", f(x) ls 8 lw 3 title "linearer Fit"

@@ -678,8 +678,6 @@ INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Ausw
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots\Polarisationszeit-eps-converted-to.pdf
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots\Polarisationszeit-eps-converted-to.pdf
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots\Polarisationszeit-eps-converted-to.pdf
-INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel\11-T1T2Relaxationszeit.tex
-INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel\11-T1T2Relaxationszeit.tex
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots\T1Wasser.tex
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots\T1Wasser.tex
 INPUT C:\Program Files\MiKTeX 2.9-2\tex\latex\base\cp1252.def
@@ -1036,6 +1034,9 @@ INPUT C:\Program Files\MiKTeX 2.9-2\fonts\tfm\public\lm\ec-lmtt10.tfm
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.lof
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.lof
 OUTPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.lof
+INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.lot
+INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.lot
+OUTPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.lot
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.aux
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.out
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.out

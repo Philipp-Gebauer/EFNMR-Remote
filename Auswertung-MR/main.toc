@@ -13,14 +13,14 @@
 \contentsline {subsection}{\numberline {3.7}Transversal relaxation measurements}{20}{subsection.3.7}%
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {4}Teil II -- Anwendung}{23}{section.4}%
-\contentsline {subsection}{\numberline {4.1}\leavevmode {\color {red}ToDo!}Fourietrafo der Messungen mit unterschieldicheer Polarisationszeit}{23}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}\leavevmode {\color {red}ToDo!}T1 und T2 Relaxationszeit für Wasser und mit Zusatzmitteln}{24}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}1D MRI}{31}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}2D MRI}{33}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}J-Kopplung zur chemischen Strukturanalyse}{38}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}\leavevmode {\color {red}ToDo!}T1 und T2 Relaxationszeit für Wasser und mit Zusatzmitteln}{39}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.1}\leavevmode {\color {red}ToDo!}Relaxationskontrast}{23}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}1D MRI}{31}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}2D MRI}{33}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}J-Kopplung zur chemischen Strukturanalyse}{38}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}\leavevmode {\color {red}ToDo!}T1 und T2 Relaxationszeit für Wasser und mit Zusatzmitteln}{39}{subsection.4.5}%
 \contentsline {section}{\numberline {5}Error discussion and conclusion}{40}{section.5}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
+\contentsline {section}{Attachments}{43}{section*.47}%
