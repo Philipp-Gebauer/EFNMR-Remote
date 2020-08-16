@@ -1,13 +1,13 @@
 % !TEX root = main.tex
 \subsection{\textcolor{red}{ToDo!}Relaxationskontrast}
 \label{sec:Signalintensitaet}
-Da der zweite Teil des Experiments an einem anderen Versuchstag durchgeführt wurde, wurde zu Beginn erneut eine Optimierung des Aufbaus auf die Wasserprobe vorgenommen. Dies geschah analog zum Vorgehen, welches in Abschnitt \ref{sec:OptimizationandCharacterisationofFIDinwatersample} dargelegt wurde.
+Da der zweite Teil des Experiments an einem anderen Versuchstag durchgeführt wurde, wurde zu Beginn erneut eine Optimierung des Aufbaus auf die Wasserprobe vorgenommen um die Vergleichbarkeit der Ergebnisse der beiden Versuchstage zu schaffen. Dies geschah analog zum Vorgehen, welches in Abschnitt \ref{sec:OptimizationandCharacterisationofFIDinwatersample} dargelegt wurde.
 
 Der Versuchsteil selbst zielt darauf ab zu untersuchen, wie longitudinale ($T_1$) und transversale ($T_2$) Relaxationszeit durch paramagnetische Ionen beeinflusst werden können. 
 Weiterführend kann dadurch -- abhängig von $T_1$ und $T_2$ -- der Kontrast innerhalb eines bildgebenden Verfahrens verändert werden und somit können verschiedene Bereiche einer Probe besser aufgelöst und analysiert werden. 
 Daher sollen die sogenannte Relaxivitäten $r_1$ und $r_2$ nach
 \begin{align}
-    \frac{1}{T_{\text{i}}\left([\ce{X^2+}]\right)} = r_{\text{i}} \cdot [\ce{X^2+}] + \frac{1}{T_{\text{i}}(0)}
+    \frac{1}{T_{\text{i}}\left([\ce{X^2+}]\right)} = r_{\text{i}} \cdot [\ce{X^2+}] + \frac{1}{T_{\text{i}}(0)} \label{eq:relaxivitat}
 \end{align}
 bestimmt werden. Dabei bezeichnet $T_{\text{i}}\left([\ce{X^2+}]\right)$ die -- von der Konzentration des verwendeten paramagnetischen Salzes im Wasser abhängige -- jeweilige Relaxationszeit, $[\ce{X^2+}]$  die entsprechende Ionenkonzentration und $T_{\text{i}}(0)$ die Relaxtionszeit im Falle, dass kein Kontrastmittel verwendet wird.
 
@@ -48,7 +48,9 @@ bestimmt werden. Dabei bezeichnet $T_{\text{i}}\left([\ce{X^2+}]\right)$ die -- 
 \begin{figure}[H]
     \centering
     \input{plots/Relaxivitat_CuT1.tex}
-    \caption{\textcolor{red}{ToD:}Relaxivitat $r_1$ von Kupfer}
+    \caption[]{\textcolor{red}{ToD:}Diese Abbildung zeigt die Kehrwerte der vier Relaxationszeiten $T_1$ aufgetragen über den entsprechenden Konzentrationen des im Wasser gelösten Kupersalzes. Mittels eines linearen Fits konnten somit die Relaxivität $r_1$, sowie die Relaxationszeit ohne gelöstes Kontrastmittel nach Gleichung \eqref{eq:relaxivitat} ermittlet werden.
+    
+    Relaxivitat $r_1$ von Kupfer}
     \label{fig:RelaxCUT1}
 \end{figure}
 
@@ -111,12 +113,10 @@ bestimmt werden. Dabei bezeichnet $T_{\text{i}}\left([\ce{X^2+}]\right)$ die -- 
 \begin{table}[H]
     \centering
     \caption{Relaxivitäten von Kupfer und Mangan.}
-    \begin{tabular}{|l||r|r|} \hline
-            & Kupfer    & Mangan    \\    \hline \hline
-        $r_{1}$ in $\si{\frac{\mol}{\metre \cubed \second}}$    & $\SI{4.53 \pm 0.31e-4}{}$   & $\SI{1.365 \pm 0.084e-2}{}$    \\    \hline
-        $T_{1}$ in $\si{\second}$                               & $\SI{1.84 \pm 0.24e3}{}$    & $\SI{5.7    \pm 6.3e3}{}$       \\    \hline
-        $r_{2}$ in $\si{\frac{\mol}{\metre \cubed \second}}$    & $\SI{6.16 \pm 0.84e-4}{}$   & $\SI{3.593  \pm 0.0031e-1}{}$   \\    \hline
-        $T_{2}$ in $\si{\second}$                               & $\SI{2.9  \pm 1.6e3}{}$     & $\SI{-3.2   \pm 7.5e3}{}$       \\    \hline
+    \begin{tabular}{|l||r|r|r|r|} \hline
+        Kontrastmittel & $r_{1}$ in $\si{\frac{\mol}{\metre \cubed \second}}$    &  $T_{1}$ in $\si{\second}$ & $r_{2}$ in $\si{\frac{\mol}{\metre \cubed \second}}$ & $T_{2}$ in $\si{\second}$  \\ \hline \hline
+        Kupfer & $\SI{0.454 \pm 0.031}{}$   & $\SI{1.84 \pm 0.24}{}$    & $\SI{0.617 \pm 0.084}{}$   & $\SI{2.9  \pm 1.6}{}$ \\ \hline
+        Mangan & $\SI{13.65 \pm 0.84}{}$    & $\SI{5.7 \pm 6.3}{}$      & $\SI{35.9 \pm 3.1}{}$  & $\SI{-3.2 \pm 7.5}{}$ \\ \hline
     \end{tabular} 
     \label{tab:Relaxivitat} 
 \end{table}

@@ -33,7 +33,7 @@ S(x) = S_0 * (1-exp(-x/T_1))
 S_0 = 1.11
 T_1 = 2750
 fit [x_min:x_max] S(x) dataPTH using 1:2 via T_1, S_0
-plot dataPTH using 1:2 ls 2 ps 3 lw 3 title "Gemessenen Datenpunkte f\\\"ur $Cu^{2+} \\SI{250}{\\micro\\mole}$" , S(x) ls 8 lw 3 title "exponentieller Fit"
+plot dataPTH using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur $Cu^{2+} \\SI{250}{\\micro\\mole}$" , S(x) ls 8 lw 3 title "exponentieller Fit"
 
 
 #T_2 Kupfer 250:
@@ -105,7 +105,7 @@ S1(x) = S1_0 * (1-exp(-x/T1_1))
 S1_0 = 2
 T1_1 = 2750
 fit [x_min:x_max] S1(x) dataPTH2 using 1:2 via T1_1, S1_0
-plot dataPTH2 using 1:2 ls 2 ps 3 lw 3 title "Gemessenen Datenpunkte f\\\"ur $Cu^{2+} \\SI{500}{\\micro\\mole}$" , S1(x) ls 8 lw 3 title "exponentieller Fit"
+plot dataPTH2 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur $Cu^{2+} \\SI{500}{\\micro\\mole}$" , S1(x) ls 8 lw 3 title "exponentieller Fit"
 
 
 # #T1_2 Kupfer500:
@@ -140,7 +140,7 @@ M1_0 = 1
 T1_2 = 2700
 fit [x_min:x_max] M1(x) dataPTH3 using 1:2 via T1_2, M1_0
 
-plot dataPTH3 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur $Cu^{2+} \\SI{250}{\\micro\\mole}$", M1(x) ls 8 lw 3 title "exponentieller Fit Fit"
+plot dataPTH3 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur $Cu^{2+} \\SI{250}{\\micro\\mole}$", M1(x) ls 8 lw 3 title "exponentieller Fit"
 
 
 # # T2_1 Kupfer 1000:
@@ -174,7 +174,7 @@ S2(x) = S2_0 * (1-exp(-x/T2_1))
 S2_0 = 1.11
 T2_1 = 2750
 fit [x_min:x_max] S2(x) dataPTH4 using 1:2 via T2_1, S2_0
-plot dataPTH4 using 1:2 ls 2 ps 3 lw 3 title "Gemessenen Datenpunkte f\\\"ur $Cu^{2+} \\SI{1000}{\\micro\\mole}$" , S2(x) ls 8 lw 3 title "exponentieller Fit"
+plot dataPTH4 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur $Cu^{2+} \\SI{1000}{\\micro\\mole}$" , S2(x) ls 8 lw 3 title "exponentieller Fit"
 
 
 # #T2_2 Cu 1000:
@@ -209,7 +209,7 @@ M2_0 = 1
 T2_2 = 2700
 fit [x_min:x_max] M2(x) dataPTH5 using 1:2 via T2_2, M2_0
 
-plot dataPTH5 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur $Cu^{2+} \\SI{1000}{\\micro\\mole}$", M2(x) ls 8 lw 3 title "exponentieller Fit Fit"
+plot dataPTH5 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur $Cu^{2+} \\SI{1000}{\\micro\\mole}$", M2(x) ls 8 lw 3 title "exponentieller Fit"
 
 # # T2_1 Kupfer 2000:
 
@@ -242,7 +242,7 @@ S8(x) = S8_0 * (1-exp(-x/T8_1))
 S8_0 = 1.11
 T8_1 = 2750
 fit [x8_min:x8_max] S8(x) dataPTH8 using 1:2 via T8_1, S8_0
-plot dataPTH4 using 1:2 ls 2 ps 3 lw 3 title "Gemessenen Datenpunkte f\\\"ur $Cu^{2+} \\SI{2000}{\\micro\\mole}$" , S8(x) ls 8 lw 3 title "exponentieller Fit"
+plot dataPTH4 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur $Cu^{2+} \\SI{2000}{\\micro\\mole}$" , S8(x) ls 8 lw 3 title "exponentieller Fit"
 
 
 # #T2_2 Cu 1000:
@@ -277,7 +277,7 @@ M9_0 = 1
 T9_2 = 2700
 fit [x9_min:x9_max] M9(x) dataPTH9 using 1:2 via T9_2, M9_0
 
-plot dataPTH9 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur $Cu^{2+} \\SI{2000}{\\micro\\mole}$", M9(x) ls 8 lw 3 title "exponentieller Fit Fit"
+plot dataPTH9 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur $Cu^{2+} \\SI{2000}{\\micro\\mole}$", M9(x) ls 8 lw 3 title "exponentieller Fit"
 
 
     # Die Relaxationszeit von Wasser T1 und T2
@@ -313,7 +313,7 @@ S3(x) = S3_0 * (1-exp(-x/T3_1))
 S3_0 = 1.11
 T3_1 = 2750
 fit [x_min:x_max] S3(x) dataPTH6 using 1:2 via T3_1, S3_0
-plot dataPTH6 using 1:2 ls 2 ps 3 lw 3 title "Gemessenen Datenpunkte f\\\"ur Wasser" , S3(x) ls 8 lw 3 title "exponentieller Fit"
+plot dataPTH6 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur Wasser" , S3(x) ls 8 lw 3 title "exponentieller Fit"
 
 
 #T2 Wasser:
@@ -348,7 +348,7 @@ M3_0 = 1
 T3_2 = 2700
 fit [x_min:x_max] M3(x) dataPTH7 using 1:2 via T3_2, M3_0
 
-plot dataPTH7 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur Wasser", M3(x) ls 8 lw 3 title "exponentieller Fit Fit"
+plot dataPTH7 using 1:2 ls 2 ps 3 lw 3 title "gemessene Datenpunkte f\\\"ur Wasser", M3(x) ls 8 lw 3 title "exponentieller Fit"
 
 
 

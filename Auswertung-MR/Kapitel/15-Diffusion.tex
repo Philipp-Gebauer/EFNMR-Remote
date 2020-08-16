@@ -1,24 +1,28 @@
 % !TEX root = main.tex
-% !TEX root = main.tex
-\section{PGSE-Diffusionskoeffizient}
-Im letzter Versuchsteil wird nun der Diffusionskoeffizient bestimmt. Hierfür wird die PGSE-Messmethode (Pulsed gradient spin echo) verwendet um diesen zu bestimmen. Hierzu wurde die Versuchsanleitung \textbf{auf der FP-Seite wie soll ich referenz machen, weil keine angabe dazu} herangenommen.\\
-Beim PGSE Experiment wird neben den zwei Pulsen von $90^{\degree}$ und $180^{\degree}$ ein Gradientenfeld angelegt. Dieses Gradientenfeld wird jedoch nicht die ganze Zeit angelegt, sondern als ein Puls, der nach jedem B$_1$-Puls angelegt wird. In der folgenden Abbildung \ref{fig:PGSE} sieht man nun, wie so ein PGSE-Experiment funktioniert und wie sich die Spins verhalten. 
+\subsection{PGSE-Diffusionskoeffizient}
+Im letzter Versuchsteil wird nun der Diffusionskoeffizient bestimmt. Hierfür wird die PGSE-Messmethode (Pulsed gradient spin echo) verwendet um diesen zu bestimmen.
+Hierzu wurde die Versuchsanleitung \textbf{auf der FP-Seite wie soll ich referenz machen, weil keine angabe dazu} herangenommen.\\
+Beim PGSE Experiment wird neben den zwei Pulsen von $90^{\degree}$ und $180^{\degree}$ ein Gradientenfeld angelegt.
+Dieses Gradientenfeld wird jedoch nicht die ganze Zeit angelegt, sondern als ein Puls, der nach jedem B$_1$-Puls angelegt wird.
+In der folgenden Abbildung \ref{fig:PGSE} sieht man nun, wie ein PGSE-Experiment funktioniert und wie sich die Spins verhalten. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{Abbildungen/PGSE.JPG}
-    \caption{Die Abbildung veranschaulicht, wie ein PGSE-Experiment funktioniert. In der Abbildung (a) sieht man die zwei B$_1$-Pulse, die man vom Hahn-Echo kennt. Nach diesen Pulsen sind zusätzlich zwei Gradientenpulse eingezeichnet. Die Dauer der Gradientenpulse wird als $\delta$ bezeichnet und die Zeit zwischen den beiden Pulsen wird als $\Delta$ bezeichnet.\\
-    Die Abbildung (b) zeigt, wie sich die einzelne Spins in der Probe verhalten. Durch das Anlegen eines Gradientenfeldes, stellen sich unterschiedliche Lamorfrequenzen abhängig vom Ort ein. Dadurch präzidieren die Spins unterschielich schnell. Durch den $180^{\circ}$-Puls werden die Spins geflippt und durch das anlegen eines gleichen Gradientenfeldes werden die Spins wieder in Phase gebracht.   
+    \caption{Die Abbildung veranschaulicht, wie das PGSE-Experiment funktioniert.
+    In der Abbildung (a) sieht man die zwei B$_1$-Pulse, die man vom Hahn-Echo kennt. Nach diesen Pulsen sind zusätzlich zwei Gradientenpulse eingezeichnet. Die Dauer der Gradientenpulse wird als $\delta$ bezeichnet und die Zeit zwischen den beiden Pulsen wird als $\Delta$ bezeichnet.\\
+    Die Abbildung (b) zeigt, wie sich die einzelne Spins in der Probe verhalten. Durch das Anlegen eines Gradientenfeldes, stellen sich unterschiedliche Larmorfrequenzen abhängig vom Ort ein. Dadurch präzidieren die Spins unterschielich schnell. Durch den $180^{\circ}$-Puls werden die Spins geflippt und durch das anlegen eines gleichen Gradientenfeldes werden die Spins wieder in Phase gebracht.   
     \cite{literaturPGSE}}
     \label{fig:PGSE}
 \end{figure}
-Wie schon in der Abbildung \ref{fig:PGSE} beschrieben, werden die Spins durch den $90^{\circ}$-Puls als erstes in Phase gebracht. Dies ist links in der unteren Abbildung (b) gezeigt. Durch das anlegen eines Gradientenpulses kommt es zu unterschiedlichen Lamorfrequenzen und somit präzidieren die Spins mit unterschielicher Geschwindigkeit.
+
+Wie schon in der Abbildung \ref{fig:PGSE} beschrieben, werden die Spins durch den $90^{\circ}$-Puls als erstes in Phase gebracht. Dies ist links in der unteren Abbildung (b) gezeigt. Durch das anlegen eines Gradientenpulses kommt es zu unterschiedlichen Larmorfrequenzen und somit präzidieren die Spins mit unterschielicher Geschwindigkeit.
 Wenn zwischen den beiden Gradientenpulsen keine Diffusion stattfindet, so flippt der $180^{\circ}$-Puls die Teilchen. Dies wird in den mittleren zwei Abbildungen gezeigt, wo die Spins von der linken Abbildung in der rechten Abbildung komplett gespiegelt werden. Durch einen zweiten Gradientenpuls werden die spins dann vollständig ausgerichtet. Falls nun keine Diffusion zwischen den zwei Pulsen auftritt, so werden die Spins wieder in Phase gebracht und es entsteht ein Echo,
  wie bei der T$_2$ Messung.
 Falls aber zwischen den zwei Phasen eine Bewegung in Gradientenrichtung stattfindet,
 so werden nicht alle Spins ausgerichtet. 
 Die Bewegung könnte hierbei durch die Diffusion der Teilchen zustande kommen oder kann durch Konvetionsströme in der Flüssigkeit verursacht werden.
-Dadurch dass sich die Teilchen aber zwischen dem Gradientenpulsen bewegen, befinden sich diese an unterschiedlichen Orten, falls der Gradientenpuls wieder angelegt wird und somit besitzten die Spins unterschiedliche Lamorfrequenzen im Vergleich zum Anfang.
+Dadurch dass sich die Teilchen aber zwischen dem Gradientenpulsen bewegen, befinden sich diese an unterschiedlichen Orten, falls der Gradientenpuls wieder angelegt wird und somit besitzten die Spins unterschiedliche Larmorfrequenzen im Vergleich zum Anfang.
 Somit richten sich die Spins nicht vollständig aus und es entsteht eine modifizierte Echo-Amplitude.
 Bei der Betrachtung von dem gemessenen Signalen haben Stekjskal und Tanner einen Zusammenhang zwischen der normierten Echoamplitude $\frac{\textbf{E}}{\textbf{E}_0}$ und dem Gradienten gefunden. Hierbei wurde festgestellt, dass die Echoamplitude mit einer Exponentialfunktion abfällt. Der Zusammenhang wird hierbei in der folgenden Formel dargestellt:
 \begin{align}
