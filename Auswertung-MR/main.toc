@@ -3,21 +3,23 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}Setup}{2}{section.2}%
-\contentsline {section}{\numberline {3}Noise measurement}{3}{section.3}%
-\contentsline {section}{\numberline {4}Coil Analysis}{5}{section.4}%
-\contentsline {section}{\numberline {5}Optimization and Characterisation of FID in water sample}{7}{section.5}%
-\contentsline {section}{\numberline {6}Longitudinal relaxation measurements T1}{12}{section.6}%
-\contentsline {section}{\numberline {7}Hahn echo}{15}{section.7}%
-\contentsline {section}{\numberline {8}Multiple echo sequences}{18}{section.8}%
-\contentsline {section}{\numberline {9}Transversal relaxation measurements}{19}{section.9}%
+\contentsline {section}{\numberline {3}Part I -- Basics}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Noise measurement}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Coil Analysis}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Optimization and Characterisation of FID in water sample}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Longitudinal relaxation measurements T1}{12}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Hahn echo}{15}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Multiple echo sequences}{18}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Transversal relaxation measurements}{19}{subsection.3.7}%
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {10}\leavevmode {\color {red}ToDo!}Fourietrafo der Messungen mit unterschieldicheer Polarisationszeit}{22}{section.10}%
-\contentsline {section}{\numberline {11}\leavevmode {\color {red}ToDo!}T1 und T2 Relaxationszeit für Wasser und mit Zusatzmitteln}{22}{section.11}%
-\contentsline {section}{\numberline {12}1D MRI}{29}{section.12}%
-\contentsline {section}{\numberline {13}2D MRI}{31}{section.13}%
-\contentsline {section}{\numberline {14}J-Kopplung zur chemischen Strukturanalyse}{36}{section.14}%
-\contentsline {section}{\numberline {15}\leavevmode {\color {red}ToDo!}T1 und T2 Relaxationszeit für Wasser und mit Zusatzmitteln}{37}{section.15}%
-\contentsline {section}{\numberline {16}Error discussion and conclusion}{38}{section.16}%
+\contentsline {section}{\numberline {4}Teil II -- Anwendung}{22}{section.4}%
+\contentsline {subsection}{\numberline {4.1}\leavevmode {\color {red}ToDo!}Fourietrafo der Messungen mit unterschieldicheer Polarisationszeit}{22}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}\leavevmode {\color {red}ToDo!}T1 und T2 Relaxationszeit für Wasser und mit Zusatzmitteln}{22}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}1D MRI}{29}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}2D MRI}{31}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}J-Kopplung zur chemischen Strukturanalyse}{36}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}\leavevmode {\color {red}ToDo!}T1 und T2 Relaxationszeit für Wasser und mit Zusatzmitteln}{37}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Error discussion and conclusion}{38}{section.5}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
