@@ -2,48 +2,48 @@
 \babel@toc {ngerman}{}
 \babel@toc {english}{}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Setup of the \textit {Terranova-MRI EFNMR}. \cite {Bild}}}{2}{figure.caption.2}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Noise signal taken by the B$_1$ coil.}}{3}{figure.caption.3}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Fourier transformed noise signal of the previous figure \ref {fig: noise}.}}{4}{figure.caption.4}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Example signal for a pulse and collect signal made by the B$_1$ coil.}}{5}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Noise signal taken by the B$_1$ coil.}}{4}{figure.caption.3}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Fourier transformed noise signal of the previous figure \ref {fig: noise}.}}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Example signal for a pulse and collect signal made by the B$_1$ coil.}}{6}{figure.caption.5}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces This figure shows the measured and calculated resonance frequencies for different capacities.}}{7}{figure.caption.6}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces This figure shows which impact the B$_1$ pulse duration has on the amplitude of the FID.}}{8}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Example spectrum for two different B$_1$ pulse durations.}}{9}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces This figure shows the impact of the capacity in the LCR circuit of the B$_1$ coil.}}{10}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces This figure shows the measured hydrogen signal after an acquisition delay of \SI {25}{\milli \second } and two possible ways to fit the peak.}}{12}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Sketch to show how $T_1$ can be measured. \cite {Bild}}}{13}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces $T_{1,p}$ measurement by varying $\tau _p$ and observing how the attenuation $\frac {\text {E}}{\text {E}_0}$ evolves.}}{14}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces $T_{1,e}$ measurement by varying $t$ and observing how the attenuation $\frac {\text {E}}{\text {E}_0}$ evolves.}}{15}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Example measurement of a single \textsc {Hahn} echo for an echo time of \SI {0}{\milli \second }.}}{16}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Spectrum of a single \textsc {Hahn} echo applied by different shimming values.}}{17}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces This figure shows the impact of the 180 pulse phase.}}{19}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Attenuation $\frac {\text {E}}{\text {E}_0}$ for different echo times and exponential fit of the data.}}{20}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Attenuation $\frac {\text {E}}{\text {E}_0}$ for different echo maxima provided by the CPMG method.}}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces This figure shows which impact the B$_1$ pulse duration has on the amplitude of the FID.}}{9}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Example spectrum for two different B$_1$ pulse durations.}}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces This figure shows the impact of the capacity in the LCR circuit of the B$_1$ coil.}}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces This figure shows the measured hydrogen signal after an acquisition delay of \SI {25}{\milli \second } and two possible ways to fit the peak.}}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sketch to show how $T_1$ can be measured. \cite {Bild}}}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces $T_{1,p}$ measurement by varying $\tau _p$ and observing how the attenuation $\frac {\text {E}}{\text {E}_0}$ evolves.}}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces $T_{1,e}$ measurement by varying $t$ and observing how the attenuation $\frac {\text {E}}{\text {E}_0}$ evolves.}}{16}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Example measurement of a single \textsc {Hahn} echo for an echo time of \SI {0}{\milli \second }.}}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Spectrum of a single \textsc {Hahn} echo applied by different shimming values.}}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces This figure shows the impact of the 180 pulse phase.}}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Attenuation $\frac {\text {E}}{\text {E}_0}$ for different echo times and exponential fit of the data.}}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Attenuation $\frac {\text {E}}{\text {E}_0}$ for different echo maxima provided by the CPMG method.}}{22}{figure.caption.18}%
 \babel@toc {ngerman}{}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Amplitude in abhängigkeit von zwei verschiedenen Polarisatiosnzeiten\relax }}{22}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces T1 Messung von Wasser\relax }}{23}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces T2 Messung von Wasser\relax }}{23}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces \leavevmode {\color {red}ToD:}Relaxivitat $r_1$ von Kupfer\relax }}{24}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \leavevmode {\color {red}ToD:}Relaxivitat $r_2$ von Kupfer\relax }}{24}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces \leavevmode {\color {red}ToD:}Relaxivitat $r_1$ von Mangan\relax }}{25}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces \leavevmode {\color {red}ToD:}Relaxivitat $r_2$ von Mangan\relax }}{25}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces \leavevmode {\color {red}ToD:}Alle Messungen T1 Cu2+\relax }}{26}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces \leavevmode {\color {red}ToD:}Alle Messungen T2Cu2+\relax }}{26}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces \leavevmode {\color {red}ToD:}Alle Messungen T1Mn2+\relax }}{27}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces \leavevmode {\color {red}ToD:}Alle Messungen T2MN2+\relax }}{27}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Die T1 Signale bei der jeweiligen Konzentration\relax }}{28}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Anfangsmessung für verschiedene Echozeit und FOV\relax }}{29}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Messung vom 1D MRI in y-Richtung\relax }}{30}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces 2D MRI mit T1 $\SI {600}{\milli \second }$\relax }}{31}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces 2D MRI mit T1 $\SI {1300}{\milli \second }$\relax }}{32}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces 2D MRI mit T1 $\SI {2100}{\milli \second }$\relax }}{32}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces 2D MRI mit T1 $\SI {2800}{\milli \second }$\relax }}{33}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces 2D MRI mit T2 $\SI {200}{\milli \second }$\relax }}{33}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces 2D MRI mit T2 $\SI {250}{\milli \second }$\relax }}{34}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces 2D MRI mit T2 $\SI {300}{\milli \second }$\relax }}{34}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces 2D MRI mit T2 $\SI {450}{\milli \second }$\relax }}{35}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces 2D MRI mit T2 $\SI {550}{\milli \second }$\relax }}{35}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces TODO!!; Zum tunen benutzte Daten des Puls and collect Experiments; Man soll noch die Integrale berechnen der einzelnen Peaks(aus den Integralen bekommt man dann das Verhältnuis von 1:2:3:3:2:1 oder so halt); Diese Peaks fitten bzw den abstand der Maximas berechnen=< daraus dann die Kopplungaskostante\relax }}{36}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Diffusionskoeffizient $\SI {3,11e-9}{\frac {\m ^2}{s}}$\relax }}{37}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Abhängigkeit der Signalintensität von der Polarisationszeit.}}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces T1 Messung von Wasser\relax }}{24}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces T2 Messung von Wasser\relax }}{25}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \leavevmode {\color {red}ToD:}Relaxivitat $r_1$ von Kupfer\relax }}{25}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \leavevmode {\color {red}ToD:}Relaxivitat $r_2$ von Kupfer\relax }}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \leavevmode {\color {red}ToD:}Relaxivitat $r_1$ von Mangan\relax }}{26}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \leavevmode {\color {red}ToD:}Relaxivitat $r_2$ von Mangan\relax }}{27}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \leavevmode {\color {red}ToD:}Alle Messungen T1 Cu2+\relax }}{27}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \leavevmode {\color {red}ToD:}Alle Messungen T2Cu2+\relax }}{28}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces \leavevmode {\color {red}ToD:}Alle Messungen T1Mn2+\relax }}{28}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces \leavevmode {\color {red}ToD:}Alle Messungen T2MN2+\relax }}{29}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Die T1 Signale bei der jeweiligen Konzentration\relax }}{30}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Anfangsmessung für verschiedene Echozeit und FOV\relax }}{31}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Messung vom 1D MRI in y-Richtung\relax }}{32}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces 2D MRI mit T1 $\SI {600}{\milli \second }$\relax }}{33}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces 2D MRI mit T1 $\SI {1300}{\milli \second }$\relax }}{34}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces 2D MRI mit T1 $\SI {2100}{\milli \second }$\relax }}{34}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces 2D MRI mit T1 $\SI {2800}{\milli \second }$\relax }}{35}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces 2D MRI mit T2 $\SI {200}{\milli \second }$\relax }}{35}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces 2D MRI mit T2 $\SI {250}{\milli \second }$\relax }}{36}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces 2D MRI mit T2 $\SI {300}{\milli \second }$\relax }}{36}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces 2D MRI mit T2 $\SI {450}{\milli \second }$\relax }}{37}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces 2D MRI mit T2 $\SI {550}{\milli \second }$\relax }}{37}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces TODO!!; Zum tunen benutzte Daten des Puls and collect Experiments; Man soll noch die Integrale berechnen der einzelnen Peaks(aus den Integralen bekommt man dann das Verhältnuis von 1:2:3:3:2:1 oder so halt); Diese Peaks fitten bzw den abstand der Maximas berechnen=< daraus dann die Kopplungaskostante\relax }}{38}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Diffusionskoeffizient $\SI {3,11e-9}{\frac {\m ^2}{s}}$\relax }}{39}{figure.caption.45}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
