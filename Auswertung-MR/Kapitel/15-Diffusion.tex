@@ -1,7 +1,42 @@
 % !TEX root = main.tex
-\subsection{\textcolor{red}{ToDo!}T1 und T2 Relaxationszeit für Wasser und mit Zusatzmitteln}
+% !TEX root = main.tex
+\section{PGSE-Diffusionskoeffizient}
+Im letzter Versuchsteil wird nun der Diffusionskoeffizient bestimmt. Hierfür wird die PGSE-Messmethode (Pulsed gradient spin echo) verwendet um diesen zu bestimmen. Hierzu wurde die Versuchsanleitung \textbf{auf der FP-Seite wie soll ich referenz machen, weil keine angabe dazu} herangenommen.\\
+Beim PGSE Experiment wird neben den zwei Pulsen von $90^{\degree}$ und $180^{\degree}$ ein Gradientenfeld angelegt. Dieses Gradientenfeld wird jedoch nicht die ganze Zeit angelegt, sondern als ein Puls, der nach jedem B$_1$-Puls angelegt wird. In der folgenden Abbildung \ref{fig:PGSE} sieht man nun, wie so ein PGSE-Experiment funktioniert und wie sich die Spins verhalten. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Abbildungen/PGSE.JPG}
+    \caption{Die Abbildung veranschaulicht, wie ein PGSE-Experiment funktioniert. In der Abbildung (a) sieht man die zwei B$_1$-Pulse, die man vom Hahn-Echo kennt. Nach diesen Pulsen sind zusätzlich zwei Gradientenpulse eingezeichnet. Die Dauer der Gradientenpulse wird als $\delta$ bezeichnet und die Zeit zwischen den beiden Pulsen wird als $\Delta$ bezeichnet.\\
+    Die Abbildung (b) zeigt, wie sich die einzelne Spins in der Probe verhalten. Durch das Anlegen eines Gradientenfeldes, stellen sich unterschiedliche Lamorfrequenzen abhängig vom Ort ein. Dadurch präzidieren die Spins unterschielich schnell. Durch den $180^{\circ}$-Puls werden die Spins geflippt und durch das anlegen eines gleichen Gradientenfeldes werden die Spins wieder in Phase gebracht.   
+    \cite{literaturPGSE}}
+    \label{fig:PGSE}
+\end{figure}
+Wie schon in der Abbildung \ref{fig:PGSE} beschrieben, werden die Spins durch den $90^{\circ}$-Puls als erstes in Phase gebracht. Dies ist links in der unteren Abbildung (b) gezeigt. Durch das anlegen eines Gradientenpulses kommt es zu unterschiedlichen Lamorfrequenzen und somit präzidieren die Spins mit unterschielicher Geschwindigkeit.
+Wenn zwischen den beiden Gradientenpulsen keine Diffusion stattfindet, so flippt der $180^{\circ}$-Puls die Teilchen. Dies wird in den mittleren zwei Abbildungen gezeigt, wo die Spins von der linken Abbildung in der rechten Abbildung komplett gespiegelt werden. Durch einen zweiten Gradientenpuls werden die spins dann vollständig ausgerichtet. Falls nun keine Diffusion zwischen den zwei Pulsen auftritt, so werden die Spins wieder in Phase gebracht und es entsteht ein Echo,
+ wie bei der T$_2$ Messung.
+Falls aber zwischen den zwei Phasen eine Bewegung in Gradientenrichtung stattfindet,
+so werden nicht alle Spins ausgerichtet. 
+Die Bewegung könnte hierbei durch die Diffusion der Teilchen zustande kommen oder kann durch Konvetionsströme in der Flüssigkeit verursacht werden.
+Dadurch dass sich die Teilchen aber zwischen dem Gradientenpulsen bewegen, befinden sich diese an unterschiedlichen Orten, falls der Gradientenpuls wieder angelegt wird und somit besitzten die Spins unterschiedliche Lamorfrequenzen im Vergleich zum Anfang.
+Somit richten sich die Spins nicht vollständig aus und es entsteht eine modifizierte Echo-Amplitude.
+Bei der Betrachtung von dem gemessenen Signalen haben Stekjskal und Tanner einen Zusammenhang zwischen der normierten Echoamplitude $\frac{\textbf{E}}{\textbf{E}_0}$ und dem Gradienten gefunden. Hierbei wurde festgestellt, dass die Echoamplitude mit einer Exponentialfunktion abfällt. Der Zusammenhang wird hierbei in der folgenden Formel dargestellt:
+\begin{align}
+    \frac{\textbf{E}}{\textbf{E}_0}&=exp\left(-\gamma^2\delta^2g^2\left(\Delta-\frac{\delta}{3}\right)D_s\right)\\
+    D_s&=\text{selbst-Diffusion}\\
+    \gamma&= \text{gyromagnetische Moment}\\
+    g &= \text{Gradientenpuls-Amplitude}
+\end{align}
+Indem man statt die normierte Amplitude über die Gradienten-Amplitude aufträgt, kann man statt dessen $y=ln\left(\frac{\textbf{E}}{\textbf{E}_0}\right)$ über  das Argument der Exponentialfunktion\\
+ $x= -\gamma^2\delta^2g^2\left(\Delta-\frac{\delta}{3}\right)$ auftragen. Somit erhält man dann im Graphen statt einem exponentiellen Zerfall eine lineare Funktion. Diese besitzt die Form $y(x)=-D_sx$ und durch das fitten dieser Funktion erhält man den selbst Diffusionskoeffizienten.       
+
 \begin{figure}[H]
     \centering
     \input{plots/Diffusion.tex}
-    \caption{Diffusionskoeffizient $\SI{3,11e-9}{\frac{\m^2}{s}}$}
+    \caption{Stejskal-Tanner plot, wo die normierte Amplitude Logarhytmisch über $-\gamma^2\delta^2g^2\left(\Delta-\frac{\delta}{3}\right)$ aufgetragen wird. Hierbei wurde ein Diffusionskoeffizient von $\SI{3,11(26)e-9}{\frac{\m^2}{s}}$ ermittelt}
 \end{figure}
+ Wenn man den ermittelten Wert von $\SI{3,11(26)e-9}{\frac{\m^2}{s}}$ mit dem Literaturwert von $2,299  10^{-9}\si{\frac{\m^2}{\s}}$ bei Raumtemperatur ($25^{\circ}$) vergleicht\cite{Diff}, so sieht man, dass die zwei Werte sich in der selben Größenordnung befinden. Es muss aber gesagt werden, dass der Vorfaktor sich um $\pm 1$ unterscheidet. Wenn man sich den Graphen  genauer anschaut, so sieht man, dass die Werte nicht exakt auf der gefitteten Gerade liegen. Unter anderem könnten die Abweichung dadurch kommen. 
+Es gibt nun verschiedene Möglichkeiten, wie man diese Messung noch genauer gestalten könnte. Indem man unter anderem die Pulslänge varriiert, kann man diese so anpassen, dass sie nicht zu lange ist im Vergleich zur Echozeit. Hinzu kommt noch, dass man die Stromstärke groß genug wählen sollte, damit eine ausreichende Dämpfung vorhanden ist.\\
+Wenn diese Feinheiten schon justiert oder probiert wurden, so gibt es noch die Option, die Probe an sich noch zu präparieren. Da bei der PGSE-Messung nur die Selbstdiffusion gemessen werden soll, ist darauf zu achten, dass in der Probe keine Konvektionsströme auftreten. Dies kann man unteranderem verhindern, wenn man statt einer Flüssigkeit einen Schwamm nimmt, der mit der zu untersuchenden Probe getränkt wird. Dadurch treten keine Konvektrionsströme mehr auf und die Bewegung kommen nur durch Diffusion zu stande. Bei dem Schwamm ist darauf zu achten, dass die Poren des Schwammes nicht zu klein sind, damit noch eine Diffusion statt finden kann.\\
+Ein weiterer Punkt, warum der Literaturwert von dem ermittelten Wert abweichen könnte, liegt wohl daran, dass die Temperatur am Versuchstag relativ groß war. Durch die zusätzliche Wärme führt dies dazu, dass die Teilchen sich im Gefäß mehr bewegen und dies somit zu einem größeren Diffusionskoeffizienten führt.\\
+Eine weitere Sache die zu beachten ist, dass der erste Datenpunkt nicht auf der Geraden liegt. Dies liegt oft an den Konvektionsströmen von der Probe, die vor allem bei größeren Proben auftreten.

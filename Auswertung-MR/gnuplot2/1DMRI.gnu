@@ -24,7 +24,7 @@ set yrange [y_min:y_max]
 
 
 #plot dataPTH using 1:2 ls 2 ps 3 lw 3 notitle
-plot dataPTH using 1:2 lt 5 lc 15 w lines title "erste 1D MRI Messung", dataPTH1 using 1:2 lt 6 w lines title "Messung mit erh\\\"ohter Echozeit, gr\\\"o\\ss{}eren FOV"
+plot dataPTH1 using 1:2 lt 5 lc 15 w lines title "1D-MRI Messung, angepasste FOV und Bandbreite  "
 
 # in y-Richtung
 #png
@@ -54,4 +54,4 @@ set yrange [y1_min:y1_max]
 
 
 #plot dataPTH using 1:2 ls 2 ps 3 lw 3 notitle
-plot dataPTH2 using 1:2 lt 5 lc 15 w lines title "erste 1D MRI Messung in yRichtung", dataPTH3 using 1:2 lt 6 w lines title "zweite Messung mit ver\\\"anderter Bandbreite"
+plot dataPTH2 using 1:2 lt 5 lc 15 w lines title "Angepasste 1D MRI Messung in yRichtung"

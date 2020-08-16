@@ -1,79 +1,70 @@
 % !TEX root = main.tex
 \subsection{2D MRI}
 % Alle einzelnen Plots
-    \begin{figure}[H]
-        \centering
-        \input{plots/2DMRI600.tex}
-        \caption{2D MRI mit T1 $\SI{600}{\milli\second}$}
-    \end{figure}
+Bei dem Bildgebungsverfahren von dem 2D-MRI gibt es verschiedene Möglichkeiten, wie hier vorgegangen werden kann. Da im Versuch nur das Bildgebungsverfahren mit dem Gradientenecho benutzt wurde, wird nur dieses explizit erklärt.\\
+Aufgrund von der Linearität der Fourietransformation kann nicht nur in 1D ein Bild von Objekten gemacht werden, sondern auch in 2D. Wie dies genau funktioniert, wird im folgenden genauer erläutert.\\
+In dem Abschnitt davor wurde darauf eingegangen, wie das 1D-MRI funktioniert. Hierzu muss man nun wissen, dass bei dem 1D-MRI eine frequenz-Kodierung stattgefunden hat. Dies bedeutet, dass bei einem konstanten Gradientenfeld die Zeit verändert wurde und dadurch das Spektrum im Fourieraum erhalten hat. \\
+In 2D ist es nun üblich, dass neben der frequenz-Kodierung auch eine sogenannte phasen-Kodierung stattfindet. Hierbei wird die Zeit konstant gehalten und der sogenannte Phasengradient $G_p$ wird verändert. Die Zeit $t_{grad}$, während das Gradientenfeld angelegt wird, bleibt hierbei immer gleich. Da jedoch ein Gradientenfeld angelegt ist, führt dies dazu, dass die Spins einen Phasenunterschied erhalten, der abhängig von dem Ort ist. Dies kann mit der folgenden Formel beschrieben werden:
+\begin{align}
+    \Delta\Phi(x)= \Delta\omega(x)t=\gamma G_xxt
+\end{align}\label{eq:phase}
+Indem man nun den Gradienten von $-G_{max}$ bis $+G_{max}$ im Phasenraum misst, erhält man im k-raum eine Linie.\\
+Das 2D-MRI funktioniert nun so, dass man in eine bestimmte Richtung die frequenz-Kodierung macht. Diese Ebene wird auch als die read-Ebene bezeichnet. Das Signal was man dann erhält ist analog zu der 1D-MRI Messung, nur mit dem Unterschied, dass ein zusätzlicher Gradientenpuls angelegt wird. Dieser Puls wird senkrecht zum anderen Gradienten angelegt, sodass man daraus eine Ebene erhält. Durch das anlegen des $G_p$ bekommen die Spins eine Lamorfrequenz, die abhängig vom Ort ist. Dies wird als phasen-Kodierung bezeichnet.\ref{eq:phase}
+Insgesamt werden nun $N_p$ Messungen für die Anzahl der jeweiligen Phasengradienten durchgeführt, wobei jedes mal von $-G_{pmax}$ bis $G_{pmax}$ gemessen wird, um ein 2D-MRI zu erhalten.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.8\textwidth]{Abbildungen/2DMRI.JPG}
+    \caption{Hier wird anschaulich ein Verlauf des k-Vektors in der transversalen-Ebene dargestellt.\\
+    Als erster wird in Schritt 1 das Signal durch den $90^{\circ}$-Puls in die transversalen Ebene gebracht.\\
+    Anschließend wird ein Gradient in negativer read-Richtung eingeschaltet. Zusätzlich wird auch der Phasengradient $G_p$ angelegt. Dies bedeutet, dass der k-Vektor in abhängigkeit von der Zeit durch den phasen-und read-Raum durchgeht. Dies ist in der Abbildung mit der Nummer 2 markiert, wo der Pfeil vom Ursprung quer nach links oben verläuft.\\
+    In dritten Schritt wird der Phasengradient ausgeschaltet was bedeutet, dass sich der k-Vektor nicht mehr entlang des Phasenraums mehr bewegt und somit nur noch von dem Gradienten in der read-Richtung abhängt. Das Vorzeichen von dem read-Gradienten wird geflippt, sodass dieser nicht mehr negativ ist sondern positiv. Ab hier hat man nun den gleichen Ablauf wie bei dem 1D-MRI. Mann misst die Lamorfrequenz der Spins in Abhängigkeit von der Position, sodass man am Ende eine Linie von Datenpunkte erhält. Diese wurden  zusätzlich noch in Abhängigkeit von der Zeit gemessen. Nachdem eine Linie im k-Raum vermessen wurde, wird der Gradient ausgeschaltet und man fängt wieder vom Anfang an.\\ \cite{Schmidt}}
+    \label{fig:2DMRIk}
+\end{figure}
+Durch das Wiederholen der in Abbildung \ref{fig:2DMRIk} dargestellten Messmethode erhält man am Ende ein 2D-MRI. Vereinfacht gesagt, ist ein 2D-MRI ein 1D-MRI, welches durch sehr viele Ebenen durchgefahren wurde.
+
+Das Ziel bei dem 2D-MRI ist es nun, welche Auswirkungen unterschiedliche Relaxationszeiten von $T_1$ und $T_2$ auf die Messungen haben und wie man diese Kontraste erhöhen kann. Durch Kontrastmittel können unter anderem die Relaxationszeiten der zu untersuchenden Proben verändert werden. Hierbei unterscheidet man zwischen positiven Relaxationszeiten (diese erhöhen die Intensität der Probe) und negative Kontraste ( diese verringern/reduziert die Intensität in der Region).  Diese Kontrastmittel benutzt man dann, wenn man in einer bestimmten Region etwas hervor heben will oder schon einen vorhanden Kontrast weiter verstärken will.   
+\begin{figure}[H]
+\centering
+\subcaptionbox{Die Polarisatioonszueit von $\SI{600}{\milli\second}$ wurde am Anfang gewählt. Dabei handelt es sich um die selbe zeit wie die $T_1$-Relaxation von der einen Röhre. }
+{\input{plots/2DMRI600}}
+% \subcaptionbox{Es wurde als nächstes eine Polarisationszeit von $\SI{1300}{\milli\second}$ gewählt, wobei es sich hierbei um einen Wert zwischen den beiden Polarisationszeiten handelt.}
+% {\input{plots/2DMRI1300}}\newpage
+\subcaptionbox{Im letzten Bild sollte eine Polarisationszeit doppelt so lange wie die längere $T_1$-Relaxation gewählt werden. Es wurde jedoch nur eine Polarisationszeit von $\SI{2800}{\milli\second}$gemessen}
+{\input{plots/2DMRI2800}}
+\caption{Hier wird versucht die $T_1$-Relaxation deutlich zu machen indem die Polarisationszeiten verändert werden}\label{fig:11600}
+\end{figure}
+In der Abbildung \ref{fig:11600} wird eine Polarisationszeit von $\SI{600}{\milli\second}$ verwendet,
+ welches die kürzere $T_1$-Zeit von der einen Röhre darstellt. Diese Röhre sieht man in Abb. \ref{fig:11600} unter anderem dadurch,
+dass sie durch eine starke Intensität dargestellt wird. Da diese Farbe von dem Rest hervor gehoben wird, wird dies als positives Kontrastmittel bezeichnet.
+Die Intensitätsskalierung rechts von der Abbildung ist eine vom Programm kodierte Größe, die keine Einheit besitzt.\\
+
+Wenn man sich nun überlegt, warum diese Röhre intensiver leuchtet als die andere, so muss sich der Zusammenhang zwischen der Polarisationszeit und der $T_1$-Relaxation überlegt werden. Die $T_1$-Relaxation gibt die Zeit an, bei der die meisten Spins sich dem äußeren Magnetfeld angepasst haben. Dies bedeutet, je kürzer $T_1$ ist, desto kürzer muss der Polarisationspuls sein um die meisten Spins im Material auszurichten. Wenn man nun weiter denkt und ein Material mit zwei $T_1$-Zeiten hat, so ist bei kleiner Polarisationszeit genau der Teil im Bild intensiver zu sehen, der eine kleinere $T_1$ Zeit besitzt, da in diesem Teil die meisten Spins sich schon ausgerichtet haben und dementsprechend zu dem MRI Signal beitragen können.\textbf{Soll hier noch die SNR-Formel benutzt/erklärt wefrden?}\\
+Durch Erhöhung der Polarisationszeit kann unteranderem auch die zweite Röhre sichtbar gemacht werden. Dies sieht man unter anderem in Abb \ref{fig:11600}. Neben der Röhre die rechts unten im Bild vorhanden ist, ist hier auch die andere Röhre mit der größerer $T_1$ Zeit zu sehen. Hierbei sollte eine Polarisationszeit doppelt so groß wie die größere $T_1$ Zeit genommen werden, da man in beiden Materialien versucht die ganzen Spins aus zu richten. Am Versuchstag wurde sich mit einer zeit von $\SI{2800}{\milli\second}$ zufrieden gegeben, da diese ausreichend zeigt, dass nun auch die zweite Röhre zu dem signal beiträgt. Dennoch ist ein Kontrast zwischen den beiden Bildern zu sehen. Dies lässt darauf schließen, dass in der Röhre links in der Abbildung insgesamt weniger Spins vorhanden sind, die zu dem Signal beitragen und somit auch logischerweise die Intensität geringer ist. Womöglich ist ein anderer Grund, dass die Polarisationszeit nicht labnge genug gewählt wurde, sodass hier nicht alle Spins ausgerichtet waren. Jedoch ist offensichtlich ein unterschied zwischen den beiden Bildern sichtbar, welcher auch erklärt werde kann. Dies ist bei einer qualitativen Beobachtung das wichtigste und somit genügen die zwei Abbildungen als Vergleich. Wenn zusätzlich noch eine Messung mit einer Polarisationszeit betrachtet wird, die sich zwischen den zwei $T_1$ Zeiten befindet, so müsste ein Teil von der einen Röhre schon sichtbar sein, jedoch dürfte die Intensität dieser Röhre geringer sein und somit einen bläulicheren Ton besitzten. Mit der Polarisationszeit von $\SI{1300}{\milli\second}$ wurde genau so eine Messung durchgeführt und in Abb \ref{fig: 1300} kann genau diese Vermutung beobachtet werden.
     \begin{figure}[H]
         \centering
         \input{plots/2DMRI1300.tex}
-        \caption{2D MRI mit T1 $\SI{1300}{\milli\second}$}
+        \caption{2D MRI mit der Polarisationszeit $\SI{1300}{\milli\second}$}
+        \label{fig: 1300}
     \end{figure}
-    \begin{figure}[H]
-        \centering
-        \input{plots/2DMRI2100.tex}
-        \caption{2D MRI mit T1 $\SI{2100}{\milli\second}$}
-    \end{figure}
-    \begin{figure}[H]
-        \centering
-        \input{plots/2DMRI2800.tex}
-        \caption{2D MRI mit T1 $\SI{2800}{\milli\second}$}
-    \end{figure}
-    \begin{figure}[H]
-        \centering
-        \input{plots/2DMRI200.tex}
-        \caption{2D MRI mit T2 $\SI{200}{\milli\second}$}
-    \end{figure}
-    \begin{figure}[H]
-        \centering
-        \input{plots/2DMRI250.tex}
-        \caption{2D MRI mit T2 $\SI{250}{\milli\second}$}
-    \end{figure}
-    \begin{figure}[H]
-        \centering
-        \input{plots/2DMRI300.tex}
-        \caption{2D MRI mit T2 $\SI{300}{\milli\second}$}
-    \end{figure}
-    \begin{figure}[H]
-        \centering
-        \input{plots/2DMRI450.tex}
-        \caption{2D MRI mit T2 $\SI{450}{\milli\second}$}
-    \end{figure}
-    \begin{figure}[H]
-        \centering
-        \input{plots/2DMRI550.tex}
-        \caption{2D MRI mit T2 $\SI{550}{\milli\second}$}
-    \end{figure}
+Nun gibt es noch zwei verschiedene Sachen, die betrachtet werden können. Das erste was diskutiert werde muss ist, dass in der ersten Abb \ref{fig:11600} an manchen Stellen ein Signal vorhanden ist, wo keins sein dürfte. Somit wird außerhalb von dem Phantom ein Signal gemessen. Dies könnte unter anderem daran liegen, dass während des Messvorgang eine Matrixgröße von 64$\times$ 64 genommen wurde, sodass die Messzeit sehr lange gewesen ist. Diese wurde jedoch abgebroch, weil diese zu lange gedauert hat und somit sind die Messdaten nicht vollständig, bzw. könnten wie bei einer anderen Datei beschädigt sein. Wenn nicht ausreichend Mespunkte genommen worden sind, kann es sein, dass die Auflösung nicht gut genug ist und somit das Phantom verschwommener dargestellt wird, was auch eine Ursache darstellen könnte.\\
+Aus den Abbildungen kann entnommen werden, dass die Substanz in der rechten Röhre eine kleinere $T_1$-Relaxation hat als die Substanz in der linken Röhre.\\
+In dem Abschnitt über die \glqq Relaxationszeiten von Wasser und Zusatzmitteln\grqq \, wurden verschiedene Konzentrationen von Stoffen untersucht auf die jeweiligen Relaxationszeiten. In der ersten Abbildung \ref{fig:11600} ist schon bei einer geringen Polarisationszeit die rechte Röhre deutlich zu sehen. Dies legt die Vermutung nahe, dass die Substannz in der  rechten Röhre eine $T_1$-Zeit besitzt, die bei ca. $\SI{600}{\milli\second}$ liegt. Mit dieser Vermutung kann aus der Tabelle \textbf{Tabelle im Anhang noch ref hinzufügen} entnommen werden, dass es sich hierbei um \ce{Cu2+} mit einer Konzentration von $\SI{500}{\micro\mole}$ oder 
+$\SI{1000}{\micro\mole}$ handelt. Um dies genau zu ermitteln, müsste vor dem 2D-MRI 
+eine $T_2$ Messung stattfinden, ohne dass sich in der anderen Röhre was befindet. Die Konzentration von $\SI{2000}{\micro\mole}$ wurde ausgeschlossen, da die Signalintensität noch leicht ansteigt, wenn die Polarisationszeit weiter erhöht. Dies spricht dafür, dass die Polarisationszeit von $\SI{600}{\milli\second}$ nicht komplett ausreicht um alle spins aus zu richten. Falls es kein Kupfer ist, kann es sich möglicherweise um \ce{Mn2+} handeln mit einer Konzentration von ca. $\SI{50}{\micro\mole}$. Die Begründig hierfür wären Analog wie zum Kupfer. Weitere Stoffe oder Konzentrationen können nicht genauer betrachtet werden, da es hierfür keine Referenzwerte gibt.\\
+Als nächstes kann eine Vermutung angestellt werden, was sich in der linken Röhre befindet. Hierbei sieht man erst bei höherer Polarisationszeit, dass das Signal intensiver wird. Das Signal ist hierbei bei der letzten Messung am intensivsten. Der Wert, der hierfür am besten passt liefert Wasser mit einer Relaxationszeit von ca. $\SI{2200}{\milli\second}$. Alle anderen $T_1$-Zeiten würde schon früher durch die lange Polarisationszeiten erreicht werden, weshalb man Kupfer und Mangan ausschließen kann.\\
 
-% \begin{figure}[H]
-%     \centering
-%     \begin{subfigure}[t]{0.25\textwidth}
-%         \input{plots/2DMRI600.tex}
-%         % \caption{2DMRI T2 $\SI{200}{\milli\second}$}
-%     \end{subfigure}
-%     \begin{subfigure}[t]{0.25\textwidth}
-%         \input{plots/2DMRI1300.tex}
-%         % \caption{2DMRI T2 $\SI{1300}{\milli\second}$}
-%     \end{subfigure}
-%     \begin{subfigure}[b]{0.25\textwidth}
-%         \input{plots/2DMRI2100.tex}
-%         % \caption{2DMRI T2 $\SI{2100}{\milli\second}$}
-%     \end{subfigure}
-%     \begin{subfigure}[b]{0.25\textwidth}
-%         \input{plots/2DMRI2800.tex}
-%         % \caption{2DMRI T2 $\SI{2800}{\milli\second}$}
-%     \end{subfigure}
-%     \label{fig:2DMRIT1}
-% \end{figure}
-% \begin{figure}[H]
-%     \centering
-%     \subfigure{\input{plots/2DMRI200.tex}}
-%     \subfigure{\input{plots/2DMRI250.tex}}
-%     \subfigure{\input{plots/2DMRI450.tex}}
-%     \subfigure{\input{plots/2DMRI550.tex}}
-%     \caption{Links oben: ;\\ Rechts oben: 2DMRI T2 $\SI{250}{\milli\second}$;\\
-%     Links oben: 2DMRI T2 $\SI{450}{\milli\second}$;\\ Rechts unten: 2DMRI T2 $\SI{550}{\milli\second}$}
-%     \label{fig:Energieschema}
-% \end{figure}
+
+Bei dem 2D-MRI wurden nicht nur die $T_1$-Konstraste angeschaut, sondern auch die unterschiedlichen Kontraste der $T_2$-Relaxationen. 
+
+    \begin{figure}[H]
+        \centering
+        \subcaptionbox{$t_{echo}$=$\SI{250}{\milli\second}$}
+        {\input{plots/2DMRI250.tex}}
+        \subcaptionbox{$t_{echo}$=$\SI{550}{\milli\second}$}
+        {\input{plots/2DMRI550}}
+        \caption{2D-MRI mit Relaxationskontrast von verschiedenen $T_2$-Zeiten, durch verschiedene Echozeiten}\label{fig:1250}
+    \end{figure}
+Was als erstes auffält ist, dass die Abb. \ref{fig:1250} der Abb \ref{fig:11600}  vergleichsweise sehr ähnlich aussieht. Dies liegt daran, dass bei der $T_2$-Realaxation der Kontrast mit der Zeit größer wird.(Bis zu dem Punkt wo beide keine Signale mehr besitzten). Außerdem wurde hier auch die gleiche Polarisationszeit genommen, damit keine Unterschiede von der $T_1$-Relaxation die $T_2$-Kontraste beeinflussen. \\
+Grund dafür, dass die $T_2$-Kontraste noch nicht so gut sichtbar sind liegt daran, dass bei kurzer Echozeit die Spins noch nicht stark relaxieren konnten und somit auch kein großer Unterschied im Signal vorhanden ist. Dies ändert sich jedoch mit der Messung \ref{fig:1250}, da hier das Signal von der rechten Röhre schwächer ist als in der linken Röhre. Zu beachten ist hierbei, dass die Skala sich auf der rechten Seite verändert hat und auch wenn das Signal in der linken Röhre mit rot ausgeprägt ist, dass dieses Signal leztlich auch schwächer geworden sind. Dies kann man sich dadurch erklären, dass die $T_2$-Relaxation die Zeit angibt, wie schnell ein Signal zerfällt. Dadurch, dass das Signal in der linken Röhre stärker als in der rechten Röhre zu sehen ist, handelt es sich hier um ein positives Kontrastmittel und die Substanz in der linken Röhre muss eine längere $T_2$-Relaxation besitzten.  
+Dies würde auch mit der Theorie übereinstimmen, dass in der linken Röhre Wasser als Probe genommen wurde. Denn bei Wasser ist $T_2$ mit  $\SI{1901}{\milli\second}$ am größten und somit sollte das Signal auch bei längeren Echozeiten deutlicher zu sehen sein als bei Kupfer oder Mangan.
+Schon in dem Kapitel davor \ref{sec:1DMRIkapitel} wurde schon darauf eingegangen, dass eine gute Effizienz wichtig ist, um bei einer geringen Messzeit eine gute Auflösung zu erhalten. Im zweidimensionalen wird dies um so wichtiger sein, da statt nur in eine Richtung nun eine zweite Richtung abgefahren wird, womit sich die Messzeit erheblich erhöht. Somit ist es wichtig bei dem Versuch darauf zu achten, dass die Effizienz gut ist.

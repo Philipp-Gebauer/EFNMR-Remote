@@ -1,0 +1,26 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Setup}{2}{section.2}%
+\contentsline {section}{\numberline {3}Part I -- Basics}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Noise measurement}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Coil Analysis}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Optimization and Characterisation of FID in water sample}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Longitudinal relaxation measurements T1}{13}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Hahn echo}{16}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Multiple echo sequences}{19}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Transversal relaxation measurements}{20}{subsection.3.7}%
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {4}Teil II -- Anwendung}{23}{section.4}%
+\contentsline {subsection}{\numberline {4.1}\leavevmode {\color {red}ToDo!}Relaxationskontrast}{23}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}1D MRI}{30}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}2D MRI}{35}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}J-Kopplung zur chemischen Strukturanalyse}{45}{subsection.4.4}%
+\contentsline {section}{\numberline {5}PGSE-Diffusionskoeffizient}{45}{section.5}%
+\contentsline {section}{\numberline {6}Error discussion and conclusion}{50}{section.6}%
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {section}{Attachments}{54}{section*.44}%
