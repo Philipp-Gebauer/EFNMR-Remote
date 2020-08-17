@@ -381,4 +381,4 @@ y8_max = 1
 set xrange [x8_min:x8_max]
 set yrange [y_min:y8_max]
 set key at graph 0.985,0.975
-plot dataPTH1 using 1:2 ls 10 ps 3 lw 3 title "$Mn^{2+} \\SI{25}{\\micro\\mole}$", M(x) ls 8 lw 3 notitle,dataPTH5 using 1:2 ls 7 ps 3 lw 3 title "$Mn^{2+} \\SI{100}{\\micro\\mole}$", M2(x) ls 8 lw 3 notitle, dataPTH3 using 1:2 ls 8 ps 3 lw 3 title "$Mn^{2+} \\SI{25}{\\micro\\mole}$", M1(x) ls 8 lw 3 notitle,dataPTH9 using 1:2 ls 15 ps 3 lw 3 title "$Mn^{2+} \\SI{200}{\\micro\\mole}$", M9(x) ls 8 lw 3 notitle, dataPTH7 using 1:2 ls 2 ps 3 lw 3 title "Wasser", M3(x) ls 8 lw 3 notitle
+plot dataPTH1 using 1:2 ls 10 ps 3 lw 3 title "$Mn^{2+} \\SI{25}{\\micro\\mole}$", M(x) ls 8 lw 3 notitle, dataPTH3 using 1:2 ls 8 ps 3 lw 3 title "$Mn^{2+} \\SI{50}{\\micro\\mole}$", M1(x) ls 8 lw 3 notitle, dataPTH5 using 1:2 ls 7 ps 3 lw 3 title "$Mn^{2+} \\SI{100}{\\micro\\mole}$", M2(x) ls 8 lw 3 notitle,dataPTH9 using 1:2 ls 15 ps 3 lw 3 title "$Mn^{2+} \\SI{200}{\\micro\\mole}$", M9(x) ls 8 lw 3 notitle, dataPTH7 using 1:2 ls 2 ps 3 lw 3 title "Wasser", M3(x) ls 8 lw 3 notitle
