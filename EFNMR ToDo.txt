@@ -32,7 +32,7 @@ Abschnitt 11: Relaxivitäten
 [check]	• Signal plotten, die wir hatten
 	• T1 und T2: Plots gut, Tabelle evtl unnötig. --> Anhang
 	• Einfluss T_1 und T_2 auf Signalintensität
-	• Spektrum betrachten bei Cu2 (250 & 200) & Mn (25 & 200) und evtl alle auf einmal.
+	• Spektrum betrachten bei Cu2 (250 & 2000) & Mn (25 & 200) und evtl alle auf einmal.
 	• Allgemeine Trends!
 		--> Vergleich Kupfer und Mangan, was ist besser für welchen Kontrast geeignet?
 		--> Vergleich mit Wasser 

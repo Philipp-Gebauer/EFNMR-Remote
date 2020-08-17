@@ -29,22 +29,50 @@
 \end{table}
 
 \begin{figure}[H]
-    \centering
-    \input{plots/Relaxivitat_CuT2.tex}
-    \caption{Bestimmung der Relaxivität $r_2$ mit Kupfer als Kontrastmittel. Analog zu Abbildung \ref{fig:RelaxCUT1}.}
-    \label{fig:RelaxCUT2}
+    \begin{subfigure}[b]{0.5\textwidth}
+        \centering
+        \resizebox{1\textwidth}{!}{\input{plots/Relaxivitat_CuT2.tex}}
+        \caption{Bestimmung der Relaxivität $r_2$ mit Kupfer als Kontrastmittel. Analog zu Abbildung \ref{fig:RelaxCUT1}.}
+        \label{fig:RelaxCUT2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+        \centering
+        \resizebox{1\textwidth}{!}{\input{plots/Relaxivitat_MnT1.tex}}
+        \caption{Bestimmung der Relaxivität $r_1$ mit Mangna als Kontrastmittel. Analog zu Abbildung \ref{fig:RelaxCUT1}.}
+        \label{fig:RelaxMNT1}
+    \end{subfigure}
+    \begin{subfigure}[b]{1\textwidth}
+        \centering
+        \resizebox{0.5\textwidth}{!}{\input{plots/Relaxivitat_MnT2.tex}}
+        \caption{Bestimmung der Relaxivität $r_2$ mit Mangan als Kontrastmittel. Analog zu Abbildung \ref{fig:RelaxCUT1}.}
+        \label{fig:RelaxMNT2}
+    \end{subfigure}
+    \caption{Übersicht über alle ermittelten Relaxivitäten.}
+    \label{fig:RelaxAlle}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \input{plots/Relaxivitat_MnT1.tex}
-    \caption{Bestimmung der Relaxivität $r_1$ mit Mangna als Kontrastmittel. Analog zu Abbildung \ref{fig:RelaxCUT1}.}
-    \label{fig:RelaxMNT1}
-\end{figure}
+
+
 
 \begin{figure}[H]
-    \centering
-    \input{plots/Relaxivitat_MnT2.tex}
-    \caption{Bestimmung der Relaxivität $r_2$ mit Mangan als Kontrastmittel. Analog zu Abbildung \ref{fig:RelaxCUT1}.}
-    \label{fig:RelaxMNT2}
+    \begin{subfigure}[b]{0.5\textwidth}
+        \centering
+        \resizebox{1\textwidth}{!}{\input{plots/KupferalleT2.tex}}
+        \caption{Alle $T_2$-Messungen aller verwendeten Kupferkonzentrationen.}
+        \label{fig:T2CU}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+        \centering
+        \resizebox{1\textwidth}{!}{\input{plots/ManganalleT1.tex}}
+        \caption{Alle $T_1$-Messungen aller verwendeten Mangankonzentrationen.}
+        \label{fig:T1Mn}
+    \end{subfigure}
+    \begin{subfigure}[b]{1\textwidth}
+        \centering
+        \resizebox{0.5\textwidth}{!}{\input{plots/ManganalleT2.tex}}
+        \caption{Alle $T_2$-Messungen aller verwendeten Mangankonzentrationen.}
+        \label{fig:T2M}
+    \end{subfigure}
+    \caption{Übersicht über alle $T_1$- und $T_2$-Messungen für beide verwendeten Kontrastmittel mit jeweils unterschiedlichen Konzentrationen.}
+    \label{fig:RelaxZeitAlle}
 \end{figure}
