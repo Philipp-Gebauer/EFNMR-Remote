@@ -14,7 +14,7 @@ x_min = 1700
 x_max = 1900
 
 y_min = 0
-y_max = 4
+y_max = 5
 
 dataPTH = "Messwerte2/12_1/spectrum.txt"
 load "jet.pal"

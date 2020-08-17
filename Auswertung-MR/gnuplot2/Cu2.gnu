@@ -375,7 +375,7 @@ y7_max = 1
 set xrange [x7_min:x7_max]
 set yrange [y7_min:y7_max]
 
-plot dataPTH using 1:2 ls 10 ps 3 lw 3 title "$Cu^{2+} \\SI{250}{\\micro\\mole}$" , S(x) ls 8 lw 3 notitle,  dataPTH2 using 1:2 ls 7 ps 3 lw 3 title "$Cu^{2+} \\SI{500}{\\micro\\mole}$" , S1(x) ls 8 lw 3 notitle,  dataPTH4 using 1:2 ls 8 ps 3 lw 3 title "$Cu^{2+} \\SI{1000}{\\micro\\mole}$" , S2(x) ls 8 lw 3 notitle, dataPTH8 using 1:2 ls 15 ps 3 lw 3 title "$Cu^{2+} \\SI{2000}{\\micro\\mole}$" , S8(x) ls 8 lw 3 notitle, dataPTH6 using 1:2 ls 2 ps 3 lw 3 title "Wasser" , S3(x) ls 8 lw 3 notitle
+plot dataPTH6 using 1:2 ls 2 ps 3 lw 3 title "Wasser" , S3(x) ls 8 lw 3 notitle,  dataPTH using 1:2 ls 5 ps 3 lw 3 title "$Cu^{2+}$   $\\SI{250}{\\micro\\mole}$" , S(x) ls 8 lw 3 notitle,  dataPTH2 using 1:2 ls 7 ps 3 lw 3 title "$Cu^{2+}$   $\\SI{500}{\\micro\\mole}$" , S1(x) ls 8 lw 3 notitle,  dataPTH4 using 1:2 ls 8 ps 3 lw 3 title "$Cu^{2+}$ $\\SI{1000}{\\micro\\mole}$" , S2(x) ls 8 lw 3 notitle, dataPTH8 using 1:2 ls 15 ps 3 lw 3 title "$Cu^{2+}$ $\\SI{2000}{\\micro\\mole}$" , S8(x) ls 8 lw 3 notitle 
 
 #Alle Plots von T1 und T2 f\\\"ur Co2+
 #png

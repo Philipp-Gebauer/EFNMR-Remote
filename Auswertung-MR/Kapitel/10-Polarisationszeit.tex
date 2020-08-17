@@ -33,26 +33,23 @@ bestimmt werden. Dabei bezeichnet $T_{\text{i}}\left([\ce{X^2+}]\right)$ die -- 
 
 \ce{Cu^2+} \ce{Mn^2+}
 
-\begin{figure}[H]
-    \centering
-    \input{plots/T1Wasser.tex}
-    \caption{T1 Messung von Wasser}
-\end{figure}
 
 \begin{figure}[H]
-    \centering
-    \input{plots/T2Wasser.tex}
-    \caption{T2 Messung von Wasser}
+    \begin{subfigure}[b]{0.5\textwidth}
+        \centering
+        \resizebox{1\textwidth}{!}{\input{plots/T1Wasser.tex}}
+        \caption{T1 Messung von Wasser}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+        \centering
+        \resizebox{1\textwidth}{!}{\input{plots/T2Wasser.tex}}
+        \caption{T2 Messung von Wasser}
+    \end{subfigure}
+    \caption{}
+    \label{}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \input{plots/Relaxivitat_CuT1.tex}
-    \caption[]{\textcolor{red}{ToD:}Diese Abbildung zeigt die Kehrwerte der vier Relaxationszeiten $T_1$ aufgetragen über den entsprechenden Konzentrationen des im Wasser gelösten Kupersalzes. Mittels eines linearen Fits konnten somit die Relaxivität $r_1$, sowie die Relaxationszeit ohne gelöstes Kontrastmittel nach Gleichung \eqref{eq:relaxivitat} ermittlet werden.
-    
-    Relaxivitat $r_1$ von Kupfer}
-    \label{fig:RelaxCUT1}
-\end{figure}
+
 
 \begin{figure}[H]
     \centering
@@ -63,24 +60,21 @@ bestimmt werden. Dabei bezeichnet $T_{\text{i}}\left([\ce{X^2+}]\right)$ die -- 
 
 \begin{figure}[H]
     \centering
-    \input{plots/KupferalleT2.tex}
-    \caption{\textcolor{red}{ToD:}Alle Messungen T2Cu2+}
-    \label{fig:T2CU}
+    \input{plots/CuMnVgl.tex}
+    \caption{\textcolor{red}{ToD:}Cu Mn vgl}
+    \label{fig:T1CuMn}
 \end{figure}
+
+
 
 \begin{figure}[H]
     \centering
-    \input{plots/ManganalleT1.tex}
-    \caption{\textcolor{red}{ToD:}Alle Messungen T1Mn2+}
-    \label{fig:T1Mn}
+    \input{plots/Relaxivitat_CuT1.tex}
+    \caption[]{\textcolor{red}{ToD:}Diese Abbildung zeigt die Kehrwerte der vier Relaxationszeiten $T_1$ aufgetragen über den entsprechenden Konzentrationen des im Wasser gelösten Kupersalzes. Mittels eines linearen Fits konnten somit die Relaxivität $r_1$, sowie die Relaxationszeit ohne gelöstes Kontrastmittel nach Gleichung \eqref{eq:relaxivitat} ermittlet werden.
+    Relaxivitat $r_1$ von Kupfer}
+    \label{fig:RelaxCUT1}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \input{plots/ManganalleT2.tex}
-    \caption{\textcolor{red}{ToD:}Alle Messungen T2MN2+}
-    \label{fig:T2M}
-\end{figure}
 
 \begin{figure}[H]
     \centering
@@ -93,7 +87,7 @@ bestimmt werden. Dabei bezeichnet $T_{\text{i}}\left([\ce{X^2+}]\right)$ die -- 
     \centering
     \caption{Relaxivitäten von Kupfer und Mangan.}
     \begin{tabular}{|l||r|r|r|r|} \hline
-        Kontrastmittel & $r_{1}$ in $\si{\frac{\mol}{\metre \cubed \second}}$    &  $T_{1}$ in $\si{\second}$ & $r_{2}$ in $\si{\frac{\mol}{\metre \cubed \second}}$ & $T_{2}$ in $\si{\second}$  \\ \hline \hline
+        Kontrastmittel & $r_{1}$ in $\si{\frac{\mol}{\metre \cubed \second}}$    &  $T_{1}(0)$ in $\si{\second}$ & $r_{2}$ in $\si{\frac{\mol}{\metre \cubed \second}}$ & $T_{2}(0)$ in $\si{\second}$  \\ \hline \hline
         Kupfer & $\SI{0.454 \pm 0.031}{}$   & $\SI{1.84 \pm 0.24}{}$    & $\SI{0.617 \pm 0.084}{}$   & $\SI{2.9  \pm 1.6}{}$ \\ \hline
         Mangan & $\SI{13.65 \pm 0.84}{}$    & $\SI{5.7 \pm 6.3}{}$      & $\SI{35.9 \pm 3.1}{}$  & $\SI{-3.2 \pm 7.5}{}$ \\ \hline
     \end{tabular} 

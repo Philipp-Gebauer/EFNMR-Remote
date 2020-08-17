@@ -24,4 +24,4 @@ set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 
 
-plot dataPTH using 1:2 lt 5 lc 15 w lines title "noisemagnitude spectrum"
+plot dataPTH using 1:2 lt 5 lc 15 w lines title "noise magnitude spectrum"
