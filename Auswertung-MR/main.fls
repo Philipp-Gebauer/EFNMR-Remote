@@ -1,4 +1,4 @@
-PWD c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR
+PWD C:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR
 INPUT C:\Users\Marc\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.tex
 OUTPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.log
@@ -421,14 +421,14 @@ OUTPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\1-einleitung.tex
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\1-einleitung.tex
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmcsc10.tfm
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\2-aufbau.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\2-aufbau.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\Aufbau.png
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\Aufbau.png
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\Aufbau.png
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\Aufbau.png
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\Aufbau.png
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx10.tfm
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\2-aufbau.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\2-aufbau.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\Aufbau.png
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\Aufbau.png
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\Aufbau.png
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\Aufbau.png
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\Aufbau.png
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\I-PartI.tex
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\I-PartI.tex
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\3-Noisemeasurement.tex
@@ -693,162 +693,134 @@ INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\A
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T1Wasser-eps-converted-to.pdf
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T1Wasser-eps-converted-to.pdf
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T1Wasser-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\12-1DMRI.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\12-1DMRI.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\1DMRIkraum.JPG
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\1DMRIkraum.JPG
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\1DMRIkraum.JPG
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\1DMRIkraum.JPG
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\1DMRIkraum.JPG
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\13-2DMRI.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\13-2DMRI.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\2DMRI.JPG
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\2DMRI.JPG
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\2DMRI.JPG
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\2DMRI.JPG
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\2DMRI.JPG
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.tex
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.eps
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
-INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx10.tfm
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\T2Wasser-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\CuMnVgl-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_CuT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\SignalkontrastT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\12-1DMRI.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\12-1DMRI.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\1DMRIkraum.JPG
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\1DMRIkraum.JPG
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\1DMRIkraum.JPG
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\1DMRIkraum.JPG
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\1DMRIkraum.JPG
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRI-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\1DMRIy-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\13-2DMRI.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Kapitel\13-2DMRI.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\2DMRI.JPG
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\2DMRI.JPG
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\2DMRI.JPG
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\2DMRI.JPG
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\Abbildungen\2DMRI.JPG
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI600-eps-converted-to.pdf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr7.tfm
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI2800.tex
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\2DMRI2800.tex
@@ -1003,6 +975,48 @@ INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\A
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_MnT2-eps-converted-to.pdf
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_MnT2-eps-converted-to.pdf
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\Relaxivitat_MnT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\KupferalleT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT1-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.tex
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\cp1252.def
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2.eps
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
+INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\plots\ManganalleT2-eps-converted-to.pdf
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.aux
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.out
 INPUT c:\Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.out

@@ -9,24 +9,43 @@
 \setcounter{section}{6}
 \newpage
 
-
 \begin{table}[H]
     \centering
-    \caption{$T_1$ und $T_2$ abhängig vom Kontrastmittel und dessen Konzentration.}
-    \begin{tabular}{lllll}  \hline
-    \multicolumn{1}{|l||}{}            & \multicolumn{1}{l|}{T1 in \si{\milli \second}}      & \multicolumn{1}{l|}{U(T1)-Fit in \si{\milli \second}} & \multicolumn{1}{l|}{T2 in \si{\milli \second}}      & \multicolumn{1}{l|}{U(T2)-Fit in \si{\milli \second}}  \\ \hline
-    \multicolumn{1}{|l||}{Wasser}      & \multicolumn{1}{l|}{2199,46} & \multicolumn{1}{l|}{0,003027}  & \multicolumn{1}{l|}{1901,06} & \multicolumn{1}{l|}{89,83}      \\ \hline \hline
-    \multicolumn{1}{|l||}{\ce{Cu^2+}    ($\SI{0.5}{\frac{\mol}{\metre \tothe{3}}}$)}  & \multicolumn{1}{l|}{1394,84} & \multicolumn{1}{l|}{0,001055}  & \multicolumn{1}{l|}{1215,51} & \multicolumn{1}{l|}{0,0002529}  \\ \hline
-    \multicolumn{1}{|l||}{\ce{Cu^2+}    ($\SI{1.0}{\frac{\mol}{\metre \tothe{3}}}$)}  & \multicolumn{1}{l|}{1003,4}  & \multicolumn{1}{l|}{0,0004851} & \multicolumn{1}{l|}{1066,44} & \multicolumn{1}{l|}{0,0002621}  \\ \hline
-    \multicolumn{1}{|l||}{\ce{Cu^2+}    ($\SI{2.0}{\frac{\mol}{\metre \tothe{3}}}$)} & \multicolumn{1}{l|}{646,849} & \multicolumn{1}{l|}{71,54}     & \multicolumn{1}{l|}{748,404} & \multicolumn{1}{l|}{0,0001937}  \\ \hline
-    \multicolumn{1}{|l||}{\ce{Cu^2+}    ($\SI{4.0}{\frac{\mol}{\metre \tothe{3}}}$)} & \multicolumn{1}{l|}{431,268} & \multicolumn{1}{l|}{0,0002906} & \multicolumn{1}{l|}{341,83}  & \multicolumn{1}{l|}{0,0001228}  \\ \hline \hline
-    \multicolumn{1}{|l||}{\ce{Mn^2+}    ($\SI{0.05}{\frac{\mol}{\metre \tothe{3}}}$)}     & \multicolumn{1}{l|}{1178,28} & \multicolumn{1}{l|}{0,0009801} & \multicolumn{1}{l|}{548,337} & \multicolumn{1}{l|}{0,0001258}  \\ \hline
-    \multicolumn{1}{|l||}{\ce{Mn^2+}    ($\SI{0.10}{\frac{\mol}{\metre \tothe{3}}}$)}     & \multicolumn{1}{l|}{725,857} & \multicolumn{1}{l|}{0,0006027} & \multicolumn{1}{l|}{279,858} & \multicolumn{1}{l|}{0,00008179} \\ \hline
-    \multicolumn{1}{|l||}{\ce{Mn^2+}    ($\SI{0.20}{\frac{\mol}{\metre \tothe{3}}}$)}    & \multicolumn{1}{l|}{316,085} & \multicolumn{1}{l|}{0,0003079} & \multicolumn{1}{l|}{170,996} & \multicolumn{1}{l|}{0,0001182}  \\ \hline
-    \multicolumn{1}{|l||}{\ce{Mn^2+}    ($\SI{0.40}{\frac{\mol}{\metre \tothe{3}}}$)}    & \multicolumn{1}{l|}{180,244} & \multicolumn{1}{l|}{0,0001274} & \multicolumn{1}{l|}{69,1512} & \multicolumn{1}{l|}{0,0000547}  \\ \hline
+    \caption[Tabelle mit den jeweiligen $T_1$- und $T_2$-Zeiten in Abhängigkeit von der Konzentration dargestellt.]{ In der Tabelle werden die $T_1$- und $T_2$-Zeiten in Abhängigkeit von der jeweiligen Konzentration aufgetragen..Hierbei muss angemerkt werden, dass durch die jeweiligen Fits eine Unsicherheit ausgegeben wurde, diese aber sehr klein ist. Es macht also hier wenig Sinn diese noch explizit hinzu zu schreiben, da sonst die $T_1$/$T_1$-Zeiten teilweise mit sechs Nachkommastellen angegeben werden würden. Außerdem werden die Daten nur zur qualitativen Betrachtung in dem Kapitel \glqq 2D-MRI\grqq \, verwendet.}\label{tab:T1T2}
+    \begin{tabular}{lll}
+    \hline
+    \multicolumn{1}{|l|}{}            & \multicolumn{1}{l|}{T1}      & \multicolumn{1}{l|}{T2}      \\ \hline
+    \multicolumn{1}{|l|}{\ce{Cu2+}    $\SI{250}{\micro\mole}$}  & \multicolumn{1}{l|}{1394,84} & \multicolumn{1}{l|}{1215,51} \\ \hline
+    \multicolumn{1}{|l|}{\ce{Cu2+}    $\SI{500}{\micro\mole}$}  & \multicolumn{1}{l|}{1003,40}  & \multicolumn{1}{l|}{1066,44} \\ \hline
+    \multicolumn{1}{|l|}{\ce{Cu2+}    $\SI{1000}{\micro\mole}$} & \multicolumn{1}{l|}{646,85} & \multicolumn{1}{l|}{748,40} \\ \hline
+    \multicolumn{1}{|l|}{\ce{Cu2+}    $\SI{2000}{\micro\mole}$} & \multicolumn{1}{l|}{431,27} & \multicolumn{1}{l|}{341,83}  \\ \hline
+                                      &                              &                              \\ \hline
+    \multicolumn{1}{|l|}{\ce{Mn2+}    $\SI{25}{\micro\mole}$}     & \multicolumn{1}{l|}{1178,28} & \multicolumn{1}{l|}{548,34} \\ \hline
+    \multicolumn{1}{|l|}{\ce{Mn2+}    $\SI{50}{\micro\mole}$}     & \multicolumn{1}{l|}{725,86} & \multicolumn{1}{l|}{279,86} \\ \hline
+    \multicolumn{1}{|l|}{\ce{Mn2+}    $\SI{100}{\micro\mole}$}    & \multicolumn{1}{l|}{316,09} & \multicolumn{1}{l|}{170,99} \\ \hline
+    \multicolumn{1}{|l|}{\ce{Mn2+}    $\SI{200}{\micro\mole}$}    & \multicolumn{1}{l|}{180,24} & \multicolumn{1}{l|}{69,15} \\ \hline
+                                      &                              &                              \\ \hline
+    \multicolumn{1}{|l|}{Wasser}      & \multicolumn{1}{l|}{2199,46} & \multicolumn{1}{l|}{1901,06} \\ \hline
     \end{tabular}
-    \label{tab:T1T2Kontrast}
-\end{table}
+    \end{table}
+
+% \begin{table}[H]
+%     \centering
+%     \caption{$T_1$ und $T_2$ abhängig vom Kontrastmittel und dessen Konzentration.}
+%     \begin{tabular}{lllll}  \hline
+%     \multicolumn{1}{|l||}{}            & \multicolumn{1}{l|}{T1 in \si{\milli \second}}      & \multicolumn{1}{l|}{U(T1)-Fit in \si{\milli \second}} & \multicolumn{1}{l|}{T2 in \si{\milli \second}}      & \multicolumn{1}{l|}{U(T2)-Fit in \si{\milli \second}}  \\ \hline
+%     \multicolumn{1}{|l||}{Wasser}      & \multicolumn{1}{l|}{2199,46} & \multicolumn{1}{l|}{0,003027}  & \multicolumn{1}{l|}{1901,06} & \multicolumn{1}{l|}{89,83}      \\ \hline \hline
+%     \multicolumn{1}{|l||}{\ce{Cu^2+}    ($\SI{0.5}{\frac{\mol}{\metre \tothe{3}}}$)}  & \multicolumn{1}{l|}{1394,84} & \multicolumn{1}{l|}{0,001055}  & \multicolumn{1}{l|}{1215,51} & \multicolumn{1}{l|}{0,0002529}  \\ \hline
+%     \multicolumn{1}{|l||}{\ce{Cu^2+}    ($\SI{1.0}{\frac{\mol}{\metre \tothe{3}}}$)}  & \multicolumn{1}{l|}{1003,4}  & \multicolumn{1}{l|}{0,0004851} & \multicolumn{1}{l|}{1066,44} & \multicolumn{1}{l|}{0,0002621}  \\ \hline
+%     \multicolumn{1}{|l||}{\ce{Cu^2+}    ($\SI{2.0}{\frac{\mol}{\metre \tothe{3}}}$)} & \multicolumn{1}{l|}{646,849} & \multicolumn{1}{l|}{71,54}     & \multicolumn{1}{l|}{748,404} & \multicolumn{1}{l|}{0,0001937}  \\ \hline
+%     \multicolumn{1}{|l||}{\ce{Cu^2+}    ($\SI{4.0}{\frac{\mol}{\metre \tothe{3}}}$)} & \multicolumn{1}{l|}{431,268} & \multicolumn{1}{l|}{0,0002906} & \multicolumn{1}{l|}{341,83}  & \multicolumn{1}{l|}{0,0001228}  \\ \hline \hline
+%     \multicolumn{1}{|l||}{\ce{Mn^2+}    ($\SI{0.05}{\frac{\mol}{\metre \tothe{3}}}$)}     & \multicolumn{1}{l|}{1178,28} & \multicolumn{1}{l|}{0,0009801} & \multicolumn{1}{l|}{548,337} & \multicolumn{1}{l|}{0,0001258}  \\ \hline
+%     \multicolumn{1}{|l||}{\ce{Mn^2+}    ($\SI{0.10}{\frac{\mol}{\metre \tothe{3}}}$)}     & \multicolumn{1}{l|}{725,857} & \multicolumn{1}{l|}{0,0006027} & \multicolumn{1}{l|}{279,858} & \multicolumn{1}{l|}{0,00008179} \\ \hline
+%     \multicolumn{1}{|l||}{\ce{Mn^2+}    ($\SI{0.20}{\frac{\mol}{\metre \tothe{3}}}$)}    & \multicolumn{1}{l|}{316,085} & \multicolumn{1}{l|}{0,0003079} & \multicolumn{1}{l|}{170,996} & \multicolumn{1}{l|}{0,0001182}  \\ \hline
+%     \multicolumn{1}{|l||}{\ce{Mn^2+}    ($\SI{0.40}{\frac{\mol}{\metre \tothe{3}}}$)}    & \multicolumn{1}{l|}{180,244} & \multicolumn{1}{l|}{0,0001274} & \multicolumn{1}{l|}{69,1512} & \multicolumn{1}{l|}{0,0000547}  \\ \hline
+%     \end{tabular}
+%     \label{tab:T1T2Kontrast}
+% \end{table}
 
 \begin{figure}[H]
     \begin{subfigure}[b]{0.5\textwidth}

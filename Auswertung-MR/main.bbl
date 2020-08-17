@@ -66,4 +66,12 @@
   \btxurlfont{https://scholarworks.utep.edu/cgi/viewcontent.cgi?article=3739&context=open_etd}},
   looked up: 2020-07-16.
 
+\bibitem [{PGS00}]{PGSE}
+\btxtitlefont {\btxifchangecase {4.4 the pulsed gradient echo (pgse)
+  experinment}{4.4 The Pulsed Gradient Echo (PGSE) Experinment}}, 3rd October
+  2000.
+\newblock {\latintext
+  \btxurlfont{https://fp.physik.uni-konstanz.de/docs/EFNMR/Remote/PGSE.pdf}},
+  looked up: 2020-08-12.
+
 \end{thebibliography}

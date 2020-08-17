@@ -1,7 +1,7 @@
 % !TEX root = main.tex
 \subsection{PGSE-Diffusionskoeffizient}
 Im letzter Versuchsteil wird nun der Diffusionskoeffizient bestimmt. Hierfür wird die PGSE-Messmethode (Pulsed gradient spin echo) verwendet um diesen zu bestimmen.
-Hierzu wurde die Versuchsanleitung \textbf{auf der FP-Seite wie soll ich referenz machen, weil keine angabe dazu} herangenommen.\\
+Hierzu wurde die Versuchsanleitung \cite{PGSE} herangenommen.\\
 Beim PGSE Experiment wird neben den zwei Pulsen von $90^{\degree}$ und $180^{\degree}$ ein Gradientenfeld angelegt.
 Dieses Gradientenfeld wird jedoch nicht die ganze Zeit angelegt, sondern als ein Puls, der nach jedem B$_1$-Puls angelegt wird.
 In der folgenden Abbildung \ref{fig:PGSE} sieht man nun, wie ein PGSE-Experiment funktioniert und wie sich die Spins verhalten. 
@@ -9,7 +9,7 @@ In der folgenden Abbildung \ref{fig:PGSE} sieht man nun, wie ein PGSE-Experiment
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{Abbildungen/PGSE.JPG}
-    \caption{Die Abbildung veranschaulicht, wie das PGSE-Experiment funktioniert.
+    \caption[Veranschaulichung der PGSE-Messmethode]{Die Abbildung veranschaulicht, wie das PGSE-Experiment funktioniert.
     In der Abbildung (a) sieht man die zwei B$_1$-Pulse, die man vom Hahn-Echo kennt. Nach diesen Pulsen sind zusätzlich zwei Gradientenpulse eingezeichnet. Die Dauer der Gradientenpulse wird als $\delta$ bezeichnet und die Zeit zwischen den beiden Pulsen wird als $\Delta$ bezeichnet.\\
     Die Abbildung (b) zeigt, wie sich die einzelne Spins in der Probe verhalten. Durch das Anlegen eines Gradientenfeldes, stellen sich unterschiedliche Larmorfrequenzen abhängig vom Ort ein. Dadurch präzidieren die Spins unterschielich schnell. Durch den $180^{\circ}$-Puls werden die Spins geflippt und durch das anlegen eines gleichen Gradientenfeldes werden die Spins wieder in Phase gebracht.   
     \cite{literaturPGSE}}
@@ -37,9 +37,9 @@ Indem man statt die normierte Amplitude über die Gradienten-Amplitude aufträgt
 \begin{figure}[H]
     \centering
     \input{plots/Diffusion.tex}
-    \caption{Stejskal-Tanner plot, wo die normierte Amplitude Logarhytmisch über $-\gamma^2\delta^2g^2\left(\Delta-\frac{\delta}{3}\right)$ aufgetragen wird. Hierbei wurde ein Diffusionskoeffizient von $\SI{3,11(26)e-9}{\frac{\m^2}{s}}$ ermittelt}
+    \caption[Bestimmung des selbst Diffusionskoeffizienten mithilfe von dem Stejskal-Tanner plot]{Stejskal-Tanner plot, wo die normierte Amplitude Logarhytmisch über $-\gamma^2\delta^2g^2\left(\Delta-\frac{\delta}{3}\right)$ aufgetragen wird. Hierbei wurde ein Diffusionskoeffizient von $\SI{3,11(26)e-9}{\frac{\m^2}{s}}$ ermittelt}
 \end{figure}
- Wenn man den ermittelten Wert von $\SI{3,11(26)e-9}{\frac{\m^2}{s}}$ mit dem Literaturwert von $2,299  10^{-9}\si{\frac{\m^2}{\s}}$ bei Raumtemperatur ($25^{\circ}$) vergleicht\cite{Diff}, so sieht man, dass die zwei Werte sich in der selben Größenordnung befinden. Es muss aber gesagt werden, dass der Vorfaktor sich um $\pm 1$ unterscheidet. Wenn man sich den Graphen  genauer anschaut, so sieht man, dass die Werte nicht exakt auf der gefitteten Gerade liegen. Unter anderem könnten die Abweichung dadurch kommen. 
+ Wenn man den ermittelten Wert von $\SI{3,11(26)e-9}{\frac{\m^2}{s}}$ mit dem Literaturwert von $2,299 \times 10^{-9}\si{\frac{\m^2}{\s}}$ bei Raumtemperatur ($25^{\circ}$) vergleicht\cite{Diff}, so sieht man, dass die zwei Werte sich in der selben Größenordnung befinden. Es muss aber gesagt werden, dass der Vorfaktor sich um $\pm 1$ unterscheidet. Wenn man sich den Graphen  genauer anschaut, so sieht man, dass die Werte nicht exakt auf der gefitteten Gerade liegen. Unter anderem könnten die Abweichung dadurch kommen. 
 Es gibt nun verschiedene Möglichkeiten, wie man diese Messung noch genauer gestalten könnte. Indem man unter anderem die Pulslänge varriiert, kann man diese so anpassen, dass sie nicht zu lange ist im Vergleich zur Echozeit. Hinzu kommt noch, dass man die Stromstärke groß genug wählen sollte, damit eine ausreichende Dämpfung vorhanden ist.\\
 Wenn diese Feinheiten schon justiert oder probiert wurden, so gibt es noch die Option, die Probe an sich noch zu präparieren. Da bei der PGSE-Messung nur die Selbstdiffusion gemessen werden soll, ist darauf zu achten, dass in der Probe keine Konvektionsströme auftreten. Dies kann man unteranderem verhindern, wenn man statt einer Flüssigkeit einen Schwamm nimmt, der mit der zu untersuchenden Probe getränkt wird. Dadurch treten keine Konvektrionsströme mehr auf und die Bewegung kommen nur durch Diffusion zu stande. Bei dem Schwamm ist darauf zu achten, dass die Poren des Schwammes nicht zu klein sind, damit noch eine Diffusion statt finden kann.\\
 Ein weiterer Punkt, warum der Literaturwert von dem ermittelten Wert abweichen könnte, liegt wohl daran, dass die Temperatur am Versuchstag relativ groß war. Durch die zusätzliche Wärme führt dies dazu, dass die Teilchen sich im Gefäß mehr bewegen und dies somit zu einem größeren Diffusionskoeffizienten führt.\\
