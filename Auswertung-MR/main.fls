@@ -414,6 +414,8 @@ INPUT C:\Program Files\MiKTeX 2.9-2\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Program Files\MiKTeX 2.9-2\fonts\tfm\public\lm\ts1-lmr5.tfm
 INPUT C:\Program Files\MiKTeX 2.9-2\fonts\tfm\public\lm\ec-lmr5.tfm
 INPUT C:\Program Files\MiKTeX 2.9-2\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT C:\Program Files\MiKTeX 2.9-2\fonts\tfm\public\lm\ec-lmr6.tfm
+INPUT C:\Program Files\MiKTeX 2.9-2\fonts\tfm\public\lm\ec-lmbx10.tfm
 INPUT C:\Users\phili\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.toc
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.toc
@@ -421,7 +423,6 @@ OUTPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Aus
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel\1-einleitung.tex
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel\1-einleitung.tex
 INPUT C:\Program Files\MiKTeX 2.9-2\fonts\tfm\public\lm\ec-lmcsc10.tfm
-INPUT C:\Program Files\MiKTeX 2.9-2\fonts\tfm\public\lm\ec-lmbx10.tfm
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel\2-aufbau.tex
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel\2-aufbau.tex
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Abbildungen\Aufbau.png
@@ -461,7 +462,6 @@ INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Ausw
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots\MonitorNoise138-eps-converted-to.pdf
-INPUT C:\Program Files\MiKTeX 2.9-2\fonts\tfm\public\lm\ec-lmr6.tfm
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel\4-CoilAnalyssis.tex
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel\4-CoilAnalyssis.tex
 INPUT c:\Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots\PulsandcollectValesignal.tex

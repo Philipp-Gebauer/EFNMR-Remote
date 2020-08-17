@@ -6,3 +6,5 @@ Shimming in den basics
 Abb 1D-MRI 4.11 Legende
 
 zu kurze Bildunterschriften
+
+Introduction: EFNMR?
