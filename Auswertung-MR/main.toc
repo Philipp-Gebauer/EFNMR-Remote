@@ -13,14 +13,14 @@
 \contentsline {subsection}{\numberline {3.7}Transversal relaxation measurements T2}{20}{subsection.3.7}%
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {4}Teil II -- Anwendung}{23}{section.4}%
-\contentsline {subsection}{\numberline {4.1}\leavevmode {\color {red}ToDo!}Relaxationskontrast}{23}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}1D MRI}{27}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}2D MRI}{32}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}J-Kopplung zur chemischen Strukturanalyse}{42}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}PGSE-Diffusionskoeffizient}{42}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Error discussion and conclusion}{47}{section.5}%
+\contentsline {subsection}{\numberline {4.1}Relaxationskontrastmessungen}{23}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}1D MRI}{30}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}2D MRI}{35}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}J-Kopplung zur chemischen Strukturanalyse}{45}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}PGSE-Diffusionskoeffizient}{45}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Error discussion and conclusion}{50}{section.5}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
-\contentsline {section}{Attachments}{51}{section*.38}%
+\contentsline {section}{Attachments}{54}{section*.37}%

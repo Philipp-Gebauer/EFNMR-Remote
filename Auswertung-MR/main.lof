@@ -20,23 +20,23 @@
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Attenuation $\frac {\text {E}}{\text {E}_0}$ for different echo maxima provided by the CPMG method.}}{22}{figure.caption.18}%
 \babel@toc {ngerman}{}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Abhängigkeit der Signalintensität von der Polarisationszeit.}}{24}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \relax }}{24}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \leavevmode {\color {red}ToD:}Alle Messungen T1 Cu2+\relax }}{25}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces \leavevmode {\color {red}ToD:}Cu Mn vgl\relax }}{25}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Die T1 Signale bei der jeweiligen Konzentration\relax }}{27}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Veranschaulichter Verlauf des k-Vektors im 1D-MRI}}{28}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces 1D-MRI in x-Richtung nach Anpassung der FOV und Bandbreite\relax }}{29}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces 1-MRI in y-Richtung nach Anpassung der FOV\relax }}{30}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Veranschaulichter Verlauf des k-Vektors im 2D-MRI}}{34}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Kontraste von $T_1$-Relaxation werden deutlich gemacht indem die Polarisationszeiten verändert werden\relax }}{36}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces 2D MRI mit der Polarisationszeit $\SI {1300}{\milli \second }$\relax }}{38}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces 2D-MRI mit Relaxationskontrast von verschiedenen $T_2$-Zeiten, durch verschiedene Echozeiten\relax }}{40}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces TODO!!; Zum tunen benutzte Daten des Puls and collect Experiments; Man soll noch die Integrale berechnen der einzelnen Peaks(aus den Integralen bekommt man dann das Verhältnuis von 1:2:3:3:2:1 oder so halt); Diese Peaks fitten bzw den abstand der Maximas berechnen=< daraus dann die Kopplungaskostante\relax }}{42}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Veranschaulichung der PGSE-Messmethode}}{43}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Bestimmung des selbst Diffusionskoeffizienten mithilfe von dem Stejskal-Tanner plot}}{45}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces $T_1$- und $T_2$-Messung von Wasser.}}{25}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Übersicht über alle Messreihen der mit Kupfersalz versetzten Wasserproben.}}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Vergleichende Darstellung der $T_1$-Messreihen kupfer- und manganversetzter Wasserproben.}}{28}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Linearer Fit zur Ermittlung der Relaxivität $r_1$ von Kupfer.}}{29}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Veranschaulichter Verlauf des k-Vektors im 1D-MRI}}{31}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 1D-MRI in x-Richtung nach Anpassung der FOV und Bandbreite\relax }}{32}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 1-MRI in y-Richtung nach Anpassung der FOV\relax }}{33}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Veranschaulichter Verlauf des k-Vektors im 2D-MRI}}{37}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Kontraste von $T_1$-Relaxation werden deutlich gemacht indem die Polarisationszeiten verändert werden\relax }}{39}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces 2D MRI mit der Polarisationszeit $\SI {1300}{\milli \second }$\relax }}{41}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces 2D-MRI mit Relaxationskontrast von verschiedenen $T_2$-Zeiten, durch verschiedene Echozeiten\relax }}{43}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces TODO!!; Zum tunen benutzte Daten des Puls and collect Experiments; Man soll noch die Integrale berechnen der einzelnen Peaks(aus den Integralen bekommt man dann das Verhältnuis von 1:2:3:3:2:1 oder so halt); Diese Peaks fitten bzw den abstand der Maximas berechnen=< daraus dann die Kopplungaskostante\relax }}{45}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Veranschaulichung der PGSE-Messmethode}}{46}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Bestimmung des selbst Diffusionskoeffizienten mithilfe von dem Stejskal-Tanner plot}}{48}{figure.caption.34}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Übersicht über alle ermittelten Relaxivitäten.\relax }}{53}{figure.caption.41}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Übersicht über alle $T_1$- und $T_2$-Messungen für beide verwendeten Kontrastmittel mit jeweils unterschiedlichen Konzentrationen.\relax }}{54}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Übersicht über alle ermittelten Relaxivitäten.\relax }}{56}{figure.caption.40}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Übersicht über alle $T_1$- und $T_2$-Messungen für beide verwendeten Kontrastmittel mit jeweils unterschiedlichen Konzentrationen.\relax }}{57}{figure.caption.41}%

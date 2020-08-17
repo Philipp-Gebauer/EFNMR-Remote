@@ -1,18 +1,27 @@
 % !TEX root = main.tex
-\subsection{\textcolor{red}{ToDo!}Relaxationskontrast}
+\subsection{Relaxationskontrastmessungen}
 \label{sec:Signalintensitaet}
 Da der zweite Teil des Experiments an einem anderen Versuchstag durchgeführt wurde, wurde zu Beginn erneut eine Optimierung des Aufbaus auf die Wasserprobe vorgenommen um die Vergleichbarkeit der Ergebnisse der beiden Versuchstage zu schaffen. Dies geschah analog zum Vorgehen, welches in Abschnitt \ref{sec:OptimizationandCharacterisationofFIDinwatersample} dargelegt wurde.
 
-Der Versuchsteil selbst zielt darauf ab zu untersuchen, wie longitudinale ($T_1$) und transversale ($T_2$) Relaxationszeit durch paramagnetische Ionen beeinflusst werden können. 
+Der Versuchsteil selbst zielt darauf ab zu untersuchen, wie longitudinale ($T_1$) und transversale ($T_2$) Relaxationszeit durch paramagnetische Ionen beeinflusst werden können, beziehungsweise welchen Einfluss Veränderungen von $T_1$ und $T_2$ auf die Signalintensität nehmen.
 Weiterführend kann dadurch -- abhängig von $T_1$ und $T_2$ -- der Kontrast innerhalb eines bildgebenden Verfahrens verändert werden und somit können verschiedene Bereiche einer Probe besser aufgelöst und analysiert werden. 
 Daher sollen die sogenannte Relaxivitäten $r_1$ und $r_2$ nach
 \begin{align}
     \frac{1}{T_{\text{i}}\left([\ce{X^2+}]\right)} = r_{\text{i}} \cdot [\ce{X^2+}] + \frac{1}{T_{\text{i}}(0)} \label{eq:relaxivitat}
 \end{align}
-bestimmt werden. Dabei bezeichnet $T_{\text{i}}\left([\ce{X^2+}]\right)$ die -- von der Konzentration des verwendeten paramagnetischen Salzes im Wasser abhängige -- jeweilige Relaxationszeit, $[\ce{X^2+}]$  die entsprechende Ionenkonzentration und $T_{\text{i}}(0)$ die Relaxtionszeit im Falle, dass kein Kontrastmittel verwendet wird.
-
-
-
+bestimmt werden. Dabei bezeichnet $T_{\text{i}}\left([\ce{X^2+}]\right)$ die -- von der Konzentration des verwendeten paramagnetischen Salzes im Wasser abhängige -- jeweilige Relaxationszeit, $[\ce{X^2+}]$  die entsprechende Ionenkonzentration des jeweiligen Stoffs und $T_{\text{i}}(0)$ die Relaxtionszeit im Falle, dass kein Kontrastmittel verwendet wird.\newline
+Bei bildgebenden Verfahren auf Grundlage der Magnetresonanz können in erster Linie Bereiche unterschiedlicher Spindichte graphisch aufgelöst und analysiert werden.
+Sollte es von Interesse sein Bereiche gleicher Spindichte kontrastreich abzubilden, so sind weiterführende Methoden von Nöten.
+Hier von Interesse ist dabei das Verwenden von Kontrastmittelen um die Relaxationszeiten zu beeinflussen und damit die Signalintensität zu verändern.
+Es wird von positivem Kontrast gesprochen, sofern die Signalintensität erhöht werden kann, respektive von negativem bei Verringerung der Intensität.
+Im vorliegenden Versuch wurden paramagnetische Kontrastmittel in Form von in einer Wasserprobe (\SI{500}{\milli \liter}) gelöstem Kupfer- (\ce{Cu^2+}) und Mangansalz (\ce{Mn^2+}) eingesetzt.
+Zudem wurden unterschiedliche Konzentrationen der Kontrastmittel untersucht. 
+Für das zweifach positiv geladene Kupfer lagen die verwendeten Stoffmengen bei \SI{250}{\micro \mol}, \SI{500}{\micro \mol}, \SI{1000}{\micro \mol} und \SI{2000}{\micro \mol}, bei Mangan waren dies Werte von \SI{25}{\micro \mol}, \SI{50}{\micro \mol}, \SI{100}{\micro \mol} und \SI{200}{\micro \mol}.
+Die besoderheit paramagnetischer Kontrastmittel liegt im Vorliegen ungepaarter Elektronen und der positiven magnetischen Suszeptibilität.
+Letzter beeinflusst die longitudinale Relaxationszeit $T_1$ dadurch, dass lokal ein magnetisches Feld generiert wird, welches $T_1$ verringert.
+Gleiches gilt auch für $T_2$ allerdings spielen hierbei auch die ungepaarten Elektronen eine Rolle, welche die Spin-Spin-Wechselwirkungen verstärken und somit $T_2$ zusätzlich verringern.
+Grundsätzlich bewirkt eine Verringerung von $T_1$ einen positiven Kontrast, die Verringerung von $T_2$ hingegen einen negativen.
+Bei geringer Konzentration der Kontrastmittel wird $T_1$ stärker beeinflusst, bei hohen Konzentrationen $T_2$. \cite{Schmidt}
 
 \begin{figure}[H]
     \centering
@@ -21,67 +30,95 @@ bestimmt werden. Dabei bezeichnet $T_{\text{i}}\left([\ce{X^2+}]\right)$ die -- 
     \label{fig:SignalintensitaetPolarisationszeit}    
 \end{figure}
 
-
-
-
-
-
-
-%--------------------------------------------------------------
-%-----------------noch zu verarbeiten--------------------------
-%--------------------------------------------------------------
-
-\ce{Cu^2+} \ce{Mn^2+}
-
+Am Versuchstag wurden zunächst zwei ,,Pulse and Collect''-Messungen einer Wasserprobe mit unterschiedlicher Polarisationszeit vorgenommen.
+Abbildung \ref{fig:SignalintensitaetPolarisationszeit} zeigt die entsprechenden Kurven.
+Dabei ist zu erkennen, dass bei geringerer Polarisationszeit (\SI{0.5}{\second}) eine deutlich geringere Amplitude bzw. Signalintensität vorliegt.
+Dies war nach den Erkenntnissen des ersten Abschnitts \ref{sec:PartI} auch so erwartbar.
+Unter Verwendung einer, mit einem unbekannten paramagnetischen Stoff versetzten, Wasserprobe hätte nun der Einfluss dieses Stoffs auf $T_1$ und damit die Signalintensität untersucht werden sollen.
+Es wäre zu erwarten gewesen, dass sich auch bei kürzerer Polarisationszeit in diesem Fall kein deutlicher Abfall der Signalintensität ergibt.
+Dies ist wie oben angedeutet damit zu begründen, dass die longitudinale Relaxationszeit kleiner wird und somit schon eine kürzere Polarisationszeit genügt um alle Spins gleichzurichten und somit ein gutes Signal zu erhalten.
+Allerdings wurden die entsprechenden Messreihen am Versuchstag zwar durchgeführt und entsprechende Resultate erkannt, jedoch wurden dies aus unbekannten Gründen nicht abgespeichert und können somit an dieser Stelle nicht präsentiert werden.\newline
+\newline
+Im nächsten Schritt wurden dann die longitudinale und transversale Relaxationszeit der Wasserprobe ermittelt.
+Die Vorgehensweisen entspachen dabei den in den Kapiteln \ref{sec:LongitudinalrelaxationmeasurementsT1} und \ref{sec:Transversalrelaxationmeasurements} diskutieren Verfahren.
+Die entsprechenden Messreihen sind in Abbildung \ref{fig:T1T2Wasser} dargestellt.
 
 \begin{figure}[H]
     \begin{subfigure}[b]{0.5\textwidth}
         \centering
         \resizebox{1\textwidth}{!}{\input{plots/T1Wasser.tex}}
-        \caption{T1 Messung von Wasser}
+        \caption{$T_1$-Messung von Wasser.}
+        \label{fig:T1Wasser}
     \end{subfigure}
     \begin{subfigure}[b]{0.5\textwidth}
         \centering
         \resizebox{1\textwidth}{!}{\input{plots/T2Wasser.tex}}
-        \caption{T2 Messung von Wasser}
+        \caption{$T_2$-Messung von Wasser.}
+        \label{fig:T2Wasser}
     \end{subfigure}
-    \caption{}
-    \label{}
+    \caption[$T_1$- und $T_2$-Messung von Wasser.]{Darstellung der typischen Kurvenverläufe bei $T_1$- und $T_2$-Messungen.
+    Hierbei konnte, wie in den Abschnitten \ref{sec:LongitudinalrelaxationmeasurementsT1} und \ref{sec:Transversalrelaxationmeasurements} erläutert, jeweils die entsprechende Relaxationszeit $T_1 \approx \SI{2.2}{\second}$ und $T_2 \approx \SI{1.9}{\second}$ ermittelt werden.}
+    \label{fig:T1T2Wasser}
 \end{figure}
 
+Somit konnte an die Messdaten die jeweilige Formel (\eqref{eq: fitBp} und \eqref{eq:T2}) angefittet werden und $T_1 \approx \SI{2.2}{\second}$ und $T_2 \approx \SI{1.9}{\second}$ als Fitparameter gewonnen werden.
+Da als einzige Unsicherheit eine von \textit{GnuPlot} ermittelte mittlere Abweichung berechnet wurde, welche gegenüber der Genauigkeit der Messwerte überaus gering erscheint, wurde hier auf die Angabe derer verzichtet.
+Daher wurde auch kein Gleichheitszeichen verwendet. 
+Dies könnte vor allem bei $T_1$ darauf zurückzuführen sein, dass die Modelgleichung sehr gut dem Verlauf der Daten entspricht.
+Eine entsprechende Übersicht findet sich zudem im Anhang in Tabelle \ref{tab:T1T2}.
 
+Anschließend wurden am Versuchstag acht unterschiedliche Wasserproben in den Aufbau eingesetzt welche jeweils \SI{500}{\milli \liter} Wasser und die oben genannten Stoffmengen an gelöstem Kupfer- oder Mangansalz enthalten.
+Für jede dieser Konfigurationen wurde dann eine $T_1$ und eine $T_2$-Messung durchgeführt.
+Die gewonnenen Messdaten wurden auf identische Art und Weise wie eben beschrieben analysiert.
+Entsprechend finden sich alle Werte für $T_1$ und $T_2$ ebenfalls in Tabelle \ref{tab:T1T2} im Anhang.
+Abbildung \ref{fig:T1CU} zeigt beispielhaft alle $T_1$-Messungen mit den unterschiedlichen Konzentrationen des paramagnetischen Kupfers.
+Zudem ist zu Referenzzwecken auch die Messreihe des bidestillierten Wassers aufgeführt.
 
 \begin{figure}[H]
     \centering
     \input{plots/KupferalleT1.tex}
-    \caption{\textcolor{red}{ToD:}Alle Messungen T1 Cu2+}
+    \caption[Übersicht über alle Messreihen der mit Kupfersalz versetzten Wasserproben.]{Die Abbildung zeigt alle gewonnenen Messreihen der mit unterschiedlichen Konzentrationen von Kupfersalz versetzten Wasserproben.
+    Es sind zudem jeweils die nach Formel \eqref{eq: fitBp} durchgeführten Fits zu erkennen.
+    Blau ist als Referenz die Messung von bidestilliertem Wasser abgebildet.
+    Durch die Farbkodierung ist gut zu erkennen, dass mit zunehmender Konzentration die Kurven steiler verlaufen.
+    Dies ist direkt mit kürzeren Relaxationszeiten in Verbindung zu bringen.}
     \label{fig:T1CU}
 \end{figure}
+
+Es lässt sich gut erkennen, dass mit zunehmender Kontrastmittelkonzentration ein steilerer Kurvenverlauf vorliegt, was das Abnehmen der longitudinalen Relaxationszeit veranschaulicht.
+Ensprechende Abbildungen für $T_2$ und die Messreihen für Mangan finden sich in den Abbildungen \ref{fig:T2CU} bis \ref{fig:T2Mn} im Anhang.
+
+Um die Messungen von Kupfer und Mangan zu vergleichen sind jeweils die Messreihen mit der höchsten und niedrigsten Konzentration des jeweiligen Stoffs sowie Wasser als Referenz in Abbildung \ref{fig:T1CuMn} dargestellt. 
 
 \begin{figure}[H]
     \centering
     \input{plots/CuMnVgl.tex}
-    \caption{\textcolor{red}{ToD:}Cu Mn vgl}
+    \caption[Vergleichende Darstellung der $T_1$-Messreihen kupfer- und manganversetzter Wasserproben.]{Vergleichende Darstellung der $T_1$-Messreihen kupfer- und manganversetzter Wasserproben. Dabei ist zu erkennen, dass bereits ein Zehntel der Stoffmenge von Mangan ähnliche Resultat hervorbringt wie die an Kupfer verwendete Stoffmenge.}
     \label{fig:T1CuMn}
 \end{figure}
 
+Es zeigt sich, dass beide Stoffe in den ,,extremen'' Konzentrationen ähnlich starke Auswirkungen auf die Relaxationszeit aufweisen.
+Dabei ist allerdings festzuhalten, dass von Mangan nur ein Zehntel der Stoffmenge für einen ähnlichen Effekt von Nöten ist.
+Da, wie oben erwähnt, geringe Kontrastmittelkonzentration sich besonders gut für die Manipulation der longitudinalen Relaxationszeit eignen und hohe Konzentrationen besser für die transversale Relaxationszeit geeignet sind, lässt sich folgern, dass mittels Kupfersalz $T_1$-Messungen besser kontrolliert werden können.
+Dies ist dadurch zu begründen, dass recht hohe Stoffmengen benötigt werden und somit genauer dosiert werden kann.
+Mangan hingegen könnte sich besser für $T_2$-Effekte eignen, da bereits vergleichsweise geringe Stoffmengen großen Einfluss nehmen und somit bei groß gewählter Stoffmenge die Messunge deutlich an Intensität verlieren.
 
+Um diese Vermutung weiter zu quantifizieren konnten die Relaxivitäten $r_1$ und $r_2$ nach Formel \eqref{eq:relaxivitat}von Kupfer und Mangan berechnet werden.
+Dazu wurden die verwendeten Stoffmengen in Konzentrationen umgerechnet und die Kehrwerte der in Tabelle \ref{tab:T1T2} aufgeführten Relaxationszeiten jeweils über diesen Konzentrationen aufgetragen.
 
 \begin{figure}[H]
     \centering
     \input{plots/Relaxivitat_CuT1.tex}
-    \caption[]{\textcolor{red}{ToD:}Diese Abbildung zeigt die Kehrwerte der vier Relaxationszeiten $T_1$ aufgetragen über den entsprechenden Konzentrationen des im Wasser gelösten Kupersalzes. Mittels eines linearen Fits konnten somit die Relaxivität $r_1$, sowie die Relaxationszeit ohne gelöstes Kontrastmittel nach Gleichung \eqref{eq:relaxivitat} ermittlet werden.
-    Relaxivitat $r_1$ von Kupfer}
+    \caption[Linearer Fit zur Ermittlung der Relaxivität $r_1$ von Kupfer.]{Diese Abbildung zeigt die Kehrwerte der vier Relaxationszeiten $T_1$ aufgetragen über den entsprechenden Konzentrationen des im Wasser gelösten Kupfersalzes. Mittels eines linearen Fits konnten somit die Relaxivität $r_1$ -- als Steigung -- sowie die Relaxationszeit ohne gelöstes Kontrastmittel nach Gleichung \eqref{eq:relaxivitat} ermittlet werden.}
     \label{fig:RelaxCUT1}
 \end{figure}
 
-
-\begin{figure}[H]
-    \centering
-    \input{plots/SignalkontrastT1.tex}
-    \caption{Die T1 Signale bei der jeweiligen Konzentration}
-    \label{fig:T1Signalkontrast}
-\end{figure}
+Beispielhaft zeigt Abbildung \ref{fig:RelaxCUT1} eine solche Darstellung.
+Alle weiteren Graphen sind im anhang in Abbildung \ref{fig:RelaxAlle} zu finden.
+Mittels linearem Fit konnte dann entsprechend die Relaxivität, sowie zu Kontrollzwecken der Kehrwert der jeweiligen Relaxationszeit er,mittelt werden.
+Letzterer ergibt sich als y-Achsenabschnitt, die Relaxivität hingegen ist durch die Steigung des Graphen gegeben.
+Eine hohe Relaxivität ist somit ein Indikator dafür, dass schon geringe Stoffmengen die Relaxationszeiten deutlich verringern.
+Eine Übersicht über alle gewonnenen Daten findet sich in Tabelle \ref{tab:Relaxivitat}.
 
 \begin{table}[H]
     \centering
@@ -93,6 +130,20 @@ bestimmt werden. Dabei bezeichnet $T_{\text{i}}\left([\ce{X^2+}]\right)$ die -- 
     \end{tabular} 
     \label{tab:Relaxivitat} 
 \end{table}
+
+Da die Relaxivitäten ein Maß für die Abnahme der Relaxationszeiten pro Stoffkonzentration sind, geben diese Aufschluss darüber, welcher Stoff sich wie stark auf $T_1$ und $T_2$ auswirkt und ob es gegebenenfalls Unterschiede in der Wirksamkeit bei $T_1$ und $T_2$ gibt.
+Aus Tabelle \ref{tab:Relaxivitat} ist zu erkennen, dass sich die Relaxivitäten $r_1$ und $r_2$ von Kupfer kaum unterscheiden.
+Jene von Mangan hingegen deutlich.
+Dies unterstreicht die vorhergegangen Vermutung, dass sich Mangan als Kontrastmittel zur beeinflussung der transversalen Relaxationszeiten deutlich besser eignet als Kupfer.
+Unterstützt werden obige Vermutungen zudem dadurch, dass die Werte von Mangan mehr als eine Größenordnung größer sind als die von Kupfer.
+Dies bedeutet, dass bereits eine geringe Stoffmenge Mangan ausreicht um die Relaxivität deutlich zu steigerm.
+Die aufgeführten Relaxationszeiten sollen hier als Referenzgröße zur Überprüfung der Genauigkeit der erhaltenen Werte dienen.
+Die Ursprünglich für Wasser gewonnen Relaxationszeiten lagen bei ca. \SI{2}{\second}.
+Entsprechend liegen zumindest die Werte für Kupfer im Rahmen der angegebenen Unsicherheiten in der gleichen Größenordnung.
+Dies unterstreicht die Validität der ermittelten Relaxivitäten.
+Bei Mangan trifft dies zwar auch zu, allerdings liegen sowohl die Werte von $T_1(0)$ und $T_2(0)$ wie auch deren Unsicherheiten bei deutlich höheren Werten und sind somit nur aufgrund der großen Unsicherheiten mit den vorab bestimmten Werten vereinbar.
+Die entsprechenden Unsicherheiten wurden den Fits durch \textit{GnuPlot} entnommen und mittels fehlerfortpflanzungsformel weitergeführt.
+Da der Versuch per Computer durchgeführt wurde, fällt es schwer einzuschätzen, ob sich diese durch eine andere Vorgehensweise am Versuchstag hätten minimieren lassen oder ob es Einflüsse vor Ort gab, welchen hätte entgegengewirkt werden können.
     
     % \begin{figure}[H]
     %     \centering
@@ -102,3 +153,9 @@ bestimmt werden. Dabei bezeichnet $T_{\text{i}}\left([\ce{X^2+}]\right)$ die -- 
     %  ich glaube die Abbildung ist nicht gut genug, 
     % bzw. die Fehlerdiskussion hätte ich keine Ahnung, warum 1000mol in der Mitte von den zwei ist
 
+% \begin{figure}[H]
+%     \centering
+%     \input{plots/SignalkontrastT1.tex}
+%     \caption{Die T1 Signale bei der jeweiligen Konzentration}
+%     \label{fig:T1Signalkontrast}
+% \end{figure}
