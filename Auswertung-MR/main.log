@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.16)  17 AUG 2020 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.16)  17 AUG 2020 18:52
 entering extended mode
 **"c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.tex"
 ("c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.tex"
@@ -1734,23 +1734,8 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 21
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 25--33
-[]\T1/lmr/m/n/10.95 July 18, 2016 Bert-ram-Pos-ted at: \T1/lmr/m/it/10.95 Gra-di-ents in NMR Spec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--33
-\T1/lmr/m/it/10.95 tros-co-py  Part 5: The Pul-sed Gra-di-ent Spin Echo (PG-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--33
-\T1/lmr/m/it/10.95 SE) Ex-pe-ri-ment 2\T1/lmr/m/n/10.95 .  []$\T1/lmtt/m/n/10.95 https : / / magritek . com / 2016 / 07 / 18 /
- []
-
-
-Overfull \hbox (106.23698pt too wide) in paragraph at lines 25--33
-\T1/lmtt/m/n/10.95 gradients-[]in-[]nmr-[]spectroscopy-[]part-[]5-[]the-[]pulsed-[]gradient-[]spin-[]echo-[]pgse-[]experiment/$[]\T1/lmr/m/n/10.95 ,
+Overfull \hbox (296.10936pt too wide) in paragraph at lines 25--33
+\T1/lmr/m/n/10.95 .  []$\T1/lmtt/m/n/10.95 https : / / magritek . com / 2016 / 07 / 18 / gradients-[]in-[]nmr-[]spectroscopy-[]part-[]5-[]the-[]pulsed-[]gradient-[]spin-[]echo-[]pgse-[]experiment/$[]\T1/lmr/m/n/10.95 ,
  []
 
 
@@ -1786,7 +1771,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_CuT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Relaxivitat_CuT2-eps-converted-to.pdf, id=595, 361.35pt x 252.945pt>
+<plots/Relaxivitat_CuT2-eps-converted-to.pdf, id=594, 361.35pt x 252.945pt>
 File: plots/Relaxivitat_CuT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Relaxivitat_CuT2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Relaxivitat_CuT2-eps-converted-to.pdf  used on input line 115.
@@ -1806,7 +1791,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_MnT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Relaxivitat_MnT1-eps-converted-to.pdf, id=598, 361.35pt x 252.945pt>
+<plots/Relaxivitat_MnT1-eps-converted-to.pdf, id=597, 361.35pt x 252.945pt>
 File: plots/Relaxivitat_MnT1-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Relaxivitat_MnT1-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Relaxivitat_MnT1-eps-converted-to.pdf  used on input line 112.
@@ -1826,7 +1811,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_MnT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Relaxivitat_MnT2-eps-converted-to.pdf, id=601, 361.35pt x 252.945pt>
+<plots/Relaxivitat_MnT2-eps-converted-to.pdf, id=600, 361.35pt x 252.945pt>
 File: plots/Relaxivitat_MnT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Relaxivitat_MnT2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Relaxivitat_MnT2-eps-converted-to.pdf  used on input line 111.
@@ -1851,7 +1836,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/KupferalleT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/KupferalleT2-eps-converted-to.pdf, id=608, 361.35pt x 252.945pt>
+<plots/KupferalleT2-eps-converted-to.pdf, id=607, 361.35pt x 252.945pt>
 File: plots/KupferalleT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/KupferalleT2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/KupferalleT2-eps-converted-to.pdf  used on input line 119.
@@ -1871,7 +1856,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/ManganalleT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/ManganalleT1-eps-converted-to.pdf, id=609, 361.35pt x 252.945pt>
+<plots/ManganalleT1-eps-converted-to.pdf, id=608, 361.35pt x 252.945pt>
 File: plots/ManganalleT1-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/ManganalleT1-eps-converted-to.pdf>
 Package pdftex.def Info: plots/ManganalleT1-eps-converted-to.pdf  used on input line 119.
@@ -1891,7 +1876,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/ManganalleT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/ManganalleT2-eps-converted-to.pdf, id=610, 361.35pt x 252.945pt>
+<plots/ManganalleT2-eps-converted-to.pdf, id=609, 361.35pt x 252.945pt>
 File: plots/ManganalleT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/ManganalleT2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/ManganalleT2-eps-converted-to.pdf  used on input line 119.
@@ -1920,9 +1905,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  67i,24n,90p,10707b,1594s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.pdf" (56 pages, 3143820 bytes).
+Output written on "c:/Users\Marc\Documents\Uni\6 Semester\FP1\Kernspin\Bericht\EFNMR-Remote\Auswertung-MR\main.pdf" (56 pages, 3143507 bytes).
 PDF statistics:
- 783 PDF objects out of 1000 (max. 8388607)
+ 782 PDF objects out of 1000 (max. 8388607)
  139 named destinations out of 1000 (max. 500000)
  367 words of extra memory for PDF output out of 10000 (max. 10000000)
 

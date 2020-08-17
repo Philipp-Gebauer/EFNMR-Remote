@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main"] 1597682575 "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.aux" "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.bbl" "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main" 1597682594
+["bibtex c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main"] 1597683150 "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.aux" "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.bbl" "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main" 1597683168
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/babelbib/babalpha.bst" 1552593316 32277 737891663a05655a7697c033da993d10 ""
-  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.aux" 1597682591 21899 60cb8eea2a8d290255cf949ef285031d "pdflatex"
-  "literatur.bib" 1597681863 1861 e4a977db57f0e5d83409a85bd325046d ""
+  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.aux" 1597683167 21899 60cb8eea2a8d290255cf949ef285031d "pdflatex"
+  "literatur.bib" 1597683149 1864 3d247d1d5aeba2050139a376cff274ec ""
   (generated)
-  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.bbl"
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.blg"
-["pdflatex"] 1597682576 "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.tex" "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.pdf" "main" 1597682594
+  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.bbl"
+["pdflatex"] 1597683151 "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.tex" "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.pdf" "main" 1597683168
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc" 1254938640 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc" 1254938640 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc" 1254938640 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -295,13 +295,13 @@
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/Kapitel/tables.tex" 1597682035 7105 37ef0255e55c9fe2d10a6f407bf8af54 ""
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/Kapitel/title.tex" 1597606935 2588 3bcc1ba4727f183aad66915684cf4bad ""
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/header.tex" 1597427540 7930 377d01eac98548c96fe0b5cc9d43dbfc ""
-  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.aux" 1597682591 21899 60cb8eea2a8d290255cf949ef285031d "pdflatex"
-  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.bbl" 1597682575 3619 8e1cf5ce50d2fd4f1006611875cb64e9 "bibtex c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main"
-  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.lof" 1597682591 5724 50895a89be0e92f9ac1864634a0a41e0 "pdflatex"
-  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.lot" 1597682591 490 fbcca4b2ee21cbb1b76dfc0bf9e01a4c "pdflatex"
-  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.out" 1597682579 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.aux" 1597683167 21899 60cb8eea2a8d290255cf949ef285031d "pdflatex"
+  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.bbl" 1597683151 3627 b9a68062b2c9210608db2802ded0e835 "bibtex c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main"
+  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.lof" 1597683167 5724 50895a89be0e92f9ac1864634a0a41e0 "pdflatex"
+  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.lot" 1597683167 490 fbcca4b2ee21cbb1b76dfc0bf9e01a4c "pdflatex"
+  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.out" 1597683154 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.tex" 1597607504 3172 9d0446aee5038627331f93cd6c93c2b8 ""
-  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.toc" 1597682591 1730 9d9482f6a63defddb321152feb192f97 "pdflatex"
+  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.toc" 1597683167 1730 9d9482f6a63defddb321152feb192f97 "pdflatex"
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf" 1595684545 4169 efb8c37d05ba8e90b816e7e94941e960 ""
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.eps" 1595684545 21785 3a80ca255d5dd76e45fb73a779db98e2 ""
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.tex" 1595684545 5137 d0e34c079da4c70a07390b07d8fa1f94 ""
@@ -451,10 +451,10 @@
   "plots/T2Wasser.eps" 1597680801 20209 80f119c936591bc7dabf1e3caf1658de ""
   "plots/noise.eps" 1595684545 134055 17c72e8c208bc3d46f914f03190cae22 ""
   (generated)
-  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.aux"
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.pdf"
-  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.toc"
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.out"
-  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.log"
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.lot"
+  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.log"
+  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.aux"
   "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.lof"
+  "c:/Users/Marc/Documents/Uni/6 Semester/FP1/Kernspin/Bericht/EFNMR-Remote/Auswertung-MR/main.toc"
