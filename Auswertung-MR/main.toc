@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {4}Teil II -- Anwendung}{24}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Relaxationskontrastmessungen}{24}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}1D MRI}{31}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}2D MRI}{36}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}2D MRI}{37}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}J-Kopplung zur chemischen Strukturanalyse}{45}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}PGSE-Diffusionskoeffizient}{50}{subsection.4.5}%
 \contentsline {section}{\numberline {5}Error discussion and conclusion}{55}{section.5}%
