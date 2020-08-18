@@ -1,8 +1,68 @@
 % !TEX root = main.tex
 \subsection{J-Kopplung zur chemischen Strukturanalyse}
+Eine weitere Anwendung der NMR-Technologie stellt die Möglichkeit dar chemische Strukturen zu analysieren.
+Im vorliegenden Beispiel soll dabei Difluorobenzene untersucht werden.
+Dabei wird die Verbindung zum einen auf die Kopplungskostante zwischen den einzelnen Flour- und Wasserstoffatomen analysiert, dabei kann ermittelt werden, ob schwache Kopplung vorliegt zudem sollen auch Verhältnisse der Peakgrößen betrachtet werden.
+Zunächst sollen daher einige grundlegende Zusammenhänge erläutert werden.
+Da es sich bei dem vorliegenden Molekül um eine hetero-nukleare Verbindung zwischen Fluor (\ce{^19F}) und Wasserstoff (\ce{^1H}) handelt und der Versuchsaufbau während des Experiments auf die Larmorfrequenz von Wasserstoff ($\omega_{\text{L,H}} = \SI{1839}{\per \second}$) ausgerichtet ist müssen zunächst justierungen vorgenommen werden.
+Dabei kann nach
+\begin{align}
+    \omega = \gamma \cdot B , \label{eq: LarmorB}    
+\end{align}
+die Larmorfrequenz für Fluor ($\omega_{\text{L,F}} = \SI{1730}{\per \second}$) berechnet werden. 
+Die gyromagnetischen Verhältnisse $\gamma$ von Wasserstoff ($\gamma = \SI{2.675 e8}{\per \second \per \tesla}$) und Fluor ($\gamma = \SI{2.517 e8}{\per \second \per \tesla}$) wurden dabei \cite{Schmidt} entnommen. 
+Das anliegende B-Feld war aus dem bis dato verwendeten Setups bekannt.
+Anschließend wurde abermals nach Formel \eqref{eq: larmorcalc} die Kapazität des Schwingkreises ermittelt und ebenfalls auf die Larmorfrequenz abgestimmt.
+Somit konnte ein Spektrum für Fluor angezeigt und die entsprechenden Parameter weiter optimiert werden. \cite{Schmidt} \\
+Um anschließend beide Elemente gleichermaßen abbilden zu können, wurde sowohl der Mittelwert der Larmorfrequenzen ($\omega_{\text{L,MW}} = \SI{1787}{\per \second}$) wie auch der Kapazitäten ($C_{\text{MW}} = \SI{14.7}{\nano \farad}$) eingestellt und damit eine ,,Pulse and Collect''-Messung durchgeführt.
+
+Dabei soll zunächst erläutert werden, welche Erkentnisse aus dem gewonnen Spektrum gewonnen werden können und welche Ergebnisse zu erwarten sind.
+
+
+Abbildung \ref{fig:JKSchema} zeigt schematisch ein zu erwartendes Spektrum entnommen aus \cite{Schmidt}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width= 0.75\textwidth]{Abbildungen/JKopplungSchema.png} 
+    \caption[Schematische Darstellung eines Spektrums zur veranschaulichung der erwartbaren Ergebnisse durch die Analyse der J-Kopplung.]{Die Abbildung zeigt schematisch ein Spektrum für Trifluoroethanol.
+    Dabei ist zu erkennen, welche Erkentnisse aus dem Spektrum abgelesen werden können.
+    Diese sind zum einen die Kopplungskostante $J$, welche als Abstand zwischen den Peaks eines Elements verstanden wird, zum anderen kann die Annahme der schwachen Kopplung nach Formel \eqref{eq:SchwacheKopplung} überprüft werden.
+    Zudem kann aus dem Verhältnis der Peakintegrale die Verteilung der Intensitäten berechnet werden.
+    Diese folgt abhängig der Anzahl auftretender Maxima dem \textsc{Pascal}'schen Dreieck.}
+    \label{fig:JKSchema}
+\end{figure}
+
+Hierbei ist allerdings ein anderes Molekül, Trifluoroethanol, veranschaulicht.
+Erkennbar ist, dass aus dem Abstand der einzelnen Peakmaxima bei Fluor und Wasserstoff die Kopplungskonstante $J$ bestimmt werden kann.
+Im Falle schwacher Kopplung gilt zudem die Relation
+\begin{align}
+    2 \pi \cdot J \ll \vert \omega_1 - \omega_2 \vert , \label{eq:SchwacheKopplung}
+\end{align}
+zwischen Kopplungskonstante $J$ und dem Abstand der Hauptmaxima $\vert \omega_1 - \omega_2 \vert$ der beiden Elemente.
+Hierbei wird angenommen, dass bei der \textsc{Zeeman}-Wechselwirkung lediglich ein Störterm erster Ordnung durch die J-Kopplung berücksichtigt werden muss.
+Sollten Störungen höherer Ordnung aufgrund stärkerer Kopplung vorliegen, so können diese die Peakbreite beeinflussen und vergrößern.
+Zuletzt ist die Verteilung der Peakintensitäten, beziehungsweise das Verhältnis derer zueinander dargestellt.
+Diese folgen je nach Anzahl der vorliegenden Peaks pro Element einer Verteilung nach dem \textsc{Pascal}'schen Dreieck.
+Ermittelt wird diese Verteilung durch die Integration über die Peaks.
+Die Anzahl vorliegender Peaks ist dadurch bestimmt wieviele Spins pro Element zur Wechselwirkung beitragen.
+Hat ein Element $N$ Spins, so spaltet das andere Element in $N+1$ Peaks auf.
+Entsprechend sind im vorliegenden Molekül je drei Maxima pro Element zu erwarten. 
+
+Abbildung \ref{fig:JKopplungExp} zeigt das am Versuchstag gewonnene Spektrum.
+Hierbei sind farbig (blau für Fluor und grün für Wasserstoff) die jeweils drei \textsc{Gauss}-Fits zu erkennen. 
+Bei \SI{1750}{\hertz} ist zudem ein Peak zu erkennen, welcher wie bereits beschrieben auf die Taktung der deutschen Netzspannung zurückzuführen ist.
+
 \begin{figure}[H]
     \centering
     \input{plots/JKopplung.tex}
     \caption{TODO!!;\\
     Zum tunen benutzte Daten des Puls and collect Experiments; Man soll noch die Integrale berechnen der einzelnen Peaks(aus den Integralen bekommt man dann das Verhältnuis von 1:2:3:3:2:1 oder so halt); Diese Peaks fitten bzw den abstand der Maximas berechnen=< daraus dann die Kopplungaskostante}
+    \label{fig:JKopplungExp}
 \end{figure}
+
+Durch die \textsc{Gauss}-Fits konnten sowohl die Lage der Maxima, die Peakbreiten sowie die Integrale der Peaks berechnet werden.
+Dabei wurde zudem die jeweilige Standardabweichung $\sigma$ als ein Fitparameter gewonnen, welche in Folge als Unsicherheit der Peakposition verwendet wurde.
+Die Integrale der Peaks konnten dabei dadurch berechnet werden, dass das \textsc{Gauss}-Integral 
+\begin{align}
+    skbd
+\end{align}
+auf $1$ normiert ist

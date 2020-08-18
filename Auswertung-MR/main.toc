@@ -16,11 +16,11 @@
 \contentsline {subsection}{\numberline {4.1}Relaxationskontrastmessungen}{23}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}1D MRI}{30}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}2D MRI}{35}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}J-Kopplung zur chemischen Strukturanalyse}{45}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}PGSE-Diffusionskoeffizient}{45}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Error discussion and conclusion}{50}{section.5}%
+\contentsline {subsection}{\numberline {4.4}J-Kopplung zur chemischen Strukturanalyse}{44}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}PGSE-Diffusionskoeffizient}{47}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Error discussion and conclusion}{52}{section.5}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
-\contentsline {section}{Attachments}{54}{section*.37}%
+\contentsline {section}{Attachments}{56}{section*.38}%

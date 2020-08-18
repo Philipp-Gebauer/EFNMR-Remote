@@ -31,12 +31,13 @@
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Kontraste von $T_1$-Relaxation werden deutlich gemacht indem die Polarisationszeiten verändert werden\relax }}{39}{figure.caption.29}%
 \contentsline {figure}{\numberline {4.11}{\ignorespaces 2D MRI mit der Polarisationszeit $\SI {1300}{\milli \second }$\relax }}{41}{figure.caption.30}%
 \contentsline {figure}{\numberline {4.12}{\ignorespaces 2D-MRI mit Relaxationskontrast von verschiedenen $T_2$-Zeiten, durch verschiedene Echozeiten\relax }}{43}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces TODO!!; Zum tunen benutzte Daten des Puls and collect Experiments; Man soll noch die Integrale berechnen der einzelnen Peaks(aus den Integralen bekommt man dann das Verhältnuis von 1:2:3:3:2:1 oder so halt); Diese Peaks fitten bzw den abstand der Maximas berechnen=< daraus dann die Kopplungaskostante\relax }}{45}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Veranschaulichung der PGSE-Messmethode}}{46}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Bestimmung des selbst Diffusionskoeffizienten mithilfe von dem Stejskal-Tanner plot}}{48}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Schematische Darstellung eines Spektrums zur veranschaulichung der erwartbaren Ergebnisse durch die Analyse der J-Kopplung.}}{45}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces TODO!!; Zum tunen benutzte Daten des Puls and collect Experiments; Man soll noch die Integrale berechnen der einzelnen Peaks(aus den Integralen bekommt man dann das Verhältnuis von 1:2:3:3:2:1 oder so halt); Diese Peaks fitten bzw den abstand der Maximas berechnen=< daraus dann die Kopplungaskostante\relax }}{47}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Veranschaulichung der PGSE-Messmethode}}{48}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Bestimmung des selbst Diffusionskoeffizienten mithilfe von dem Stejskal-Tanner plot}}{50}{figure.caption.35}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Übersicht über alle ermittelten Relaxivitäten.\relax }}{56}{figure.caption.40}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Übersicht über alle $T_1$- und $T_2$-Messungen für beide verwendeten Kontrastmittel mit jeweils unterschiedlichen Konzentrationen.\relax }}{57}{figure.caption.41}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Übersicht über alle ermittelten Relaxivitäten.\relax }}{58}{figure.caption.41}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Übersicht über alle $T_1$- und $T_2$-Messungen für beide verwendeten Kontrastmittel mit jeweils unterschiedlichen Konzentrationen.\relax }}{59}{figure.caption.42}%
