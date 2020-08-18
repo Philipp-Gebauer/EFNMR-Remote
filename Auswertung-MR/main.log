@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.16)  18 AUG 2020 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.16)  18 AUG 2020 13:41
 entering extended mode
 **"c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/main.tex"
 ("c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/main.tex"
@@ -1045,7 +1045,11 @@ Package pdftex.def Info: Abbildungen/Aufbau.png  used on input line 19.
 <to be read again> 
                    \relax 
 l.34 \newpage
-              [2 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/Aufbau.png>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/I-PartI.tex") ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/3-Noisemeasurement.tex" ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/noise.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+              [2]pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \newpage
+              [3 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/Aufbau.png>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/I-PartI.tex") ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/3-Noisemeasurement.tex" ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/noise.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 \gptboxheight=\skip88
@@ -1063,16 +1067,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/noise-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/noise-eps-converted-to.pdf, id=86, 361.35pt x 252.945pt>
+<plots/noise-eps-converted-to.pdf, id=89, 361.35pt x 252.945pt>
 File: plots/noise-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/noise-eps-converted-to.pdf>
 Package pdftex.def Info: plots/noise-eps-converted-to.pdf  used on input line 115.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.22 
-      [3] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/MonitorNoise138.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [4] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/MonitorNoise138.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/MonitorNoise138.eps>
@@ -1087,12 +1087,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/MonitorNoise138-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/MonitorNoise138-eps-converted-to.pdf, id=93, 361.35pt x 252.945pt>
+<plots/MonitorNoise138-eps-converted-to.pdf, id=98, 361.35pt x 252.945pt>
 File: plots/MonitorNoise138-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/MonitorNoise138-eps-converted-to.pdf>
 Package pdftex.def Info: plots/MonitorNoise138-eps-converted-to.pdf  used on input line 115.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-)) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/4-CoilAnalyssis.tex" [4 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/noise-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/PulsandcollectValesignal.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+)) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/4-CoilAnalyssis.tex" [5 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/noise-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/PulsandcollectValesignal.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/PulsandcollectValesignal.eps>
@@ -1107,12 +1107,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/PulsandcollectValesignal-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/PulsandcollectValesignal-eps-converted-to.pdf, id=105, 361.35pt x 252.945pt>
+<plots/PulsandcollectValesignal-eps-converted-to.pdf, id=109, 361.35pt x 252.945pt>
 File: plots/PulsandcollectValesignal-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/PulsandcollectValesignal-eps-converted-to.pdf>
 Package pdftex.def Info: plots/PulsandcollectValesignal-eps-converted-to.pdf  used on input line 115.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [5 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/MonitorNoise138-eps-converted-to.pdf>] [6 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/PulsandcollectValesignal-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Coilanalyse.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [6 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/MonitorNoise138-eps-converted-to.pdf>] [7 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/PulsandcollectValesignal-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Coilanalyse.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Coilanalyse.eps>
@@ -1127,12 +1127,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Coilanalyse-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Coilanalyse-eps-converted-to.pdf, id=127, 361.35pt x 252.945pt>
+<plots/Coilanalyse-eps-converted-to.pdf, id=131, 361.35pt x 252.945pt>
 File: plots/Coilanalyse-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Coilanalyse-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Coilanalyse-eps-converted-to.pdf  used on input line 113.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-)) [7 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Coilanalyse-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/5-OptimizationandCharacterisationofFIDinwatersample.tex" ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/B1dauer.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+)) [8 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Coilanalyse-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/5-OptimizationandCharacterisationofFIDinwatersample.tex" ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/B1dauer.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/B1dauer.eps>
@@ -1147,12 +1147,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/B1dauer-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/B1dauer-eps-converted-to.pdf, id=135, 361.35pt x 252.945pt>
+<plots/B1dauer-eps-converted-to.pdf, id=139, 361.35pt x 252.945pt>
 File: plots/B1dauer-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/B1dauer-eps-converted-to.pdf>
 Package pdftex.def Info: plots/B1dauer-eps-converted-to.pdf  used on input line 111.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [8] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [9] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms.eps>
@@ -1167,12 +1167,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf, id=144, 361.35pt x 252.945pt>
+<plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf, id=148, 361.35pt x 252.945pt>
 File: plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf>
 Package pdftex.def Info: plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf  used on input line 116.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [9 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/B1dauer-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Pulsandcollect138.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [10 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/B1dauer-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Pulsandcollect138.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Pulsandcollect138.eps>
@@ -1187,12 +1187,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Pulsandcollect138-eps-converted-to.pdf, id=156, 361.35pt x 252.945pt>
+<plots/Pulsandcollect138-eps-converted-to.pdf, id=161, 361.35pt x 252.945pt>
 File: plots/Pulsandcollect138-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Pulsandcollect138-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Pulsandcollect138-eps-converted-to.pdf  used on input line 116.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [10 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Pulsandcollect138_delay_25_gauss.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [11 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/138_puls_and_collect_number_of_delay25ms_Pulseduration0_27ms-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Pulsandcollect138_delay_25_gauss.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Pulsandcollect138_delay_25_gauss.eps>
@@ -1207,18 +1207,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf, id=172, 361.35pt x 252.945pt>
+<plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf, id=176, 361.35pt x 252.945pt>
 File: plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf  used on input line 122.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [11 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138-eps-converted-to.pdf>]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/6-long.tex" [12]
-<Abbildungen/BildT1.png, id=189, 782.17218pt x 495.35063pt>
+) [12 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138-eps-converted-to.pdf>]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/6-long.tex" [13]
+<Abbildungen/BildT1.png, id=193, 782.17218pt x 495.35063pt>
 File: Abbildungen/BildT1.png Graphic file (type png)
 <use Abbildungen/BildT1.png>
 Package pdftex.def Info: Abbildungen/BildT1.png  used on input line 13.
 (pdftex.def)             Requested size: 426.79141pt x 270.28954pt.
- [13 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/T1Polarisationsfeldfeld.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+ [14 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Pulsandcollect138_delay_25_gauss-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/T1Polarisationsfeldfeld.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/T1Polarisationsfeldfeld.eps>
@@ -1233,12 +1233,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Polarisationsfeldfeld-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T1Polarisationsfeldfeld-eps-converted-to.pdf, id=200, 361.35pt x 252.945pt>
+<plots/T1Polarisationsfeldfeld-eps-converted-to.pdf, id=204, 361.35pt x 252.945pt>
 File: plots/T1Polarisationsfeldfeld-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T1Polarisationsfeldfeld-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T1Polarisationsfeldfeld-eps-converted-to.pdf  used on input line 115.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [14 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/BildT1.png>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/T1Erdmagnetfeld.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [15 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/BildT1.png>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/T1Erdmagnetfeld.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/T1Erdmagnetfeld.eps>
@@ -1253,12 +1253,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Erdmagnetfeld-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T1Erdmagnetfeld-eps-converted-to.pdf, id=211, 361.35pt x 252.945pt>
+<plots/T1Erdmagnetfeld-eps-converted-to.pdf, id=215, 361.35pt x 252.945pt>
 File: plots/T1Erdmagnetfeld-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T1Erdmagnetfeld-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T1Erdmagnetfeld-eps-converted-to.pdf  used on input line 115.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [15 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Polarisationsfeldfeld-eps-converted-to.pdf>]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/7-Hahnecho.tex" ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Echobeispeilsignal.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [16 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Polarisationsfeldfeld-eps-converted-to.pdf>]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/7-Hahnecho.tex" ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Echobeispeilsignal.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Echobeispeilsignal.eps>
@@ -1273,12 +1273,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Echobeispeilsignal-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Echobeispeilsignal-eps-converted-to.pdf, id=221, 361.35pt x 252.945pt>
+<plots/Echobeispeilsignal-eps-converted-to.pdf, id=226, 361.35pt x 252.945pt>
 File: plots/Echobeispeilsignal-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Echobeispeilsignal-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Echobeispeilsignal-eps-converted-to.pdf  used on input line 113.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [16 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Erdmagnetfeld-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [17 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Erdmagnetfeld-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo.eps>
@@ -1293,12 +1293,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf, id=235, 361.35pt x 252.945pt>
+<plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf, id=239, 361.35pt x 252.945pt>
 File: plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf>
 Package pdftex.def Info: plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf  used on input line 117.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [17 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Echobeispeilsignal-eps-converted-to.pdf>] [18 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf>]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/8-Multipleechosequences.tex" ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/180pulsephasedegree.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [18 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Echobeispeilsignal-eps-converted-to.pdf>] [19 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/SpinEcho_4scans_ideal_Repetitiontime_0_shimming_150echo-eps-converted-to.pdf>]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/8-Multipleechosequences.tex" ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/180pulsephasedegree.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/180pulsephasedegree.eps>
@@ -1313,12 +1313,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/180pulsephasedegree-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/180pulsephasedegree-eps-converted-to.pdf, id=251, 361.35pt x 252.945pt>
+<plots/180pulsephasedegree-eps-converted-to.pdf, id=255, 361.35pt x 252.945pt>
 File: plots/180pulsephasedegree-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/180pulsephasedegree-eps-converted-to.pdf>
 Package pdftex.def Info: plots/180pulsephasedegree-eps-converted-to.pdf  used on input line 115.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-)) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/9-Transversalrelaxationmeasurements.tex" [19] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/T2.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+)) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/9-Transversalrelaxationmeasurements.tex" [20] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/T2.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/T2.eps>
@@ -1333,12 +1333,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T2-eps-converted-to.pdf, id=259, 361.35pt x 252.945pt>
+<plots/T2-eps-converted-to.pdf, id=263, 361.35pt x 252.945pt>
 File: plots/T2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T2-eps-converted-to.pdf  used on input line 114.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [20 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/180pulsephasedegree-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/CPMG045shimming.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [21 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/180pulsephasedegree-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/CPMG045shimming.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/CPMG045shimming.eps>
@@ -1353,12 +1353,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/CPMG045shimming-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/CPMG045shimming-eps-converted-to.pdf, id=271, 361.35pt x 252.945pt>
+<plots/CPMG045shimming-eps-converted-to.pdf, id=275, 361.35pt x 252.945pt>
 File: plots/CPMG045shimming-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/CPMG045shimming-eps-converted-to.pdf>
 Package pdftex.def Info: plots/CPMG045shimming-eps-converted-to.pdf  used on input line 112.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [21 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T2-eps-converted-to.pdf>]) [22 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/CPMG045shimming-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/II-TeilII.tex") ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/10-Polarisationszeit.tex" [23] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Polarisationszeit.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [22 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T2-eps-converted-to.pdf>]) [23 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/CPMG045shimming-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/II-TeilII.tex") ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/10-Polarisationszeit.tex" [24] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Polarisationszeit.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Polarisationszeit.eps>
@@ -1373,7 +1373,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Polarisationszeit-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Polarisationszeit-eps-converted-to.pdf, id=293, 361.35pt x 252.945pt>
+<plots/Polarisationszeit-eps-converted-to.pdf, id=297, 361.35pt x 252.945pt>
 File: plots/Polarisationszeit-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Polarisationszeit-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Polarisationszeit-eps-converted-to.pdf  used on input line 117.
@@ -1383,7 +1383,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--45
 
  []
 
-[24 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Polarisationszeit-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/T1Wasser.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+[25 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Polarisationszeit-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/T1Wasser.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/T1Wasser.eps>
@@ -1398,7 +1398,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Wasser-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T1Wasser-eps-converted-to.pdf, id=307, 361.35pt x 252.945pt>
+<plots/T1Wasser-eps-converted-to.pdf, id=311, 361.35pt x 252.945pt>
 File: plots/T1Wasser-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T1Wasser-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T1Wasser-eps-converted-to.pdf  used on input line 115.
@@ -1418,7 +1418,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T2Wasser-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/T2Wasser-eps-converted-to.pdf, id=308, 361.35pt x 252.945pt>
+<plots/T2Wasser-eps-converted-to.pdf, id=312, 361.35pt x 252.945pt>
 File: plots/T2Wasser-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/T2Wasser-eps-converted-to.pdf>
 Package pdftex.def Info: plots/T2Wasser-eps-converted-to.pdf  used on input line 113.
@@ -1428,7 +1428,7 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 47--60
 [][] [] 
  []
 
-[25 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Wasser-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T2Wasser-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/KupferalleT1.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+[26 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T1Wasser-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/T2Wasser-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/KupferalleT1.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/KupferalleT1.eps>
@@ -1443,12 +1443,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/KupferalleT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/KupferalleT1-eps-converted-to.pdf, id=328, 361.35pt x 252.945pt>
+<plots/KupferalleT1-eps-converted-to.pdf, id=332, 361.35pt x 252.945pt>
 File: plots/KupferalleT1-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/KupferalleT1-eps-converted-to.pdf>
 Package pdftex.def Info: plots/KupferalleT1-eps-converted-to.pdf  used on input line 119.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [26] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/CuMnVgl.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [27] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/CuMnVgl.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/CuMnVgl.eps>
@@ -1463,12 +1463,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/CuMnVgl-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/CuMnVgl-eps-converted-to.pdf, id=340, 361.35pt x 252.945pt>
+<plots/CuMnVgl-eps-converted-to.pdf, id=344, 361.35pt x 252.945pt>
 File: plots/CuMnVgl-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/CuMnVgl-eps-converted-to.pdf>
 Package pdftex.def Info: plots/CuMnVgl-eps-converted-to.pdf  used on input line 119.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [27 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/KupferalleT1-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Relaxivitat_CuT1.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [28 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/KupferalleT1-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Relaxivitat_CuT1.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Relaxivitat_CuT1.eps>
@@ -1483,22 +1483,22 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_CuT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Relaxivitat_CuT1-eps-converted-to.pdf, id=351, 361.35pt x 252.945pt>
+<plots/Relaxivitat_CuT1-eps-converted-to.pdf, id=356, 361.35pt x 252.945pt>
 File: plots/Relaxivitat_CuT1-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Relaxivitat_CuT1-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Relaxivitat_CuT1-eps-converted-to.pdf  used on input line 115.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [28 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/CuMnVgl-eps-converted-to.pdf>] [29 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_CuT1-eps-converted-to.pdf>]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/12-1DMRI.tex"
+) [29 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/CuMnVgl-eps-converted-to.pdf>] [30 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_CuT1-eps-converted-to.pdf>]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/12-1DMRI.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 10--14
 
  []
 
-<Abbildungen/1DMRIkraum.JPG, id=375, 527.72156pt x 89.58469pt>
+<Abbildungen/1DMRIkraum.JPG, id=379, 527.72156pt x 89.58469pt>
 File: Abbildungen/1DMRIkraum.JPG Graphic file (type jpg)
 <use Abbildungen/1DMRIkraum.JPG>
 Package pdftex.def Info: Abbildungen/1DMRIkraum.JPG  used on input line 22.
 (pdftex.def)             Requested size: 341.43442pt x 57.96005pt.
-[30] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/1DMRI.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+[31] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/1DMRI.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/1DMRI.eps>
@@ -1513,12 +1513,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/1DMRI-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/1DMRI-eps-converted-to.pdf, id=383, 361.35pt x 252.945pt>
+<plots/1DMRI-eps-converted-to.pdf, id=387, 361.35pt x 252.945pt>
 File: plots/1DMRI-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/1DMRI-eps-converted-to.pdf>
 Package pdftex.def Info: plots/1DMRI-eps-converted-to.pdf  used on input line 113.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [31 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/1DMRIkraum.JPG>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/1DMRIy.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+) [32 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/1DMRIkraum.JPG>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/1DMRIy.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/1DMRIy.eps>
@@ -1533,21 +1533,21 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/1DMRIy-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/1DMRIy-eps-converted-to.pdf, id=393, 361.35pt x 252.945pt>
+<plots/1DMRIy-eps-converted-to.pdf, id=397, 361.35pt x 252.945pt>
 File: plots/1DMRIy-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/1DMRIy-eps-converted-to.pdf>
 Package pdftex.def Info: plots/1DMRIy-eps-converted-to.pdf  used on input line 113.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [32 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/1DMRI-eps-converted-to.pdf>]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/13-2DMRI.tex" [33 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/1DMRIy-eps-converted-to.pdf>] [34]
-<Abbildungen/2DMRI.JPG, id=419, 283.81032pt x 258.9675pt>
+) [33 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/1DMRI-eps-converted-to.pdf>]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/13-2DMRI.tex" [34 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/1DMRIy-eps-converted-to.pdf>] [35]
+<Abbildungen/2DMRI.JPG, id=423, 283.81032pt x 258.9675pt>
 File: Abbildungen/2DMRI.JPG Graphic file (type jpg)
 <use Abbildungen/2DMRI.JPG>
 Package pdftex.def Info: Abbildungen/2DMRI.JPG  used on input line 16.
 (pdftex.def)             Requested size: 341.43442pt x 311.57738pt.
- [35] [36]
+ [36] [37]
 Overfull \vbox (15.64722pt too high) has occurred while \output is active []
 
- [37 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/2DMRI.JPG>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/2DMRI600.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+ [38 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/2DMRI.JPG>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/2DMRI600.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/2DMRI600.eps>
@@ -1562,7 +1562,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI600-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/2DMRI600-eps-converted-to.pdf, id=437, 361.35pt x 252.945pt>
+<plots/2DMRI600-eps-converted-to.pdf, id=441, 361.35pt x 252.945pt>
 File: plots/2DMRI600-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI600-eps-converted-to.pdf>
 Package pdftex.def Info: plots/2DMRI600-eps-converted-to.pdf  used on input line 117.
@@ -1582,15 +1582,15 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI2800-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/2DMRI2800-eps-converted-to.pdf, id=438, 361.35pt x 252.945pt>
+<plots/2DMRI2800-eps-converted-to.pdf, id=442, 361.35pt x 252.945pt>
 File: plots/2DMRI2800-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI2800-eps-converted-to.pdf>
 Package pdftex.def Info: plots/2DMRI2800-eps-converted-to.pdf  used on input line 116.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [38]
+) [39]
 Overfull \vbox (24.54619pt too high) has occurred while \output is active []
 
- [39 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI600-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI2800-eps-converted-to.pdf>]
+ [40 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI600-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI2800-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 36--40
 
  []
@@ -1610,17 +1610,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI1300-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/2DMRI1300-eps-converted-to.pdf, id=456, 361.35pt x 252.945pt>
+<plots/2DMRI1300-eps-converted-to.pdf, id=461, 361.35pt x 252.945pt>
 File: plots/2DMRI1300-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI1300-eps-converted-to.pdf>
 Package pdftex.def Info: plots/2DMRI1300-eps-converted-to.pdf  used on input line 116.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [40]
+) [41]
 Underfull \hbox (badness 10000) in paragraph at lines 49--55
 
  []
 
-[41 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI1300-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/2DMRI250.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+[42 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI1300-eps-converted-to.pdf>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/2DMRI250.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/2DMRI250.eps>
@@ -1635,7 +1635,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI250-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/2DMRI250-eps-converted-to.pdf, id=471, 361.35pt x 252.945pt>
+<plots/2DMRI250-eps-converted-to.pdf, id=475, 361.35pt x 252.945pt>
 File: plots/2DMRI250-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI250-eps-converted-to.pdf>
 Package pdftex.def Info: plots/2DMRI250-eps-converted-to.pdf  used on input line 117.
@@ -1655,22 +1655,22 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI550-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/2DMRI550-eps-converted-to.pdf, id=472, 361.35pt x 252.945pt>
+<plots/2DMRI550-eps-converted-to.pdf, id=476, 361.35pt x 252.945pt>
 File: plots/2DMRI550-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/2DMRI550-eps-converted-to.pdf>
 Package pdftex.def Info: plots/2DMRI550-eps-converted-to.pdf  used on input line 119.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [42]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/14-JKopplung.tex" [43 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI250-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI550-eps-converted-to.pdf>] [44]
+) [43]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/14-JKopplung.tex" [44 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI250-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/2DMRI550-eps-converted-to.pdf>] [45]
 Overfull \hbox (2.92177pt too wide) in paragraph at lines 11--18
 \T1/lmr/m/n/10.95 Ver-hält-nis-se $\OML/lmm/m/it/10.95 $ \T1/lmr/m/n/10.95 von Was-ser-stoff ($\OML/lmm/m/it/10.95  \OT1/lmr/m/n/10.95 = [] []$\T1/lmr/m/n/10.95 ) und Fluor ($\OML/lmm/m/it/10.95  \OT1/lmr/m/n/10.95 = [] []$\T1/lmr/m/n/10.95 )
  []
 
-<Abbildungen/JKopplungSchema.png, id=500, 546.24075pt x 230.0595pt>
+<Abbildungen/JKopplungSchema.png, id=504, 546.24075pt x 230.0595pt>
 File: Abbildungen/JKopplungSchema.png Graphic file (type png)
 <use Abbildungen/JKopplungSchema.png>
 Package pdftex.def Info: Abbildungen/JKopplungSchema.png  used on input line 25.
 (pdftex.def)             Requested size: 320.09355pt x 134.8177pt.
-[45 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/JKopplungSchema.png>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/JKopplung.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+[46 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/JKopplungSchema.png>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/JKopplung.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/JKopplung.eps>
@@ -1685,18 +1685,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/JKopplung-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/JKopplung-eps-converted-to.pdf, id=512, 361.35pt x 252.945pt>
+<plots/JKopplung-eps-converted-to.pdf, id=517, 361.35pt x 252.945pt>
 File: plots/JKopplung-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/JKopplung-eps-converted-to.pdf>
 Package pdftex.def Info: plots/JKopplung-eps-converted-to.pdf  used on input line 113.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [46]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/15-Diffusion.tex" [47 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/JKopplung-eps-converted-to.pdf>]
-<Abbildungen/PGSE.JPG, id=529, 497.60907pt x 261.22594pt>
+) [47] [48 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/JKopplung-eps-converted-to.pdf>] [49]) ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/15-Diffusion.tex"
+<Abbildungen/PGSE.JPG, id=540, 497.60907pt x 261.22594pt>
 File: Abbildungen/PGSE.JPG Graphic file (type jpg)
 <use Abbildungen/PGSE.JPG>
 Package pdftex.def Info: Abbildungen/PGSE.JPG  used on input line 11.
 (pdftex.def)             Requested size: 341.43442pt x 179.24161pt.
- [48 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/PGSE.JPG>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Diffusion.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+ [50] [51 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/Abbildungen/PGSE.JPG>] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Diffusion.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Diffusion.eps>
@@ -1711,12 +1711,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Diffusion-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Diffusion-eps-converted-to.pdf, id=540, 361.35pt x 252.945pt>
+<plots/Diffusion-eps-converted-to.pdf, id=556, 361.35pt x 252.945pt>
 File: plots/Diffusion-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Diffusion-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Diffusion-eps-converted-to.pdf  used on input line 117.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
-) [49]) [50 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Diffusion-eps-converted-to.pdf>] [51] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/fazit.tex") [52] [53] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/tables.tex" ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.bbl"
+) [52]) [53 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Diffusion-eps-converted-to.pdf>] [54] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/fazit.tex") [55] [56] [57] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\Kapitel/tables.tex" ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.bbl"
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1746,7 +1746,7 @@ Underfull \hbox (badness 4242) in paragraph at lines 71--76
 \T1/lmtt/m/n/10.95 / / fp . physik . uni-[]konstanz . de / docs / EFNMR / Remote / PGSE . pdf$[]\T1/lmr/m/n/10.95 , loo-ked up:
  []
 
-) [54] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.lof" [55])
+) [58] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.lof" [59])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1754,7 +1754,7 @@ Underfull \hbox (badness 4242) in paragraph at lines 71--76
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [56] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Relaxivitat_CuT2.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+ [60] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/Relaxivitat_CuT2.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/Relaxivitat_CuT2.eps>
@@ -1769,7 +1769,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_CuT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Relaxivitat_CuT2-eps-converted-to.pdf, id=658, 361.35pt x 252.945pt>
+<plots/Relaxivitat_CuT2-eps-converted-to.pdf, id=681, 361.35pt x 252.945pt>
 File: plots/Relaxivitat_CuT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Relaxivitat_CuT2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Relaxivitat_CuT2-eps-converted-to.pdf  used on input line 115.
@@ -1789,7 +1789,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_MnT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Relaxivitat_MnT1-eps-converted-to.pdf, id=661, 361.35pt x 252.945pt>
+<plots/Relaxivitat_MnT1-eps-converted-to.pdf, id=684, 361.35pt x 252.945pt>
 File: plots/Relaxivitat_MnT1-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Relaxivitat_MnT1-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Relaxivitat_MnT1-eps-converted-to.pdf  used on input line 112.
@@ -1809,7 +1809,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_MnT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/Relaxivitat_MnT2-eps-converted-to.pdf, id=664, 361.35pt x 252.945pt>
+<plots/Relaxivitat_MnT2-eps-converted-to.pdf, id=687, 361.35pt x 252.945pt>
 File: plots/Relaxivitat_MnT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/Relaxivitat_MnT2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/Relaxivitat_MnT2-eps-converted-to.pdf  used on input line 111.
@@ -1819,7 +1819,7 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 51--69
 [][] []
  []
 
-[57] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/KupferalleT2.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
+[61] ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\plots/KupferalleT2.tex" ("C:\Program Files\MiKTeX 2.9-2\tex/latex/base\cp1252.def"
 File: cp1252.def 2018/08/11 v1.3c Input encoding file
 )
 Package epstopdf Info: Source file: <plots/KupferalleT2.eps>
@@ -1834,7 +1834,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/KupferalleT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/KupferalleT2-eps-converted-to.pdf, id=671, 361.35pt x 252.945pt>
+<plots/KupferalleT2-eps-converted-to.pdf, id=694, 361.35pt x 252.945pt>
 File: plots/KupferalleT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/KupferalleT2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/KupferalleT2-eps-converted-to.pdf  used on input line 119.
@@ -1854,7 +1854,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/ManganalleT1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/ManganalleT1-eps-converted-to.pdf, id=672, 361.35pt x 252.945pt>
+<plots/ManganalleT1-eps-converted-to.pdf, id=695, 361.35pt x 252.945pt>
 File: plots/ManganalleT1-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/ManganalleT1-eps-converted-to.pdf>
 Package pdftex.def Info: plots/ManganalleT1-eps-converted-to.pdf  used on input line 119.
@@ -1874,7 +1874,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/ManganalleT2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/ManganalleT2-eps-converted-to.pdf, id=673, 361.35pt x 252.945pt>
+<plots/ManganalleT2-eps-converted-to.pdf, id=696, 361.35pt x 252.945pt>
 File: plots/ManganalleT2-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/ManganalleT2-eps-converted-to.pdf>
 Package pdftex.def Info: plots/ManganalleT2-eps-converted-to.pdf  used on input line 119.
@@ -1884,7 +1884,7 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 77--95
 [][] []
  []
 
-) [58 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_CuT2-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_MnT1-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_MnT2-eps-converted-to.pdf>] [59 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/KupferalleT2-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/ManganalleT1-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/ManganalleT2-eps-converted-to.pdf>]
+) [62 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_CuT2-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_MnT1-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/Relaxivitat_MnT2-eps-converted-to.pdf>] [63 <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/KupferalleT2-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/ManganalleT1-eps-converted-to.pdf> <c:/Users/phili/Dokumente/Studium/Konstanz/7. Semester/FP/EFNMR-Remote/Auswertung-MR/plots/ManganalleT2-eps-converted-to.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  ("c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.aux")
@@ -1895,17 +1895,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 31442 strings out of 481212
- 675294 string characters out of 2912919
+ 31448 strings out of 481212
+ 675355 string characters out of 2912919
  1064320 words of memory out of 3000000
- 46015 multiletter control sequences out of 15000+200000
+ 46016 multiletter control sequences out of 15000+200000
  648606 words of font info for 110 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,24n,90p,10704b,1594s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9-2/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9-2/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.pdf" (62 pages, 3179244 bytes).
+Output written on "c:/Users\phili\Dokumente\Studium\Konstanz\7. Semester\FP\EFNMR-Remote\Auswertung-MR\main.pdf" (66 pages, 3191545 bytes).
 PDF statistics:
- 849 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
+ 872 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
  367 words of extra memory for PDF output out of 10000 (max. 10000000)
 

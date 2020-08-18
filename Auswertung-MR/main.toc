@@ -3,24 +3,24 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}Setup}{2}{section.2}%
-\contentsline {section}{\numberline {3}Part I -- Basics}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Noise measurement}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Coil Analysis}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Optimization and Characterisation of FID in water sample}{8}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Longitudinal relaxation measurements T1}{13}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Hahn echo}{16}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Multiple echo sequences}{19}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Transversal relaxation measurements T2}{20}{subsection.3.7}%
+\contentsline {section}{\numberline {3}Part I -- Basics}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Noise measurement}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Coil Analysis}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Optimization and Characterisation of FID in water sample}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Longitudinal relaxation measurements T1}{14}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Hahn echo}{17}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Multiple echo sequences}{20}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Transversal relaxation measurements T2}{21}{subsection.3.7}%
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {4}Teil II -- Anwendung}{23}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Relaxationskontrastmessungen}{23}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}1D MRI}{30}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}2D MRI}{35}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}J-Kopplung zur chemischen Strukturanalyse}{44}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}PGSE-Diffusionskoeffizient}{47}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Error discussion and conclusion}{52}{section.5}%
-\babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {4}Teil II -- Anwendung}{24}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Relaxationskontrastmessungen}{24}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}1D MRI}{31}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}2D MRI}{36}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}J-Kopplung zur chemischen Strukturanalyse}{45}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}PGSE-Diffusionskoeffizient}{50}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Error discussion and conclusion}{55}{section.5}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
-\contentsline {section}{Attachments}{56}{section*.38}%
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {section}{Attachments}{60}{section*.39}%

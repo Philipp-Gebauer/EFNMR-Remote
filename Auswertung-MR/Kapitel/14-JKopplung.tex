@@ -2,7 +2,7 @@
 \subsection{J-Kopplung zur chemischen Strukturanalyse}
 Eine weitere Anwendung der NMR-Technologie stellt die Möglichkeit dar chemische Strukturen zu analysieren.
 Im vorliegenden Beispiel soll dabei Difluorobenzene untersucht werden.
-Dabei wird die Verbindung zum einen auf die Kopplungskostante zwischen den einzelnen Flour- und Wasserstoffatomen analysiert, dabei kann ermittelt werden, ob schwache Kopplung vorliegt zudem sollen auch Verhältnisse der Peakgrößen betrachtet werden.
+Dabei wird die Verbindung zum einen auf die Kopplungskostante zwischen den einzelnen Fluor- und Wasserstoffatomen analysiert, dabei kann ermittelt werden, ob schwache Kopplung vorliegt zudem sollen auch Verhältnisse der Peakgrößen betrachtet werden.
 Zunächst sollen daher einige grundlegende Zusammenhänge erläutert werden.
 Da es sich bei dem vorliegenden Molekül um eine hetero-nukleare Verbindung zwischen Fluor (\ce{^19F}) und Wasserstoff (\ce{^1H}) handelt und der Versuchsaufbau während des Experiments auf die Larmorfrequenz von Wasserstoff ($\omega_{\text{L,H}} = \SI{1839}{\per \second}$) ausgerichtet ist müssen zunächst justierungen vorgenommen werden.
 Dabei kann nach
@@ -61,8 +61,64 @@ Bei \SI{1750}{\hertz} ist zudem ein Peak zu erkennen, welcher wie bereits beschr
 
 Durch die \textsc{Gauss}-Fits konnten sowohl die Lage der Maxima, die Peakbreiten sowie die Integrale der Peaks berechnet werden.
 Dabei wurde zudem die jeweilige Standardabweichung $\sigma$ als ein Fitparameter gewonnen, welche in Folge als Unsicherheit der Peakposition verwendet wurde.
-Die Integrale der Peaks konnten dabei dadurch berechnet werden, dass das \textsc{Gauss}-Integral 
+Die Integrale der Peaks konnten dabei dadurch berechnet werden, dass das Integral über die \textsc{Gauss}'sche-Dichtefunktion
 \begin{align}
-    skbd
+    \frac{1}{\sqrt{2 \pi \sigma^2}} \exp{\left(-\frac{\left(x-\mu\right)^2}{2 \sigma^2}\right)}
 \end{align}
-auf $1$ normiert ist
+auf $1$ normiert ist.
+Diese wurde als Fitfunktion herangezogen.
+Dabei beschreibt $\sigma$ die Standardabweichung, $\mu$ die Position des Maximums und ein weiterer Faktor $b$ kann daher den Wert des Integrals in guter Näherung angeben.
+
+Somit ergaben sich für die Kopplungskonstanten folgende gewichtete Mittelwerte mit der jeweils zugehörigen kombinierten Unsicherheit, welche aus der jeweiligen Standardabweichung fortgeführt wurde:
+\begin{align*}
+    J_{\text{F}} = \SI{6.4 \pm 1.1}{\hertz} \\
+    J_{\text{H}} = \SI{6.27 \pm 0.74}{\hertz} \\
+    J_{\text{MW}} = \SI{6.3 \pm 1.3}{\hertz}
+\end{align*}
+Da diese ohnehin übereinstimmen sollten, bestätigen sich die berechneten Werte gegenseitig.
+Zudem wurde eine Kopplungskonstante von $\SI{6}{\hertz}$ auf Grundlage der am Versuchstag vorliegenden Gegebenheiten erwartet.
+Entsprechend bestätigen die Ergebnisse hier die Vorhersagen.
+Die berechneten Unsicherheiten liegen zudem in einer sinnvollen Größenordnung und unterstreichen die Genauigkeit der Ergebnisse.
+
+Bezüglich der Annahme der schwachen Kopplung konnte der Abstand der Hauptmaxima $\vert \omega_1 - \omega_2 \vert$ bestimmt werden und die Hypothese mittels Relation \eqref{eq:SchwacheKopplung} überprüft werden.
+Hierbei ergab sich folgender Zusammenhang:
+\begin{align*}
+    2 \pi \cdot \SI{6.3}{\hertz} &\ll \vert \SI{1730}{\per \second} - \SI{1840}{\per \second} \vert \\
+    <\approx > \quad \SI{6}{\hertz} &\ll \SI{18}{\hertz}
+\end{align*}
+Dabei genügt es ein Abschätzung vorzunehmen, weswegen keine exakten Werte berechnet wurden und auch auf die Angabe der Unsicherheiten verzichtet wurde.
+Hierbei ist zu konstatieren, dass die Kopplungskonstante zwar kleiner, als der Abstand der Hauptmaxima ist, jedoch nicht signifikant.
+Die Annahme der schwachen Kopplung kann folglich nicht bestätigt werden.
+Daher ist mit einem Aufweiten der Peaks im Spektrum zu rechnen, was sich auch in den Werten der Peakintegrale widerspiegeln sollte.
+\begin{table}[H]
+    \centering
+    \caption{Übersicht über die berechneten Peakintegrale der J-Kopplung.}
+    \begin{tabular}{|l||r|r|r|} \hline
+        Element & Peakposition in \si{\hertz} & rel. Peakintegral & Standardabweichung $\sigma$ \\ \hline \hline
+        Fluor & \SI{1724.3 \pm 1.0}{} & \SI{1 \pm 0.63}{} & \SI{1.0}{}\\ \hline
+        Fluor & \SI{1730.6 \pm 1.1}{}& \SI{1.54 \pm 0.54}{} & \SI{1.1}{}\\ \hline
+        Fluor & \SI{1737.0 \pm 1.0}{} &\SI{1 \pm 0.41}{}& \SI{1.0}{}\\ \hline \hline
+        Wasserstoff & \SI{1833.79 \pm 0.67}{} & \SI{1 \pm 0.55}{}& \SI{0.67}{}\\ \hline
+        Wasserstoff & \SI{1840.11 \pm 0.81}{} & \SI{2.4 \pm 0.77}{}& \SI{0.81}{}\\ \hline
+        Wasserstoff & \SI{1846.34 \pm 0.65}{}  & \SI{0.84 \pm 0.39}{}& \SI{0.65}{}\\ \hline
+    \end{tabular} 
+    \label{tab:Peaksintens} 
+\end{table}
+Tabelle \ref{tab:Peaksintens} zeigt eine Übersicht über die relativen Peakintegrale.
+Dabei wurden die relativen Integrale jeweils auf den Wert des Maximums welches bei der geringsten Frequenz auftrat normiert.
+Die angegebenen Unsicherheiten wurden dabei \textit{GnuPlot} entnommen und nach der Formel zur kombinierten Unsicherheit fortgeführt.
+Hierbei zeigt sich, dass zwar teilweise ein Verteilung nach dem \textsc{Pascal}'schen Dreieck (1:2:1) unter Berücksichtigung der berechneten Unsicherheiten vorliegt, diese jedoch im Verhältnis zu den berechneten relativen Peakintegralen recht groß ausfallen.
+Die absoluten Werte lassen somit ebenfalls darauf schließen, dass die Annahme der schwachen Kopplung nicht erfüllt sein könnte und somit die Peaks aufgeweitet auftreten.
+Unterstrichen wird dies durch die Betrachtung der Standardabweichung der Peaks in Tabelle \ref{tab:Peaksintens}. 
+Insbesondere bei Wasserstoff liegt offenbar ein Unterschied bei der Standardabweichung zwischen dem Haupt- und den Nebenmaxima vor.
+Dieser Unterschied in der Peakweite, welcher durch $\sigma$ charakterisiert wird belegt das Aufweiten der Peaks.
+Zudem wurde während der Versuchsdurchführung versucht ein möglichst rauschfreies Spektrum mit recht eindeutigen Maxima zu erhalten.
+Um dies zu gewährleisten wurde die Anzahl der aufgenommenen Datenpunkte reduziert.
+Dies führt dazu, dass pro Fit nur wenige Datenpunkte erfasst werden konnten.
+Dadurch liegt der Schluss nahe, dass zum einen die angegebenen Unsicherheiten womöglich zu klein sind und zum anderen hätten mehr Datenpunkte zu verlässlicheren Ergebnissen geführt.
+Die Abweichungen in den Peakintegralen könnten folglich auch von diesem Umstand beeinflusst sein.
+Insgesamt kann also festgehalten werden, dass vor allem bei der Betrachtung der Kopplungskonstante gute Übereinstimmungen mit der Theorie beziehungsweise den Erwartungen erzielt wurden.
+Zudem ließen die Betrachtung der schwachen Wechselwirkung und der Peakintegrale interessante Rückschlüsse zu und förderten eine kritische Auseinandersetzung mit selbigen, auch wenn die quantitativen Betrachtung durchaus den Schluss zulassen, dass Optimierungen am Versucshaufbau und während der Durchführung denkbar sind.
+
+
+
