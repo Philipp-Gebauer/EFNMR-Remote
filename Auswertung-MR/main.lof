@@ -19,8 +19,8 @@
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Attenuation $\frac {\text {E}}{\text {E}_0}$ for different echo times and exponential fit of the data.}}{22}{figure.caption.17}%
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Attenuation $\frac {\text {E}}{\text {E}_0}$ for different echo maxima provided by the CPMG method.}}{23}{figure.caption.18}%
 \babel@toc {ngerman}{}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Abhängigkeit der Signalintensität von der Polarisationszeit.}}{25}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces $T_1$- und $T_2$-Messung von Wasser.}}{26}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Abhängigkeit der Signalintensität von der Polarisationszeit.}}{26}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces $T_1$- und $T_2$-Messung von Wasser.}}{27}{figure.caption.20}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Übersicht über alle Messreihen der mit Kupfersalz versetzten Wasserproben.}}{28}{figure.caption.21}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Vergleichende Darstellung der $T_1$-Messreihen kupfer- und manganversetzter Wasserproben.}}{29}{figure.caption.22}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Linearer Fit zur Ermittlung der Relaxivität $r_1$ von Kupfer.}}{30}{figure.caption.23}%
@@ -31,8 +31,8 @@
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Kontraste von $T_1$-Relaxation werden deutlich gemacht indem die Polarisationszeiten verändert werden}}{40}{figure.caption.29}%
 \contentsline {figure}{\numberline {4.11}{\ignorespaces 2D MRI mit der Polarisationszeit $\SI {1300}{\milli \second }$}}{42}{figure.caption.30}%
 \contentsline {figure}{\numberline {4.12}{\ignorespaces 2D-MRI mit Relaxationskontrast von verschiedenen $T_2$-Zeiten, durch verschiedene Echozeiten}}{44}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Schematische Darstellung eines Spektrums zur veranschaulichung der erwartbaren Ergebnisse durch die Analyse der J-Kopplung.}}{46}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces TODO!!; Zum tunen benutzte Daten des Puls and collect Experiments; Man soll noch die Integrale berechnen der einzelnen Peaks(aus den Integralen bekommt man dann das Verhältnuis von 1:2:3:3:2:1 oder so halt); Diese Peaks fitten bzw den abstand der Maximas berechnen=< daraus dann die Kopplungaskostante\relax }}{48}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Schematische Darstellung eines Spektrums zur veranschaulichung der erwartbaren Ergebnisse durch die Analyse der J-Kopplung. Entnommen aus \cite {Schmidt}.}}{46}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Spektrum zur Analyse der J-Kopplung zwischen Fluor und Wasserstoff.}}{48}{figure.caption.33}%
 \contentsline {figure}{\numberline {4.15}{\ignorespaces Veranschaulichung der PGSE-Messmethode}}{51}{figure.caption.35}%
 \contentsline {figure}{\numberline {4.16}{\ignorespaces Bestimmung des selbst Diffusionskoeffizienten mithilfe von dem Stejskal-Tanner plot}}{53}{figure.caption.36}%
 \babel@toc {ngerman}{}

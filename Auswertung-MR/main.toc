@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {4.2}1D MRI}{31}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}2D MRI}{36}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}J-Kopplung zur chemischen Strukturanalyse}{45}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}PGSE-Diffusionskoeffizient}{50}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.5}PGSE-Diffusionskoeffizient}{51}{subsection.4.5}%
 \contentsline {section}{\numberline {5}Error discussion and conclusion}{55}{section.5}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
