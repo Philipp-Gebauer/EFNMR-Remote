@@ -17,8 +17,8 @@ set xrange [x_min:x_max]
 set yrange [y_min:y_max]
 set key at graph 0.985,0.975
 
-set xlabel "Konzentration in  $\\si{\\mol \\per \\meter \\tothe{3} }$"
-set ylabel "Kehrwert der Zeit in $\\si{\\per \\second}$"
+set xlabel "Konzentration in  $\\si{\\frac{\\mol}{\\meter \\tothe{3}}}$"
+set ylabel "Kehrwert der Zeit in $\\si{\\frac{1}{\\second}}$"
 
 # set logscale y
 # set format y "$%2.0t*10^{%L}$"
