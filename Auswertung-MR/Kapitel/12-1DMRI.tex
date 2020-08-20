@@ -6,7 +6,8 @@ Somit ist die Larmorfrequenz nicht nur durch $B_0$ gegeben.
 Es muss zusätzlich noch das angelegte Gradientenfeld mitbetrachtet werden.
 Falls dies speziell in x-Richtung (also $G_xx$) betrachtet wird, so kann die Larmorfrequenz wie folgt ausgedrückt werden \cite{Schmidt}:
 \begin{align}
-    \omega(x)=\gamma |B(x)|= \gamma \left(B_0+G_xx\right) \label{eq:gradientlarmor}
+    \omega(x)=\gamma |B(x)|= \gamma \left(B_0+G_xx\right) \ .
+    \label{eq:gradientlarmor}
 \end{align}
 Aus dieser Formel geht nun hervor, dass jeder Spin ein vom Ort abhängiges Magnetfeld erfährt.
 Somit besitzt jeder Spin eine andere Larmorfrequenz.
@@ -15,7 +16,7 @@ Diese präzidieren mit unterschiedlicher Geschwidigkeiten womit dann auf den Ort
 Die Grundidee wie dies am Ende gemessen wird liegt darin, dass im Fourieraum ein Spektrum vermessen wird, indem Datenpunkte in Abhängigkeit von der Zeit gemessen werden und diese dann integriert werden.
 Für die positiven Zeiten stellt dies kein Problem dar.
 Jedoch wird bei der Fourietransformation auch über die negative Zeiten integriert, die nicht gemessen werden können.
-Die Lösung dieses Problemes liegt darin, dass als erstes ein negatives Gradientenfeld $-\vec{G}$ angelegt wird.
+Die Lösung dieses Problemes liegt darin, dass als erstes ein negatives Gradientenfeld -\textbf{G} angelegt wird.
 Was dies anschaulich bedeutet, kann in der folgenden Abbildung \ref{fig:1DMRI} sichtbar gemacht werden.  
 \begin{figure}[H]
     \centering
@@ -37,11 +38,12 @@ Als erstes wurde ein 1D-MRI in Richtung von der x-Achse gemessen.
 \end{figure}
 % In der Abbildung \ref{fig:1Dx} kann große unterschiede zwischen den beiden Messungen sehen. Es ist hierbei schwer aus der ersten Messung gute Informationen über das Phantom heraus zu bekommen. Es ist kein klarer Abfall zu sehen, weshalb daraus nicht die Abmessung des Phantomes herausbekommen kann.
 In der Abbildung \ref{fig:1Dx} ist zu sehen, dass bei $\SI{-20}{\hertz}$ und $\SI{20}{\hertz}$ ein starker Anstieg/Abfall des Signals stattfindet. Dies lässt sich dadurch erklären, dass durch die räumliche Ausdehnung des Phantoms die Spins an unterschiedlichen Orten eine andere Larmorfrequenz besitzen. Ursache hierfür ist das Gradientenfeld, welches während dem Messvorgang angelegt ist. Diese unterschiedlichen Larmorfrequenzen stellen das \glqq Plateau\grqq \, dar, was zwischen $\SI{-20}{\hertz}$ und $\SI{20}{\hertz}$ vorhanden ist.\\
-Anhand dieses Signales kann  nun auch die Größe des Objektes ermittelt werden. Hierzu wird die Formel \ref{eq:gradientlarmor} benutzt um $\Delta x$ zu berechnen. Hierbei wird $\Delta\omega= 2\pi \Delta f$ umgerechnet, sodass die folgende Formel heraus kommt:
+Anhand dieses Signales kann  nun auch die Größe des Objektes ermittelt werden. Hierzu wird die Formel \ref{eq:gradientlarmor} benutzt um $\Delta x$ zu berechnen. Hierbei wird $\Delta\omega= 2\pi \Delta f$ umgerechnet, sodass die folgende Formel entsteht:
 \begin{align}
     \Delta x&=\frac{\Delta\omega}{\gamma G_x}\\
-    \Delta x&=\frac{\Delta f \cdot 2\pi}{\gamma G_x}
-\end{align}\label{eq:FOV}
+    \Delta x&=\frac{\Delta f \cdot 2\pi}{\gamma G_x} \ .
+    \label{eq:FOV}
+\end{align}
 Aus der Abbildung kann die Bandbreite von ca. $\SI{40}{\hertz}$ ermittelt werden. 
 Das gyromagnetische Moment von $\SI{2.67e8}{\s^{-1}\tesla^{-1}}$ wurde aus \cite{Schmidt} entnommen und der Gradient $G_x=\SI{6,0}{\frac{\mu\tesla}{\m}}$ wurde am Versuchstag im Messprotokoll festgehalten.
 Mit diesen Daten konnte für die Länge des Phantomes $l=\SI{15,65}{\centi\m}$ ermittelt werden.\\
